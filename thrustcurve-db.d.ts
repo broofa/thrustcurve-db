@@ -1,8 +1,8 @@
-interface ThrustPoint : [number, number];
+type ThrustPoint = [number, number];
 
-interface Samples : ThrustPoint[];
+type Samples = ThrustPoint[];
 
-interface Motor : {
+export declare type Motor = {
     motorId :  string;
     manufacturer :  string;
     manufacturerAbbrev :  string;
@@ -27,5 +27,3 @@ interface Motor : {
     updatedOn :  string;
     samples ?:  Samples;
 }
-
-export declare type Motor[];
