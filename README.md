@@ -1,4 +1,4 @@
-# Thrustcurve
+# thrustcurve-db
 
 ThrustCurve.org model rocket motor and thrust curve data as a single JSON file.
 
@@ -22,15 +22,15 @@ here if you think it needs to be updated.
 You know the drill ...
 
 ```
-npm i thrustcurve
+npm i thrustcurve-db
 ```
 
 ## Usage
 
 ```
-import thrustcurve from 'thrustcurve';
+import thrustcurve from 'thrustcurve-db';
 
-// `thrustcurve` is a Motor[] array. See `thrustcurve.d.ts` for the structure of Motor objects
+// `thrustcurve` is a Motor[] array. See `thrustcurve-db.d.ts` for the structure of Motor objects
 for (const motor of thrustcurve) {
   console.log(motor); // Spew data for ~1,100 motors to console
 }
