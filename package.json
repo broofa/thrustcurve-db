@@ -1,6 +1,6 @@
 {
   "name": "thrustcurve-db",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "description": "ThrustCurve.org model rocket motor and thrust curve data as a single JSON file",
   "main": "thrustcurve-db.json",
