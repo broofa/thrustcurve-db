@@ -1445,131 +1445,122 @@
     ]
   },
   {
-    "motorId": "5f4294d2000231000000000b",
-    "manufacturer": "Estes Industries",
-    "manufacturerAbbrev": "Estes",
-    "designation": "A8",
-    "commonName": "A8",
+    "motorId": "5f4294d2000231000000045b",
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "designation": "A3",
+    "commonName": "A3",
     "impulseClass": "A",
     "diameter": 18,
-    "length": 70,
+    "length": 80,
     "type": "SU",
-    "certOrg": "National Association of Rocketry",
-    "avgThrustN": 3.18,
-    "maxThrustN": 9.73,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 3.4,
+    "maxThrustN": 7,
     "totImpulseNs": 2.5,
-    "burnTimeS": 0.73,
-    "dataFiles": 3,
-    "infoUrl": "http://nar.org/SandT/pdf/Estes/A8.pdf",
-    "totalWeightG": 16.3,
-    "propWeightG": 3.3,
-    "delays": "0,3,5",
-    "propInfo": "black powder",
+    "burnTimeS": 0.84,
+    "dataFiles": 2,
+    "totalWeightG": 17.9,
+    "propWeightG": 2.1,
+    "delays": "4-6",
+    "propInfo": "Black Max",
     "sparky": false,
-    "updatedOn": "2019-10-05",
+    "updatedOn": "2019-04-17",
     "samples": [
       [
         0,
         0
       ],
       [
-        0.016,
-        1.08
+        0.006,
+        0.153
       ],
       [
-        0.036,
-        0.293
+        0.024,
+        0.429
       ],
       [
-        0.05,
-        0.259
+        0.03,
+        0.889
       ],
       [
-        0.06,
-        0.357
+        0.04,
+        2.574
       ],
       [
-        0.07,
-        0.419
+        0.049,
+        5.854
       ],
       [
-        0.08,
-        0.355
+        0.053,
+        7.11
       ],
       [
-        0.102,
-        0.781
+        0.062,
+        6.528
       ],
       [
-        0.124,
-        1.443
+        0.082,
+        6.16
       ],
       [
-        0.152,
-        2.966
+        0.129,
+        6.129
       ],
       [
-        0.17,
-        4.426
+        0.159,
+        5.302
       ],
       [
-        0.202,
-        7.16
+        0.177,
+        5.087
       ],
       [
-        0.224,
-        9.051
+        0.237,
+        4.474
       ],
       [
-        0.246,
-        9.555
+        0.274,
+        4.352
       ],
       [
-        0.256,
-        9.317
+        0.313,
+        3.892
       ],
       [
-        0.276,
-        7.958
+        0.337,
+        3.586
       ],
       [
-        0.294,
-        6.108
+        0.368,
+        3.494
       ],
       [
-        0.326,
-        4.235
+        0.499,
+        2.329
       ],
       [
-        0.35,
-        3.813
+        0.577,
+        1.655
       ],
       [
-        0.376,
-        3.997
+        0.666,
+        1.103
       ],
       [
-        0.41,
-        3.926
+        0.742,
+        0.736
       ],
       [
-        0.452,
-        3.724
+        0.835,
+        0.398
       ],
       [
-        0.474,
-        4.046
+        0.887,
+        0.245
       ],
       [
-        0.502,
-        4.092
-      ],
-      [
-        0.532,
-        4.146
-      ],
-      [
-        0.534,
+        0.917,
         0
       ]
     ]
@@ -1811,122 +1802,131 @@
     ]
   },
   {
-    "motorId": "5f4294d2000231000000045b",
-    "manufacturer": "Quest Aerospace",
-    "manufacturerAbbrev": "Quest",
-    "designation": "A3",
-    "commonName": "A3",
+    "motorId": "5f4294d2000231000000000b",
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "designation": "A8",
+    "commonName": "A8",
     "impulseClass": "A",
     "diameter": 18,
-    "length": 80,
+    "length": 70,
     "type": "SU",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 3.4,
-    "maxThrustN": 7,
+    "certOrg": "National Association of Rocketry",
+    "avgThrustN": 3.18,
+    "maxThrustN": 9.73,
     "totImpulseNs": 2.5,
-    "burnTimeS": 0.84,
-    "dataFiles": 2,
-    "totalWeightG": 17.9,
-    "propWeightG": 2.1,
-    "delays": "4-6",
-    "propInfo": "Black Max",
+    "burnTimeS": 0.73,
+    "dataFiles": 3,
+    "infoUrl": "http://nar.org/SandT/pdf/Estes/A8.pdf",
+    "totalWeightG": 16.3,
+    "propWeightG": 3.3,
+    "delays": "0,3,5",
+    "propInfo": "black powder",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2019-10-05",
     "samples": [
       [
         0,
         0
       ],
       [
-        0.006,
-        0.153
+        0.016,
+        1.08
       ],
       [
-        0.024,
-        0.429
+        0.036,
+        0.293
       ],
       [
-        0.03,
-        0.889
+        0.05,
+        0.259
       ],
       [
-        0.04,
-        2.574
+        0.06,
+        0.357
       ],
       [
-        0.049,
-        5.854
+        0.07,
+        0.419
       ],
       [
-        0.053,
-        7.11
+        0.08,
+        0.355
       ],
       [
-        0.062,
-        6.528
+        0.102,
+        0.781
       ],
       [
-        0.082,
-        6.16
+        0.124,
+        1.443
       ],
       [
-        0.129,
-        6.129
+        0.152,
+        2.966
       ],
       [
-        0.159,
-        5.302
+        0.17,
+        4.426
       ],
       [
-        0.177,
-        5.087
+        0.202,
+        7.16
       ],
       [
-        0.237,
-        4.474
+        0.224,
+        9.051
       ],
       [
-        0.274,
-        4.352
+        0.246,
+        9.555
       ],
       [
-        0.313,
-        3.892
+        0.256,
+        9.317
       ],
       [
-        0.337,
-        3.586
+        0.276,
+        7.958
       ],
       [
-        0.368,
-        3.494
+        0.294,
+        6.108
       ],
       [
-        0.499,
-        2.329
+        0.326,
+        4.235
       ],
       [
-        0.577,
-        1.655
+        0.35,
+        3.813
       ],
       [
-        0.666,
-        1.103
+        0.376,
+        3.997
       ],
       [
-        0.742,
-        0.736
+        0.41,
+        3.926
       ],
       [
-        0.835,
-        0.398
+        0.452,
+        3.724
       ],
       [
-        0.887,
-        0.245
+        0.474,
+        4.046
       ],
       [
-        0.917,
+        0.502,
+        4.092
+      ],
+      [
+        0.532,
+        4.146
+      ],
+      [
+        0.534,
         0
       ]
     ]
@@ -2144,7 +2144,7 @@
     "delays": "0,2,4",
     "propInfo": "black powder",
     "sparky": false,
-    "updatedOn": "2019-10-08",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -4305,7 +4305,7 @@
     "dataFiles": 2,
     "totalWeightG": 23.7,
     "propWeightG": 10.4,
-    "delays": "4-6-8",
+    "delays": "4,6,8",
     "propInfo": "Black Max",
     "sparky": false,
     "updatedOn": "2020-11-25",
@@ -5051,7 +5051,7 @@
     "dataFiles": 2,
     "totalWeightG": 25.7,
     "propWeightG": 12.5,
-    "delays": "4-6-8",
+    "delays": "4,6,8",
     "propInfo": "Black Max",
     "sparky": false,
     "updatedOn": "2020-11-25",
@@ -6416,127 +6416,6 @@
     ]
   },
   {
-    "motorId": "5f4294d200023100000002e3",
-    "manufacturer": "AeroTech",
-    "manufacturerAbbrev": "AeroTech",
-    "designation": "D10W",
-    "commonName": "D10",
-    "impulseClass": "D",
-    "diameter": 18,
-    "length": 70,
-    "type": "SU",
-    "certOrg": "National Association of Rocketry",
-    "avgThrustN": 13.39,
-    "maxThrustN": 25.13,
-    "totImpulseNs": 18.75,
-    "burnTimeS": 1.4,
-    "dataFiles": 2,
-    "totalWeightG": 25.9,
-    "propWeightG": 9.8,
-    "delays": "3,5,7",
-    "propInfo": "White Lightning",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.007,
-        23
-      ],
-      [
-        0.018,
-        25
-      ],
-      [
-        0.027,
-        20.25
-      ],
-      [
-        0.066,
-        20.25
-      ],
-      [
-        0.073,
-        18.5
-      ],
-      [
-        0.094,
-        20.25
-      ],
-      [
-        0.112,
-        20.75
-      ],
-      [
-        0.137,
-        19.75
-      ],
-      [
-        0.163,
-        21.5
-      ],
-      [
-        0.202,
-        20.75
-      ],
-      [
-        0.231,
-        20.75
-      ],
-      [
-        0.254,
-        22.75
-      ],
-      [
-        0.27,
-        20.75
-      ],
-      [
-        0.504,
-        20
-      ],
-      [
-        0.536,
-        18.25
-      ],
-      [
-        0.607,
-        17
-      ],
-      [
-        0.687,
-        14.75
-      ],
-      [
-        0.751,
-        14.25
-      ],
-      [
-        0.84,
-        11.25
-      ],
-      [
-        0.998,
-        8.25
-      ],
-      [
-        1.024,
-        8.25
-      ],
-      [
-        1.248,
-        2.5
-      ],
-      [
-        1.385,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d2000231000000001e",
     "manufacturer": "Apogee Components",
     "manufacturerAbbrev": "Apogee",
@@ -6688,6 +6567,127 @@
       ],
       [
         1.4,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d200023100000002e3",
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "designation": "D10W",
+    "commonName": "D10",
+    "impulseClass": "D",
+    "diameter": 18,
+    "length": 70,
+    "type": "SU",
+    "certOrg": "National Association of Rocketry",
+    "avgThrustN": 13.39,
+    "maxThrustN": 25.13,
+    "totImpulseNs": 18.75,
+    "burnTimeS": 1.4,
+    "dataFiles": 2,
+    "totalWeightG": 25.9,
+    "propWeightG": 9.8,
+    "delays": "3,5,7",
+    "propInfo": "White Lightning",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.007,
+        23
+      ],
+      [
+        0.018,
+        25
+      ],
+      [
+        0.027,
+        20.25
+      ],
+      [
+        0.066,
+        20.25
+      ],
+      [
+        0.073,
+        18.5
+      ],
+      [
+        0.094,
+        20.25
+      ],
+      [
+        0.112,
+        20.75
+      ],
+      [
+        0.137,
+        19.75
+      ],
+      [
+        0.163,
+        21.5
+      ],
+      [
+        0.202,
+        20.75
+      ],
+      [
+        0.231,
+        20.75
+      ],
+      [
+        0.254,
+        22.75
+      ],
+      [
+        0.27,
+        20.75
+      ],
+      [
+        0.504,
+        20
+      ],
+      [
+        0.536,
+        18.25
+      ],
+      [
+        0.607,
+        17
+      ],
+      [
+        0.687,
+        14.75
+      ],
+      [
+        0.751,
+        14.25
+      ],
+      [
+        0.84,
+        11.25
+      ],
+      [
+        0.998,
+        8.25
+      ],
+      [
+        1.024,
+        8.25
+      ],
+      [
+        1.248,
+        2.5
+      ],
+      [
+        1.385,
         0
       ]
     ]
@@ -7550,7 +7550,7 @@
     "dataFiles": 2,
     "totalWeightG": 52,
     "propWeightG": 104,
-    "delays": "5,6,7,8,9,10,11,12,13,14, 15, 16,17",
+    "delays": "5-17",
     "caseInfo": "Pro24-1G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -8375,132 +8375,6 @@
     ]
   },
   {
-    "motorId": "5f4294d200023100000003e4",
-    "manufacturer": "Estes Industries",
-    "manufacturerAbbrev": "Estes",
-    "designation": "E30",
-    "commonName": "E30",
-    "impulseClass": "E",
-    "diameter": 24,
-    "length": 70,
-    "type": "SU",
-    "certOrg": "National Association of Rocketry",
-    "avgThrustN": 32.95,
-    "maxThrustN": 49.3,
-    "totImpulseNs": 33.56,
-    "burnTimeS": 1.02,
-    "dataFiles": 2,
-    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/E30.pdf",
-    "totalWeightG": 47,
-    "propWeightG": 17.8,
-    "delays": "4,7",
-    "propInfo": "black powder",
-    "sparky": false,
-    "updatedOn": "2020-12-02",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.01,
-        49
-      ],
-      [
-        0.02,
-        49
-      ],
-      [
-        0.05,
-        46
-      ],
-      [
-        0.1,
-        44
-      ],
-      [
-        0.2,
-        43
-      ],
-      [
-        0.25,
-        42
-      ],
-      [
-        0.3,
-        41
-      ],
-      [
-        0.35,
-        40
-      ],
-      [
-        0.4,
-        39
-      ],
-      [
-        0.45,
-        38
-      ],
-      [
-        0.5,
-        37
-      ],
-      [
-        0.55,
-        35
-      ],
-      [
-        0.6,
-        33
-      ],
-      [
-        0.65,
-        32
-      ],
-      [
-        0.7,
-        31
-      ],
-      [
-        0.75,
-        30
-      ],
-      [
-        0.8,
-        27
-      ],
-      [
-        0.85,
-        25
-      ],
-      [
-        0.9,
-        20
-      ],
-      [
-        0.91,
-        19
-      ],
-      [
-        0.93,
-        12
-      ],
-      [
-        0.95,
-        5
-      ],
-      [
-        0.97,
-        1
-      ],
-      [
-        1,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000034",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -8626,6 +8500,132 @@
       ],
       [
         1.2,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d200023100000003e4",
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "designation": "E30",
+    "commonName": "E30",
+    "impulseClass": "E",
+    "diameter": 24,
+    "length": 70,
+    "type": "SU",
+    "certOrg": "National Association of Rocketry",
+    "avgThrustN": 32.95,
+    "maxThrustN": 49.3,
+    "totImpulseNs": 33.56,
+    "burnTimeS": 1.02,
+    "dataFiles": 2,
+    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/E30.pdf",
+    "totalWeightG": 47,
+    "propWeightG": 17.8,
+    "delays": "4,7",
+    "propInfo": "black powder",
+    "sparky": false,
+    "updatedOn": "2020-12-02",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.01,
+        49
+      ],
+      [
+        0.02,
+        49
+      ],
+      [
+        0.05,
+        46
+      ],
+      [
+        0.1,
+        44
+      ],
+      [
+        0.2,
+        43
+      ],
+      [
+        0.25,
+        42
+      ],
+      [
+        0.3,
+        41
+      ],
+      [
+        0.35,
+        40
+      ],
+      [
+        0.4,
+        39
+      ],
+      [
+        0.45,
+        38
+      ],
+      [
+        0.5,
+        37
+      ],
+      [
+        0.55,
+        35
+      ],
+      [
+        0.6,
+        33
+      ],
+      [
+        0.65,
+        32
+      ],
+      [
+        0.7,
+        31
+      ],
+      [
+        0.75,
+        30
+      ],
+      [
+        0.8,
+        27
+      ],
+      [
+        0.85,
+        25
+      ],
+      [
+        0.9,
+        20
+      ],
+      [
+        0.91,
+        19
+      ],
+      [
+        0.93,
+        12
+      ],
+      [
+        0.95,
+        5
+      ],
+      [
+        0.97,
+        1
+      ],
+      [
+        1,
         0
       ]
     ]
@@ -9549,7 +9549,7 @@
     "maxThrustN": 37.2,
     "totImpulseNs": 37.67,
     "burnTimeS": 2,
-    "dataFiles": 2,
+    "dataFiles": 1,
     "infoUrl": "http://nar.org/SandT/pdf/Aerotech/E16.pdf",
     "totalWeightG": 109,
     "propWeightG": 19,
@@ -10318,115 +10318,6 @@
     ]
   },
   {
-    "motorId": "5f4294d200023100000002b8",
-    "manufacturer": "Cesaroni Technology",
-    "manufacturerAbbrev": "Cesaroni",
-    "designation": "41F36-11A",
-    "commonName": "F36",
-    "impulseClass": "F",
-    "diameter": 29,
-    "length": 98,
-    "type": "reload",
-    "certOrg": "Canadian Association of Rocketry",
-    "avgThrustN": 38.5,
-    "maxThrustN": 72.7,
-    "totImpulseNs": 41.2,
-    "burnTimeS": 1.07,
-    "dataFiles": 2,
-    "totalWeightG": 104,
-    "propWeightG": 69,
-    "caseInfo": "Pro29-1G",
-    "propInfo": "Smoky Sam",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.01,
-        12
-      ],
-      [
-        0.02,
-        46
-      ],
-      [
-        0.03,
-        75
-      ],
-      [
-        0.04,
-        79
-      ],
-      [
-        0.06,
-        77
-      ],
-      [
-        0.07,
-        62
-      ],
-      [
-        0.08,
-        32
-      ],
-      [
-        0.1,
-        35
-      ],
-      [
-        0.2,
-        38
-      ],
-      [
-        0.3,
-        39
-      ],
-      [
-        0.4,
-        41
-      ],
-      [
-        0.5,
-        43
-      ],
-      [
-        0.6,
-        43
-      ],
-      [
-        0.7,
-        43
-      ],
-      [
-        0.8,
-        43
-      ],
-      [
-        0.85,
-        47
-      ],
-      [
-        0.92,
-        54
-      ],
-      [
-        0.95,
-        32
-      ],
-      [
-        0.99,
-        8
-      ],
-      [
-        1.05,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d2000231000000003c",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -10571,6 +10462,115 @@
       ],
       [
         2.22,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d200023100000002b8",
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "designation": "41F36-11A",
+    "commonName": "F36",
+    "impulseClass": "F",
+    "diameter": 29,
+    "length": 98,
+    "type": "reload",
+    "certOrg": "Canadian Association of Rocketry",
+    "avgThrustN": 38.5,
+    "maxThrustN": 72.7,
+    "totImpulseNs": 41.2,
+    "burnTimeS": 1.07,
+    "dataFiles": 2,
+    "totalWeightG": 104,
+    "propWeightG": 69,
+    "caseInfo": "Pro29-1G",
+    "propInfo": "Smoky Sam",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.01,
+        12
+      ],
+      [
+        0.02,
+        46
+      ],
+      [
+        0.03,
+        75
+      ],
+      [
+        0.04,
+        79
+      ],
+      [
+        0.06,
+        77
+      ],
+      [
+        0.07,
+        62
+      ],
+      [
+        0.08,
+        32
+      ],
+      [
+        0.1,
+        35
+      ],
+      [
+        0.2,
+        38
+      ],
+      [
+        0.3,
+        39
+      ],
+      [
+        0.4,
+        41
+      ],
+      [
+        0.5,
+        43
+      ],
+      [
+        0.6,
+        43
+      ],
+      [
+        0.7,
+        43
+      ],
+      [
+        0.8,
+        43
+      ],
+      [
+        0.85,
+        47
+      ],
+      [
+        0.92,
+        54
+      ],
+      [
+        0.95,
+        32
+      ],
+      [
+        0.99,
+        8
+      ],
+      [
+        1.05,
         0
       ]
     ]
@@ -11465,7 +11465,7 @@
     "infoUrl": "http://www.nar.org/SandT/pdf/Estes/F15.pdf",
     "totalWeightG": 102,
     "propWeightG": 60,
-    "delays": "0, 4, 6, 8",
+    "delays": "0,4,6,8",
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2019-04-17",
@@ -11852,7 +11852,7 @@
     "infoUrl": "http://nar.org/SandT/pdf/Aerotech/F37.pdf",
     "totalWeightG": 109.3,
     "propWeightG": 28.2,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/60",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -11968,14 +11968,13 @@
     "totImpulseNs": 51,
     "burnTimeS": 1.13,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20F62T%20jun%2004.pdf",
     "totalWeightG": 109,
     "propWeightG": 30.5,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/60",
     "propInfo": "Blue Thunder",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -12580,13 +12579,12 @@
     "totImpulseNs": 54.8,
     "burnTimeS": 1.9,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=55-F29-12A",
     "totalWeightG": 105.8,
     "propWeightG": 30.9,
     "caseInfo": "Pro29-1G",
     "propInfo": "Imax",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -12662,14 +12660,13 @@
     "totImpulseNs": 55,
     "burnTimeS": 2.5,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20F21W%20jun%2005.pdf",
     "totalWeightG": 64,
     "propWeightG": 30,
     "delays": "4,6,8",
     "caseInfo": "SU 24x95",
     "propInfo": "White Lightning",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -13809,7 +13806,7 @@
     "infoUrl": "https://www.nar.org/SandT/pdf/Aerotech/AT_F67W_2017.pdf",
     "totalWeightG": 80.8,
     "propWeightG": 30,
-    "delays": "4-6-9",
+    "delays": "4,6,9",
     "sparky": false,
     "updatedOn": "2020-09-01",
     "samples": [
@@ -14517,7 +14514,7 @@
     "dataFiles": 2,
     "totalWeightG": 107.5,
     "propWeightG": 40.1,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4-13",
     "caseInfo": "Pro24-3G",
     "propInfo": "Smoky Sam",
     "sparky": false,
@@ -14712,7 +14709,7 @@
     "dataFiles": 2,
     "totalWeightG": 91.8,
     "propWeightG": 30.3,
-    "delays": "7,8,9,10,11,12,13,14,15",
+    "delays": "7-15",
     "caseInfo": "Pro24-3G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -15150,7 +15147,7 @@
     "dataFiles": 2,
     "totalWeightG": 102.2,
     "propWeightG": 40,
-    "delays": "2,3,4,5,6,7",
+    "delays": "2-7",
     "caseInfo": "Pro24-3G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -15256,7 +15253,7 @@
     "dataFiles": 2,
     "totalWeightG": 96,
     "propWeightG": 33.7,
-    "delays": "5,6,7,8,9,10,11,12,13,14,15",
+    "delays": "5-15",
     "caseInfo": "Pro24-3G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -17126,7 +17123,7 @@
     "infoUrl": "http://nar.org/SandT/pdf/Aerotech/G54.pdf",
     "totalWeightG": 136.5,
     "propWeightG": 46,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/100",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -17276,7 +17273,7 @@
     "dataFiles": 2,
     "totalWeightG": 136,
     "propWeightG": 43.9,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/100",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -17819,12 +17816,11 @@
     "totImpulseNs": 85,
     "burnTimeS": 1.3,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/SR%20G63AB%20jun%2010.pdf",
     "totalWeightG": 210,
     "propWeightG": 5,
     "caseInfo": "29X304.8MM (75CC)",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -17920,13 +17916,12 @@
     "totImpulseNs": 85,
     "burnTimeS": 1,
     "dataFiles": 1,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20G101W%20jun%2004.pdf",
     "propWeightG": 46,
-    "delays": "S,M,L",
+    "delays": "0-14",
     "caseInfo": "RMS-29/100",
     "propInfo": "Blue Thunder",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -19325,14 +19320,13 @@
     "totImpulseNs": 105,
     "burnTimeS": 1.36363636363636,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20G77R%20dec%2009.pdf",
     "totalWeightG": 165,
     "propWeightG": 58,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/120",
     "propInfo": "Redline",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -19543,7 +19537,7 @@
     "dataFiles": 3,
     "totalWeightG": 147,
     "propWeightG": 64,
-    "delays": "4, 7, 10",
+    "delays": "4,7,10",
     "caseInfo": "RMS-29/40-120",
     "propInfo": "Redline",
     "sparky": false,
@@ -20037,7 +20031,7 @@
     "dataFiles": 2,
     "totalWeightG": 155.9,
     "propWeightG": 59.9,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4-13",
     "caseInfo": "Pro29-2G",
     "propInfo": "White",
     "sparky": false,
@@ -20482,7 +20476,7 @@
     "dataFiles": 2,
     "totalWeightG": 157,
     "propWeightG": 62,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/120",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -20891,60 +20885,6 @@
     ]
   },
   {
-    "motorId": "5f4294d200023100000002f3",
-    "manufacturer": "Loki Research",
-    "manufacturerAbbrev": "Loki",
-    "designation": "G69-SF",
-    "commonName": "G69",
-    "impulseClass": "G",
-    "diameter": 38,
-    "length": 127,
-    "type": "reload",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 69,
-    "maxThrustN": 97,
-    "totImpulseNs": 110,
-    "burnTimeS": 1.6,
-    "dataFiles": 2,
-    "totalWeightG": 240,
-    "propWeightG": 63,
-    "delays": "5,7,9,11,13,15,17",
-    "caseInfo": "38/120",
-    "propInfo": "Spitfire",
-    "sparky": true,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.01,
-        97.92
-      ],
-      [
-        0.2,
-        96.54
-      ],
-      [
-        0.4,
-        94.23
-      ],
-      [
-        0.7995,
-        76.67
-      ],
-      [
-        1.2,
-        58.2
-      ],
-      [
-        1.6,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000061",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -20959,14 +20899,13 @@
     "totImpulseNs": 110,
     "burnTimeS": 1.64179104477612,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20G67R%20dec%2009.pdf",
     "totalWeightG": 201,
     "propWeightG": 60,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/120",
     "propInfo": "Redline",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -21103,6 +21042,150 @@
     ]
   },
   {
+    "motorId": "5f4294d200023100000002f3",
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "designation": "G69-SF",
+    "commonName": "G69",
+    "impulseClass": "G",
+    "diameter": 38,
+    "length": 127,
+    "type": "reload",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 69,
+    "maxThrustN": 97,
+    "totImpulseNs": 110,
+    "burnTimeS": 1.6,
+    "dataFiles": 2,
+    "totalWeightG": 240,
+    "propWeightG": 63,
+    "delays": "5,7,9,11,13,15,17",
+    "caseInfo": "38/120",
+    "propInfo": "Spitfire",
+    "sparky": true,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.01,
+        97.92
+      ],
+      [
+        0.2,
+        96.54
+      ],
+      [
+        0.4,
+        94.23
+      ],
+      [
+        0.7995,
+        76.67
+      ],
+      [
+        1.2,
+        58.2
+      ],
+      [
+        1.6,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d2000231000000005e",
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "designation": "G61W",
+    "commonName": "G61",
+    "impulseClass": "G",
+    "diameter": 38,
+    "length": 106,
+    "type": "reload",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 61,
+    "maxThrustN": 63.2,
+    "totImpulseNs": 110.5,
+    "burnTimeS": 2.04,
+    "dataFiles": 2,
+    "totalWeightG": 194,
+    "propWeightG": 62.3,
+    "delays": "0-10",
+    "caseInfo": "RMS-38/120",
+    "propInfo": "White Lightning",
+    "sparky": false,
+    "updatedOn": "2021-06-13",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.008,
+        3.083
+      ],
+      [
+        0.054,
+        71.35
+      ],
+      [
+        0.089,
+        72.23
+      ],
+      [
+        0.174,
+        75.31
+      ],
+      [
+        0.216,
+        78.39
+      ],
+      [
+        0.247,
+        79.72
+      ],
+      [
+        0.502,
+        81.04
+      ],
+      [
+        0.753,
+        77.07
+      ],
+      [
+        1.001,
+        72.67
+      ],
+      [
+        1.132,
+        66.94
+      ],
+      [
+        1.252,
+        55.93
+      ],
+      [
+        1.503,
+        38.32
+      ],
+      [
+        1.754,
+        10.13
+      ],
+      [
+        1.905,
+        3.523
+      ],
+      [
+        2.04,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d20002310000000056",
     "manufacturer": "Ellis Mountain",
     "manufacturerAbbrev": "Ellis",
@@ -21175,97 +21258,6 @@
     ]
   },
   {
-    "motorId": "5f4294d2000231000000005e",
-    "manufacturer": "AeroTech",
-    "manufacturerAbbrev": "AeroTech",
-    "designation": "G61W",
-    "commonName": "G61",
-    "impulseClass": "G",
-    "diameter": 38,
-    "length": 106,
-    "type": "reload",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 61,
-    "maxThrustN": 63.2,
-    "totImpulseNs": 110.5,
-    "burnTimeS": 2.04,
-    "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20G61W%20jun%2009.pdf",
-    "totalWeightG": 194,
-    "propWeightG": 62.3,
-    "delays": "M",
-    "caseInfo": "RMS-38/120",
-    "propInfo": "White Lightning",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.008,
-        3.083
-      ],
-      [
-        0.054,
-        71.35
-      ],
-      [
-        0.089,
-        72.23
-      ],
-      [
-        0.174,
-        75.31
-      ],
-      [
-        0.216,
-        78.39
-      ],
-      [
-        0.247,
-        79.72
-      ],
-      [
-        0.502,
-        81.04
-      ],
-      [
-        0.753,
-        77.07
-      ],
-      [
-        1.001,
-        72.67
-      ],
-      [
-        1.132,
-        66.94
-      ],
-      [
-        1.252,
-        55.93
-      ],
-      [
-        1.503,
-        38.32
-      ],
-      [
-        1.754,
-        10.13
-      ],
-      [
-        1.905,
-        3.523
-      ],
-      [
-        2.04,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000051",
     "manufacturer": "Ellis Mountain",
     "manufacturerAbbrev": "Ellis",
@@ -21320,6 +21312,84 @@
       ],
       [
         5.47,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d20002310000000059",
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "designation": "G40W",
+    "commonName": "G40",
+    "impulseClass": "G",
+    "diameter": 29,
+    "length": 124,
+    "type": "SU",
+    "certOrg": "National Association of Rocketry",
+    "avgThrustN": 37.17,
+    "maxThrustN": 66.85,
+    "totImpulseNs": 113.74,
+    "burnTimeS": 3.06,
+    "dataFiles": 2,
+    "infoUrl": "http://nar.org/SandT/pdf/Aerotech/G40.pdf",
+    "totalWeightG": 123,
+    "propWeightG": 53.8,
+    "delays": "4,7,10",
+    "propInfo": "White Lightning",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.024,
+        74.33
+      ],
+      [
+        0.057,
+        67.01
+      ],
+      [
+        0.252,
+        65.88
+      ],
+      [
+        0.5,
+        63.06
+      ],
+      [
+        0.765,
+        60.25
+      ],
+      [
+        1,
+        54.05
+      ],
+      [
+        1.25,
+        47.3
+      ],
+      [
+        1.502,
+        36.6
+      ],
+      [
+        1.751,
+        25.34
+      ],
+      [
+        1.999,
+        12.95
+      ],
+      [
+        2.121,
+        3.941
+      ],
+      [
+        2.3,
         0
       ]
     ]
@@ -21434,84 +21504,6 @@
     ]
   },
   {
-    "motorId": "5f4294d20002310000000059",
-    "manufacturer": "AeroTech",
-    "manufacturerAbbrev": "AeroTech",
-    "designation": "G40W",
-    "commonName": "G40",
-    "impulseClass": "G",
-    "diameter": 29,
-    "length": 124,
-    "type": "SU",
-    "certOrg": "National Association of Rocketry",
-    "avgThrustN": 37.17,
-    "maxThrustN": 66.85,
-    "totImpulseNs": 113.74,
-    "burnTimeS": 3.06,
-    "dataFiles": 2,
-    "infoUrl": "http://nar.org/SandT/pdf/Aerotech/G40.pdf",
-    "totalWeightG": 123,
-    "propWeightG": 53.8,
-    "delays": "4,7,10",
-    "propInfo": "White Lightning",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.024,
-        74.33
-      ],
-      [
-        0.057,
-        67.01
-      ],
-      [
-        0.252,
-        65.88
-      ],
-      [
-        0.5,
-        63.06
-      ],
-      [
-        0.765,
-        60.25
-      ],
-      [
-        1,
-        54.05
-      ],
-      [
-        1.25,
-        47.3
-      ],
-      [
-        1.502,
-        36.6
-      ],
-      [
-        1.751,
-        25.34
-      ],
-      [
-        1.999,
-        12.95
-      ],
-      [
-        2.121,
-        3.941
-      ],
-      [
-        2.3,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d200023100000003b9",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -21529,7 +21521,7 @@
     "dataFiles": 2,
     "totalWeightG": 159,
     "propWeightG": 63.3,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro24-6G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -22471,6 +22463,147 @@
     ]
   },
   {
+    "motorId": "5f4294d2000231000000005c",
+    "manufacturer": "Rocketvision Flight-Star",
+    "manufacturerAbbrev": "RV",
+    "designation": "G55",
+    "commonName": "G55",
+    "impulseClass": "G",
+    "diameter": 24,
+    "length": 177,
+    "type": "SU",
+    "certOrg": "National Association of Rocketry",
+    "avgThrustN": 49,
+    "maxThrustN": 84.65,
+    "totImpulseNs": 119.57,
+    "burnTimeS": 2.44,
+    "dataFiles": 1,
+    "infoUrl": "http://nar.org/SandT/pdf/RocketVision/G55.pdf",
+    "propWeightG": 62.5,
+    "delays": "5,10,15",
+    "caseInfo": "SU 24x177",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.004,
+        74.65
+      ],
+      [
+        0.012,
+        85.21
+      ],
+      [
+        0.054,
+        81.69
+      ],
+      [
+        0.128,
+        73.24
+      ],
+      [
+        0.182,
+        73.94
+      ],
+      [
+        0.231,
+        69.72
+      ],
+      [
+        0.508,
+        69.01
+      ],
+      [
+        0.868,
+        67.61
+      ],
+      [
+        1.037,
+        65.49
+      ],
+      [
+        1.07,
+        67.61
+      ],
+      [
+        1.091,
+        64.08
+      ],
+      [
+        1.14,
+        63.38
+      ],
+      [
+        1.161,
+        66.9
+      ],
+      [
+        1.19,
+        62.68
+      ],
+      [
+        1.269,
+        62.68
+      ],
+      [
+        1.397,
+        59.16
+      ],
+      [
+        1.496,
+        57.04
+      ],
+      [
+        1.583,
+        52.11
+      ],
+      [
+        1.653,
+        45.07
+      ],
+      [
+        1.719,
+        38.03
+      ],
+      [
+        1.76,
+        31.69
+      ],
+      [
+        1.831,
+        24.65
+      ],
+      [
+        1.901,
+        19.01
+      ],
+      [
+        1.988,
+        12.68
+      ],
+      [
+        2.083,
+        9.155
+      ],
+      [
+        2.169,
+        5.634
+      ],
+      [
+        2.252,
+        3.521
+      ],
+      [
+        2.36,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d2000231000000005b",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -22623,147 +22756,6 @@
       ],
       [
         2.44,
-        0
-      ]
-    ]
-  },
-  {
-    "motorId": "5f4294d2000231000000005c",
-    "manufacturer": "Rocketvision Flight-Star",
-    "manufacturerAbbrev": "RV",
-    "designation": "G55",
-    "commonName": "G55",
-    "impulseClass": "G",
-    "diameter": 24,
-    "length": 177,
-    "type": "SU",
-    "certOrg": "National Association of Rocketry",
-    "avgThrustN": 49,
-    "maxThrustN": 84.65,
-    "totImpulseNs": 119.57,
-    "burnTimeS": 2.44,
-    "dataFiles": 1,
-    "infoUrl": "http://nar.org/SandT/pdf/RocketVision/G55.pdf",
-    "propWeightG": 62.5,
-    "delays": "5,10,15",
-    "caseInfo": "SU 24x177",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.004,
-        74.65
-      ],
-      [
-        0.012,
-        85.21
-      ],
-      [
-        0.054,
-        81.69
-      ],
-      [
-        0.128,
-        73.24
-      ],
-      [
-        0.182,
-        73.94
-      ],
-      [
-        0.231,
-        69.72
-      ],
-      [
-        0.508,
-        69.01
-      ],
-      [
-        0.868,
-        67.61
-      ],
-      [
-        1.037,
-        65.49
-      ],
-      [
-        1.07,
-        67.61
-      ],
-      [
-        1.091,
-        64.08
-      ],
-      [
-        1.14,
-        63.38
-      ],
-      [
-        1.161,
-        66.9
-      ],
-      [
-        1.19,
-        62.68
-      ],
-      [
-        1.269,
-        62.68
-      ],
-      [
-        1.397,
-        59.16
-      ],
-      [
-        1.496,
-        57.04
-      ],
-      [
-        1.583,
-        52.11
-      ],
-      [
-        1.653,
-        45.07
-      ],
-      [
-        1.719,
-        38.03
-      ],
-      [
-        1.76,
-        31.69
-      ],
-      [
-        1.831,
-        24.65
-      ],
-      [
-        1.901,
-        19.01
-      ],
-      [
-        1.988,
-        12.68
-      ],
-      [
-        2.083,
-        9.155
-      ],
-      [
-        2.169,
-        5.634
-      ],
-      [
-        2.252,
-        3.521
-      ],
-      [
-        2.36,
         0
       ]
     ]
@@ -23091,13 +23083,12 @@
     "totImpulseNs": 121.1,
     "burnTimeS": 1.75,
     "dataFiles": 4,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=121%20G69-14A",
     "totalWeightG": 197,
     "propWeightG": 61.5,
     "caseInfo": "Pro38-1G",
     "propInfo": "Skidmark",
     "sparky": true,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -23423,13 +23414,12 @@
     "totImpulseNs": 127.3,
     "burnTimeS": 2.76,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=127%20G46-11A",
     "totalWeightG": 197,
     "propWeightG": 62.5,
     "caseInfo": "Pro38-1G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -23586,112 +23576,6 @@
     ]
   },
   {
-    "motorId": "5f4294d2000231000000025a",
-    "manufacturer": "Cesaroni Technology",
-    "manufacturerAbbrev": "Cesaroni",
-    "designation": "128G185-12A",
-    "commonName": "G185",
-    "impulseClass": "G",
-    "diameter": 38,
-    "length": 127,
-    "type": "reload",
-    "certOrg": "Canadian Association of Rocketry",
-    "avgThrustN": 183.3,
-    "maxThrustN": 212.16,
-    "totImpulseNs": 128,
-    "burnTimeS": 0.69,
-    "dataFiles": 1,
-    "totalWeightG": 188.4,
-    "propWeightG": 62.1,
-    "delays": "3-12",
-    "caseInfo": "Pro38-1G",
-    "propInfo": "Vmax",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.01,
-        108.7
-      ],
-      [
-        0.02,
-        131.2
-      ],
-      [
-        0.05,
-        153.1
-      ],
-      [
-        0.1,
-        169
-      ],
-      [
-        0.2,
-        189.9
-      ],
-      [
-        0.3,
-        200
-      ],
-      [
-        0.35,
-        203.6
-      ],
-      [
-        0.4,
-        205
-      ],
-      [
-        0.45,
-        202.6
-      ],
-      [
-        0.5,
-        203.1
-      ],
-      [
-        0.55,
-        199.3
-      ],
-      [
-        0.6,
-        194.7
-      ],
-      [
-        0.61,
-        194.1
-      ],
-      [
-        0.63,
-        193.5
-      ],
-      [
-        0.64,
-        193.7
-      ],
-      [
-        0.65,
-        202.9
-      ],
-      [
-        0.67,
-        163.4
-      ],
-      [
-        0.68,
-        80.44
-      ],
-      [
-        0.69,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000062",
     "manufacturer": "Sky Ripper Systems",
     "manufacturerAbbrev": "SkyR",
@@ -23707,12 +23591,11 @@
     "totImpulseNs": 128,
     "burnTimeS": 1.8,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/SR%20G69AB%20jun%2010.pdf",
     "totalWeightG": 236,
     "propWeightG": 5,
     "caseInfo": "29X406.4MM (125CC)",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -23816,6 +23699,112 @@
       ],
       [
         2,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d2000231000000025a",
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "designation": "128G185-12A",
+    "commonName": "G185",
+    "impulseClass": "G",
+    "diameter": 38,
+    "length": 127,
+    "type": "reload",
+    "certOrg": "Canadian Association of Rocketry",
+    "avgThrustN": 183.3,
+    "maxThrustN": 212.16,
+    "totImpulseNs": 128,
+    "burnTimeS": 0.69,
+    "dataFiles": 1,
+    "totalWeightG": 188.4,
+    "propWeightG": 62.1,
+    "delays": "3-12",
+    "caseInfo": "Pro38-1G",
+    "propInfo": "Vmax",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.01,
+        108.7
+      ],
+      [
+        0.02,
+        131.2
+      ],
+      [
+        0.05,
+        153.1
+      ],
+      [
+        0.1,
+        169
+      ],
+      [
+        0.2,
+        189.9
+      ],
+      [
+        0.3,
+        200
+      ],
+      [
+        0.35,
+        203.6
+      ],
+      [
+        0.4,
+        205
+      ],
+      [
+        0.45,
+        202.6
+      ],
+      [
+        0.5,
+        203.1
+      ],
+      [
+        0.55,
+        199.3
+      ],
+      [
+        0.6,
+        194.7
+      ],
+      [
+        0.61,
+        194.1
+      ],
+      [
+        0.63,
+        193.5
+      ],
+      [
+        0.64,
+        193.7
+      ],
+      [
+        0.65,
+        202.9
+      ],
+      [
+        0.67,
+        163.4
+      ],
+      [
+        0.68,
+        80.44
+      ],
+      [
+        0.69,
         0
       ]
     ]
@@ -23925,13 +23914,12 @@
     "totImpulseNs": 129,
     "burnTimeS": 1.63,
     "dataFiles": 3,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=129+G79SS-13A",
     "totalWeightG": 226,
     "propWeightG": 82.7,
     "caseInfo": "Pro38-1G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -24162,7 +24150,7 @@
     "dataFiles": 2,
     "totalWeightG": 172,
     "propWeightG": 77.3,
-    "delays": "2,3,4,5,6,7,8,9,10",
+    "delays": "2-10",
     "caseInfo": "Pro24-6G",
     "propInfo": "Green3",
     "sparky": false,
@@ -24586,7 +24574,7 @@
     "dataFiles": 3,
     "totalWeightG": 232.96,
     "propWeightG": 104.3,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/180",
     "propInfo": "Blackjack",
     "sparky": false,
@@ -24703,97 +24691,6 @@
     ]
   },
   {
-    "motorId": "5f4294d2000231000000034a",
-    "manufacturer": "Kosdon TRM",
-    "manufacturerAbbrev": "Kosdon",
-    "designation": "G65DH",
-    "commonName": "G65",
-    "impulseClass": "G",
-    "diameter": 29,
-    "length": 206,
-    "type": "reload",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 71.6,
-    "totImpulseNs": 136.6,
-    "burnTimeS": 1.9,
-    "dataFiles": 1,
-    "propWeightG": 93.6,
-    "delays": "11",
-    "propInfo": "Dirty Harry",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.028,
-        31.8
-      ],
-      [
-        0.049,
-        70.29
-      ],
-      [
-        0.082,
-        58.74
-      ],
-      [
-        0.142,
-        64.41
-      ],
-      [
-        0.716,
-        79.61
-      ],
-      [
-        1.179,
-        88.72
-      ],
-      [
-        1.568,
-        75.35
-      ],
-      [
-        1.606,
-        74.34
-      ],
-      [
-        1.611,
-        68.06
-      ],
-      [
-        1.704,
-        57.12
-      ],
-      [
-        1.773,
-        45.98
-      ],
-      [
-        1.812,
-        30.18
-      ],
-      [
-        1.853,
-        18.84
-      ],
-      [
-        1.894,
-        11.34
-      ],
-      [
-        1.936,
-        5.469
-      ],
-      [
-        2.026,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000068",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -24812,7 +24709,7 @@
     "infoUrl": "https://www.nar.org/SandT/pdf/Aerotech/G80-20071207.pdf",
     "totalWeightG": 127.90000000000002,
     "propWeightG": 62.5,
-    "delays": "7,10,13,0-14",
+    "delays": "0-14",
     "propInfo": "Blue Thunder",
     "sparky": false,
     "updatedOn": "2021-01-19",
@@ -24955,6 +24852,97 @@
       ],
       [
         1.701,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d2000231000000034a",
+    "manufacturer": "Kosdon TRM",
+    "manufacturerAbbrev": "Kosdon",
+    "designation": "G65DH",
+    "commonName": "G65",
+    "impulseClass": "G",
+    "diameter": 29,
+    "length": 206,
+    "type": "reload",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 71.6,
+    "totImpulseNs": 136.6,
+    "burnTimeS": 1.9,
+    "dataFiles": 1,
+    "propWeightG": 93.6,
+    "delays": "11",
+    "propInfo": "Dirty Harry",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.028,
+        31.8
+      ],
+      [
+        0.049,
+        70.29
+      ],
+      [
+        0.082,
+        58.74
+      ],
+      [
+        0.142,
+        64.41
+      ],
+      [
+        0.716,
+        79.61
+      ],
+      [
+        1.179,
+        88.72
+      ],
+      [
+        1.568,
+        75.35
+      ],
+      [
+        1.606,
+        74.34
+      ],
+      [
+        1.611,
+        68.06
+      ],
+      [
+        1.704,
+        57.12
+      ],
+      [
+        1.773,
+        45.98
+      ],
+      [
+        1.812,
+        30.18
+      ],
+      [
+        1.853,
+        18.84
+      ],
+      [
+        1.894,
+        11.34
+      ],
+      [
+        1.936,
+        5.469
+      ],
+      [
+        2.026,
         0
       ]
     ]
@@ -25142,7 +25130,7 @@
     "dataFiles": 2,
     "totalWeightG": 212.5,
     "propWeightG": 76.3,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4-13",
     "caseInfo": "Pro38-1G",
     "propInfo": "White",
     "sparky": false,
@@ -25268,7 +25256,7 @@
     "dataFiles": 2,
     "totalWeightG": 166,
     "propWeightG": 70.5,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro24-6G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -25565,7 +25553,7 @@
     "dataFiles": 2,
     "totalWeightG": 169.8,
     "propWeightG": 75.7,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3-12",
     "caseInfo": "Pro24-6G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -25703,7 +25691,7 @@
     "dataFiles": 2,
     "totalWeightG": 161.9,
     "propWeightG": 66.7,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6-15",
     "caseInfo": "Pro24-6G",
     "propInfo": "Pink",
     "sparky": false,
@@ -26111,7 +26099,7 @@
     "dataFiles": 2,
     "totalWeightG": 172.5,
     "propWeightG": 79.1,
-    "delays": "4,5,6,7,8,9,10,11",
+    "delays": "4-11",
     "caseInfo": "Pro24-6G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -26249,7 +26237,7 @@
     "dataFiles": 2,
     "totalWeightG": 159.9,
     "propWeightG": 65.9,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4-13",
     "caseInfo": "Pro24-6G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -26395,7 +26383,7 @@
     "dataFiles": 1,
     "totalWeightG": 231,
     "propWeightG": 90,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "Kosdon 29-150",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -26617,7 +26605,7 @@
     "dataFiles": 1,
     "totalWeightG": 226,
     "propWeightG": 80,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "Kosdon 29-150",
     "propInfo": "Redline",
     "sparky": false,
@@ -26966,7 +26954,7 @@
     "dataFiles": 2,
     "totalWeightG": 174,
     "propWeightG": 80,
-    "delays": "3,4,5,6,7,8",
+    "delays": "3-8",
     "caseInfo": "Pro24-6G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -27204,7 +27192,7 @@
     "dataFiles": 2,
     "totalWeightG": 218,
     "propWeightG": 77.7,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6-15",
     "caseInfo": "Pro38-1G",
     "propInfo": "Imax",
     "sparky": false,
@@ -27688,7 +27676,7 @@
     "dataFiles": 2,
     "totalWeightG": 192.8,
     "propWeightG": 86.5,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3-12",
     "caseInfo": "Pro29-3G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -27770,7 +27758,7 @@
     "dataFiles": 2,
     "totalWeightG": 194.5,
     "propWeightG": 81.9,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro29-3G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -28002,58 +27990,6 @@
     ]
   },
   {
-    "motorId": "5f4294d20002310000000072",
-    "manufacturer": "Contrail Rockets",
-    "manufacturerAbbrev": "Contrail",
-    "designation": "G300-PVC",
-    "commonName": "G300",
-    "impulseClass": "G",
-    "diameter": 38,
-    "length": 407,
-    "type": "hybrid",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 300,
-    "maxThrustN": 619,
-    "totImpulseNs": 161,
-    "burnTimeS": 0.7,
-    "dataFiles": 2,
-    "totalWeightG": 544,
-    "propWeightG": 23,
-    "caseInfo": "38 16 F PVC (90CC)",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.001119,
-        602.2
-      ],
-      [
-        0.04978,
-        814.4
-      ],
-      [
-        0.1007,
-        670.7
-      ],
-      [
-        0.1141,
-        266.9
-      ],
-      [
-        0.1588,
-        239.5
-      ],
-      [
-        0.25,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000096",
     "manufacturer": "Contrail Rockets",
     "manufacturerAbbrev": "Contrail",
@@ -28101,6 +28037,58 @@
       ],
       [
         0.62,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d20002310000000072",
+    "manufacturer": "Contrail Rockets",
+    "manufacturerAbbrev": "Contrail",
+    "designation": "G300-PVC",
+    "commonName": "G300",
+    "impulseClass": "G",
+    "diameter": 38,
+    "length": 407,
+    "type": "hybrid",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 300,
+    "maxThrustN": 619,
+    "totImpulseNs": 161,
+    "burnTimeS": 0.7,
+    "dataFiles": 2,
+    "totalWeightG": 544,
+    "propWeightG": 23,
+    "caseInfo": "38 16 F PVC (90CC)",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.001119,
+        602.2
+      ],
+      [
+        0.04978,
+        814.4
+      ],
+      [
+        0.1007,
+        670.7
+      ],
+      [
+        0.1141,
+        266.9
+      ],
+      [
+        0.1588,
+        239.5
+      ],
+      [
+        0.25,
         0
       ]
     ]
@@ -28464,7 +28452,7 @@
     "dataFiles": 2,
     "totalWeightG": 201.6,
     "propWeightG": 90,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/180",
     "propInfo": "Redline",
     "sparky": false,
@@ -28598,7 +28586,7 @@
     "dataFiles": 2,
     "totalWeightG": 196,
     "propWeightG": 83.4,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/180",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -28861,116 +28849,6 @@
     ]
   },
   {
-    "motorId": "5f4294d20002310000000398",
-    "manufacturer": "Cesaroni Technology",
-    "manufacturerAbbrev": "Cesaroni",
-    "designation": "168H54-10A",
-    "commonName": "H54",
-    "impulseClass": "H",
-    "diameter": 29,
-    "length": 187,
-    "type": "reload",
-    "certOrg": "Canadian Association of Rocketry",
-    "avgThrustN": 53.8,
-    "maxThrustN": 105,
-    "totImpulseNs": 167.7,
-    "burnTimeS": 3.12,
-    "dataFiles": 2,
-    "totalWeightG": 209,
-    "propWeightG": 96.6,
-    "delays": "3,4,5,6,7,8,9,10",
-    "caseInfo": "Pro29-3G",
-    "propInfo": "White",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.017,
-        103.1
-      ],
-      [
-        0.047,
-        83.27
-      ],
-      [
-        0.088,
-        91.82
-      ],
-      [
-        0.155,
-        97.84
-      ],
-      [
-        0.199,
-        89.29
-      ],
-      [
-        0.271,
-        80.26
-      ],
-      [
-        0.406,
-        76.62
-      ],
-      [
-        0.599,
-        73.77
-      ],
-      [
-        0.898,
-        69.02
-      ],
-      [
-        1.182,
-        66.02
-      ],
-      [
-        1.475,
-        60.48
-      ],
-      [
-        1.785,
-        53.83
-      ],
-      [
-        2.099,
-        44.8
-      ],
-      [
-        2.296,
-        38.95
-      ],
-      [
-        2.577,
-        27.55
-      ],
-      [
-        2.845,
-        16.15
-      ],
-      [
-        3.097,
-        6.491
-      ],
-      [
-        3.199,
-        2.058
-      ],
-      [
-        3.298,
-        1.108
-      ],
-      [
-        3.5,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d2000231000000037a",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -29068,6 +28946,116 @@
     ]
   },
   {
+    "motorId": "5f4294d20002310000000398",
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "designation": "168H54-10A",
+    "commonName": "H54",
+    "impulseClass": "H",
+    "diameter": 29,
+    "length": 187,
+    "type": "reload",
+    "certOrg": "Canadian Association of Rocketry",
+    "avgThrustN": 53.8,
+    "maxThrustN": 105,
+    "totImpulseNs": 167.7,
+    "burnTimeS": 3.12,
+    "dataFiles": 2,
+    "totalWeightG": 209,
+    "propWeightG": 96.6,
+    "delays": "3-10",
+    "caseInfo": "Pro29-3G",
+    "propInfo": "White",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.017,
+        103.1
+      ],
+      [
+        0.047,
+        83.27
+      ],
+      [
+        0.088,
+        91.82
+      ],
+      [
+        0.155,
+        97.84
+      ],
+      [
+        0.199,
+        89.29
+      ],
+      [
+        0.271,
+        80.26
+      ],
+      [
+        0.406,
+        76.62
+      ],
+      [
+        0.599,
+        73.77
+      ],
+      [
+        0.898,
+        69.02
+      ],
+      [
+        1.182,
+        66.02
+      ],
+      [
+        1.475,
+        60.48
+      ],
+      [
+        1.785,
+        53.83
+      ],
+      [
+        2.099,
+        44.8
+      ],
+      [
+        2.296,
+        38.95
+      ],
+      [
+        2.577,
+        27.55
+      ],
+      [
+        2.845,
+        16.15
+      ],
+      [
+        3.097,
+        6.491
+      ],
+      [
+        3.199,
+        2.058
+      ],
+      [
+        3.298,
+        1.108
+      ],
+      [
+        3.5,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d200023100000002c7",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -29085,7 +29073,7 @@
     "dataFiles": 2,
     "totalWeightG": 205,
     "propWeightG": 92.7,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3-12",
     "caseInfo": "Pro29-3G",
     "propInfo": "Imax",
     "sparky": false,
@@ -29356,7 +29344,7 @@
     "dataFiles": 2,
     "totalWeightG": 206,
     "propWeightG": 94.2,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/180",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -29488,12 +29476,11 @@
     "totImpulseNs": 172.9,
     "burnTimeS": 2.75,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/SR%20H78AB%20JUN%2010.pdf",
     "totalWeightG": 284,
     "propWeightG": 5,
     "caseInfo": "29X520MM",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -29693,7 +29680,7 @@
     "dataFiles": 2,
     "totalWeightG": 277.76,
     "propWeightG": 137.1,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/240",
     "propInfo": "Blackjack",
     "sparky": false,
@@ -29827,7 +29814,7 @@
     "dataFiles": 2,
     "totalWeightG": 309.12,
     "propWeightG": 142.7,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/240",
     "propInfo": "Blackjack",
     "sparky": false,
@@ -30259,66 +30246,6 @@
     ]
   },
   {
-    "motorId": "5f4294d2000231000000008d",
-    "manufacturer": "Contrail Rockets",
-    "manufacturerAbbrev": "Contrail",
-    "designation": "H211-PVC",
-    "commonName": "H211",
-    "impulseClass": "H",
-    "diameter": 38,
-    "length": 516,
-    "type": "hybrid",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 211,
-    "maxThrustN": 674,
-    "totImpulseNs": 206,
-    "burnTimeS": 0.97,
-    "dataFiles": 2,
-    "totalWeightG": 600,
-    "propWeightG": 125,
-    "caseInfo": "38 20 M PVC (185CC)",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.001119,
-        531
-      ],
-      [
-        0.01902,
-        634.5
-      ],
-      [
-        0.02237,
-        593.1
-      ],
-      [
-        0.03356,
-        544.8
-      ],
-      [
-        0.2964,
-        317.2
-      ],
-      [
-        0.3132,
-        186.2
-      ],
-      [
-        0.7438,
-        96.55
-      ],
-      [
-        0.97,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000087",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -30335,7 +30262,7 @@
     "dataFiles": 2,
     "totalWeightG": 309.12,
     "propWeightG": 122,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/240",
     "propInfo": "Redline",
     "sparky": false,
@@ -30452,6 +30379,66 @@
     ]
   },
   {
+    "motorId": "5f4294d2000231000000008d",
+    "manufacturer": "Contrail Rockets",
+    "manufacturerAbbrev": "Contrail",
+    "designation": "H211-PVC",
+    "commonName": "H211",
+    "impulseClass": "H",
+    "diameter": 38,
+    "length": 516,
+    "type": "hybrid",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 211,
+    "maxThrustN": 674,
+    "totImpulseNs": 206,
+    "burnTimeS": 0.97,
+    "dataFiles": 2,
+    "totalWeightG": 600,
+    "propWeightG": 125,
+    "caseInfo": "38 20 M PVC (185CC)",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.001119,
+        531
+      ],
+      [
+        0.01902,
+        634.5
+      ],
+      [
+        0.02237,
+        593.1
+      ],
+      [
+        0.03356,
+        544.8
+      ],
+      [
+        0.2964,
+        317.2
+      ],
+      [
+        0.3132,
+        186.2
+      ],
+      [
+        0.7438,
+        96.55
+      ],
+      [
+        0.97,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d200023100000002bc",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -30542,7 +30529,7 @@
     "dataFiles": 2,
     "totalWeightG": 238,
     "propWeightG": 109.1,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6-15",
     "caseInfo": "Pro29-4G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -30626,12 +30613,11 @@
     "totImpulseNs": 207.5,
     "burnTimeS": 3.6,
     "dataFiles": 1,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/RT%20H70%20dec%2008.pdf",
     "totalWeightG": 352,
     "propWeightG": 145.2,
     "caseInfo": "29 h 136cc",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -30761,7 +30747,7 @@
     "dataFiles": 2,
     "totalWeightG": 237,
     "propWeightG": 120,
-    "delays": "6-8-10-12-14",
+    "delays": "6,8,10,12,14",
     "caseInfo": "RMS-38/240",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -31135,7 +31121,7 @@
     "infoUrl": "http://nar.org/SandT/pdf/Aerotech/H220.pdf",
     "totalWeightG": 246.4,
     "propWeightG": 106.4,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/240",
     "propInfo": "Redline",
     "sparky": false,
@@ -31403,7 +31389,7 @@
     "dataFiles": 2,
     "totalWeightG": 251.2,
     "propWeightG": 119.8,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3-12",
     "caseInfo": "Pro29-4G",
     "propInfo": "White",
     "sparky": false,
@@ -31607,7 +31593,7 @@
     "dataFiles": 2,
     "totalWeightG": 252,
     "propWeightG": 123.9,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/240",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -32184,7 +32170,7 @@
     "dataFiles": 1,
     "totalWeightG": 275,
     "propWeightG": 128.7,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/240",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -32954,7 +32940,7 @@
     "dataFiles": 2,
     "totalWeightG": 256,
     "propWeightG": 116.3,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/240",
     "propInfo": "Mojave Green",
     "sparky": false,
@@ -33048,7 +33034,7 @@
     "dataFiles": 3,
     "totalWeightG": 264,
     "propWeightG": 114.7,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/240",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -33180,13 +33166,12 @@
     "totImpulseNs": 232.4,
     "burnTimeS": 1.9,
     "dataFiles": 3,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=232%20H123-14A",
     "totalWeightG": 297,
     "propWeightG": 123,
     "caseInfo": "Pro38-2G",
     "propInfo": "Skidmark",
     "sparky": true,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -33808,11 +33793,10 @@
     "totImpulseNs": 237,
     "burnTimeS": 3.16,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=240NS-H70",
     "totalWeightG": 626.6,
     "propWeightG": 318.3,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -34117,7 +34101,7 @@
     "dataFiles": 1,
     "totalWeightG": 316,
     "propWeightG": 133,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "Kosdon 29-250",
     "propInfo": "Redline",
     "sparky": false,
@@ -34279,7 +34263,7 @@
     "dataFiles": 1,
     "totalWeightG": 709,
     "propWeightG": 140,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "Kosdon 29-250",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -34420,6 +34404,58 @@
     ]
   },
   {
+    "motorId": "5f4294d20002310000000084",
+    "manufacturer": "Contrail Rockets",
+    "manufacturerAbbrev": "Contrail",
+    "designation": "H141-PVC",
+    "commonName": "H141",
+    "impulseClass": "H",
+    "diameter": 38,
+    "length": 508,
+    "type": "hybrid",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 141,
+    "maxThrustN": 297,
+    "totImpulseNs": 247,
+    "burnTimeS": 1.7,
+    "dataFiles": 2,
+    "totalWeightG": 612,
+    "propWeightG": 125,
+    "caseInfo": "38 20 S PVC (185CC)",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.002237,
+        265.5
+      ],
+      [
+        0.1119,
+        262.1
+      ],
+      [
+        1.201,
+        106.9
+      ],
+      [
+        1.26,
+        55.17
+      ],
+      [
+        1.356,
+        27.59
+      ],
+      [
+        1.7,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d20002310000000085",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -34435,13 +34471,12 @@
     "totImpulseNs": 247,
     "burnTimeS": 1.73,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=247+H143SS-13A",
     "totalWeightG": 347,
     "propWeightG": 165.4,
     "caseInfo": "Pro38-2G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -34497,58 +34532,6 @@
       ],
       [
         1.73,
-        0
-      ]
-    ]
-  },
-  {
-    "motorId": "5f4294d20002310000000084",
-    "manufacturer": "Contrail Rockets",
-    "manufacturerAbbrev": "Contrail",
-    "designation": "H141-PVC",
-    "commonName": "H141",
-    "impulseClass": "H",
-    "diameter": 38,
-    "length": 508,
-    "type": "hybrid",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 141,
-    "maxThrustN": 297,
-    "totImpulseNs": 247,
-    "burnTimeS": 1.7,
-    "dataFiles": 2,
-    "totalWeightG": 612,
-    "propWeightG": 125,
-    "caseInfo": "38 20 S PVC (185CC)",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.002237,
-        265.5
-      ],
-      [
-        0.1119,
-        262.1
-      ],
-      [
-        1.201,
-        106.9
-      ],
-      [
-        1.26,
-        55.17
-      ],
-      [
-        1.356,
-        27.59
-      ],
-      [
-        1.7,
         0
       ]
     ]
@@ -35088,7 +35071,7 @@
     "dataFiles": 2,
     "totalWeightG": 284,
     "propWeightG": 136.4,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro29-5G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -35409,7 +35392,7 @@
     "dataFiles": 2,
     "totalWeightG": 379.456,
     "propWeightG": 191.2,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/360",
     "propInfo": "Blackjack",
     "sparky": false,
@@ -35924,7 +35907,7 @@
     "dataFiles": 2,
     "totalWeightG": 325.3,
     "propWeightG": 152.6,
-    "delays": "5,6,7,8,9,11,12,13,14",
+    "delays": "5-9,11-14",
     "caseInfo": "Pro38-2G",
     "propInfo": "White",
     "sparky": false,
@@ -36609,13 +36592,12 @@
     "totImpulseNs": 285.6,
     "burnTimeS": 2.15,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=266%20H125-12A",
     "totalWeightG": 293,
     "propWeightG": 125,
     "caseInfo": "Pro38-2G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -36765,7 +36747,7 @@
     "dataFiles": 2,
     "totalWeightG": 327,
     "propWeightG": 154.4,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6-15",
     "caseInfo": "Pro38-2G",
     "propInfo": "Imax",
     "sparky": false,
@@ -36839,7 +36821,7 @@
     "dataFiles": 2,
     "totalWeightG": 391,
     "propWeightG": 206.7,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro29-6GXL",
     "propInfo": "Smoky Sam",
     "sparky": false,
@@ -36943,14 +36925,13 @@
     "totImpulseNs": 289,
     "burnTimeS": 6,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/H45wAT.shtml",
     "totalWeightG": 294.784,
     "propWeightG": 197.4,
     "delays": "10,15",
     "caseInfo": "SU 38x194",
     "propInfo": "White Lightning",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -37216,7 +37197,7 @@
     "dataFiles": 2,
     "totalWeightG": 342.8,
     "propWeightG": 176.6,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6-15",
     "caseInfo": "Pro29-6G",
     "propInfo": "Green3",
     "sparky": false,
@@ -37314,7 +37295,7 @@
     "dataFiles": 2,
     "totalWeightG": 322.56,
     "propWeightG": 187.9,
-    "delays": "S,M,L",
+    "delays": "0-14",
     "caseInfo": "SU 29x330",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -37498,7 +37479,7 @@
     "dataFiles": 2,
     "totalWeightG": 360,
     "propWeightG": 175,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro29-6GXL",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -37588,7 +37569,7 @@
     "dataFiles": 2,
     "totalWeightG": 327.6,
     "propWeightG": 163.7,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro29-6G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -38594,139 +38575,6 @@
     ]
   },
   {
-    "motorId": "5f4294d20002310000000093",
-    "manufacturer": "AeroTech",
-    "manufacturerAbbrev": "AeroTech",
-    "designation": "H268R",
-    "commonName": "H268",
-    "impulseClass": "H",
-    "diameter": 29,
-    "length": 333,
-    "type": "reload",
-    "certOrg": "National Association of Rocketry",
-    "avgThrustN": 268,
-    "totImpulseNs": 320,
-    "burnTimeS": 1.19402985074627,
-    "dataFiles": 2,
-    "totalWeightG": 358.4,
-    "propWeightG": 166,
-    "delays": "M",
-    "caseInfo": "RMS-29/360",
-    "propInfo": "Redline",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.022,
-        268.1
-      ],
-      [
-        0.069,
-        332.4
-      ],
-      [
-        0.116,
-        312.4
-      ],
-      [
-        0.164,
-        306.8
-      ],
-      [
-        0.211,
-        305.8
-      ],
-      [
-        0.259,
-        306.6
-      ],
-      [
-        0.306,
-        312.5
-      ],
-      [
-        0.354,
-        319.7
-      ],
-      [
-        0.401,
-        321.2
-      ],
-      [
-        0.448,
-        321
-      ],
-      [
-        0.495,
-        321.2
-      ],
-      [
-        0.542,
-        321.8
-      ],
-      [
-        0.59,
-        323.3
-      ],
-      [
-        0.638,
-        322.8
-      ],
-      [
-        0.685,
-        307
-      ],
-      [
-        0.732,
-        291.6
-      ],
-      [
-        0.779,
-        277.7
-      ],
-      [
-        0.826,
-        267.1
-      ],
-      [
-        0.874,
-        257.5
-      ],
-      [
-        0.921,
-        252.8
-      ],
-      [
-        0.969,
-        222.6
-      ],
-      [
-        1.016,
-        159.7
-      ],
-      [
-        1.064,
-        108.7
-      ],
-      [
-        1.111,
-        52.09
-      ],
-      [
-        1.159,
-        15.57
-      ],
-      [
-        1.207,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000456",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -38913,6 +38761,139 @@
     ]
   },
   {
+    "motorId": "5f4294d20002310000000093",
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "designation": "H268R",
+    "commonName": "H268",
+    "impulseClass": "H",
+    "diameter": 29,
+    "length": 333,
+    "type": "reload",
+    "certOrg": "National Association of Rocketry",
+    "avgThrustN": 268,
+    "totImpulseNs": 320,
+    "burnTimeS": 1.19402985074627,
+    "dataFiles": 2,
+    "totalWeightG": 358.4,
+    "propWeightG": 166,
+    "delays": "0-10",
+    "caseInfo": "RMS-29/360",
+    "propInfo": "Redline",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.022,
+        268.1
+      ],
+      [
+        0.069,
+        332.4
+      ],
+      [
+        0.116,
+        312.4
+      ],
+      [
+        0.164,
+        306.8
+      ],
+      [
+        0.211,
+        305.8
+      ],
+      [
+        0.259,
+        306.6
+      ],
+      [
+        0.306,
+        312.5
+      ],
+      [
+        0.354,
+        319.7
+      ],
+      [
+        0.401,
+        321.2
+      ],
+      [
+        0.448,
+        321
+      ],
+      [
+        0.495,
+        321.2
+      ],
+      [
+        0.542,
+        321.8
+      ],
+      [
+        0.59,
+        323.3
+      ],
+      [
+        0.638,
+        322.8
+      ],
+      [
+        0.685,
+        307
+      ],
+      [
+        0.732,
+        291.6
+      ],
+      [
+        0.779,
+        277.7
+      ],
+      [
+        0.826,
+        267.1
+      ],
+      [
+        0.874,
+        257.5
+      ],
+      [
+        0.921,
+        252.8
+      ],
+      [
+        0.969,
+        222.6
+      ],
+      [
+        1.016,
+        159.7
+      ],
+      [
+        1.064,
+        108.7
+      ],
+      [
+        1.111,
+        52.09
+      ],
+      [
+        1.159,
+        15.57
+      ],
+      [
+        1.207,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d20002310000000407",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -39026,7 +39007,7 @@
     "dataFiles": 2,
     "totalWeightG": 357.504,
     "propWeightG": 187.3,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-29/360",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -39505,7 +39486,7 @@
     "dataFiles": 2,
     "totalWeightG": 371.84,
     "propWeightG": 172.7,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/360",
     "propInfo": "Redline",
     "sparky": false,
@@ -40418,7 +40399,7 @@
     "dataFiles": 2,
     "totalWeightG": 365,
     "propWeightG": 181.3,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/360",
     "propInfo": "Mojave Green",
     "sparky": false,
@@ -40714,142 +40695,6 @@
     ]
   },
   {
-    "motorId": "5f4294d200023100000001d2",
-    "manufacturer": "Animal Motor Works",
-    "manufacturerAbbrev": "AMW",
-    "designation": "SK-38-390",
-    "commonName": "I220",
-    "impulseClass": "I",
-    "diameter": 38,
-    "length": 249,
-    "type": "reload",
-    "certOrg": "National Association of Rocketry",
-    "avgThrustN": 223,
-    "maxThrustN": 312,
-    "totImpulseNs": 358,
-    "burnTimeS": 1.61,
-    "dataFiles": 2,
-    "propWeightG": 201.9,
-    "caseInfo": "AMW 38-390",
-    "propInfo": "Skidmark",
-    "sparky": true,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.005,
-        12.75
-      ],
-      [
-        0.019,
-        45.25
-      ],
-      [
-        0.036,
-        79.67
-      ],
-      [
-        0.052,
-        125.6
-      ],
-      [
-        0.069,
-        162.5
-      ],
-      [
-        0.076,
-        169.5
-      ],
-      [
-        0.095,
-        174.6
-      ],
-      [
-        0.167,
-        176.5
-      ],
-      [
-        0.229,
-        191.2
-      ],
-      [
-        0.447,
-        235.2
-      ],
-      [
-        0.602,
-        260.7
-      ],
-      [
-        0.733,
-        288.1
-      ],
-      [
-        0.85,
-        302.1
-      ],
-      [
-        0.974,
-        301.5
-      ],
-      [
-        1.094,
-        290
-      ],
-      [
-        1.184,
-        269
-      ],
-      [
-        1.268,
-        240.3
-      ],
-      [
-        1.302,
-        219.9
-      ],
-      [
-        1.388,
-        177.2
-      ],
-      [
-        1.418,
-        147.2
-      ],
-      [
-        1.435,
-        127.5
-      ],
-      [
-        1.473,
-        91.14
-      ],
-      [
-        1.504,
-        65.65
-      ],
-      [
-        1.543,
-        40.79
-      ],
-      [
-        1.593,
-        19.12
-      ],
-      [
-        1.622,
-        10.2
-      ],
-      [
-        1.65,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d200023100000001d1",
     "manufacturer": "Animal Motor Works",
     "manufacturerAbbrev": "AMW",
@@ -40997,6 +40842,142 @@
       ],
       [
         1.89,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d200023100000001d2",
+    "manufacturer": "Animal Motor Works",
+    "manufacturerAbbrev": "AMW",
+    "designation": "SK-38-390",
+    "commonName": "I220",
+    "impulseClass": "I",
+    "diameter": 38,
+    "length": 249,
+    "type": "reload",
+    "certOrg": "National Association of Rocketry",
+    "avgThrustN": 223,
+    "maxThrustN": 312,
+    "totImpulseNs": 358,
+    "burnTimeS": 1.61,
+    "dataFiles": 2,
+    "propWeightG": 201.9,
+    "caseInfo": "AMW 38-390",
+    "propInfo": "Skidmark",
+    "sparky": true,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.005,
+        12.75
+      ],
+      [
+        0.019,
+        45.25
+      ],
+      [
+        0.036,
+        79.67
+      ],
+      [
+        0.052,
+        125.6
+      ],
+      [
+        0.069,
+        162.5
+      ],
+      [
+        0.076,
+        169.5
+      ],
+      [
+        0.095,
+        174.6
+      ],
+      [
+        0.167,
+        176.5
+      ],
+      [
+        0.229,
+        191.2
+      ],
+      [
+        0.447,
+        235.2
+      ],
+      [
+        0.602,
+        260.7
+      ],
+      [
+        0.733,
+        288.1
+      ],
+      [
+        0.85,
+        302.1
+      ],
+      [
+        0.974,
+        301.5
+      ],
+      [
+        1.094,
+        290
+      ],
+      [
+        1.184,
+        269
+      ],
+      [
+        1.268,
+        240.3
+      ],
+      [
+        1.302,
+        219.9
+      ],
+      [
+        1.388,
+        177.2
+      ],
+      [
+        1.418,
+        147.2
+      ],
+      [
+        1.435,
+        127.5
+      ],
+      [
+        1.473,
+        91.14
+      ],
+      [
+        1.504,
+        65.65
+      ],
+      [
+        1.543,
+        40.79
+      ],
+      [
+        1.593,
+        19.12
+      ],
+      [
+        1.622,
+        10.2
+      ],
+      [
+        1.65,
         0
       ]
     ]
@@ -41150,7 +41131,7 @@
     "dataFiles": 2,
     "totalWeightG": 566,
     "propWeightG": 243,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-54/426",
     "propInfo": "Black Max",
     "sparky": false,
@@ -41302,13 +41283,12 @@
     "totImpulseNs": 364,
     "burnTimeS": 1.71,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=364+I212SS-14A",
     "totalWeightG": 475,
     "propWeightG": 248.1,
     "caseInfo": "Pro38-3G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -41390,7 +41370,7 @@
     "dataFiles": 2,
     "totalWeightG": 486,
     "propWeightG": 264,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/480",
     "propInfo": "Black Max",
     "sparky": false,
@@ -41589,13 +41569,12 @@
     "totImpulseNs": 369.2,
     "burnTimeS": 2.02,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=396%20I195-16A",
     "totalWeightG": 417,
     "propWeightG": 204.9,
     "caseInfo": "Pro38-3G",
     "propInfo": "Red Lightning",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -41958,7 +41937,7 @@
     "dataFiles": 2,
     "totalWeightG": 491.904,
     "propWeightG": 252.8,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/480",
     "propInfo": "Blackjack",
     "sparky": false,
@@ -42170,13 +42149,12 @@
     "totImpulseNs": 381.5,
     "burnTimeS": 1.7,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=381-I224-15A",
     "totalWeightG": 370,
     "propWeightG": 182.5,
     "caseInfo": "Pro29-6GXL",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -42258,7 +42236,7 @@
     "dataFiles": 2,
     "totalWeightG": 398.6,
     "propWeightG": 212.1,
-    "delays": "3,4,5,6,7,8,9,10,11,12,13",
+    "delays": "3-13",
     "caseInfo": "Pro29-6GXL",
     "propInfo": "White",
     "sparky": false,
@@ -42371,6 +42349,89 @@
     ]
   },
   {
+    "motorId": "5f4294d200023100000000c4",
+    "manufacturer": "Kosdon by AeroTech",
+    "manufacturerAbbrev": "KBA",
+    "designation": "I280F",
+    "commonName": "I280",
+    "impulseClass": "I",
+    "diameter": 38,
+    "length": 314,
+    "type": "reload",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 280,
+    "maxThrustN": 334,
+    "totImpulseNs": 382,
+    "burnTimeS": 1,
+    "dataFiles": 2,
+    "propWeightG": 182,
+    "caseInfo": "38-390",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.009,
+        253.2
+      ],
+      [
+        0.055,
+        255.4
+      ],
+      [
+        0.219,
+        277.5
+      ],
+      [
+        0.482,
+        301.7
+      ],
+      [
+        0.67,
+        323.7
+      ],
+      [
+        0.735,
+        330.3
+      ],
+      [
+        0.797,
+        323.7
+      ],
+      [
+        1.001,
+        297.3
+      ],
+      [
+        1.162,
+        266.5
+      ],
+      [
+        1.205,
+        259.8
+      ],
+      [
+        1.236,
+        237.8
+      ],
+      [
+        1.363,
+        50.65
+      ],
+      [
+        1.428,
+        26.43
+      ],
+      [
+        1.5,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d200023100000000b2",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -42386,13 +42447,12 @@
     "totImpulseNs": 382,
     "burnTimeS": 2.26,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=382%20I170-14A",
     "totalWeightG": 392,
     "propWeightG": 187.5,
     "caseInfo": "Pro38-3G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -42500,89 +42560,6 @@
       ],
       [
         2.33,
-        0
-      ]
-    ]
-  },
-  {
-    "motorId": "5f4294d200023100000000c4",
-    "manufacturer": "Kosdon by AeroTech",
-    "manufacturerAbbrev": "KBA",
-    "designation": "I280F",
-    "commonName": "I280",
-    "impulseClass": "I",
-    "diameter": 38,
-    "length": 314,
-    "type": "reload",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 280,
-    "maxThrustN": 334,
-    "totImpulseNs": 382,
-    "burnTimeS": 1,
-    "dataFiles": 2,
-    "propWeightG": 182,
-    "caseInfo": "38-390",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.009,
-        253.2
-      ],
-      [
-        0.055,
-        255.4
-      ],
-      [
-        0.219,
-        277.5
-      ],
-      [
-        0.482,
-        301.7
-      ],
-      [
-        0.67,
-        323.7
-      ],
-      [
-        0.735,
-        330.3
-      ],
-      [
-        0.797,
-        323.7
-      ],
-      [
-        1.001,
-        297.3
-      ],
-      [
-        1.162,
-        266.5
-      ],
-      [
-        1.205,
-        259.8
-      ],
-      [
-        1.236,
-        237.8
-      ],
-      [
-        1.363,
-        50.65
-      ],
-      [
-        1.428,
-        26.43
-      ],
-      [
-        1.5,
         0
       ]
     ]
@@ -43076,7 +43053,7 @@
     "dataFiles": 1,
     "totalWeightG": 527,
     "propWeightG": 208,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-54/426",
     "propInfo": "Redline",
     "sparky": false,
@@ -43587,7 +43564,7 @@
     "dataFiles": 1,
     "totalWeightG": 514,
     "propWeightG": 196,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-54/426",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -43894,7 +43871,7 @@
     "dataFiles": 2,
     "totalWeightG": 437.5,
     "propWeightG": 228.9,
-    "delays": "6,7,8,9,10,11,12,13,14",
+    "delays": "6-14",
     "caseInfo": "Pro38-3G",
     "propInfo": "White",
     "sparky": false,
@@ -44039,7 +44016,7 @@
     "dataFiles": 1,
     "totalWeightG": 545,
     "propWeightG": 219,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-54/426",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -44476,7 +44453,7 @@
     "dataFiles": 2,
     "totalWeightG": 492.8,
     "propWeightG": 230.2,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/480",
     "propInfo": "Redline",
     "sparky": false,
@@ -44716,7 +44693,7 @@
     "dataFiles": 3,
     "totalWeightG": 572,
     "propWeightG": 301,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/600",
     "propInfo": "Blackjack",
     "sparky": false,
@@ -44851,7 +44828,7 @@
     "infoUrl": "http://nar.org/SandT/pdf/Aerotech/I300.pdf",
     "totalWeightG": 441,
     "propWeightG": 221.6,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/480",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -45469,7 +45446,7 @@
     "dataFiles": 2,
     "totalWeightG": 581,
     "propWeightG": 330,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/600",
     "propInfo": "Black Max",
     "sparky": false,
@@ -45573,11 +45550,10 @@
     "totImpulseNs": 460,
     "burnTimeS": 5.75,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=460NS-I80",
     "totalWeightG": 842.4,
     "propWeightG": 332.4,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -46133,12 +46109,11 @@
     "totImpulseNs": 484,
     "burnTimeS": 3.13,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=484NS-I160",
     "totalWeightG": 856.4,
     "propWeightG": 307.7,
     "delays": "20,P",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -46340,13 +46315,12 @@
     "totImpulseNs": 486,
     "burnTimeS": 1.7,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=486+I287SS-15A",
     "totalWeightG": 605,
     "propWeightG": 330.8,
     "caseInfo": "Pro38-4G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -46982,11 +46956,10 @@
     "totImpulseNs": 499.7,
     "burnTimeS": 4.64,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=499+I110-P",
     "totalWeightG": 824,
     "propWeightG": 327,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -47305,13 +47278,12 @@
     "totImpulseNs": 512.2,
     "burnTimeS": 3.19,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/motor_files/2011_November%2015_CERT_LTR_Dec04.pdf",
     "totalWeightG": 594,
     "propWeightG": 230.1,
     "caseInfo": "Pro54-1G",
     "propInfo": "C-Star",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -48142,6 +48114,140 @@
     ]
   },
   {
+    "motorId": "5f4294d200023100000000d5",
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "designation": "I366R",
+    "commonName": "I366",
+    "impulseClass": "I",
+    "diameter": 38,
+    "length": 299,
+    "type": "reload",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 366,
+    "maxThrustN": 507,
+    "totImpulseNs": 539,
+    "burnTimeS": 1,
+    "dataFiles": 2,
+    "totalWeightG": 555.52,
+    "propWeightG": 300,
+    "delays": "0-10",
+    "caseInfo": "RMS-38/600",
+    "propInfo": "Redline",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.027,
+        323.3
+      ],
+      [
+        0.088,
+        485.4
+      ],
+      [
+        0.148,
+        483.7
+      ],
+      [
+        0.208,
+        479.9
+      ],
+      [
+        0.268,
+        473.4
+      ],
+      [
+        0.327,
+        466.2
+      ],
+      [
+        0.388,
+        457.4
+      ],
+      [
+        0.448,
+        448.8
+      ],
+      [
+        0.509,
+        441.5
+      ],
+      [
+        0.57,
+        430.2
+      ],
+      [
+        0.63,
+        421.5
+      ],
+      [
+        0.69,
+        411.8
+      ],
+      [
+        0.75,
+        398.9
+      ],
+      [
+        0.81,
+        387.5
+      ],
+      [
+        0.87,
+        375.4
+      ],
+      [
+        0.93,
+        361.3
+      ],
+      [
+        0.991,
+        345.1
+      ],
+      [
+        1.053,
+        330.4
+      ],
+      [
+        1.112,
+        312.6
+      ],
+      [
+        1.173,
+        293.5
+      ],
+      [
+        1.233,
+        275.1
+      ],
+      [
+        1.292,
+        262.4
+      ],
+      [
+        1.353,
+        230.9
+      ],
+      [
+        1.413,
+        118
+      ],
+      [
+        1.474,
+        23.61
+      ],
+      [
+        1.535,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d200023100000003c6",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -48259,140 +48365,6 @@
       ],
       [
         1.723,
-        0
-      ]
-    ]
-  },
-  {
-    "motorId": "5f4294d200023100000000d5",
-    "manufacturer": "AeroTech",
-    "manufacturerAbbrev": "AeroTech",
-    "designation": "I366R",
-    "commonName": "I366",
-    "impulseClass": "I",
-    "diameter": 38,
-    "length": 299,
-    "type": "reload",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 366,
-    "maxThrustN": 507,
-    "totImpulseNs": 539,
-    "burnTimeS": 1,
-    "dataFiles": 2,
-    "totalWeightG": 555.52,
-    "propWeightG": 300,
-    "delays": "M",
-    "caseInfo": "RMS-38/600",
-    "propInfo": "Redline",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.027,
-        323.3
-      ],
-      [
-        0.088,
-        485.4
-      ],
-      [
-        0.148,
-        483.7
-      ],
-      [
-        0.208,
-        479.9
-      ],
-      [
-        0.268,
-        473.4
-      ],
-      [
-        0.327,
-        466.2
-      ],
-      [
-        0.388,
-        457.4
-      ],
-      [
-        0.448,
-        448.8
-      ],
-      [
-        0.509,
-        441.5
-      ],
-      [
-        0.57,
-        430.2
-      ],
-      [
-        0.63,
-        421.5
-      ],
-      [
-        0.69,
-        411.8
-      ],
-      [
-        0.75,
-        398.9
-      ],
-      [
-        0.81,
-        387.5
-      ],
-      [
-        0.87,
-        375.4
-      ],
-      [
-        0.93,
-        361.3
-      ],
-      [
-        0.991,
-        345.1
-      ],
-      [
-        1.053,
-        330.4
-      ],
-      [
-        1.112,
-        312.6
-      ],
-      [
-        1.173,
-        293.5
-      ],
-      [
-        1.233,
-        275.1
-      ],
-      [
-        1.292,
-        262.4
-      ],
-      [
-        1.353,
-        230.9
-      ],
-      [
-        1.413,
-        118
-      ],
-      [
-        1.474,
-        23.61
-      ],
-      [
-        1.535,
         0
       ]
     ]
@@ -49097,7 +49069,7 @@
     "dataFiles": 2,
     "totalWeightG": 549.9,
     "propWeightG": 305.2,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6-15",
     "caseInfo": "Pro38-4G",
     "propInfo": "White",
     "sparky": false,
@@ -49871,7 +49843,7 @@
     "dataFiles": 3,
     "totalWeightG": 518,
     "propWeightG": 269.9,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/600",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -50005,7 +49977,7 @@
     "dataFiles": 2,
     "totalWeightG": 678,
     "propWeightG": 396,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/720",
     "propInfo": "Black Max",
     "sparky": false,
@@ -51019,7 +50991,7 @@
     "dataFiles": 2,
     "totalWeightG": 602,
     "propWeightG": 324,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/720",
     "propInfo": "Redline",
     "sparky": false,
@@ -51178,13 +51150,12 @@
     "totImpulseNs": 601,
     "burnTimeS": 1.71,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=601+I350SS-16A",
     "totalWeightG": 782,
     "propWeightG": 413.5,
     "caseInfo": "Pro38-5G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -51287,7 +51258,7 @@
     "dataFiles": 3,
     "totalWeightG": 555.52,
     "propWeightG": 315.9,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/600",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -51421,7 +51392,7 @@
     "dataFiles": 2,
     "totalWeightG": 512.064,
     "propWeightG": 376.4,
-    "delays": "M,L",
+    "delays": "0-14",
     "caseInfo": "SU 38x335",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -51614,7 +51585,7 @@
     "dataFiles": 2,
     "totalWeightG": 807,
     "propWeightG": 350.1,
-    "delays": "7,8,9,10,11,12,13,14,15,16,17",
+    "delays": "7-17",
     "caseInfo": "Pro54-2G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -52216,7 +52187,7 @@
     "burnTimeS": 2.1,
     "dataFiles": 2,
     "propWeightG": 316.3,
-    "delays": "S,L,P",
+    "delays": "0-14,P",
     "caseInfo": "AMW 38-640",
     "sparky": false,
     "updatedOn": "2019-04-17",
@@ -52477,7 +52448,7 @@
     "totImpulseNs": 634.58,
     "burnTimeS": 1.18,
     "dataFiles": 2,
-    "delays": "16, 13, 11, 9, 7",
+    "delays": "7,9,11,13,16",
     "caseInfo": "Pro38-5G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -52716,7 +52687,7 @@
     "dataFiles": 2,
     "totalWeightG": 601,
     "propWeightG": 312.5,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro38-5G",
     "propInfo": "Classic",
     "sparky": false,
@@ -53203,13 +53174,12 @@
     "totImpulseNs": 648,
     "burnTimeS": 2.26,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=648+J285-15A",
     "totalWeightG": 595,
     "propWeightG": 312.5,
     "caseInfo": "Pro38-5G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -53610,7 +53580,7 @@
     "dataFiles": 2,
     "totalWeightG": 654.8,
     "propWeightG": 376,
-    "delays": "5,6,7,8,9,10,11,12,13",
+    "delays": "5-13",
     "caseInfo": "Pro38-5G",
     "propInfo": "Green3",
     "sparky": false,
@@ -54227,7 +54197,7 @@
     "dataFiles": 2,
     "totalWeightG": 649.6,
     "propWeightG": 345,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/720",
     "propInfo": "Redline",
     "sparky": false,
@@ -54555,11 +54525,10 @@
     "totImpulseNs": 664,
     "burnTimeS": 4.92,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=664NS-J140",
     "totalWeightG": 1165.8,
     "propWeightG": 538.5,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -54749,7 +54718,7 @@
     "dataFiles": 2,
     "totalWeightG": 757.4,
     "propWeightG": 381,
-    "delays": "5-9-13",
+    "delays": "5,9,13",
     "caseInfo": "RMS-38/1080",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -55594,7 +55563,7 @@
     "dataFiles": 2,
     "totalWeightG": 659.8,
     "propWeightG": 381.5,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6-15",
     "caseInfo": "Pro38-5G",
     "propInfo": "White",
     "sparky": false,
@@ -55859,7 +55828,7 @@
     "burnTimeS": 1.78,
     "dataFiles": 2,
     "propWeightG": 381.1,
-    "delays": "S,M,L",
+    "delays": "0-14",
     "caseInfo": "RMS-38/720",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -56140,95 +56109,6 @@
     ]
   },
   {
-    "motorId": "5f4294d20002310000000118",
-    "manufacturer": "Cesaroni Technology",
-    "manufacturerAbbrev": "Cesaroni",
-    "designation": "700J400-16A",
-    "commonName": "J400",
-    "impulseClass": "J",
-    "diameter": 38,
-    "length": 419,
-    "type": "reload",
-    "certOrg": "Canadian Association of Rocketry",
-    "avgThrustN": 402.1,
-    "maxThrustN": 482.15,
-    "totImpulseNs": 700,
-    "burnTimeS": 1.75,
-    "dataFiles": 2,
-    "totalWeightG": 702,
-    "propWeightG": 392,
-    "caseInfo": "Pro38-6G",
-    "propInfo": "Smoky Sam",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.05,
-        451.8
-      ],
-      [
-        0.2,
-        461.1
-      ],
-      [
-        0.31,
-        465.8
-      ],
-      [
-        0.44,
-        463.5
-      ],
-      [
-        0.6,
-        477.5
-      ],
-      [
-        0.8,
-        482.2
-      ],
-      [
-        1,
-        461.3
-      ],
-      [
-        1.2,
-        433.1
-      ],
-      [
-        1.35,
-        402.8
-      ],
-      [
-        1.4,
-        382.9
-      ],
-      [
-        1.47,
-        321
-      ],
-      [
-        1.55,
-        258
-      ],
-      [
-        1.6,
-        178.6
-      ],
-      [
-        1.73,
-        14.58
-      ],
-      [
-        1.75,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d2000231000000010d",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -56334,6 +56214,95 @@
       ],
       [
         1.695,
+        0
+      ]
+    ]
+  },
+  {
+    "motorId": "5f4294d20002310000000118",
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "designation": "700J400-16A",
+    "commonName": "J400",
+    "impulseClass": "J",
+    "diameter": 38,
+    "length": 419,
+    "type": "reload",
+    "certOrg": "Canadian Association of Rocketry",
+    "avgThrustN": 402.1,
+    "maxThrustN": 482.15,
+    "totImpulseNs": 700,
+    "burnTimeS": 1.75,
+    "dataFiles": 2,
+    "totalWeightG": 702,
+    "propWeightG": 392,
+    "caseInfo": "Pro38-6G",
+    "propInfo": "Smoky Sam",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.05,
+        451.8
+      ],
+      [
+        0.2,
+        461.1
+      ],
+      [
+        0.31,
+        465.8
+      ],
+      [
+        0.44,
+        463.5
+      ],
+      [
+        0.6,
+        477.5
+      ],
+      [
+        0.8,
+        482.2
+      ],
+      [
+        1,
+        461.3
+      ],
+      [
+        1.2,
+        433.1
+      ],
+      [
+        1.35,
+        402.8
+      ],
+      [
+        1.4,
+        382.9
+      ],
+      [
+        1.47,
+        321
+      ],
+      [
+        1.55,
+        258
+      ],
+      [
+        1.6,
+        178.6
+      ],
+      [
+        1.73,
+        14.58
+      ],
+      [
+        1.75,
         0
       ]
     ]
@@ -56647,7 +56616,7 @@
     "dataFiles": 2,
     "totalWeightG": 852.544,
     "propWeightG": 426,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/852",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -57297,7 +57266,7 @@
     "dataFiles": 2,
     "totalWeightG": 654,
     "propWeightG": 362.6,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/720",
     "propInfo": "Mojave Green",
     "sparky": false,
@@ -57520,7 +57489,7 @@
     "dataFiles": 2,
     "totalWeightG": 907,
     "propWeightG": 487,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/852",
     "propInfo": "Black Max",
     "sparky": false,
@@ -59056,7 +59025,7 @@
     "dataFiles": 2,
     "totalWeightG": 851.2,
     "propWeightG": 438,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/852",
     "propInfo": "Redline",
     "sparky": false,
@@ -59190,7 +59159,7 @@
     "dataFiles": 2,
     "totalWeightG": 809.088,
     "propWeightG": 437.1,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/852",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -59322,13 +59291,12 @@
     "totImpulseNs": 765,
     "burnTimeS": 2.26,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=765+J330-16A",
     "totalWeightG": 702,
     "propWeightG": 375,
     "caseInfo": "Pro38-6G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -59523,7 +59491,7 @@
     "dataFiles": 2,
     "totalWeightG": 864.192,
     "propWeightG": 472,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/852",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -59657,7 +59625,7 @@
     "dataFiles": 2,
     "totalWeightG": 624,
     "propWeightG": 352,
-    "delays": "6-10-14",
+    "delays": "6,10,14",
     "caseInfo": "DMS",
     "propInfo": "Super White Lightning",
     "sparky": false,
@@ -60366,7 +60334,7 @@
     "dataFiles": 2,
     "totalWeightG": 914,
     "propWeightG": 576,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/1080",
     "propInfo": "Black Max",
     "sparky": false,
@@ -60606,7 +60574,7 @@
     "dataFiles": 2,
     "totalWeightG": 789,
     "propWeightG": 415.4,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/852",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -60958,7 +60926,7 @@
     "dataFiles": 2,
     "totalWeightG": 778.2,
     "propWeightG": 457.8,
-    "delays": "7,8,9,10,11,12,13,14,15,16",
+    "delays": "7-16",
     "caseInfo": "Pro38-6G",
     "propInfo": "White",
     "sparky": false,
@@ -61100,7 +61068,7 @@
     "dataFiles": 2,
     "totalWeightG": 799.8,
     "propWeightG": 384,
-    "delays": "8,9,10,11,12,13,14,15,16,17,18",
+    "delays": "8-18",
     "caseInfo": "Pro54-2G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -61622,13 +61590,12 @@
     "totImpulseNs": 836,
     "burnTimeS": 3.99,
     "dataFiles": 3,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=836+J210-16A",
     "totalWeightG": 842,
     "propWeightG": 396,
     "caseInfo": "Pro54-2G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2021-01-06",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -62259,7 +62226,7 @@
     "dataFiles": 2,
     "totalWeightG": 911,
     "propWeightG": 472.1,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5-14",
     "caseInfo": "Pro54-2G",
     "propInfo": "White",
     "sparky": false,
@@ -62853,13 +62820,12 @@
     "totImpulseNs": 932.4,
     "burnTimeS": 0.68,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=932%20J1365-P",
     "totalWeightG": 1119,
     "propWeightG": 444,
     "caseInfo": "AMW 54-1050",
     "propInfo": "Scalded Tiger",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -63434,7 +63400,7 @@
     "dataFiles": 2,
     "totalWeightG": 938.9,
     "propWeightG": 572.1,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4-13",
     "caseInfo": "Pro38-6GXL",
     "propInfo": "Green3",
     "sparky": false,
@@ -63608,7 +63574,7 @@
     "dataFiles": 2,
     "totalWeightG": 902,
     "propWeightG": 535.8,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/1080",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -63742,7 +63708,7 @@
     "dataFiles": 2,
     "totalWeightG": 875,
     "propWeightG": 500,
-    "delays": "M",
+    "delays": "0-10",
     "caseInfo": "RMS-38/1080",
     "propInfo": "Redline",
     "sparky": false,
@@ -63894,13 +63860,12 @@
     "totImpulseNs": 976.9,
     "burnTimeS": 2.42,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=977%20J400-P",
     "totalWeightG": 1382,
     "propWeightG": 723,
     "caseInfo": "AMW 54-1050",
     "propInfo": "Black Bear",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -65021,13 +64986,12 @@
     "totImpulseNs": 1024.9,
     "burnTimeS": 2.15,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1025%20J475-P",
     "totalWeightG": 1410,
     "propWeightG": 723,
     "caseInfo": "AMW 54-1050",
     "propInfo": "Black Bear",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -65553,7 +65517,7 @@
     "burnTimeS": 1.03,
     "dataFiles": 0,
     "propWeightG": 552.7,
-    "delays": "23/P",
+    "delays": "23,P",
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17"
@@ -65574,13 +65538,12 @@
     "totImpulseNs": 1043,
     "burnTimeS": 2.73,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1043%20J380SS-16A",
     "totalWeightG": 1293.3,
     "propWeightG": 769,
     "caseInfo": "Pro54-3G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -66096,7 +66059,7 @@
     "dataFiles": 2,
     "totalWeightG": 1141.06,
     "propWeightG": 633,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1280",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -66479,13 +66442,12 @@
     "totImpulseNs": 1079.3,
     "burnTimeS": 2.74,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1079%20J395-P",
     "totalWeightG": 1268,
     "propWeightG": 573,
     "caseInfo": "AMW 54-1050",
     "propInfo": "Red Rhino",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -66901,13 +66863,12 @@
     "totImpulseNs": 1099,
     "burnTimeS": 3.37,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1099%20J325-P",
     "totalWeightG": 1230,
     "propWeightG": 537,
     "caseInfo": "AMW 54-1050",
     "propInfo": "Tamed Tiger",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -67702,7 +67663,7 @@
     "dataFiles": 2,
     "totalWeightG": 912,
     "propWeightG": 511,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1280",
     "propInfo": "Black Max",
     "sparky": false,
@@ -68355,7 +68316,7 @@
     "dataFiles": 2,
     "totalWeightG": 1084.16,
     "propWeightG": 679,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1280",
     "propInfo": "Redline",
     "sparky": false,
@@ -68489,7 +68450,7 @@
     "dataFiles": 2,
     "totalWeightG": 1080,
     "propWeightG": 662,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-38/1320",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -68790,13 +68751,12 @@
     "totImpulseNs": 1176.2,
     "burnTimeS": 0.68,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1176%20K1720-P",
     "totalWeightG": 1351,
     "propWeightG": 592,
     "caseInfo": "AMW 54-1400",
     "propInfo": "Scalded Tiger",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -69205,13 +69165,12 @@
     "totImpulseNs": 1196.3,
     "burnTimeS": 4,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1195+J295-15A",
     "totalWeightG": 1119,
     "propWeightG": 594,
     "caseInfo": "Pro54-3G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -69283,13 +69242,12 @@
     "totImpulseNs": 1196.4,
     "burnTimeS": 1.61,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1196%20J745-P",
     "totalWeightG": 1220,
     "propWeightG": 549,
     "caseInfo": "AMW 54-1050",
     "propInfo": "Wild Wolf",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -70168,7 +70126,7 @@
     "dataFiles": 2,
     "totalWeightG": 1085.95,
     "propWeightG": 618,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1280",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -70302,7 +70260,7 @@
     "dataFiles": 2,
     "totalWeightG": 1168,
     "propWeightG": 693.3,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1280",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -70558,127 +70516,6 @@
     "updatedOn": "2019-04-17"
   },
   {
-    "motorId": "5f4294d20002310000000220",
-    "manufacturer": "Sky Ripper Systems",
-    "manufacturerAbbrev": "SkyR",
-    "designation": "J263G",
-    "commonName": "J263",
-    "impulseClass": "J",
-    "diameter": 54,
-    "length": 749,
-    "type": "hybrid",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 323,
-    "maxThrustN": 2354,
-    "totImpulseNs": 1248,
-    "burnTimeS": 3.5,
-    "dataFiles": 1,
-    "totalWeightG": 1338,
-    "propWeightG": 89,
-    "caseInfo": "54/550",
-    "propInfo": "ABS/G, 830cc nitrous",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.01,
-        1359
-      ],
-      [
-        0.09,
-        794.3
-      ],
-      [
-        0.15,
-        559.9
-      ],
-      [
-        0.21,
-        419.3
-      ],
-      [
-        0.4,
-        296.9
-      ],
-      [
-        0.61,
-        286.5
-      ],
-      [
-        0.81,
-        265.6
-      ],
-      [
-        1.01,
-        244.8
-      ],
-      [
-        1.2,
-        247.4
-      ],
-      [
-        1.4,
-        244.8
-      ],
-      [
-        1.6,
-        231.8
-      ],
-      [
-        1.81,
-        200.5
-      ],
-      [
-        2.01,
-        205.7
-      ],
-      [
-        2.21,
-        205.7
-      ],
-      [
-        2.41,
-        195.3
-      ],
-      [
-        2.6,
-        174.5
-      ],
-      [
-        2.8,
-        166.7
-      ],
-      [
-        2.91,
-        161.5
-      ],
-      [
-        3,
-        138
-      ],
-      [
-        3.08,
-        98.96
-      ],
-      [
-        3.21,
-        62.5
-      ],
-      [
-        3.41,
-        28.74
-      ],
-      [
-        3.6,
-        0
-      ]
-    ]
-  },
-  {
     "motorId": "5f4294d20002310000000222",
     "manufacturer": "Sky Ripper Systems",
     "manufacturerAbbrev": "SkyR",
@@ -70828,6 +70665,127 @@
     ]
   },
   {
+    "motorId": "5f4294d20002310000000220",
+    "manufacturer": "Sky Ripper Systems",
+    "manufacturerAbbrev": "SkyR",
+    "designation": "J263G",
+    "commonName": "J263",
+    "impulseClass": "J",
+    "diameter": 54,
+    "length": 749,
+    "type": "hybrid",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 323,
+    "maxThrustN": 2354,
+    "totImpulseNs": 1248,
+    "burnTimeS": 3.5,
+    "dataFiles": 1,
+    "totalWeightG": 1338,
+    "propWeightG": 89,
+    "caseInfo": "54/550",
+    "propInfo": "ABS/G, 830cc nitrous",
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.01,
+        1359
+      ],
+      [
+        0.09,
+        794.3
+      ],
+      [
+        0.15,
+        559.9
+      ],
+      [
+        0.21,
+        419.3
+      ],
+      [
+        0.4,
+        296.9
+      ],
+      [
+        0.61,
+        286.5
+      ],
+      [
+        0.81,
+        265.6
+      ],
+      [
+        1.01,
+        244.8
+      ],
+      [
+        1.2,
+        247.4
+      ],
+      [
+        1.4,
+        244.8
+      ],
+      [
+        1.6,
+        231.8
+      ],
+      [
+        1.81,
+        200.5
+      ],
+      [
+        2.01,
+        205.7
+      ],
+      [
+        2.21,
+        205.7
+      ],
+      [
+        2.41,
+        195.3
+      ],
+      [
+        2.6,
+        174.5
+      ],
+      [
+        2.8,
+        166.7
+      ],
+      [
+        2.91,
+        161.5
+      ],
+      [
+        3,
+        138
+      ],
+      [
+        3.08,
+        98.96
+      ],
+      [
+        3.21,
+        62.5
+      ],
+      [
+        3.41,
+        28.74
+      ],
+      [
+        3.6,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d200023100000002d7",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -70962,7 +70920,7 @@
     "dataFiles": 2,
     "totalWeightG": 1076.8,
     "propWeightG": 576,
-    "delays": "9,10,11,12,13,14,15,16,17,18,19",
+    "delays": "9-19",
     "caseInfo": "Pro54-3G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -71332,7 +71290,7 @@
     "dataFiles": 2,
     "totalWeightG": 1232,
     "propWeightG": 708.2,
-    "delays": "5,6,7,8,9,,10,11,12,13",
+    "delays": "5-13",
     "caseInfo": "Pro54-3G",
     "propInfo": "White",
     "sparky": false,
@@ -72265,13 +72223,12 @@
     "totImpulseNs": 1336.5,
     "burnTimeS": 2.26,
     "dataFiles": 0,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1337%20K590-P",
     "totalWeightG": 1717,
     "propWeightG": 964,
     "caseInfo": "AMW 54-1400",
     "propInfo": "Black Bear",
     "sparky": false,
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2021-06-13"
   },
   {
     "motorId": "5f4294d20002310000000150",
@@ -72645,13 +72602,12 @@
     "totImpulseNs": 1379,
     "burnTimeS": 2.06,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1379%20K665-P",
     "totalWeightG": 1737,
     "propWeightG": 964,
     "caseInfo": "AMW 54-1400",
     "propInfo": "Black Bear",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -73070,7 +73026,7 @@
     "burnTimeS": 3.5,
     "dataFiles": 2,
     "propWeightG": 721.8,
-    "delays": "S,M,L",
+    "delays": "0-14",
     "caseInfo": "54X403(1400)",
     "sparky": false,
     "updatedOn": "2019-04-17",
@@ -73886,13 +73842,12 @@
     "totImpulseNs": 1412,
     "burnTimeS": 2.67,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1412%20K530SS-16A",
     "totalWeightG": 1639.8,
     "propWeightG": 1025,
     "caseInfo": "Pro54-4G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -74055,7 +74010,7 @@
     "dataFiles": 2,
     "totalWeightG": 1434.05,
     "propWeightG": 836.8,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1706",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -74246,7 +74201,7 @@
     "dataFiles": 1,
     "totalWeightG": 1415.68,
     "propWeightG": 724.3,
-    "delays": "S,M,L,P",
+    "delays": "0-14,P",
     "caseInfo": "54X403(1400)",
     "sparky": false,
     "updatedOn": "2019-04-17",
@@ -74644,13 +74599,12 @@
     "totImpulseNs": 1441.8,
     "burnTimeS": 2.71,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1442%20K535-P",
     "totalWeightG": 1559,
     "propWeightG": 764,
     "caseInfo": "AMW 54-1400",
     "propInfo": "Red Rhino",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -74971,7 +74925,7 @@
     "dataFiles": 2,
     "totalWeightG": 1336,
     "propWeightG": 773.3,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1706",
     "propInfo": "Blue Thunder",
     "sparky": false,
@@ -75239,13 +75193,12 @@
     "totImpulseNs": 1483,
     "burnTimeS": 3.24,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1483%20K455-P",
     "totalWeightG": 1504,
     "propWeightG": 716,
     "caseInfo": "AMW 54-1400",
     "propInfo": "Tamed Tiger",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -75439,7 +75392,7 @@
     "dataFiles": 2,
     "totalWeightG": 1647,
     "propWeightG": 974,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1706",
     "propInfo": "Black Max",
     "sparky": false,
@@ -75620,7 +75573,7 @@
     "dataFiles": 2,
     "totalWeightG": 1487.36,
     "propWeightG": 903,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1706",
     "propInfo": "Redline",
     "sparky": false,
@@ -75754,7 +75707,7 @@
     "dataFiles": 1,
     "totalWeightG": 1236,
     "propWeightG": 688,
-    "delays": "5-7-11-14",
+    "delays": "5,7,11,14",
     "caseInfo": "38/1200",
     "propInfo": "Loki Red",
     "sparky": false,
@@ -76196,7 +76149,7 @@
     "dataFiles": 2,
     "totalWeightG": 1487.36,
     "propWeightG": 889.1,
-    "delays": "L",
+    "delays": "0-14",
     "caseInfo": "RMS-54/1706",
     "propInfo": "White Lightning",
     "sparky": false,
@@ -77319,7 +77272,7 @@
     "dataFiles": 2,
     "totalWeightG": 1366.5,
     "propWeightG": 768,
-    "delays": "8,9,10,11,12,13,14,15,16,17,18",
+    "delays": "8-18",
     "caseInfo": "Pro54-4G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -77471,13 +77424,12 @@
     "totImpulseNs": 1636.3,
     "burnTimeS": 3.67,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1635+K445-A",
     "totalWeightG": 1398,
     "propWeightG": 792,
     "caseInfo": "Pro54-4G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -77851,13 +77803,12 @@
     "totImpulseNs": 1659.6,
     "burnTimeS": 2.37,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1660%20K700-P",
     "totalWeightG": 2088,
     "propWeightG": 1205,
     "caseInfo": "AMW 54-1750",
     "propInfo": "Black Bear",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -78979,13 +78930,12 @@
     "totImpulseNs": 1725.2,
     "burnTimeS": 2.02,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1725%20K855-P",
     "totalWeightG": 2121,
     "propWeightG": 1205,
     "caseInfo": "AMW 54-1750",
     "propInfo": "Black Bear",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -79423,13 +79373,12 @@
     "totImpulseNs": 1749.5,
     "burnTimeS": 2.66,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1750%20K650SS-16A",
     "totalWeightG": 1989.9,
     "propWeightG": 1281,
     "caseInfo": "Pro54-5G",
     "propInfo": "Smoky Sam",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -80115,13 +80064,12 @@
     "totImpulseNs": 1806.1,
     "burnTimeS": 2.68,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=1806%20K670-P",
     "totalWeightG": 1885,
     "propWeightG": 955,
     "caseInfo": "AMW 54-1750",
     "propInfo": "Red Rhino",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -81773,7 +81721,7 @@
     "dataFiles": 2,
     "totalWeightG": 1469,
     "propWeightG": 846.2,
-    "delays": "5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+    "delays": "5-18",
     "caseInfo": "Pro54-4G",
     "propInfo": "C-Star",
     "sparky": false,
@@ -82508,7 +82456,7 @@
     "dataFiles": 2,
     "totalWeightG": 1854,
     "propWeightG": 1155.4,
-    "delays": "6,7,8,9,10,11,12,13,14,15,16",
+    "delays": "6-16",
     "caseInfo": "Pro54-5G",
     "propInfo": "Green3",
     "sparky": false,
@@ -83575,13 +83523,12 @@
     "totImpulseNs": 2062.9,
     "burnTimeS": 3.59,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=2060+K570-A",
     "totalWeightG": 1685,
     "propWeightG": 990,
     "caseInfo": "Pro54-5G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -85902,14 +85849,13 @@
     "totImpulseNs": 2371,
     "burnTimeS": 2.98,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20K780R%20dec%2006.pdf",
     "totalWeightG": 2934.4,
     "propWeightG": 1268,
     "delays": "P",
     "caseInfo": "RMS-75/2560",
     "propInfo": "Redline",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -87830,13 +87776,12 @@
     "totImpulseNs": 2437,
     "burnTimeS": 3.69,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=2437+K660-17A",
     "totalWeightG": 1949,
     "propWeightG": 1177,
     "caseInfo": "Pro54-6G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -88706,13 +88651,12 @@
     "totImpulseNs": 2486,
     "burnTimeS": 4.84,
     "dataFiles": 3,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=2486+K510-P-U",
     "totalWeightG": 2590,
     "propWeightG": 1197,
     "caseInfo": "Pro75-2G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -88824,11 +88768,10 @@
     "totImpulseNs": 2493,
     "burnTimeS": 4.31,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=2493+K575-P",
     "totalWeightG": 3143,
     "propWeightG": 1720,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -89613,13 +89556,12 @@
     "totImpulseNs": 2546,
     "burnTimeS": 8.38,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?c=1&motor=2546-K300-P",
     "totalWeightG": 2270,
     "propWeightG": 1265.7,
     "caseInfo": "Pro54-6GXL",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2020-02-18",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -90672,13 +90614,12 @@
     "totImpulseNs": 2664.6,
     "burnTimeS": 2.7,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=2665%20L985-P",
     "totalWeightG": 2572,
     "propWeightG": 1295,
     "caseInfo": "AMW 54-2550",
     "propInfo": "Tamed Tiger",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -91857,13 +91798,12 @@
     "totImpulseNs": 2765,
     "burnTimeS": 3.77,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=2765+L730-P",
     "totalWeightG": 2247,
     "propWeightG": 1351,
     "caseInfo": "Pro54-6GXL",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -93099,11 +93039,10 @@
     "totImpulseNs": 2972.57,
     "burnTimeS": 7.3,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/L330EM.shtml",
     "totalWeightG": 2670.08,
     "propWeightG": 1489.9,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -93411,6 +93350,136 @@
     ]
   },
   {
+    "motorId": "5f4294d2000231000000016d",
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "designation": "1685CC125L-L350",
+    "commonName": "L350",
+    "impulseClass": "L",
+    "diameter": 75,
+    "length": 1031,
+    "type": "hybrid",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "avgThrustN": 350,
+    "totImpulseNs": 3042.9,
+    "burnTimeS": 8.694,
+    "dataFiles": 1,
+    "totalWeightG": 3903.42,
+    "propWeightG": 1619.8,
+    "sparky": false,
+    "updatedOn": "2019-04-17",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.188,
+        592.2
+      ],
+      [
+        0.566,
+        598
+      ],
+      [
+        0.945,
+        479.8
+      ],
+      [
+        1.324,
+        427.2
+      ],
+      [
+        1.702,
+        406.6
+      ],
+      [
+        2.08,
+        395.1
+      ],
+      [
+        2.459,
+        393.3
+      ],
+      [
+        2.839,
+        410.7
+      ],
+      [
+        3.217,
+        517.3
+      ],
+      [
+        3.595,
+        506.5
+      ],
+      [
+        3.974,
+        439.5
+      ],
+      [
+        4.353,
+        391.7
+      ],
+      [
+        4.731,
+        463.4
+      ],
+      [
+        5.109,
+        446.9
+      ],
+      [
+        5.489,
+        436.2
+      ],
+      [
+        5.868,
+        387.5
+      ],
+      [
+        6.246,
+        247.3
+      ],
+      [
+        6.624,
+        147.8
+      ],
+      [
+        7.003,
+        117.5
+      ],
+      [
+        7.382,
+        93.08
+      ],
+      [
+        7.76,
+        73.03
+      ],
+      [
+        8.139,
+        55.61
+      ],
+      [
+        8.518,
+        40.85
+      ],
+      [
+        8.897,
+        29.58
+      ],
+      [
+        9.276,
+        21.63
+      ],
+      [
+        9.655,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d2000231000000024d",
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -93700,136 +93769,6 @@
       ],
       [
         8.426,
-        0
-      ]
-    ]
-  },
-  {
-    "motorId": "5f4294d2000231000000016d",
-    "manufacturer": "Hypertek",
-    "manufacturerAbbrev": "Hypertek",
-    "designation": "1685CC125L-L350",
-    "commonName": "L350",
-    "impulseClass": "L",
-    "diameter": 75,
-    "length": 1031,
-    "type": "hybrid",
-    "certOrg": "Tripoli Rocketry Association, Inc.",
-    "avgThrustN": 350,
-    "totImpulseNs": 3042.9,
-    "burnTimeS": 8.694,
-    "dataFiles": 1,
-    "totalWeightG": 3903.42,
-    "propWeightG": 1619.8,
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.188,
-        592.2
-      ],
-      [
-        0.566,
-        598
-      ],
-      [
-        0.945,
-        479.8
-      ],
-      [
-        1.324,
-        427.2
-      ],
-      [
-        1.702,
-        406.6
-      ],
-      [
-        2.08,
-        395.1
-      ],
-      [
-        2.459,
-        393.3
-      ],
-      [
-        2.839,
-        410.7
-      ],
-      [
-        3.217,
-        517.3
-      ],
-      [
-        3.595,
-        506.5
-      ],
-      [
-        3.974,
-        439.5
-      ],
-      [
-        4.353,
-        391.7
-      ],
-      [
-        4.731,
-        463.4
-      ],
-      [
-        5.109,
-        446.9
-      ],
-      [
-        5.489,
-        436.2
-      ],
-      [
-        5.868,
-        387.5
-      ],
-      [
-        6.246,
-        247.3
-      ],
-      [
-        6.624,
-        147.8
-      ],
-      [
-        7.003,
-        117.5
-      ],
-      [
-        7.382,
-        93.08
-      ],
-      [
-        7.76,
-        73.03
-      ],
-      [
-        8.139,
-        55.61
-      ],
-      [
-        8.518,
-        40.85
-      ],
-      [
-        8.897,
-        29.58
-      ],
-      [
-        9.276,
-        21.63
-      ],
-      [
-        9.655,
         0
       ]
     ]
@@ -94285,13 +94224,12 @@
     "totImpulseNs": 3146.8,
     "burnTimeS": 3.371,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=3147-L935-P",
     "totalWeightG": 2542,
     "propWeightG": 1567,
     "caseInfo": "Pro54-6GXL",
     "propInfo": "Imax",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -95265,14 +95203,13 @@
     "totImpulseNs": 3517,
     "burnTimeS": 3.07,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20L1150R%20dec%2006.pdf",
     "totalWeightG": 3673.6,
     "propWeightG": 1902,
     "delays": "P",
     "caseInfo": "RMS-75/3840",
     "propInfo": "Redline",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -97005,13 +96942,12 @@
     "totImpulseNs": 3757,
     "burnTimeS": 4.67,
     "dataFiles": 3,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=3757+L800-P-U",
     "totalWeightG": 3511,
     "propWeightG": 1795,
     "caseInfo": "Pro75-3G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -97191,11 +97127,10 @@
     "totImpulseNs": 3762,
     "burnTimeS": 4.22,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=3762+L890-P",
     "totalWeightG": 4345.67,
     "propWeightG": 2580,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -100567,13 +100502,12 @@
     "totImpulseNs": 4807.8,
     "burnTimeS": 1.53,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=4807%20L3150-P",
     "totalWeightG": 4731,
     "propWeightG": 2386,
     "caseInfo": "Pro98-2G",
     "propInfo": "Vmax",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -100713,12 +100647,11 @@
     "totImpulseNs": 4815,
     "burnTimeS": 4.43,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=4815+L1090-P",
     "totalWeightG": 5460.67,
     "propWeightG": 3440,
     "caseInfo": "Pro75-4G",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -101735,11 +101668,10 @@
     "totImpulseNs": 4995.4,
     "burnTimeS": 8,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/L600EM.shtml",
     "totalWeightG": 4119.81,
     "propWeightG": 2472.8,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -101867,13 +101799,12 @@
     "totImpulseNs": 5015,
     "burnTimeS": 4.48,
     "dataFiles": 3,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=5015+L1115-P-U",
     "totalWeightG": 4404,
     "propWeightG": 2394,
     "caseInfo": "Pro75-4G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -104314,12 +104245,11 @@
     "totImpulseNs": 5482,
     "burnTimeS": 2.14,
     "dataFiles": 1,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/CR%20M2281BF%20jun%2010.pdf",
     "totalWeightG": 5579,
     "propWeightG": 1306,
     "caseInfo": "75x1753 (3200CC)",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -104560,13 +104490,12 @@
     "totImpulseNs": 5506.5,
     "burnTimeS": 4.48,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=5506-M1230-IM-P",
     "totalWeightG": 4844,
     "propWeightG": 2900,
     "caseInfo": "Pro75-4G",
     "propInfo": "Imax",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -104650,12 +104579,11 @@
     "totImpulseNs": 5507,
     "burnTimeS": 7.22,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/CR%20M711BS%20jun%2010.pdf",
     "totalWeightG": 4900,
     "propWeightG": 727,
     "caseInfo": "75mm X1371mm (3200 cc)",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -107069,13 +106997,12 @@
     "totImpulseNs": 6251,
     "burnTimeS": 4.47,
     "dataFiles": 3,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=6251+M1400-P-U",
     "totalWeightG": 5302,
     "propWeightG": 2992,
     "caseInfo": "Pro75-5G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -108469,13 +108396,12 @@
     "totImpulseNs": 6774.6,
     "burnTimeS": 3.31,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=6774-M2050-SK-P",
     "totalWeightG": 7129,
     "propWeightG": 3870,
     "caseInfo": "ABC 75-7600",
     "propInfo": "Skidmark",
     "sparky": true,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -110233,13 +110159,12 @@
     "totImpulseNs": 7388,
     "burnTimeS": 3.61,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=7388-M2045-BS-P",
     "totalWeightG": 6071,
     "propWeightG": 3547,
     "caseInfo": "Pro75-6G",
     "propInfo": "Blue Streak",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -110307,124 +110232,6 @@
       ],
       [
         3.587,
-        0
-      ]
-    ]
-  },
-  {
-    "motorId": "5f4294d20002310000000197",
-    "manufacturer": "Cesaroni Technology",
-    "manufacturerAbbrev": "Cesaroni",
-    "designation": "7400M520-P",
-    "commonName": "M520",
-    "impulseClass": "M",
-    "diameter": 98,
-    "length": 548,
-    "type": "reload",
-    "certOrg": "Canadian Association of Rocketry",
-    "avgThrustN": 542,
-    "maxThrustN": 1184.2,
-    "totImpulseNs": 7441,
-    "burnTimeS": 13.81,
-    "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=7400+M520-P",
-    "totalWeightG": 6693,
-    "propWeightG": 3658,
-    "caseInfo": "Pro98-3G",
-    "propInfo": "Classic",
-    "sparky": false,
-    "updatedOn": "2019-04-17",
-    "samples": [
-      [
-        0,
-        0
-      ],
-      [
-        0.01,
-        1077
-      ],
-      [
-        0.25,
-        1063
-      ],
-      [
-        0.38,
-        1066
-      ],
-      [
-        0.5,
-        971
-      ],
-      [
-        0.71,
-        938.1
-      ],
-      [
-        0.93,
-        915.5
-      ],
-      [
-        1.23,
-        878.6
-      ],
-      [
-        2.07,
-        907
-      ],
-      [
-        2.61,
-        901.3
-      ],
-      [
-        3.03,
-        892.8
-      ],
-      [
-        3.5,
-        872.9
-      ],
-      [
-        3.93,
-        836.1
-      ],
-      [
-        4.96,
-        756.7
-      ],
-      [
-        6.08,
-        657.5
-      ],
-      [
-        7.05,
-        549.8
-      ],
-      [
-        7.79,
-        462
-      ],
-      [
-        8.39,
-        391.1
-      ],
-      [
-        9.06,
-        323.1
-      ],
-      [
-        10.01,
-        243.7
-      ],
-      [
-        11.01,
-        172.9
-      ],
-      [
-        12,
-        116.2
-      ],
-      [
-        13.95,
         0
       ]
     ]
@@ -110547,6 +110354,123 @@
     ]
   },
   {
+    "motorId": "5f4294d20002310000000197",
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "designation": "7400M520-P",
+    "commonName": "M520",
+    "impulseClass": "M",
+    "diameter": 98,
+    "length": 548,
+    "type": "reload",
+    "certOrg": "Canadian Association of Rocketry",
+    "avgThrustN": 542,
+    "maxThrustN": 1184.2,
+    "totImpulseNs": 7441,
+    "burnTimeS": 13.81,
+    "dataFiles": 2,
+    "totalWeightG": 6693,
+    "propWeightG": 3658,
+    "caseInfo": "Pro98-3G",
+    "propInfo": "Classic",
+    "sparky": false,
+    "updatedOn": "2021-06-13",
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.01,
+        1077
+      ],
+      [
+        0.25,
+        1063
+      ],
+      [
+        0.38,
+        1066
+      ],
+      [
+        0.5,
+        971
+      ],
+      [
+        0.71,
+        938.1
+      ],
+      [
+        0.93,
+        915.5
+      ],
+      [
+        1.23,
+        878.6
+      ],
+      [
+        2.07,
+        907
+      ],
+      [
+        2.61,
+        901.3
+      ],
+      [
+        3.03,
+        892.8
+      ],
+      [
+        3.5,
+        872.9
+      ],
+      [
+        3.93,
+        836.1
+      ],
+      [
+        4.96,
+        756.7
+      ],
+      [
+        6.08,
+        657.5
+      ],
+      [
+        7.05,
+        549.8
+      ],
+      [
+        7.79,
+        462
+      ],
+      [
+        8.39,
+        391.1
+      ],
+      [
+        9.06,
+        323.1
+      ],
+      [
+        10.01,
+        243.7
+      ],
+      [
+        11.01,
+        172.9
+      ],
+      [
+        12,
+        116.2
+      ],
+      [
+        13.95,
+        0
+      ]
+    ]
+  },
+  {
     "motorId": "5f4294d200023100000001b9",
     "manufacturer": "Cesaroni Technology",
     "manufacturerAbbrev": "Cesaroni",
@@ -110562,13 +110486,12 @@
     "totImpulseNs": 7450,
     "burnTimeS": 3,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=7450+M2505-P",
     "totalWeightG": 6250,
     "propWeightG": 3339,
     "caseInfo": "Pro98-3G",
     "propInfo": "White Thunder",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -110640,13 +110563,12 @@
     "totImpulseNs": 7455.4,
     "burnTimeS": 3.47,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=7455-M2150-RL-P",
     "totalWeightG": 6324,
     "propWeightG": 3835,
     "caseInfo": "Pro75-6G",
     "propInfo": "Red Lightning",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -111148,13 +111070,12 @@
     "totImpulseNs": 7579,
     "burnTimeS": 4.97,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=7579-M1520-P",
     "totalWeightG": 6718,
     "propWeightG": 2981,
     "caseInfo": "Pro98-3G",
     "propInfo": "Blue Streak",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -112264,13 +112185,12 @@
     "totImpulseNs": 8088.9,
     "burnTimeS": 4.53,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=8088-M1790-P",
     "totalWeightG": 8273,
     "propWeightG": 4706,
     "caseInfo": "Pro98-4G",
     "propInfo": "Skidmark",
     "sparky": true,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -114444,13 +114364,12 @@
     "totImpulseNs": 9869.7,
     "burnTimeS": 5.49,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=9870-M1800-BS-P",
     "totalWeightG": 8342,
     "propWeightG": 4802,
     "caseInfo": "Pro98-4G",
     "propInfo": "Blue Streak",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -115658,14 +115577,13 @@
     "totImpulseNs": 10481.5,
     "burnTimeS": 6.2,
     "dataFiles": 2,
-    "infoUrl": "http://www.tripoli.org/tmt/new_motors/AT%20M1939W%20jun%2003.pdf",
     "totalWeightG": 8988.22,
     "propWeightG": 5719.1,
     "delays": "P",
     "caseInfo": "RMS-98/10240",
     "propInfo": "White Lightning",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -116195,13 +116113,12 @@
     "totImpulseNs": 11077.3,
     "burnTimeS": 4.28,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=11077-N2600-P",
     "totalWeightG": 11482,
     "propWeightG": 6618,
     "caseInfo": "Pro98-6G",
     "propInfo": "Skidmark",
     "sparky": true,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -116848,13 +116765,12 @@
     "totImpulseNs": 13766,
     "burnTimeS": 5.38,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=13766+N2500-P",
     "totalWeightG": 11668,
     "propWeightG": 6778,
     "caseInfo": "Pro98-6G",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -116966,13 +116882,12 @@
     "totImpulseNs": 13766.9,
     "burnTimeS": 4.85,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=13767-N2850-BS-P",
     "totalWeightG": 11688,
     "propWeightG": 6759,
     "caseInfo": "Pro98-6G",
     "propInfo": "Blue Streak",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -117414,13 +117329,12 @@
     "totImpulseNs": 14200.1,
     "burnTimeS": 4.47,
     "dataFiles": 1,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=14200%20N3180-P",
     "totalWeightG": 12198,
     "propWeightG": 7460,
     "caseInfo": "Pro98-6G",
     "propInfo": "Red Lightning",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -117769,13 +117683,12 @@
     "totImpulseNs": 14263.3,
     "burnTimeS": 4.19,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=14263-N3400-P",
     "totalWeightG": 13972,
     "propWeightG": 8282,
     "caseInfo": "Pro98-6GXL",
     "propInfo": "Skidmark",
     "sparky": true,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -118413,13 +118326,12 @@
     "totImpulseNs": 17613.7,
     "burnTimeS": 6.14,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=17613-N2900-CL-P",
     "totalWeightG": 14166,
     "propWeightG": 8449,
     "caseInfo": "Pro98-6GXL",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
@@ -119829,11 +119741,10 @@
     "totImpulseNs": 29990,
     "burnTimeS": 5.86,
     "dataFiles": 2,
-    "infoUrl": "http://www.canadianrocketry.org/mcc_motor.php?motor=29990+O5100-P",
     "totalWeightG": 23577,
     "propWeightG": 13245,
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-06-13",
     "samples": [
       [
         0,
