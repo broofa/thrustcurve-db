@@ -6,6 +6,8 @@
   "main": "./index.js",
   "types": "thrustcurve-db.d.ts",
   "files": [
+    "index.js",
+    "util.js",
     "thrustcurve-db.json",
     "thrustcurve-db.d.ts"
   ],
