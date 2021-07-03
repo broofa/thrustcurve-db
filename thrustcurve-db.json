@@ -7469,6 +7469,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -7550,7 +7551,7 @@
     "dataFiles": 2,
     "totalWeightG": 52,
     "propWeightG": 104,
-    "delays": "5,6,7,8,9,10,11,12,13,14, 15, 16,17",
+    "delays": "8,10,12,14,17",
     "caseInfo": "Pro24-1G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -7656,6 +7657,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -10488,6 +10490,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "2,4,6,8,11",
     "samples": [
       [
         0,
@@ -11753,7 +11756,7 @@
     "dataFiles": 2,
     "totalWeightG": 73,
     "propWeightG": 22,
-    "delays": "4-13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro24-2G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -12060,7 +12063,7 @@
     "dataFiles": 2,
     "totalWeightG": 101,
     "propWeightG": 25.6,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-1G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -12340,7 +12343,7 @@
     "dataFiles": 2,
     "totalWeightG": 107,
     "propWeightG": 29.9,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-1G",
     "propInfo": "White",
     "sparky": false,
@@ -12503,7 +12506,7 @@
     "dataFiles": 2,
     "totalWeightG": 73,
     "propWeightG": 22.5,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro24-2G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -12585,6 +12588,7 @@
     "propInfo": "Imax",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "3,5,7,9,12",
     "samples": [
       [
         0,
@@ -13007,7 +13011,7 @@
     "dataFiles": 2,
     "totalWeightG": 102,
     "propWeightG": 70,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-1G",
     "propInfo": "Classic",
     "sparky": false,
@@ -13089,6 +13093,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -13335,6 +13340,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "3,5,7,9,12",
     "samples": [
       [
         0,
@@ -13582,6 +13588,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -14432,7 +14439,7 @@
     "delays": "5,8,12",
     "propInfo": "Classic",
     "sparky": false,
-    "updatedOn": "2020-09-13",
+    "updatedOn": "2021-07-03",
     "samples": [
       [
         0,
@@ -14514,7 +14521,7 @@
     "dataFiles": 2,
     "totalWeightG": 107.5,
     "propWeightG": 40.1,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro24-3G",
     "propInfo": "Smoky Sam",
     "sparky": false,
@@ -14709,7 +14716,7 @@
     "dataFiles": 2,
     "totalWeightG": 91.8,
     "propWeightG": 30.3,
-    "delays": "7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro24-3G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -15147,7 +15154,7 @@
     "dataFiles": 2,
     "totalWeightG": 102.2,
     "propWeightG": 40,
-    "delays": "2,3,4,5,6,7",
+    "delays": "-3,-1,1,3,6",
     "caseInfo": "Pro24-3G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -15253,7 +15260,7 @@
     "dataFiles": 2,
     "totalWeightG": 96,
     "propWeightG": 33.7,
-    "delays": "5,6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro24-3G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -15762,6 +15769,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "3,5,7,9,12",
     "samples": [
       [
         0,
@@ -17564,6 +17572,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "2,4,6,8,11",
     "samples": [
       [
         0,
@@ -18658,6 +18667,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -19843,7 +19853,7 @@
     "dataFiles": 2,
     "totalWeightG": 145,
     "propWeightG": 51.1,
-    "delays": "5-15",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-2G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -19937,7 +19947,7 @@
     "dataFiles": 2,
     "totalWeightG": 146,
     "propWeightG": 51.4,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-2G",
     "propInfo": "Classic",
     "sparky": false,
@@ -20031,7 +20041,7 @@
     "dataFiles": 2,
     "totalWeightG": 155.9,
     "propWeightG": 59.9,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro29-2G",
     "propInfo": "White",
     "sparky": false,
@@ -20809,6 +20819,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -21521,7 +21532,7 @@
     "dataFiles": 2,
     "totalWeightG": 159,
     "propWeightG": 63.3,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro24-6G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -21704,6 +21715,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -23089,6 +23101,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2021-06-13",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -23295,6 +23308,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -23420,6 +23434,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "2,4,6,8,11",
     "samples": [
       [
         0,
@@ -23721,7 +23736,7 @@
     "dataFiles": 1,
     "totalWeightG": 188.4,
     "propWeightG": 62.1,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro38-1G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -23920,6 +23935,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -24150,7 +24166,7 @@
     "dataFiles": 2,
     "totalWeightG": 172,
     "propWeightG": 77.3,
-    "delays": "2,3,4,5,6,7,8,9,10",
+    "delays": "1,3,5,7,10",
     "caseInfo": "Pro24-6G",
     "propInfo": "Green3",
     "sparky": false,
@@ -24445,6 +24461,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -25130,7 +25147,7 @@
     "dataFiles": 2,
     "totalWeightG": 212.5,
     "propWeightG": 76.3,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro38-1G",
     "propInfo": "White",
     "sparky": false,
@@ -25256,7 +25273,7 @@
     "dataFiles": 2,
     "totalWeightG": 166,
     "propWeightG": 70.5,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro24-6G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -25334,7 +25351,7 @@
     "dataFiles": 2,
     "totalWeightG": 187,
     "propWeightG": 75,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-3G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -25553,7 +25570,7 @@
     "dataFiles": 2,
     "totalWeightG": 169.8,
     "propWeightG": 75.7,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro24-6G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -25691,7 +25708,7 @@
     "dataFiles": 2,
     "totalWeightG": 161.9,
     "propWeightG": 66.7,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro24-6G",
     "propInfo": "Pink",
     "sparky": false,
@@ -25769,6 +25786,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -25950,6 +25968,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -26099,7 +26118,7 @@
     "dataFiles": 2,
     "totalWeightG": 172.5,
     "propWeightG": 79.1,
-    "delays": "4,5,6,7,8,9,10,11",
+    "delays": "2,4,6,8,11",
     "caseInfo": "Pro24-6G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -26237,7 +26256,7 @@
     "dataFiles": 2,
     "totalWeightG": 159.9,
     "propWeightG": 65.9,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro24-6G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -26747,7 +26766,7 @@
     "dataFiles": 2,
     "totalWeightG": 197,
     "propWeightG": 79.1,
-    "delays": "2-9",
+    "delays": "0,2,4,6,9",
     "caseInfo": "Pro29-3G",
     "propInfo": "Mellow",
     "sparky": false,
@@ -26954,7 +26973,7 @@
     "dataFiles": 2,
     "totalWeightG": 174,
     "propWeightG": 80,
-    "delays": "3,4,5,6,7,8",
+    "delays": "-1,1,3,5,8",
     "caseInfo": "Pro24-6G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -27192,7 +27211,7 @@
     "dataFiles": 2,
     "totalWeightG": 218,
     "propWeightG": 77.7,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-1G",
     "propInfo": "Imax",
     "sparky": false,
@@ -27582,7 +27601,7 @@
     "dataFiles": 2,
     "totalWeightG": 188,
     "propWeightG": 76.7,
-    "delays": "6-15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro29-3G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -27676,7 +27695,7 @@
     "dataFiles": 2,
     "totalWeightG": 192.8,
     "propWeightG": 86.5,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-3G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -27758,7 +27777,7 @@
     "dataFiles": 2,
     "totalWeightG": 194.5,
     "propWeightG": 81.9,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-3G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -28297,7 +28316,7 @@
     "dataFiles": 2,
     "totalWeightG": 190,
     "propWeightG": 76.7,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-3G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -28375,7 +28394,7 @@
     "dataFiles": 2,
     "totalWeightG": 163,
     "propWeightG": 77.1,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-3G",
     "propInfo": "Classic",
     "sparky": false,
@@ -28724,6 +28743,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -28801,6 +28821,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -28870,6 +28891,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -28963,7 +28985,7 @@
     "dataFiles": 2,
     "totalWeightG": 209,
     "propWeightG": 96.6,
-    "delays": "3,4,5,6,7,8,9,10",
+    "delays": "1,3,5,7,10",
     "caseInfo": "Pro29-3G",
     "propInfo": "White",
     "sparky": false,
@@ -29073,7 +29095,7 @@
     "dataFiles": 2,
     "totalWeightG": 205,
     "propWeightG": 92.7,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-3G",
     "propInfo": "Imax",
     "sparky": false,
@@ -29602,7 +29624,7 @@
     "dataFiles": 2,
     "totalWeightG": 228,
     "propWeightG": 100,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-4G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -29948,7 +29970,7 @@
     "dataFiles": 1,
     "totalWeightG": 242,
     "propWeightG": 105.5,
-    "delays": "1-10",
+    "delays": "1,3,5,7,10",
     "caseInfo": "Pro29-4G",
     "propInfo": "Mellow",
     "sparky": false,
@@ -30460,6 +30482,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -30529,7 +30552,7 @@
     "dataFiles": 2,
     "totalWeightG": 238,
     "propWeightG": 109.1,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro29-4G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -31255,7 +31278,7 @@
     "dataFiles": 2,
     "totalWeightG": 232,
     "propWeightG": 102.8,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-4G",
     "propInfo": "Classic",
     "sparky": false,
@@ -31389,7 +31412,7 @@
     "dataFiles": 2,
     "totalWeightG": 251.2,
     "propWeightG": 119.8,
-    "delays": "3,4,5,6,7,8,9,10,11,12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-4G",
     "propInfo": "White",
     "sparky": false,
@@ -31511,7 +31534,7 @@
     "dataFiles": 2,
     "totalWeightG": 232,
     "propWeightG": 102.3,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-4G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -31870,7 +31893,7 @@
     "dataFiles": 1,
     "totalWeightG": 272,
     "propWeightG": 125,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-5G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -32876,6 +32899,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -33172,6 +33196,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2021-06-13",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -33547,7 +33572,7 @@
     "dataFiles": 1,
     "totalWeightG": 286,
     "propWeightG": 131.9,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-5G",
     "propInfo": "Mellow",
     "sparky": false,
@@ -34477,6 +34502,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -34672,6 +34698,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -34749,7 +34776,7 @@
     "dataFiles": 1,
     "totalWeightG": 283.6,
     "propWeightG": 122.4,
-    "delays": "4-13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro38-2G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -34919,7 +34946,7 @@
     "dataFiles": 2,
     "totalWeightG": 314,
     "propWeightG": 150,
-    "delays": "9-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-6G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -35071,7 +35098,7 @@
     "dataFiles": 2,
     "totalWeightG": 284,
     "propWeightG": 136.4,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-5G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -35157,6 +35184,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -35310,7 +35338,7 @@
     "dataFiles": 2,
     "totalWeightG": 274,
     "propWeightG": 127.90000000000002,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-5G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -35825,7 +35853,7 @@
     "dataFiles": 2,
     "totalWeightG": 277,
     "propWeightG": 128.5,
-    "delays": "2-11",
+    "delays": "2,4,6,8,11",
     "caseInfo": "Pro29-5G",
     "propInfo": "Classic",
     "sparky": false,
@@ -35907,7 +35935,7 @@
     "dataFiles": 2,
     "totalWeightG": 325.3,
     "propWeightG": 152.6,
-    "delays": "5,6,7,8,9,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro38-2G",
     "propInfo": "White",
     "sparky": false,
@@ -36041,6 +36069,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -36182,6 +36211,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -36355,6 +36385,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "3,5,7,9,12",
     "samples": [
       [
         0,
@@ -36598,6 +36629,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "3,5,7,9,12",
     "samples": [
       [
         0,
@@ -36747,7 +36779,7 @@
     "dataFiles": 2,
     "totalWeightG": 327,
     "propWeightG": 154.4,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-2G",
     "propInfo": "Imax",
     "sparky": false,
@@ -36821,7 +36853,7 @@
     "dataFiles": 2,
     "totalWeightG": 391,
     "propWeightG": 206.7,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-6GXL",
     "propInfo": "Smoky Sam",
     "sparky": false,
@@ -37197,7 +37229,7 @@
     "dataFiles": 2,
     "totalWeightG": 342.8,
     "propWeightG": 176.6,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro29-6G",
     "propInfo": "Green3",
     "sparky": false,
@@ -37479,7 +37511,7 @@
     "dataFiles": 2,
     "totalWeightG": 360,
     "propWeightG": 175,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-6GXL",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -37569,7 +37601,7 @@
     "dataFiles": 2,
     "totalWeightG": 327.6,
     "propWeightG": 163.7,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-6G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -37651,7 +37683,7 @@
     "dataFiles": 2,
     "totalWeightG": 319,
     "propWeightG": 154.2,
-    "delays": "3-12",
+    "delays": "3,5,7,9,12",
     "caseInfo": "Pro29-6G",
     "propInfo": "Classic",
     "sparky": true,
@@ -38004,7 +38036,7 @@
     "dataFiles": 2,
     "totalWeightG": 318,
     "propWeightG": 153.4,
-    "delays": "5-14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro29-6G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -38159,6 +38191,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -39881,6 +39914,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -40314,7 +40348,7 @@
     "dataFiles": 2,
     "totalWeightG": 349,
     "propWeightG": 185.4,
-    "delays": "4-13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro29-6G",
     "propInfo": "Imax",
     "sparky": false,
@@ -41289,6 +41323,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -41575,6 +41610,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -41724,7 +41760,7 @@
     "dataFiles": 1,
     "totalWeightG": 384.2,
     "propWeightG": 183.5,
-    "delays": "6-15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-3G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -42155,6 +42191,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -42236,7 +42273,7 @@
     "dataFiles": 2,
     "totalWeightG": 398.6,
     "propWeightG": 212.1,
-    "delays": "3,4,5,6,7,8,9,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro29-6GXL",
     "propInfo": "White",
     "sparky": false,
@@ -42453,6 +42490,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -42859,7 +42897,7 @@
     "dataFiles": 1,
     "totalWeightG": 437,
     "propWeightG": 223.8,
-    "delays": "2-9",
+    "delays": "0,2,4,6,9",
     "caseInfo": "Pro38-3G",
     "propInfo": "Mellow",
     "sparky": false,
@@ -42949,6 +42987,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -43686,6 +43725,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -43871,7 +43911,7 @@
     "dataFiles": 2,
     "totalWeightG": 437.5,
     "propWeightG": 228.9,
-    "delays": "6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro38-3G",
     "propInfo": "White",
     "sparky": false,
@@ -44146,6 +44186,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -44384,7 +44425,7 @@
     "dataFiles": 1,
     "totalWeightG": 457,
     "propWeightG": 221,
-    "delays": "6-15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-4G",
     "propInfo": "Vmax",
     "sparky": false,
@@ -45163,6 +45204,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -45771,6 +45813,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "2,4,6,8,11",
     "samples": [
       [
         0,
@@ -46026,6 +46069,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -46321,6 +46365,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -46696,6 +46741,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -47037,6 +47083,7 @@
     "propInfo": "Imax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -47203,6 +47250,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -47284,6 +47332,7 @@
     "propInfo": "C-Star",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -47361,6 +47410,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -48014,6 +48064,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -48675,6 +48726,7 @@
     "propInfo": "White Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -49069,7 +49121,7 @@
     "dataFiles": 2,
     "totalWeightG": 549.9,
     "propWeightG": 305.2,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-4G",
     "propInfo": "White",
     "sparky": false,
@@ -49757,7 +49809,7 @@
     "dataFiles": 2,
     "totalWeightG": 647,
     "propWeightG": 335,
-    "delays": "3,5,7,10",
+    "delays": "1,3,5,7,10",
     "caseInfo": "Pro38-5G",
     "propInfo": "White",
     "sparky": false,
@@ -51156,6 +51208,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -51585,7 +51638,7 @@
     "dataFiles": 2,
     "totalWeightG": 807,
     "propWeightG": 350.1,
-    "delays": "7,8,9,10,11,12,13,14,15,16,17",
+    "delays": "8,10,12,14,17",
     "caseInfo": "Pro54-2G",
     "propInfo": "Red Lightning",
     "sparky": false,
@@ -52448,7 +52501,7 @@
     "totImpulseNs": 634.58,
     "burnTimeS": 1.18,
     "dataFiles": 2,
-    "delays": "16, 13, 11, 9, 7",
+    "delays": "7,9,11,13,16",
     "caseInfo": "Pro38-5G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -52687,7 +52740,7 @@
     "dataFiles": 2,
     "totalWeightG": 601,
     "propWeightG": 312.5,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro38-5G",
     "propInfo": "Classic",
     "sparky": false,
@@ -53180,6 +53233,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -53394,6 +53448,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -53580,7 +53635,7 @@
     "dataFiles": 2,
     "totalWeightG": 654.8,
     "propWeightG": 376,
-    "delays": "5,6,7,8,9,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro38-5G",
     "propInfo": "Green3",
     "sparky": false,
@@ -54016,6 +54071,7 @@
     "propInfo": "Pink",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -54097,6 +54153,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -54335,6 +54392,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -55446,6 +55504,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -55563,7 +55622,7 @@
     "dataFiles": 2,
     "totalWeightG": 659.8,
     "propWeightG": 381.5,
-    "delays": "6,7,8,9,10,11,12,13,14,15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-5G",
     "propInfo": "White",
     "sparky": false,
@@ -56056,7 +56115,7 @@
     "dataFiles": 1,
     "totalWeightG": 837,
     "propWeightG": 417,
-    "delays": "9-19",
+    "delays": "10,12,14,16,19",
     "caseInfo": "Pro54-2G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -56240,6 +56299,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -56940,6 +57000,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -58464,6 +58525,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -59297,6 +59359,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -59382,6 +59445,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -59891,6 +59955,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -60712,6 +60777,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -60926,7 +60992,7 @@
     "dataFiles": 2,
     "totalWeightG": 778.2,
     "propWeightG": 457.8,
-    "delays": "7,8,9,10,11,12,13,14,15,16",
+    "delays": "7,9,11,13,16",
     "caseInfo": "Pro38-6G",
     "propInfo": "White",
     "sparky": false,
@@ -61068,7 +61134,7 @@
     "dataFiles": 2,
     "totalWeightG": 799.8,
     "propWeightG": 384,
-    "delays": "8,9,10,11,12,13,14,15,16,17,18",
+    "delays": "9,11,13,15,18",
     "caseInfo": "Pro54-2G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -61596,6 +61662,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -61681,6 +61748,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "4,6,8,10,13",
     "samples": [
       [
         0,
@@ -61956,6 +62024,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -62226,7 +62295,7 @@
     "dataFiles": 2,
     "totalWeightG": 911,
     "propWeightG": 472.1,
-    "delays": "5,6,7,8,9,10,11,12,13,14",
+    "delays": "5,7,9,11,14",
     "caseInfo": "Pro54-2G",
     "propInfo": "White",
     "sparky": false,
@@ -62381,6 +62450,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -63400,7 +63470,7 @@
     "dataFiles": 2,
     "totalWeightG": 938.9,
     "propWeightG": 572.1,
-    "delays": "4,5,6,7,8,9,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro38-6GXL",
     "propInfo": "Green3",
     "sparky": false,
@@ -64071,6 +64141,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -64355,6 +64426,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -64659,7 +64731,7 @@
     "dataFiles": 2,
     "totalWeightG": 874,
     "propWeightG": 479.4,
-    "delays": "6-15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-6GXL",
     "propInfo": "Classic",
     "sparky": false,
@@ -64749,6 +64821,7 @@
     "propInfo": "White",
     "sparky": false,
     "updatedOn": "2021-02-26",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -64822,6 +64895,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -65544,6 +65618,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -66677,6 +66752,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -67825,7 +67901,7 @@
     "dataFiles": 2,
     "totalWeightG": 977,
     "propWeightG": 576.5,
-    "delays": "6-15",
+    "delays": "6,8,10,12,15",
     "caseInfo": "Pro38-6GXL",
     "propInfo": "Imax",
     "sparky": false,
@@ -68970,6 +69046,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -69171,6 +69248,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -70807,6 +70885,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -70920,7 +70999,7 @@
     "dataFiles": 2,
     "totalWeightG": 1076.8,
     "propWeightG": 576,
-    "delays": "9,10,11,12,13,14,15,16,17,18,19",
+    "delays": "10,12,14,16,19",
     "caseInfo": "Pro54-3G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -71290,7 +71369,7 @@
     "dataFiles": 2,
     "totalWeightG": 1232,
     "propWeightG": 708.2,
-    "delays": "5,6,7,8,9,,10,11,12,13",
+    "delays": "4,6,8,10,13",
     "caseInfo": "Pro54-3G",
     "propInfo": "White",
     "sparky": false,
@@ -72506,7 +72585,7 @@
     "dataFiles": 2,
     "totalWeightG": 1391,
     "propWeightG": 769.2,
-    "delays": "10-19",
+    "delays": "10,12,14,16,19",
     "caseInfo": "Pro54-4G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -73715,6 +73794,7 @@
     "propInfo": "Vmax",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -73848,6 +73928,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -76569,6 +76650,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "9,11,13,15,18",
     "samples": [
       [
         0,
@@ -76908,6 +76990,7 @@
     "propInfo": "Green3",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "5,7,9,11,14",
     "samples": [
       [
         0,
@@ -77272,7 +77355,7 @@
     "dataFiles": 2,
     "totalWeightG": 1366.5,
     "propWeightG": 768,
-    "delays": "8,9,10,11,12,13,14,15,16,17,18",
+    "delays": "9,11,13,15,18",
     "caseInfo": "Pro54-4G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -77430,6 +77513,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -77639,7 +77723,7 @@
     "dataFiles": 2,
     "totalWeightG": 1654,
     "propWeightG": 961.5,
-    "delays": "6-16",
+    "delays": "7,9,11,13,16",
     "caseInfo": "Pro54-5G",
     "propInfo": "Skidmark",
     "sparky": true,
@@ -78146,6 +78230,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -78867,6 +78952,7 @@
     "propInfo": "White",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -79379,6 +79465,7 @@
     "propInfo": "Smoky Sam",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "7,9,11,13,16",
     "samples": [
       [
         0,
@@ -81721,7 +81808,7 @@
     "dataFiles": 2,
     "totalWeightG": 1469,
     "propWeightG": 846.2,
-    "delays": "5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+    "delays": "9,11,13,15,18",
     "caseInfo": "Pro54-4G",
     "propInfo": "C-Star",
     "sparky": false,
@@ -82456,7 +82543,7 @@
     "dataFiles": 2,
     "totalWeightG": 1854,
     "propWeightG": 1155.4,
-    "delays": "6,7,8,9,10,11,12,13,14,15,16",
+    "delays": "7,9,11,13,16",
     "caseInfo": "Pro54-5G",
     "propInfo": "Green3",
     "sparky": false,
@@ -82902,6 +82989,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -83095,6 +83183,7 @@
     "propInfo": "Pink",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "12,14,16,18,21",
     "samples": [
       [
         0,
@@ -83156,6 +83245,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
+    "delays": "9,11,13,15,18",
     "samples": [
       [
         0,
@@ -83257,7 +83347,7 @@
     "dataFiles": 1,
     "totalWeightG": 1631.9,
     "propWeightG": 960,
-    "delays": "6-16",
+    "delays": "7,9,11,13,16",
     "caseInfo": "Pro54-5G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -83529,6 +83619,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,
@@ -83664,6 +83755,7 @@
     "propInfo": "Blue Streak",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -84155,7 +84247,7 @@
     "dataFiles": 1,
     "totalWeightG": 1892,
     "propWeightG": 1180,
-    "delays": "7-17",
+    "delays": "8,10,12,14,17",
     "caseInfo": "Pro54-5G",
     "propInfo": "White",
     "sparky": false,
@@ -85512,6 +85604,7 @@
     "propInfo": "Red Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "9,11,13,15,18",
     "samples": [
       [
         0,
@@ -85985,7 +86078,7 @@
     "dataFiles": 2,
     "totalWeightG": 1892.6,
     "propWeightG": 1129,
-    "delays": "6-17",
+    "delays": "8,10,12,14,17",
     "caseInfo": "Pro54-6G",
     "propInfo": "White Thunder",
     "sparky": false,
@@ -86111,7 +86204,7 @@
     "dataFiles": 1,
     "totalWeightG": 2198,
     "propWeightG": 1398,
-    "delays": "8-18",
+    "delays": "9,11,13,15,18",
     "caseInfo": "Pro54-6G",
     "propInfo": "White",
     "sparky": false,
@@ -86185,7 +86278,7 @@
     "dataFiles": 2,
     "totalWeightG": 1982,
     "propWeightG": 1164,
-    "delays": "7-17",
+    "delays": "8,10,12,14,17",
     "caseInfo": "Pro54-6G",
     "propInfo": "Blue Streak",
     "sparky": false,
@@ -86452,6 +86545,7 @@
     "propInfo": "Classic/Dual Thrust",
     "sparky": false,
     "updatedOn": "2019-04-17",
+    "delays": "6,8,10,12,15",
     "samples": [
       [
         0,
@@ -87782,6 +87876,7 @@
     "propInfo": "Classic",
     "sparky": false,
     "updatedOn": "2021-06-13",
+    "delays": "8,10,12,14,17",
     "samples": [
       [
         0,

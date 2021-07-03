@@ -1,5 +1,6 @@
 import axios from 'axios';
 import fs from 'fs';
+import {parseDelays, unparseDelays} from '../util.js';
 
 const BASE = 'https://www.thrustcurve.org/api/v1';
 const MAX_RESULTS = 9999;
@@ -46,6 +47,20 @@ function log(...args) {
   const motors = {};
 
   for (const motor of motorResults) {
+    // Parse `delays` out of `designation` for Cesaroni motors, as this appears to
+    // be more accurate.  (Note: Cesaroni delays are adjusted with the Pro38-DAT
+    // tool that allows for removing 3, 5, 7, or 9 seconds of delay)
+    if (motor.manufacturerAbbrev === 'Cesaroni') {
+      let delay = /-(\d+)A$/.test(motor.designation) && RegExp.$1;
+      if (delay) {
+        const newDelay = `${delay-9},${delay-7},${delay-5},${delay-3},${delay}`
+        if (motor.delays !== newDelay) {
+          log(`Delay adjustment for ${motor.designation}: ${motor.delays} --> ${newDelay}`);
+          motor.delays = newDelay;
+        }
+      }
+    }
+
     // Remove non-essential properties (disabled for the time being)
     if (lite) {
       for (const k of [

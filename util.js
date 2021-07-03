@@ -37,11 +37,12 @@ export function parseDelays(delays) {
         times.add(parseInt(v));
         continue;
 
-      // Aerotech letter-delays
-      case v === 'S': v = '0-6'; break;
-      case v === 'M': v = '0-10'; break;
-      case v === 'L': v = '0-14'; break;
-      case v === 'X': v = '0-18'; break;
+      // Aerotech letter-delays.  The Aerotech delay drilling tool can remove up
+      // to 8 seconds of delay in 2-second increments
+      case v === 'S': v = '0,2,4,6'; break;
+      case v === 'M': v = '2,4,6,8,10'; break;
+      case v === 'L': v = '6,8,10,12,14'; break;
+      case v === 'X': v = '10,12,14,16,18'; break;
     }
 
     if (/^(\d+)-(\d+)$/.test(v)) {
