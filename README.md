@@ -1,15 +1,12 @@
 # thrustcurve-db
 
-ThrustCurve.org model rocket motor data as a single data structure, (plus misc
+ThrustCurve.org model rocket motor data as a static data structure (plus misc.
 utility functions).
 
-This module is rebundling of the rocket motor data available on John Coker's
-exceptional [thrustcurve.org](https://thrustcurve.org) website ("TC").  Specifically,
-it is a JSON file produced by doing the following:
-* Fetch data for all motors from the [ThrustCurve API](https://www.thrustcurve.org/info/api.html)
-* Fetch all available thrust sample files for each motor.  Picks the best
-("best") file and normalizes to a consistent format. (Basically just insuring it starts with a `[0, 0]` sample)
-* Normalize the `delays` value to numeric values and ranges, or "P"lugged.
+This module is a rebundling of the rocket motor data available on John Coker's
+[thrustcurve.org](https://thrustcurve.org) website ("TC").  The dataset includes data for all motors in the [ThrustCurve API](https://www.thrustcurve.org/info/api.html) ("search" endpoint).  And, where available, thrust samples (`samples`).
+
+Note: Some motors have multiple thrust sample files.  A best-effort is made to pick the most accurate one, but `samples` data should be treated as possibly out-of-date and/or uncertified.
 
 **License & Support**
 
