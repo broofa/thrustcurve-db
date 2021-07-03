@@ -37,81 +37,6 @@ function log(...args) {
   process.stderr.write('\n');
 }
 
-// Normalize the motor delay values.  These values are all over the map in
-// thrustcurve.org, so we play some games to try to make some sense of them here
-function normalizeDelays(delays) {
-  if (typeof(delays) != 'string') return delays;
-
-  // Remove whitespace
-  delays = delays.replace(/\s/g, '');
-
-  // Kosdon J975F has "23/P" delay.  Not really sure what this means, but we
-  // map it to "23,P" for now.
-  delays = delays.replace(/\//g, ',');
-
-  // Fix cases where hyphen is obviously used instead of comma.  :-p
-  // "#-#-#..." -> "#,#,#..."
-  if (/\d+-\d+-/.test(delays)) {
-    delays = delays.replace(/-/g, ',');
-  }
-
-  let vals = new Set();
-  for (let v of delays.split(',')) {
-    switch (true) {
-      case !v:
-        continue;
-
-      // Basic value
-      case /^\d+$/.test(v):
-        vals.add(parseInt(v));
-        continue;
-
-      // Convert aerotech letter-delays to ranges
-      case v === 'S': v = '0-6'; break;
-      case v === 'M': v = '0-10'; break;
-      case v === 'L': v = '0-14'; break;
-      case v === 'X': v = '0-18'; break;
-    }
-
-    if (/^(\d+)-(\d+)$/.test(v)) {
-      const {$1: min, $2: max} = RegExp;
-      if (max - min > 20) throw Error(`'Unexpectedly large delay range: ${delays}`);
-      for (let d = parseInt(min); d <= max; d++) vals.add(d);
-    } else {
-      vals.add(v);
-    }
-  }
-
-  vals = [...vals].sort((a, b) => a - b);
-
-  // Tack on an ending value (flushes whatever the last actual value is in our
-  // range aggregator, below
-  vals.push(Symbol());
-
-  // Build list of delay values, aggregating adjacent values together into a
-  // range
-  const delayValues = [];
-  let min, max;
-  for (const i of vals) {
-    if (min === undefined) {
-      // Do nothing
-    } else if (i === max + 1) {
-      max = i;
-      continue;
-    } else if (min === max) {
-      delayValues.push(min);
-    } else if (min === max - 1) {
-      delayValues.push(`${min},${max}`);
-    } else {
-      delayValues.push(`${min}-${max}`);
-    }
-
-    min = max = i;
-  }
-
-  return delayValues.join(',');
-}
-
 (async function main(lite = false) {
   // Fetch motor data
   const {data: {results : motorResults}} = await axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`);
@@ -121,12 +46,6 @@ function normalizeDelays(delays) {
   const motors = {};
 
   for (const motor of motorResults) {
-    if (typeof(motor.delays) == 'string') {
-      const delays = normalizeDelays(motor.delays);
-      if (delays != motor.delays) log(`Mapped "${motor.delays}" to "${delays}"`);
-      motor.delays = delays;
-    }
-
     // Remove non-essential properties (disabled for the time being)
     if (lite) {
       for (const k of [
