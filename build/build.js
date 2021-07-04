@@ -39,14 +39,19 @@ function log(...args) {
 }
 
 (async function main(lite = false) {
-  // Fetch motor data
-  const {data: {results : motorResults}} = await axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`);
-  log(`Received ${motorResults.length} motors`);
+  let [allResults, availableResults] = await Promise.all([
+    axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`),
+    axios.get(`${BASE}/search.json?availability=available&maxResults=${MAX_RESULTS}`)
+  ]);
+
+  allResults = allResults.data.results;
+  availableResults = availableResults.data.results;
+  log(`Received ${availableResults.length} motors, ${availableResults.length} available motors`);
 
   // Normalize motor data
   const motors = {};
 
-  for (const motor of motorResults) {
+  for (const motor of allResults) {
     // Parse `delays` out of `designation` for Cesaroni motors, as this appears to
     // be more accurate.  (Note: Cesaroni delays are adjusted with the Pro38-DAT
     // tool that allows for removing 3, 5, 7, or 9 seconds of delay)
@@ -92,12 +97,20 @@ function log(...args) {
       }
     }
 
+    // Set availability (we'll remove this later if the motor is available)
+    motor.availability='OOP';
+
     // Map of motorId -> motor
     motors[motor.motorId] = {...motor};
   }
 
+  // Update availability for avaialble motors
+  for (const motor of availableResults) {
+    delete motors[motor.motorId]?.availability;
+  }
+
   // Fetch thrust samples
-  const motorIds = motorResults.map(m => m.motorId);
+  const motorIds = allResults.map(m => m.motorId);
   const {data: {results : sampleResults}} = await axios.post(`${BASE}/download.json`, {
     motorIds,
     data: 'samples'
