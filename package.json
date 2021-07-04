@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "prepare": "node build/build.js > thrustcurve-db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-json-modules build/test.js && exit 1"
   },
   "repository": {
     "type": "git",

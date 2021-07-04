@@ -8,7 +8,7 @@
  * - {Boolean} plugged true if motor can be plugged
  */
 export function parseDelays(delays) {
-  if (typeof(delays) != 'string') throw Error('`delays` must be a string');
+  if (typeof(delays) != 'string') throw TypeError('`delays` must be a string');
 
   // Remove whitespace
   delays = delays.replace(/\s/g, '');

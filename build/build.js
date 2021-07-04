@@ -58,7 +58,9 @@ function log(...args) {
     if (motor.manufacturerAbbrev === 'Cesaroni') {
       let delay = /-(\d+)A$/.test(motor.designation) && RegExp.$1;
       if (delay) {
-        const newDelay = `${delay-9},${delay-7},${delay-5},${delay-3},${delay}`
+        const newDelay = [delay - 9, delay - 7, delay - 5, delay - 3, delay]
+          .filter(d => d >= 0)
+          .join(',');
         if (motor.delays !== newDelay) {
           log(`Delay adjustment for ${motor.designation}: ${motor.delays} --> ${newDelay}`);
           motor.delays = newDelay;
