@@ -39,10 +39,10 @@ export function parseDelays(delays) {
 
       // Aerotech letter-delays.  The Aerotech delay drilling tool can remove up
       // to 8 seconds of delay in 2-second increments
-      case v === 'S': v = '0,2,4,6'; break;
-      case v === 'M': v = '2,4,6,8,10'; break;
-      case v === 'L': v = '6,8,10,12,14'; break;
-      case v === 'X': v = '10,12,14,16,18'; break;
+      case v === 'S': [0, 2, 4, 6].forEach(times.add, times); continue;
+      case v === 'M': [2, 4, 6, 8, 10].forEach(times.add, times); continue;
+      case v === 'L': [6, 8, 10, 12, 14].forEach(times.add, times); continue;
+      case v === 'X': [10, 12, 14, 16, 18].forEach(times.add, times); continue;
     }
 
     if (/^(\d+)-(\d+)$/.test(v)) {
