@@ -4,11 +4,9 @@ ThrustCurve.org model rocket motor data as a static data structure (plus misc.
 utility functions).
 
 This module is a rebundling of the rocket motor data available on John Coker's
-[thrustcurve.org](https://thrustcurve.org) website ("TC").  The dataset includes data for all motors in the [ThrustCurve API](https://www.thrustcurve.org/info/api.html) ("search" endpoint).  And, where available, thrust samples (`samples`).
-
-This data is a field-by-field mapping of what is found in the ThrustCurve API, with the following changes:
+[thrustcurve.org](https://thrustcurve.org) website ("TC").  The dataset includes data for all motors in the [ThrustCurve API](https://www.thrustcurve.org/info/api.html) ("search" endpoint), and is a field-by-field translation of what is found in the "search" endpoint, with the following changes:
 * Motor "availability" is exposed as the `discontinued` field (see https://github.com/JohnCoker/thrustcurve3/issues/35)
-* Thrust curve data is exposed in the `samples` field, and is guaranteed to have `[0, 0]` as the first data point.  If a motor has more than one thrust sample file, the first "cert"(ified) file is used, otherwise it's whichever file is found first.
+* Where available, thrust curve data (from the 'download' endpoint) is included as a `samples` array.  These are normalized to always have `[0, 0]` as the first data point.  In cases where a motor has more than one thrust sample file the first "cert"(ified) file found is used, otherwise the samples are from whichever file the API returned first.  (This typically isn't an issue since most thrust curves are very similar, but there are some cases where they differ significantly).
 
 **License & Support**
 
