@@ -22,7 +22,7 @@
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -328,7 +328,7 @@
     "delays": "2,4",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -826,7 +826,7 @@
     "delays": "2,4,6",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -976,7 +976,7 @@
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -1094,7 +1094,7 @@
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -1338,7 +1338,7 @@
     "delays": "0,3,5,7",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -2021,7 +2021,7 @@
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -2152,7 +2152,7 @@
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -2225,7 +2225,7 @@
     "delays": "0,3,5,7,9",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -2668,7 +2668,7 @@
     "delays": "4,6,8,10",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -3931,7 +3931,7 @@
     "delays": "3,5,7",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -4195,7 +4195,7 @@
     "delays": "4,7,10",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -4820,7 +4820,7 @@
     "delays": "4,7,10",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -5672,7 +5672,8 @@
     "propWeightG": 24.5,
     "propInfo": "black powder",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-07-04",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -6085,7 +6086,7 @@
     "delays": "3,5,7",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -6302,7 +6303,7 @@
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -6451,7 +6452,7 @@
     "delays": "3,5,7",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -8545,7 +8546,7 @@
     "propInfo": "black powder",
     "sparky": false,
     "updatedOn": "2020-12-02",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -9249,7 +9250,7 @@
     "caseInfo": "SU 24x102",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -9805,7 +9806,7 @@
     "propInfo": "Rapid propellant",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -10103,7 +10104,7 @@
     "caseInfo": "SU 24x70",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -10260,7 +10261,7 @@
     "propInfo": "Blue Thunder",
     "sparky": false,
     "updatedOn": "2020-11-26",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -12692,7 +12693,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -13689,7 +13690,7 @@
     "propInfo": "Rapid propellant",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -14670,7 +14671,7 @@
     "caseInfo": "SU 24x140",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -15495,7 +15496,7 @@
     "caseInfo": "SU 24x124",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -15637,7 +15638,7 @@
     "caseInfo": "SU 24x124",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -16019,7 +16020,7 @@
     "caseInfo": "SU 29x85",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -16156,7 +16157,7 @@
     "caseInfo": "SU 29x98",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -16486,7 +16487,7 @@
     "propInfo": "Rapid propellant",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -16687,7 +16688,7 @@
     "propInfo": "Roadrunner propellant",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -16953,7 +16954,7 @@
     "caseInfo": "SU 24x124",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -17012,7 +17013,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -17706,7 +17707,7 @@
     "propInfo": "8222ALF",
     "sparky": false,
     "updatedOn": "2020-11-26",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -17863,7 +17864,7 @@
     "caseInfo": "29X304.8MM (75CC)",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -17965,7 +17966,7 @@
     "propInfo": "Blue Thunder",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -18315,7 +18316,7 @@
     "delays": "4,8,12",
     "sparky": false,
     "updatedOn": "2020-10-07",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -18878,7 +18879,7 @@
     "caseInfo": "RMS-29/40-120",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -19076,7 +19077,7 @@
     "caseInfo": "SU 29x98",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -19590,7 +19591,7 @@
     "propInfo": "Redline",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -20235,7 +20236,7 @@
     "propInfo": "Rapid propellant",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -21257,7 +21258,7 @@
     "caseInfo": "SU 24x181",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -21329,7 +21330,7 @@
     "caseInfo": "SU 29x149",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -21469,7 +21470,7 @@
     "caseInfo": "SU 29x124",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -21848,7 +21849,7 @@
     "caseInfo": "SU 29x124",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -22540,7 +22541,7 @@
     "caseInfo": "SU 24x177",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -22682,7 +22683,7 @@
     "caseInfo": "SU 24x177",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -22840,7 +22841,7 @@
     "propInfo": "Metalstorm",
     "sparky": true,
     "updatedOn": "2020-05-01",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -23298,7 +23299,7 @@
     "caseInfo": "SU 29x165",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -23659,7 +23660,7 @@
     "caseInfo": "29X406.4MM (125CC)",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -24942,7 +24943,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -25036,7 +25037,7 @@
     "delays": "7,10",
     "sparky": false,
     "updatedOn": "2020-12-01",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000001d5",
@@ -27141,7 +27142,7 @@
     "dataFiles": 2,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -27354,7 +27355,7 @@
     "totalWeightG": 465.81,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -27918,7 +27919,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -28241,7 +28242,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -29558,7 +29559,7 @@
     "caseInfo": "29X520MM",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -31070,7 +31071,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -31450,7 +31451,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000039a",
@@ -32388,7 +32389,7 @@
     "caseInfo": "H 38/220",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -32671,7 +32672,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -32894,7 +32895,7 @@
     "caseInfo": "H 38/220",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -33883,7 +33884,7 @@
     "propWeightG": 318.3,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -34644,7 +34645,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000074",
@@ -34668,7 +34669,7 @@
     "caseInfo": "SU 38x172",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -34933,7 +34934,7 @@
     "caseInfo": "Pro38-2G",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -35099,7 +35100,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000023f",
@@ -35682,7 +35683,7 @@
     "caseInfo": "SU 29x279",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -35766,7 +35767,7 @@
     "propWeightG": 145.6,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -35902,7 +35903,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000029b",
@@ -37033,7 +37034,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -37222,7 +37223,7 @@
     "caseInfo": "SU 29x275",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -37281,7 +37282,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000371",
@@ -37404,7 +37405,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -38028,7 +38029,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -38198,7 +38199,7 @@
     "propInfo": "Loki White",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -39096,7 +39097,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000000b5",
@@ -39374,7 +39375,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000274",
@@ -39398,7 +39399,7 @@
     "propInfo": "Green Tornado",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -40297,7 +40298,7 @@
     "caseInfo": "38X285.7 38X314(D)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -40644,7 +40645,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -40829,7 +40830,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -40982,7 +40983,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -41603,7 +41604,7 @@
     "caseInfo": "SU 29x406",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -41943,7 +41944,7 @@
     "caseInfo": "38-390",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -42194,7 +42195,7 @@
     "caseInfo": "Pro38-3G",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -42490,7 +42491,7 @@
     "caseInfo": "38-390",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -42846,7 +42847,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -42965,7 +42966,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000415",
@@ -43292,7 +43293,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -43596,7 +43597,7 @@
     "caseInfo": "38/400",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -44418,7 +44419,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000038f",
@@ -45272,7 +45273,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000285",
@@ -45515,7 +45516,7 @@
     "caseInfo": "SU 38x355",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -45689,7 +45690,7 @@
     "propWeightG": 332.4,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -45774,7 +45775,7 @@
     "caseInfo": "38X336.6 38X365(D)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -46022,7 +46023,7 @@
     "propWeightG": 298,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -46088,7 +46089,7 @@
     "propWeightG": 298,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -46255,7 +46256,7 @@
     "delays": "20,P",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -47104,7 +47105,7 @@
     "propWeightG": 327,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -47272,7 +47273,7 @@
     "propWeightG": 283,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -47640,7 +47641,7 @@
     "propWeightG": 275,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -47725,7 +47726,7 @@
     "caseInfo": "38/400",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -47921,7 +47922,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -47983,7 +47984,7 @@
     "propWeightG": 298,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -48124,7 +48125,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000351",
@@ -48146,7 +48147,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000002e9",
@@ -48548,7 +48549,7 @@
     "caseInfo": "38X387.4 38X416(D)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -48680,7 +48681,7 @@
     "propWeightG": 353.8,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -49008,7 +49009,7 @@
     "propWeightG": 298,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -49360,7 +49361,7 @@
     "propInfo": "Green Tornado",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -49559,7 +49560,7 @@
     "caseInfo": "Pro38-4G",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -49744,7 +49745,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000003f6",
@@ -50243,7 +50244,7 @@
     "propWeightG": 382.8,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -50331,7 +50332,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -50522,7 +50523,7 @@
     "propWeightG": 401.2,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -50789,7 +50790,7 @@
     "caseInfo": "38/580",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -50898,7 +50899,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -51043,7 +51044,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -51261,7 +51262,7 @@
     "caseInfo": "SU 38x330",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -51411,7 +51412,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000000c5",
@@ -51570,7 +51571,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -52048,7 +52049,7 @@
     "caseInfo": "Pro38-5G",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -52147,7 +52148,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -52279,7 +52280,7 @@
     "caseInfo": "AMW 38-640",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -52368,7 +52369,7 @@
     "caseInfo": "AMW 38-640",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -52500,7 +52501,7 @@
     "caseInfo": "AMW 38-640",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -53441,7 +53442,7 @@
     "caseInfo": "38X438.1 38X467(D)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -54025,7 +54026,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -54588,7 +54589,7 @@
     "caseInfo": "AMW 38-650",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -54716,7 +54717,7 @@
     "propWeightG": 538.5,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -55030,7 +55031,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000000f8",
@@ -55112,7 +55113,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000000e1",
@@ -55266,7 +55267,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000010f",
@@ -55892,7 +55893,7 @@
     "caseInfo": "Pro38-5G",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -56026,7 +56027,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -56157,7 +56158,7 @@
     "propWeightG": 370,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -57048,7 +57049,7 @@
     "propInfo": "ABS/B, 550cc nitrous",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -57219,7 +57220,7 @@
     "propInfo": "Loki Red",
     "sparky": false,
     "updatedOn": "2020-01-16",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -57270,7 +57271,7 @@
     "propWeightG": 422.6,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -57402,7 +57403,7 @@
     "caseInfo": "38-800",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -58010,7 +58011,7 @@
     "caseInfo": "38-800",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -58088,7 +58089,7 @@
     "caseInfo": "38X488.9 38X517(D)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -58219,7 +58220,7 @@
     "caseInfo": "RMS-54/1280",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -58789,7 +58790,7 @@
     "caseInfo": "SU 54x276",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -58848,7 +58849,7 @@
     "propWeightG": 433.5,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -59214,7 +59215,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000106",
@@ -60453,7 +60454,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000357",
@@ -60475,7 +60476,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000125",
@@ -61121,7 +61122,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000003a3",
@@ -61416,7 +61417,7 @@
     "caseInfo": "RMS-54/1280",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -61549,7 +61550,7 @@
     "caseInfo": "Pro38-6G",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -62281,7 +62282,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -62370,7 +62371,7 @@
     "caseInfo": "RMS-54/1280",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -62532,7 +62533,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000010c",
@@ -62724,7 +62725,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000000e8",
@@ -62746,7 +62747,7 @@
     "propWeightG": 357.2,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -63359,7 +63360,7 @@
     "propWeightG": 525.7,
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -63570,7 +63571,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -64407,7 +64408,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000110",
@@ -64432,7 +64433,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -64826,7 +64827,7 @@
     "propWeightG": 711.9,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -65162,7 +65163,7 @@
     "propInfo": "Green Tornado",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -65473,7 +65474,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -65551,7 +65552,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -65759,7 +65760,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000115",
@@ -66168,7 +66169,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -66439,7 +66440,7 @@
     "propInfo": "Super Tiger",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -66589,7 +66590,7 @@
     "propInfo": "ABS/B, 830cc nitrous",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -67249,7 +67250,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -67703,7 +67704,7 @@
     "propInfo": "Blue Typhoon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -67844,7 +67845,7 @@
     "caseInfo": "SU 38x562",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -68164,7 +68165,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000001f5",
@@ -68188,7 +68189,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -68261,7 +68262,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -68447,7 +68448,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000206",
@@ -68794,7 +68795,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -68914,7 +68915,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000000fb",
@@ -68937,7 +68938,7 @@
     "caseInfo": "RMS-54/1280",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -69765,7 +69766,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -70771,7 +70772,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000222",
@@ -70795,7 +70796,7 @@
     "propInfo": "ABS/G, 830cc nitrous",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -70945,7 +70946,7 @@
     "propInfo": "ABS/G, 830cc nitrous",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -71474,7 +71475,7 @@
     "caseInfo": "RMS-54/1280",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -72082,7 +72083,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -72353,7 +72354,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -72693,7 +72694,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -73295,7 +73296,7 @@
     "caseInfo": "54X403(1400)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -73429,7 +73430,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -73720,7 +73721,7 @@
     "propInfo": "Green Tornado",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -73830,7 +73831,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -74208,7 +74209,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -74420,7 +74421,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -74478,7 +74479,7 @@
     "caseInfo": "54X403(1400)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -75180,7 +75181,7 @@
     "propInfo": "Blue Typhoon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000166",
@@ -75333,7 +75334,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -76198,7 +76199,7 @@
     "propInfo": "ABS/B, 1130cc nitrous",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -77369,7 +77370,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -77787,7 +77788,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -78299,7 +78300,7 @@
     "propInfo": "Super Tiger",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -78550,7 +78551,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -78804,7 +78805,7 @@
     "caseInfo": "RMS-54/1280",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -78938,7 +78939,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -79025,7 +79026,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -79430,7 +79431,7 @@
     "propInfo": "ABS/G, 1130cc nitrous",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -79584,7 +79585,7 @@
     "propInfo": "Green Tornado",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -79757,7 +79758,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -80032,7 +80033,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -80098,7 +80099,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000426",
@@ -80122,7 +80123,7 @@
     "propInfo": "Blue Typhoon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000003c9",
@@ -80675,7 +80676,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -80900,7 +80901,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -81166,7 +81167,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -81550,7 +81551,7 @@
     "propInfo": "Super Tiger",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -82275,7 +82276,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -82990,7 +82991,7 @@
     "totalWeightG": 3650,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -83904,7 +83905,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000209",
@@ -84099,7 +84100,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -84383,7 +84384,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -86143,7 +86144,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000015d",
@@ -86615,7 +86616,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -87205,7 +87206,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -87509,7 +87510,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -87711,7 +87712,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000001de",
@@ -88030,7 +88031,7 @@
     "propWeightG": 1133,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -88404,7 +88405,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -88463,7 +88464,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -88621,7 +88622,7 @@
     "propInfo": "Green Tornado",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -89094,7 +89095,7 @@
     "propWeightG": 1720,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -89173,7 +89174,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -89491,7 +89492,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000137",
@@ -89628,7 +89629,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -90073,7 +90074,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -90206,7 +90207,7 @@
     "caseInfo": "54-2550 (K1100)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -90338,7 +90339,7 @@
     "caseInfo": "54X728",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000018b",
@@ -90361,7 +90362,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -90615,7 +90616,7 @@
     "caseInfo": "54 X 727",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000194",
@@ -90637,7 +90638,7 @@
     "caseInfo": "54-2550 (K1400)",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -90725,7 +90726,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000360",
@@ -90747,7 +90748,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000418",
@@ -91140,7 +91141,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -91407,7 +91408,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -91539,7 +91540,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -93380,7 +93381,7 @@
     "propWeightG": 1489.9,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -94131,7 +94132,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000173",
@@ -94416,7 +94417,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -94748,7 +94749,7 @@
     "totalWeightG": 5134,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -94968,7 +94969,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -95120,7 +95121,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -95285,7 +95286,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000183",
@@ -95308,7 +95309,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -95449,7 +95450,7 @@
     "propInfo": "Super Tiger",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -95687,7 +95688,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000307",
@@ -95712,7 +95713,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -95790,7 +95791,7 @@
     "propInfo": "Green Tornado",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -96044,7 +96045,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -96622,7 +96623,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -96903,7 +96904,7 @@
     "propInfo": "Blue Typhoon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -97483,7 +97484,7 @@
     "propWeightG": 2580,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -98576,7 +98577,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -99051,7 +99052,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000192",
@@ -100156,7 +100157,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000020b",
@@ -100235,7 +100236,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -101009,7 +101010,7 @@
     "caseInfo": "Pro75-4G",
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -101769,7 +101770,7 @@
     "propInfo": "White Lightning",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -102031,7 +102032,7 @@
     "propWeightG": 2472.8,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -102250,7 +102251,7 @@
     "propWeightG": 2598,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -102615,7 +102616,7 @@
     "propWeightG": 2537,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -103011,7 +103012,7 @@
     "propWeightG": 2629,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -103153,7 +103154,7 @@
     "propWeightG": 2589,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -103303,7 +103304,7 @@
     "propInfo": "Red Twister",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -103759,7 +103760,7 @@
     "propInfo": "Dirty Harry",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000001e0",
@@ -103783,7 +103784,7 @@
     "propInfo": "Redline",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -104252,7 +104253,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -104678,7 +104679,7 @@
     "propInfo": "Mojave Green",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -105117,7 +105118,7 @@
     "totalWeightG": 7268,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -105522,7 +105523,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -105589,7 +105590,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -105688,7 +105689,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000030b",
@@ -105829,7 +105830,7 @@
     "propInfo": "Red Rhino",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -106061,7 +106062,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -106254,7 +106255,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000001d7",
@@ -106389,7 +106390,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -106468,7 +106469,7 @@
     "propInfo": "Blue Typhoon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -106866,7 +106867,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -107200,7 +107201,7 @@
     "caseInfo": "RMS-98/5120",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -107801,7 +107802,7 @@
     "propWeightG": 3250,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -107950,7 +107951,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -108104,7 +108105,7 @@
     "propWeightG": 3162,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -109350,7 +109351,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -110146,7 +110147,7 @@
     "propWeightG": 3511.2,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -110280,7 +110281,7 @@
     "propInfo": "Super Tiger",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -111037,7 +111038,7 @@
     "propInfo": "Slow",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000003bf",
@@ -111136,7 +111137,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -111198,7 +111199,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d20002310000000315",
@@ -111442,7 +111443,7 @@
     "propInfo": "Fast",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d200023100000002fa",
@@ -112032,7 +112033,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -112509,7 +112510,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -112662,7 +112663,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -114269,7 +114270,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -114619,7 +114620,7 @@
     "propWeightG": 5161,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -115350,7 +115351,7 @@
     "propWeightG": 5293,
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -115611,7 +115612,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -116112,7 +116113,7 @@
     "propInfo": "Green Gorilla",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -116368,7 +116369,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -116601,7 +116602,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -116722,7 +116723,7 @@
     "propInfo": "Skidmark",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -116906,7 +116907,7 @@
     "caseInfo": "98/12500",
     "propInfo": "Loki White",
     "sparky": false,
-    "updatedOn": "2019-04-17",
+    "updatedOn": "2021-07-04",
     "samples": [
       [
         0,
@@ -117933,7 +117934,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -118293,7 +118294,7 @@
     "propInfo": "White Wolf",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -118532,7 +118533,7 @@
     "propInfo": "Blue Baboon",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -119203,7 +119204,7 @@
     "propInfo": "Blue Thunder",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -119621,7 +119622,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -119771,7 +119772,7 @@
     "propInfo": "Black Lightning",
     "sparky": true,
     "updatedOn": "2019-04-17",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -120152,7 +120153,7 @@
     "propWeightG": 13245,
     "sparky": false,
     "updatedOn": "2021-06-13",
-    "availability": "OOP",
+    "discontinued": true,
     "samples": [
       [
         0,
@@ -120565,7 +120566,7 @@
     "propInfo": "White Cloud",
     "sparky": false,
     "updatedOn": "2019-04-17",
-    "availability": "OOP"
+    "discontinued": true
   },
   {
     "motorId": "5f4294d2000231000000028c",

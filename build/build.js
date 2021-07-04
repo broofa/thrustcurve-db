@@ -97,16 +97,16 @@ function log(...args) {
       }
     }
 
-    // Set availability (we'll remove this later if the motor is available)
-    motor.availability='OOP';
+    // Temporarily mark all motors as discontinued (we'll remove this later if the motor is available)
+    motor.discontinued = true;
 
     // Map of motorId -> motor
     motors[motor.motorId] = {...motor};
   }
 
-  // Update availability for avaialble motors
+  // Remove `discontinued` state for available motors
   for (const motor of availableResults) {
-    delete motors[motor.motorId]?.availability;
+    delete motors[motor.motorId]?.discontinued;
   }
 
   // Fetch thrust samples
