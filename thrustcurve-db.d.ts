@@ -2,6 +2,14 @@ type ThrustPoint = [number, number];
 
 type Samples = ThrustPoint[];
 
+type ParsedDelays = {
+  times: Number[],
+  plugged: Boolean
+};
+
+export function parseDelays(string) : ParsedDelays;
+export function unparseDelays(ParsedDelays) : string;
+
 export declare type Motor = {
     motorId :  string;
     manufacturer :  string;
@@ -27,3 +35,6 @@ export declare type Motor = {
     updatedOn :  string;
     samples ?:  Samples;
 }
+
+declare const MOTORS : Array<Motor>;
+export default MOTORS;
