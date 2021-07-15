@@ -1,5 +1,6 @@
 import axios from 'axios';
 import fs from 'fs';
+import util from 'util';
 import {parseDelays, unparseDelays} from '../util.js';
 
 const BASE = 'https://www.thrustcurve.org/api/v1';
@@ -53,17 +54,22 @@ function log(...args) {
 
   for (const motor of allResults) {
     // Parse `delays` out of `designation` for Cesaroni motors, as this appears to
-    // be more accurate.  (Note: Cesaroni delays are adjusted with the Pro38-DAT
-    // tool that allows for removing 3, 5, 7, or 9 seconds of delay)
+    // be more accurate.
     if (motor.manufacturerAbbrev === 'Cesaroni') {
       let delay = /-(\d+)A$/.test(motor.designation) && RegExp.$1;
       if (delay) {
-        const newDelay = [delay - 9, delay - 7, delay - 5, delay - 3, delay]
-          .filter(d => d >= 0)
-          .join(',');
-        if (motor.delays !== newDelay) {
-          log(`Delay adjustment for ${motor.designation}: ${motor.delays} --> ${newDelay}`);
-          motor.delays = newDelay;
+        const adjustments = motor.diameter <= 38
+          ?  [0, 3, 5, 7, 9]                     // Allowed by PRO-38 DAT tool
+          :  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // Allowed by PRO-54 DAT too
+        const times = adjustments
+          .map(v => delay - v)
+          .filter(d => d >= 0);
+
+        const newDelays = unparseDelays({times});
+
+        if (motor.delays !== newDelays) {
+          log(`Delay adjustment for ${motor.designation} (${motor.diameter}mm): ${motor.delays} --> ${newDelays}`);
+          motor.delays = newDelays;
         }
       }
     }
