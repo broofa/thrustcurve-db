@@ -38,15 +38,20 @@ export function parseDelays(delays) {
         continue;
 
       // Aerotech letter-delays.  The Aerotech delay drilling tool can remove up
-      // to 8 seconds of delay in 2-second increments
-      case v === 'S': [0, 2, 4, 6].forEach(times.add, times); continue;
-      case v === 'M': [2, 4, 6, 8, 10].forEach(times.add, times); continue;
+      // to 8 seconds of delay in 2-second increments.  Aerotech warns against
+      // delays < 6 seconds for in DMS drill tool instructions. And Sirius
+      // Rocketry warns against delays < 4 seconds on their product page for
+      // the RMS drill tool.
+      case v === 'S': [4, 6].forEach(times.add, times); continue;
+      case v === 'M': [4, 6, 8, 10].forEach(times.add, times); continue;
       case v === 'L': [6, 8, 10, 12, 14].forEach(times.add, times); continue;
       case v === 'X': [10, 12, 14, 16, 18].forEach(times.add, times); continue;
     }
 
     if (/^(\d+)-(\d+)$/.test(v)) {
-      const {$1: min, $2: max} = RegExp;
+      let {$1: min, $2: max} = RegExp;
+      if (min > max) [min, max] = [max, min];
+
       if (max - min > 20) throw Error(`'Unexpectedly large delay range: ${delays}`);
       for (let d = parseInt(min); d <= max; d++) times.add(d);
     } else if (v == 'P') {

@@ -6,6 +6,8 @@ import {parseDelays, unparseDelays} from '../util.js';
 const BASE = 'https://www.thrustcurve.org/api/v1';
 const MAX_RESULTS = 9999;
 
+const CESARONI_CACHE = '_cesaroni_delays.json';
+
 /**
  * Easy-to-read name for a motor
  */
@@ -39,7 +41,28 @@ function log(...args) {
   process.stderr.write('\n');
 }
 
+/**
+ * Clean up a scraped Cesaroni delay value such that it can be parsed by parseDelays()
+ */
+function _cleanupDelay(delay) {
+  return delay
+    .replace(/, adjustable/, '')
+    .replace(/s.*/, '') // "seconds"
+    .replace(/[^\x20-\x7E]+/g, '-') // Sometimes there's a garbage char instead of "-"
+    .replace(/^[\s",]|[\s",]$/g, ''); // Trim whitespace and quotes
+}
+
+
+
 (async function main(lite = false) {
+  // Pull in scraped Cesaroni delays, if available
+  let cesaroniDelays;
+  try {
+    cesaroniDelays = JSON.parse(fs.readFileSync(CACHE_FILE));
+  } catch (err) {
+    cesaroniDelays = {};
+  }
+
   let [allResults, availableResults] = await Promise.all([
     axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`),
     axios.get(`${BASE}/search.json?availability=available&maxResults=${MAX_RESULTS}`)
@@ -53,17 +76,20 @@ function log(...args) {
   const motors = {};
 
   for (const motor of allResults) {
-    // Parse `delays` out of `designation` for Cesaroni motors, as this appears to
-    // be more accurate.
     if (motor.manufacturerAbbrev === 'Cesaroni') {
+      // Cesaroni designation includes the maximum delay time. "A" suffix motors
+      // are adjustable with either the PRO38 DAT or the PRO54 DAT tool.
       let delay = /-(\d+)A$/.test(motor.designation) && RegExp.$1;
       if (delay) {
         const adjustments = motor.diameter <= 38
           ?  [0, 3, 5, 7, 9]                     // Allowed by PRO-38 DAT tool
           :  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // Allowed by PRO-54 DAT too
+
+        // PRO38 delays appear to have a minimum of 2 seconds.
+        // PRO 54 delays
         const times = adjustments
           .map(v => delay - v)
-          .filter(d => d >= 0);
+          .filter(d => d > (motor.diameter <= 38 ? 2 : 0));
 
         const newDelays = unparseDelays({times});
 
