@@ -16,7 +16,7 @@ const MOTOR_PAGES = [
  'http://www.pro38.com/products/pro54/motor.php'
 ];
 
-const CESARONI_CACHE = '_cesaroni_delays.json';
+const CESARONI_CACHE = new URL('./_cesaroni_delays.json', import.meta.url);
 
 let cesaroniDelays;
 try {
@@ -32,8 +32,8 @@ let frame = 0;
 const spinner = cliSpinners.dots.frames;
 setInterval(() => {
   frame++;
-  cursor.back();
   process.stdout.write(spinner[frame % spinner.length]);
+  cursor.back();
 }, 80);
 
 // HTTP GET something

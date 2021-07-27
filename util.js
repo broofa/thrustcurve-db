@@ -49,11 +49,12 @@ export function parseDelays(delays) {
     }
 
     if (/^(\d+)-(\d+)$/.test(v)) {
-      let {$1: min, $2: max} = RegExp;
+      let min = parseInt(RegExp.$1);
+      let max = parseInt(RegExp.$2);
       if (min > max) [min, max] = [max, min];
 
       if (max - min > 20) throw Error(`'Unexpectedly large delay range: ${delays}`);
-      for (let d = parseInt(min); d <= max; d++) times.add(d);
+      for (let d = min; d <= max; d++) times.add(d);
     } else if (v == 'P') {
       plugged = true;
     } else {
