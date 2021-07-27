@@ -90,8 +90,16 @@ console.error(err);
             .replace(/\./g, ',') // 108G68-13A has '.'s instead of ','s
             .replace(/\bto\b/g, '-') // 502I120-15A has "to" instead of "-"
             .replace(/"/g, ''); // Trim whitespace and quotes
-          const parsed = parseDelays(scrapedDelays);
-          minDelay = parsed.times[0];
+
+          try {
+            const parsed = parseDelays(scrapedDelays);
+            minDelay = parsed.times[0];
+          } catch (err) {
+            // Some motors have max delays that are larger than stated in the
+            // motor designation.  This is almost certainly data entry error, so
+            // we just ignore these cases.
+            log(motor.designation, err.message);
+          }
         }
 
         const adjustments = motor.diameter <= 38
@@ -103,14 +111,13 @@ console.error(err);
           .filter(d => d >= minDelay);
 
         newDelays = unparseDelays({times});
-if (scrapedDelays) log('XXXXX', delay, 'X', scrapedDelays, newDelays ?? 'N/A');
       } else if (/-(\d+)$/.test(motor.designation)) {
         // Fixed delay motors (just the 1526K160-6 at this time)
         newDelays = RegExp.$1;
       }
 
       if (motor.delays !== newDelays) {
-        log(`Delay adjustment for ${motor.designation} (${motor.diameter}mm): ${motor.delays} --> ${newDelays}`);
+        log(`${motor.designation}: Delay (${motor.diameter}mm): ${motor.delays} --> ${newDelays}`);
         motor.delays = newDelays;
       }
     }
