@@ -1,13 +1,12 @@
 import axios from 'axios';
 import fs from 'fs';
-import {parseDelays, unparseDelays} from '../util.js';
 import { fileURLToPath } from 'url';
 
 const BASE = 'https://www.thrustcurve.org/api/v1';
 const MAX_RESULTS = 9999;
 
 /**
- * JSON replacer that alphabetizes object keys
+ * Replacer for sorting keys alphabetically
  */
 function alphabetize(k, v) {
   if (v.constructor === Object) {
@@ -19,7 +18,6 @@ function alphabetize(k, v) {
 
   return v;
 }
-
 /**
  * Easy-to-read name for a motor
  */
@@ -67,8 +65,6 @@ function log(...args) {
   const motors = {};
 
   for (const motor of allResults) {
-    let newDelays = motor.delays;
-
     // Remove non-essential properties (disabled for the time being)
     if (lite) {
       for (const k of [
@@ -149,9 +145,8 @@ function log(...args) {
     names.forEach(name => log('  - ', name));
   }
 
-  // Sort by motorId
-  const sortedMotors = Object.values(motors);
-  sortedMotors.sort((a, b) => a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0);
+  const sortedMotors = Object.values(motors)
+    .sort((a, b) => a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0)
 
   process.stdout.write(JSON.stringify(sortedMotors, alphabetize, 2));
   process.stdout.write('\n');
