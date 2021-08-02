@@ -6,7 +6,19 @@ import { fileURLToPath } from 'url';
 const BASE = 'https://www.thrustcurve.org/api/v1';
 const MAX_RESULTS = 9999;
 
-const CESARONI_CACHE = new URL('./_cesaroni_delays.json', import.meta.url);
+/**
+ * JSON replacer that alphabetizes object keys
+ */
+function alphabetize(k, v) {
+  if (v.constructor === Object) {
+    return Object.fromEntries(
+      Object.entries(v)
+        .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
+    );
+  }
+
+  return v;
+}
 
 /**
  * Easy-to-read name for a motor
@@ -42,15 +54,6 @@ function log(...args) {
 }
 
 (async function main(lite = false) {
-  // Pull in scraped Cesaroni delays, if available
-  let cesaroniDelays;
-  try {
-    cesaroniDelays = JSON.parse(fs.readFileSync(CESARONI_CACHE));
-  } catch (err) {
-console.error(err);
-    cesaroniDelays = {};
-  }
-
   let [allResults, availableResults] = await Promise.all([
     axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`),
     axios.get(`${BASE}/search.json?availability=available&maxResults=${MAX_RESULTS}`)
@@ -65,62 +68,6 @@ console.error(err);
 
   for (const motor of allResults) {
     let newDelays = motor.delays;
-    if (motor.manufacturerAbbrev === 'Cesaroni') {
-      // Cesaroni designation includes the maximum delay time. "A" suffix motors
-      // are adjustable with either the PRO38 DAT or the PRO54 DAT tool.  "P"
-      // motors are plugged.
-      if (/-P$/.test(motor.designation)) {
-        // Plugged motors
-        newDelays = "P";
-      } else if (/-(\d+)A$/.test(motor.designation)) {
-        // Adjustable delay motors
-        let delay = parseInt(RegExp.$1);
-
-        // Default to 2 sec minimum
-        let minDelay = 2;
-
-        // If we have scraped data from pro38.com, use that to determine the
-        // minimum (tested) delay
-        let scrapedDelays = cesaroniDelays[motor.designation];
-        if (scrapedDelays) {
-          scrapedDelays = scrapedDelays
-            .replace(/, adjustable/, '')
-            .replace(/s.*/, '') // "seconds"
-            .replace(/[^\x20-\x7E]+/g, '-') // "-" is garbled on some values
-            .replace(/\./g, ',') // 108G68-13A has '.'s instead of ','s
-            .replace(/\bto\b/g, '-') // 502I120-15A has "to" instead of "-"
-            .replace(/"/g, ''); // Trim whitespace and quotes
-
-          try {
-            const parsed = parseDelays(scrapedDelays);
-            minDelay = parsed.times[0];
-          } catch (err) {
-            // Some motors have max delays that are larger than stated in the
-            // motor designation.  This is almost certainly data entry error, so
-            // we just ignore these cases.
-            log(motor.designation, err.message);
-          }
-        }
-
-        const adjustments = motor.diameter <= 38
-          ?  [0, 3, 5, 7, 9]                     // Allowed by PRO-38 DAT tool
-          :  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // Allowed by PRO-54 DAT too
-
-        const times = adjustments
-          .map(v => delay - v)
-          .filter(d => d >= minDelay);
-
-        newDelays = unparseDelays({times});
-      } else if (/-(\d+)$/.test(motor.designation)) {
-        // Fixed delay motors (just the 1526K160-6 at this time)
-        newDelays = RegExp.$1;
-      }
-
-      if (motor.delays !== newDelays) {
-        log(`${motor.designation}: Delay (${motor.diameter}mm): ${motor.delays} --> ${newDelays}`);
-        motor.delays = newDelays;
-      }
-    }
 
     // Remove non-essential properties (disabled for the time being)
     if (lite) {
@@ -202,7 +149,11 @@ console.error(err);
     names.forEach(name => log('  - ', name));
   }
 
-  process.stdout.write(JSON.stringify(Object.values(motors), null, 2));
+  // Sort by motorId
+  const sortedMotors = Object.values(motors);
+  sortedMotors.sort((a, b) => a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0);
+
+  process.stdout.write(JSON.stringify(sortedMotors, alphabetize, 2));
   process.stdout.write('\n');
 }())
   .catch(err => {
