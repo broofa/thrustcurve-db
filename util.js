@@ -1,6 +1,18 @@
 /**
  * Parse a thrustcurve `delays` value to determine all possible motor delay
- * configurations.
+ * configurations.  This is a "loose" parser (will accept some atypical values),
+ * but delay strings are generally expected to be formatted as follows:
+ *
+ * - Delay strings are comma-separated list of values and/or ranges.
+ * - Values are non-zero integers, or an Aerotech letter designation of "S",
+ *   "M", "L", or "X"
+ * - Ranges are the numeric min and max value (inclusive), separated by a dash("-")
+ *
+ * Examples:
+ *
+ *     "4,6,9" = 4, 6, or 9 second delays
+ *      "5-13" = all delays from 5 to 13 seconds (inclusive)
+ * "5-9,11-14" = all delays from 5 to 14 seconds, except 10
  *
  * @param {String} delays
  * @return {Object} with the following properties:
@@ -37,11 +49,15 @@ export function parseDelays(delays) {
         times.add(parseInt(v));
         continue;
 
-      // Aerotech letter-delays.  The Aerotech delay drilling tool can remove up
-      // to 8 seconds of delay in 2-second increments.  Aerotech warns against
-      // delays < 6 seconds for in DMS drill tool instructions. And Sirius
-      // Rocketry warns against delays < 4 seconds on their product page for
-      // the RMS drill tool.
+      // Aerotech letter-delays.  The Aerotech delay drill tools can remove up
+      // to 8 seconds of delay in 2-second increments. There are recommended
+      // minimum delay times for the tools, however.  Aerotech says to not set
+      // delays of less than 6 seconds with the DMS tool, while Sirius
+      // Rocketery says no less than 4 seconds for the RMS tool.  We don't
+      // have access to the motor case info here to determine which tool is
+      // involved, but 207 of the 211 AeroTech motors in the TC db are RMS
+      // motors at the time I wrote this, so I'm enforcing a 4 second minimum
+      // here.
       case v === 'S': [4, 6].forEach(times.add, times); continue;
       case v === 'M': [4, 6, 8, 10].forEach(times.add, times); continue;
       case v === 'L': [6, 8, 10, 12, 14].forEach(times.add, times); continue;
@@ -67,6 +83,10 @@ export function parseDelays(delays) {
   return {times, plugged};
 }
 
+/**
+ * Convert a `delays` structure returned from parseDelays() into a delays
+ * string.
+ */
 export function unparseDelays(parsed) {
   const times = [...parsed.times].sort((a, b) => a - b);
 
