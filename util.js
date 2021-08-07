@@ -90,6 +90,7 @@ export function parseDelays(delays) {
 export function unparseDelays(parsed) {
   const times = [...parsed.times].sort((a, b) => a - b);
 
+  /*
   // Tack on an ending value (to flush last value in range aggregator loop,
   // below)
   times.push(Symbol());
@@ -118,4 +119,8 @@ export function unparseDelays(parsed) {
   if (parsed.plugged) vals.push('P');
 
   return vals.join(',');
+  */
+
+  if (parsed.plugged) times.push('P');
+  return times.join(',');
 }
