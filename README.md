@@ -6,7 +6,7 @@ utility functions).
 This module is a rebundling of the rocket motor data available on John Coker's
 [thrustcurve.org](https://thrustcurve.org) website ("TC").  The dataset includes data for all motors in the [ThrustCurve API](https://www.thrustcurve.org/info/api.html) ("search" endpoint), and is a field-by-field translation of what is found in the "search" endpoint, with the following changes:
 * Motor "availability" is exposed as the `discontinued` field (see https://github.com/JohnCoker/thrustcurve3/issues/35)
-* Where available, thrust curve data (from the 'download' endpoint) is included as a `samples` array.  These are normalized to always have `[0, 0]` as the first data point.  In cases where a motor has more than one thrust sample file the first "cert"(ified) file found is used, otherwise the samples are from whichever file the API returned first.  (This typically isn't an issue since most thrust curves are very similar, but there are some cases where they differ significantly).
+* Where available, thrust curve data (from the "download" endpoint) is included as a `samples` array.  These are normalized to always have `[0, 0]` as the first data point.  In cases where more than one sample file is available for a motor, the first "cert"(ified) file found is used.  Otherwise the samples are from whichever file the API return first.
 
 **License & Support**
 
@@ -17,49 +17,43 @@ This module is a rebundling of the rocket motor data available on John Coker's
 
 ## Installation
 
-You know the drill ...
+### NPM
 
 ```
 npm i thrustcurve-db
 ```
 
+### Yarn
+```
+yarn add thrustcurve-db
+```
+
 ## Usage
 
+### ES Modules
+
 ```js
-import MOTORS, {parseDelays, unparseDelays} from 'thrustcurve-db';
+import MOTORS from 'thrustcurve-db';
+```
 
-// `MOTORS` is a Motor[] array.
+### CommonJS
+```js
+const MOTORS = require('thrustcurve-db');
+```
 
-for (const motor of MOTORS) {
-  // See `thrustcurve-db.d.ts` for Motor structure details.
-  console.log(motor); // Spew data for ~1,100 motors to console
-}
+### CommonJS w/ `import()` (NodeJS)
 
-// parseDelays() parses a motor `delays` value to determine the
-// delay options. The returned Object has the following properties:
-//
-//    times: Number[] array of possible delay times (seconds)
-//  plugged: true if motor has a "Plugged" configuration
-//
-// Aerotech delays (S, M, L, X) are transformed as follows:
-// S -> 0-6
-// M -> 0-10
-// L -> 0-14
-// X -> 0-18
-//
-// Note: `times` are guaranteed to be unique and in ascending order.
-// E.g.  `parseDelays('L, S')` and `parseDelays('1, 5, M, L')` will
-// produce the same result.
+Note: At present this requires you run `node` with the  `--experimental-json-modules` flag
 
-parseDelays('S, 16, P'); // -> {
-                         //   times: [0,1,2,3,4,5,6,16],
-                         //   plugged: true
-                         // }
+```js
+const MOTORS = await import('thrustcurve-db');
+```
 
-// unparseDelays(parsed) is the inverse operation of parseDelays() (sort of).
+## Example
 
-unparseDelays({
-  times: [0,1,2,3,4,5,6,16],
-  plugged: true
-}); // -> "0-6,16,P"
+After importing (above)...
+
+```js
+// Find all J motors currently in production
+MOTORS.filter(m => m.availability === 'regular' && m.impulseClass === 'J');
 ```
