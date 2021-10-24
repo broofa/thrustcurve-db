@@ -10,7 +10,7 @@ export declare type Motor = {
     delays :  string;
     designation :  string;
     diameter :  number;
-    impulseClass :  string;
+    impulseClass :  'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O';
     infoUrl :  string;
     length :  number;
     manufacturer :  string;
@@ -23,7 +23,7 @@ export declare type Motor = {
     sparky ?:  boolean;
     totImpulseNs :  number;
     totalWeightG :  number;
-    type :  string;
+    type :  'SU' | 'hybrid' | 'reload';
     updatedOn :  string;
 }
 
