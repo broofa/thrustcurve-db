@@ -1,8 +1,7 @@
-import axios from 'axios';
-import fs from 'fs';
-import { fileURLToPath } from 'url';
+#!/usr/bin/env node
+import axios from "axios";
 
-const BASE = 'https://www.thrustcurve.org/api/v1';
+const BASE = "https://www.thrustcurve.org/api/v1";
 const MAX_RESULTS = 9999;
 
 /**
@@ -11,8 +10,7 @@ const MAX_RESULTS = 9999;
 function alphabetize(k, v) {
   if (v.constructor === Object) {
     return Object.fromEntries(
-      Object.entries(v)
-        .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
+      Object.entries(v).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
     );
   }
 
@@ -47,19 +45,23 @@ function sig(val, digits = 3) {
  * log to stderr (so stdout can redirect to file)
  */
 function log(...args) {
-  process.stderr.write(args.join(' '));
-  process.stderr.write('\n');
+  process.stderr.write(args.join(" "));
+  process.stderr.write("\n");
 }
 
 (async function main(lite = false) {
   let [allResults, availableResults] = await Promise.all([
     axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`),
-    axios.get(`${BASE}/search.json?availability=available&maxResults=${MAX_RESULTS}`)
+    axios.get(
+      `${BASE}/search.json?availability=available&maxResults=${MAX_RESULTS}`
+    ),
   ]);
 
   allResults = allResults.data.results;
   availableResults = availableResults.data.results;
-  log(`Received ${availableResults.length} motors, ${availableResults.length} available motors`);
+  log(
+    `Received ${availableResults.length} motors, ${availableResults.length} available motors`
+  );
 
   // Normalize motor data
   const motors = {};
@@ -68,60 +70,58 @@ function log(...args) {
     // Remove non-essential properties (disabled for the time being)
     if (lite) {
       for (const k of [
+        // 'availability',
         // 'avgThrustN',
         // 'burnTimeS',
-        'caseInfo',
-        'certOrg',
-        'commonName',
-        'dataFiles',
+        "caseInfo",
+        "certOrg",
+        "commonName",
+        "dataFiles",
         // 'delays',
         // 'designation',
-        'diameter',
+        "diameter",
         // 'impulseClass',
-        'infoUrl',
-        'length',
-        'manufacturer',
+        "infoUrl",
+        "length",
+        "manufacturer",
         // 'manufacturerAbbrev',
-        'maxThrustN',
+        "maxThrustN",
         // 'motorId',
-        'propInfo',
-        'propWeightG',
+        "propInfo",
+        "propWeightG",
         // 'sparky',
         // 'totImpulseNs',
-        'totalWeightG',
-        'type',
-        'updatedOn',
+        "totalWeightG",
+        "type",
+        "updatedOn",
       ]) {
         delete motor[k];
       }
     }
 
-    // Temporarily mark all motors as discontinued (we'll remove this later if the motor is available)
-    motor.discontinued = true;
-
     // Map of motorId -> motor
-    motors[motor.motorId] = {...motor};
-  }
-
-  // Remove `discontinued` state for available motors
-  for (const motor of availableResults) {
-    delete motors[motor.motorId]?.discontinued;
+    motors[motor.motorId] = { ...motor };
   }
 
   // Fetch thrust samples
   const motorIds = allResults.map(m => m.motorId);
-  const {data: {results : sampleResults}} = await axios.post(`${BASE}/download.json`, {
+  const {
+    data: { results: sampleResults },
+  } = await axios.post(`${BASE}/download.json`, {
     motorIds,
-    data: 'samples'
+    data: "samples",
   });
 
   log(`Received ${sampleResults.length} thrust sample sets`);
 
   // Normalize thrust data
-  for (const {motorId, samples, source, format, data} of sampleResults) {
+  for (const { motorId, samples, source, format, data } of sampleResults) {
     const motor = motors[motorId];
 
-    const _samples = samples.map(({time, thrust}) => [sig(time, 4), sig(thrust, 4)]);
+    const _samples = samples.map(({ time, thrust }) => [
+      sig(time, 4),
+      sig(thrust, 4),
+    ]);
 
     // Include [0,0] point if not present
     if (_samples[0][0] !== 0) _samples.unshift([0, 0]);
@@ -133,7 +133,7 @@ function log(...args) {
     // Decide which sample is "better".  This logic is pretty crude at the
     // moment.  Basically the first "cert"(ification) sample wins, otherwise we
     // use whichever one is last encountered.
-    if (motor.samples?.source !== 'cert') {
+    if (motor.samples?.source !== "cert") {
       motor.samples = _samples;
     }
   }
@@ -142,17 +142,17 @@ function log(...args) {
   if (thrustless.length) {
     const names = thrustless.map(motorName).sort();
     log(`Motors missing thrust data:`);
-    names.forEach(name => log('  - ', name));
+    names.forEach(name => log("  - ", name));
   }
 
-  const sortedMotors = Object.values(motors)
-    .sort((a, b) => a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0)
+  const sortedMotors = Object.values(motors).sort((a, b) =>
+    a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0
+  );
 
   process.stdout.write(JSON.stringify(sortedMotors, alphabetize, 2));
-  process.stdout.write('\n');
-}())
-  .catch(err => {
-    log(err.message);
-    log(err.stack);
-    process.exit(1);
-  })
+  process.stdout.write("\n");
+})().catch(err => {
+  log(err.message);
+  log(err.stack);
+  process.exit(1);
+});

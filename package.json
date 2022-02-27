@@ -15,8 +15,8 @@
     "thrustcurve-db.d.ts"
   ],
   "scripts": {
-    "prepare": "node build/build.js > thrustcurve-db.json",
-    "test": "node --experimental-json-modules build/test.js && exit 1"
+    "prepare": "build/build.js > thrustcurve-db.json",
+    "test": "echo \"no tests\" && exit 1"
   },
   "repository": {
     "type": "git",
