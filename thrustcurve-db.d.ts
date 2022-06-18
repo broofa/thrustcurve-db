@@ -1,10 +1,10 @@
 type ThrustPoint = [
   number, // time (seconds)
-  number  // thrust (Newtons)
+  number // thrust (Newtons)
 ];
 
 export declare type Motor = {
-  availability: "regular" | "OOP";
+  availability: 'regular' | 'OOP';
   avgThrustN: number;
   burnTimeS: number;
   certOrg: string;
@@ -14,21 +14,21 @@ export declare type Motor = {
   designation: string;
   diameter: number;
   impulseClass:
-    | "A"
-    | "B"
-    | "C"
-    | "D"
-    | "E"
-    | "F"
-    | "G"
-    | "H"
-    | "I"
-    | "J"
-    | "K"
-    | "L"
-    | "M"
-    | "N"
-    | "O";
+    | 'A'
+    | 'B'
+    | 'C'
+    | 'D'
+    | 'E'
+    | 'F'
+    | 'G'
+    | 'H'
+    | 'I'
+    | 'J'
+    | 'K'
+    | 'L'
+    | 'M'
+    | 'N'
+    | 'O';
   infoUrl: string;
   length: number;
   manufacturer: string;
@@ -41,7 +41,7 @@ export declare type Motor = {
   sparky?: boolean;
   totImpulseNs: number;
   totalWeightG: number;
-  type: "SU" | "hybrid" | "reload";
+  type: 'SU' | 'hybrid' | 'reload';
   updatedOn: string;
 };
 

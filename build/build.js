@@ -7,11 +7,15 @@ const MAX_RESULTS = 9999;
 /**
  * Replacer for sorting keys alphabetically
  */
-function alphabetize(k, v) {
+function motorReducer(k, v) {
   if (v.constructor === Object) {
+    // Object keys get sorted alphabetically
     return Object.fromEntries(
       Object.entries(v).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
     );
+  } else if (typeof(v) === 'number') {
+    // Numbers get rounded to 4 significant digits
+    return parseFloat(v.toPrecision(4));
   }
 
   return v;
@@ -50,61 +54,16 @@ function log(...args) {
 }
 
 (async function main(lite = false) {
-  let [allResults, availableResults] = await Promise.all([
-    axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`),
-    axios.get(
-      `${BASE}/search.json?availability=available&maxResults=${MAX_RESULTS}`
-    ),
-  ]);
-
-  allResults = allResults.data.results;
-  availableResults = availableResults.data.results;
-  log(
-    `Received ${availableResults.length} motors, ${availableResults.length} available motors`
-  );
+  let allMotors = (await axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`)).data.results;
 
   // Normalize motor data
-  const motors = {};
-
-  for (const motor of allResults) {
-    // Remove non-essential properties (disabled for the time being)
-    if (lite) {
-      for (const k of [
-        // 'availability',
-        // 'avgThrustN',
-        // 'burnTimeS',
-        "caseInfo",
-        "certOrg",
-        "commonName",
-        "dataFiles",
-        // 'delays',
-        // 'designation',
-        "diameter",
-        // 'impulseClass',
-        "infoUrl",
-        "length",
-        "manufacturer",
-        // 'manufacturerAbbrev',
-        "maxThrustN",
-        // 'motorId',
-        "propInfo",
-        "propWeightG",
-        // 'sparky',
-        // 'totImpulseNs',
-        "totalWeightG",
-        "type",
-        "updatedOn",
-      ]) {
-        delete motor[k];
-      }
-    }
-
-    // Map of motorId -> motor
-    motors[motor.motorId] = { ...motor };
-  }
+  const motors = allMotors.reduce(
+    (map, motor) => map.set(motor.motorId, { ...motor }),
+    new Map()
+  );
 
   // Fetch thrust samples
-  const motorIds = allResults.map(m => m.motorId);
+  const motorIds = allMotors.map(m => m.motorId);
   const {
     data: { results: sampleResults },
   } = await axios.post(`${BASE}/download.json`, {
@@ -116,14 +75,21 @@ function log(...args) {
 
   // Normalize thrust data
   for (const { motorId, samples, source, format, data } of sampleResults) {
-    const motor = motors[motorId];
+    const motor = motors.get(motorId);
 
     const _samples = samples.map(({ time, thrust }) => [
       sig(time, 4),
       sig(thrust, 4),
     ]);
 
-    // Include [0,0] point if not present
+
+    // Thrust must be zero at t=0
+    if (_samples[0][0] === 0 && _samples[0][1] !== 0) {
+      log(`${motorId} has non-zero thrust at t=0 (patching)`);
+      _samples[0][0] = 0.0001;
+    }
+
+    // Include [0,0] point if first point is not at t=0
     if (_samples[0][0] !== 0) _samples.unshift([0, 0]);
 
     // Remember source ('cert' | 'user'), as it's useful in selecting which
@@ -138,18 +104,18 @@ function log(...args) {
     }
   }
 
-  const thrustless = Object.values(motors).filter(m => !m.samples);
+  const thrustless = [...motors.values()].filter(m => !m.samples);
   if (thrustless.length) {
     const names = thrustless.map(motorName).sort();
     log(`Motors missing thrust data:`);
     names.forEach(name => log("  - ", name));
   }
 
-  const sortedMotors = Object.values(motors).sort((a, b) =>
+  const sortedMotors = [...motors.values()].sort((a, b) =>
     a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0
   );
 
-  process.stdout.write(JSON.stringify(sortedMotors, alphabetize, 2));
+  process.stdout.write(JSON.stringify(sortedMotors, motorReducer, 2));
   process.stdout.write("\n");
 })().catch(err => {
   log(err.message);

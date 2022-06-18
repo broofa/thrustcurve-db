@@ -1,14 +1,18 @@
 # thrustcurve-db
 
-ThrustCurve.org model rocket motor data as a single JSON file.
+This module is a rebundling of the model rocket motor data available on John Coker's excellent [thrustcurve.org](https://thrustcurve.org) website ("TC") as a stand-alone JSON file. The data is an array of motor items consistent with TC's [`SearchResponse#results` schema](https://app.swaggerhub.com/apis/JCSW7/thrust-curve_org_api/1.0.3#/SearchResponse).
 
-This module is a rebundling of the model rocket motor data found at John Coker's [thrustcurve.org](https://thrustcurve.org) website ("TC"). It is available here in JSON format, or as an ESM or CommonJS module.
+See also, the included [TypeScript definitions](https://github.com/broofa/thrustcurve-db/blob/main/thrustcurve.d.ts).
 
-Data is pulled from the TC [/api/v1/search response](https://github.com/JohnCoker/thrustcurve3/blob/8bd8571fe0791fb9a68a6a96eb36c276d58c339b/config/api_v1.yml#L428-L526) API.  For brevity, not all fields are included in the dataset here, however they can be added if requested. (Just file an issue).
+### Alterations
 
-There is one additional field, `samples`, which is the actual thrust data as provided by the TC "/api/vi/download" endpoint. This is normalized to always have `[0, 0]` as the first data point.  In cases where more than one sample file is available for a motor, the first "cert"(ified) data file is used. Otherwise it will be whichever data file the API returns first.
+In addition to the `SearchResponse` data, the following alterations have been made:
 
-See also, the included [TypeScript definition](./thrustcurve.d.ts).
+- All `number`s are rounded to a precision of 4 digits.
+- Most (but not all) motors include a `samples` array containing the thrust data found in the TC `/api/vi/download` endpoint.
+- `samples` data is normalized to insure the first data point is always `[0, 0]`
+
+For full details of how this data set is compiled, please refer to the [`build/build.js`](https://github.com/broofa/thrustcurve-db/blob/main/build/build.js) script in this repository.
 
 ## Installation
 
@@ -19,20 +23,25 @@ yarn add thrustcurve-db
 
 ## Usage
 
-### Import with ESM or CommonJS:
+### ESM
 
 ```js
-import MOTORS from "thrustcurve-db"; // ESM
-const MOTORS = require("thrustcurve-db"); // CommonJS
+import MOTORS from 'thrustcurve-db';
 ```
 
-Note: At present this requires you run `node` with the `--experimental-json-modules` flag
+### CommonJS
+
+```js
+const MOTORS = require('thrustcurve-db');
+```
+
+Note: Users running `node` may need to supply the [`--experimental-json-modules`](https://nodejs.org/docs/latest-v12.x/api/all.html#esm_experimental_json_modules) flag
 
 ### Fetch from JSDelivr CDN:
 
 ```js
 const MOTORS = await fetch(
-  "https://cdn.jsdelivr.net/npm/thrustcurve-db@latest/thrustcurve-db.json"
+  'https://cdn.jsdelivr.net/npm/thrustcurve-db@latest/thrustcurve-db.json'
 ).then(res => res.json());
 ```
 
@@ -40,7 +49,7 @@ const MOTORS = await fetch(
 
 ```js
 // Find all J motors currently in production
-MOTORS.filter(m => m.availability === "regular" && m.impulseClass === "J");
+MOTORS.filter(m => m.availability === 'regular' && m.impulseClass === 'J');
 ```
 
 ## Issues & Contributions
