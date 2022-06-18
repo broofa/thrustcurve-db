@@ -64,9 +64,10 @@ function log(...args) {
     let ignitionTime = 0;
 
     // Clean up pre-ignition sample data
+    const MIN_THRUST = motor.avgThrustN * 0.001;
     while (samples.length) {
       // Zero out insignificant thrust samples at start (thrust < 0.1% average thrust)
-      if (samples[0][1] < motor.avgThrustN * 0.001) {
+      if (samples[0][1] < MIN_THRUST) {
         samples[0][1] = 0;
       }
 
@@ -89,8 +90,13 @@ function log(...args) {
     }
 
     if (samples[0][0] === 0 && samples[0][1] !== 0) {
-      log(sampleUrl, ': Non-zero thrust at T = 0');
+      // Non-zero thrust at T=0, so we need to shift the samples to start at T=0
       ignitionTime = -0.001; // shift samples ever-so-slightly to the right
+
+      // ... But we don't complain unless the thrust is significant
+      if (samples[0][1] > 4 * MIN_THRUST) {
+        log(sampleUrl, ': Non-zero thrust at T = 0');
+      }
     } else if (ignitionTime !== 0) {
       log(sampleUrl, ': Ignition at T > 0');
     }
