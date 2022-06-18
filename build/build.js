@@ -28,24 +28,6 @@ function motorName(motor) {
 }
 
 /**
- * Round number to X significant digits
- */
-function sig(val, digits = 3) {
-  if (val === 0 || !isFinite(val)) return val;
-
-  const isNegative = val < 0;
-  if (isNegative) val = -val;
-  const man = digits - Math.ceil(Math.log10(val));
-  if (man > 0) {
-    val = Math.round(val * 10 ** man) / 10 ** man;
-  } else {
-    val = Math.round(val);
-  }
-
-  return isNegative ? -val : val;
-}
-
-/**
  * log to stderr (so stdout can redirect to file)
  */
 function log(...args) {
@@ -75,49 +57,63 @@ function log(...args) {
 
   // Normalize thrust data
   for (const sampleResult of sampleResults) {
-    const { motorId, samples, source, format, data } = sampleResult;
-    const motor = motors.get(motorId);
+    const motor = motors.get(sampleResult.motorId);
 
-    const _samples = samples.map(({ time, thrust }) => [time, thrust]);
+    const samples = sampleResult.samples.map(({ time, thrust }) => [time, thrust]);
 
-    let startTime = 0;
+    let ignitionTime = 0;
 
-    // Strip samples prior to ignition
-    while (_samples.length && (_samples[0][0] ?? 0) === 0 && (_samples[0][1] ?? 0) === 0) {
-      _samples.shift();
-      // Track time of last zero-thrust sample
-      if (_samples[0][1] === 0) {
-        startTime = _samples[0][0];
-        _samples[0][0] = 0;
+    // Clean up pre-ignition sample data
+    while (samples.length) {
+      // Zero out insignificant thrust samples at start (thrust < 0.1% average thrust)
+      if (samples[0][1] < motor.avgThrustN * 0.001) {
+        samples[0][1] = 0;
       }
+
+      // Stop at first significant sample;
+      if (samples[0][1] > 0) break;
+
+      // Ignition starts at the last non-significant sample
+      ignitionTime = samples[0][0];
+
+      // Drop sample
+      samples.shift();
     }
 
-    if (_samples[0][0] === 0 && _samples[0][1] !== 0) {
-      log(`https://thrustcurve.org${sampleResult.infoUrl}: Non-zero thrust at T = 0`);
-      startTime = -0.001; // shift samples ever-so-slightly to the right
-    } else if (startTime !== 0) {
-      log(`https://thrustcurve.org${sampleResult.infoUrl}: Ignition at T > 0`);
+    const sampleUrl = `https://thrustcurve.org${sampleResult.infoUrl} (${sampleResult.source})`;
+
+    // 'Need at least two samples for a meaningful curve... right???
+    if (samples.length < 2) {
+      log(sampleUrl, ': Not enough valid samples(?)');
+      continue;
+    }
+
+    if (samples[0][0] === 0 && samples[0][1] !== 0) {
+      log(sampleUrl, ': Non-zero thrust at T = 0');
+      ignitionTime = -0.001; // shift samples ever-so-slightly to the right
+    } else if (ignitionTime !== 0) {
+      log(sampleUrl, ': Ignition at T > 0');
     }
 
     // Adjust time of first sample to match ignition
-    if (startTime !== 0) {
-      for (const sample of _samples) {
-        sample[0] -= startTime;
+    if (ignitionTime !== 0) {
+      for (const sample of samples) {
+        sample[0] -= ignitionTime;
       }
     }
 
     // Put [0, 0] point back
-    _samples.unshift([0, 0]);
+    samples.unshift([0, 0]);
 
     // Remember source ('cert' | 'user'), as it's useful in selecting which
     // samples to retain
-    _samples.source = source;
+    samples.source = sampleResult.source;
 
     // Decide which sample is "better".  This logic is pretty crude at the
     // moment.  Basically the first "cert"(ification) sample wins, otherwise we
     // use whichever one is last encountered.
     if (motor.samples?.source !== "cert") {
-      motor.samples = _samples;
+      motor.samples = samples;
     }
   }
 
