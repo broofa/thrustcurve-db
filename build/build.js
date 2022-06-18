@@ -98,7 +98,7 @@ function log(...args) {
         log(sampleUrl, ': Non-zero thrust at T = 0');
       }
     } else if (ignitionTime !== 0) {
-      log(sampleUrl, ': Ignition at T > 0');
+      log(sampleUrl, `: Ignition at T=${parseFloat(ignitionTime.toPrecision(4))}`);
     }
 
     // Adjust time of first sample to match ignition
