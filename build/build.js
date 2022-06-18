@@ -13,7 +13,7 @@ function motorReducer(k, v) {
     return Object.fromEntries(
       Object.entries(v).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
     );
-  } else if (typeof(v) === 'number') {
+  } else if (typeof (v) === 'number') {
     // Numbers get rounded to 4 significant digits
     return parseFloat(v.toPrecision(4));
   }
@@ -74,23 +74,40 @@ function log(...args) {
   log(`Received ${sampleResults.length} thrust sample sets`);
 
   // Normalize thrust data
-  for (const { motorId, samples, source, format, data } of sampleResults) {
+  for (const sampleResult of sampleResults) {
+    const { motorId, samples, source, format, data } = sampleResult;
     const motor = motors.get(motorId);
 
-    const _samples = samples.map(({ time, thrust }) => [
-      sig(time, 4),
-      sig(thrust, 4),
-    ]);
+    const _samples = samples.map(({ time, thrust }) => [time, thrust]);
 
+    let startTime = 0;
 
-    // Thrust must be zero at t=0
-    if (_samples[0][0] === 0 && _samples[0][1] !== 0) {
-      log(`${motorId} has non-zero thrust at t=0 (patching)`);
-      _samples[0][0] = 0.0001;
+    // Strip samples prior to ignition
+    while (_samples.length && (_samples[0][0] ?? 0) === 0 && (_samples[0][1] ?? 0) === 0) {
+      _samples.shift();
+      // Track time of last zero-thrust sample
+      if (_samples[0][1] === 0) {
+        startTime = _samples[0][0];
+        _samples[0][0] = 0;
+      }
     }
 
-    // Include [0,0] point if first point is not at t=0
-    if (_samples[0][0] !== 0) _samples.unshift([0, 0]);
+    if (_samples[0][0] === 0 && _samples[0][1] !== 0) {
+      log(`https://thrustcurve.org${sampleResult.infoUrl}: Non-zero thrust at T = 0`);
+      startTime = -0.001; // shift samples ever-so-slightly to the right
+    } else if (startTime !== 0) {
+      log(`https://thrustcurve.org${sampleResult.infoUrl}: Ignition at T > 0`);
+    }
+
+    // Adjust time of first sample to match ignition
+    if (startTime !== 0) {
+      for (const sample of _samples) {
+        sample[0] -= startTime;
+      }
+    }
+
+    // Put [0, 0] point back
+    _samples.unshift([0, 0]);
 
     // Remember source ('cert' | 'user'), as it's useful in selecting which
     // samples to retain
