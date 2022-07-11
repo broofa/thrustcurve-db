@@ -8,7 +8,10 @@ const MAX_RESULTS = 9999;
  * Replacer for sorting keys alphabetically
  */
 function motorReducer(k, v) {
-  if (v.constructor === Object) {
+  if (v === false) {
+    // Remove `false` values
+    return undefined;
+  } else if (v.constructor === Object) {
     // Object keys get sorted alphabetically
     return Object.fromEntries(
       Object.entries(v).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
@@ -40,7 +43,7 @@ function log(...args) {
 
   // Normalize motor data
   const motors = allMotors.reduce(
-    (map, motor) => map.set(motor.motorId, { ...motor }),
+    (map, motor) => map.set(motor.motorId, { ...motor}),
     new Map()
   );
 

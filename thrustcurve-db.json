@@ -147,7 +147,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 0.218,
     "totalWeightG": 1,
     "type": "SU",
@@ -302,7 +301,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 0.135,
     "totalWeightG": 1.07,
     "type": "SU",
@@ -420,7 +418,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 0.57,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -554,7 +551,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 0.59,
     "totalWeightG": 6.1,
     "type": "SU",
@@ -704,7 +700,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1.22,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -842,7 +837,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1.09,
     "totalWeightG": 6.6,
     "type": "SU",
@@ -953,7 +947,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1.13,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -1086,7 +1079,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.47,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -1212,7 +1204,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.5,
     "totalWeightG": 8.5,
     "type": "SU",
@@ -1263,7 +1254,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.3,
     "totalWeightG": 12,
     "type": "SU",
@@ -1394,7 +1384,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.5,
     "totalWeightG": 16.3,
     "type": "SU",
@@ -1541,7 +1530,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.5,
     "totalWeightG": 8.25,
     "type": "SU",
@@ -1675,7 +1663,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4.82,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -1805,7 +1792,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5,
     "totalWeightG": 18.85,
     "type": "SU",
@@ -1880,7 +1866,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4.63,
     "totalWeightG": 18.4,
     "type": "SU",
@@ -2007,7 +1992,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5.6,
     "totalWeightG": 19.1,
     "type": "SU",
@@ -2149,7 +2133,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4.97,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -2290,7 +2273,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8.92,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -2444,7 +2426,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7.79,
     "totalWeightG": 24.8,
     "type": "SU",
@@ -2571,7 +2552,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8.82,
     "totalWeightG": 24.1,
     "type": "SU",
@@ -2718,7 +2698,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8.76,
     "totalWeightG": 21,
     "type": "SU",
@@ -2876,7 +2855,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9.98,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -3001,7 +2979,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9.56,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -3139,7 +3116,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8.8,
     "totalWeightG": 35.23,
     "type": "SU",
@@ -3241,7 +3217,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.36,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -3356,7 +3331,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.53,
     "totalWeightG": 42.2,
     "type": "reload",
@@ -3444,7 +3418,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.76,
     "totalWeightG": 47.4,
     "type": "reload",
@@ -3602,7 +3575,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.75,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -3723,7 +3695,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17.49,
     "totalWeightG": 44.8,
     "type": "SU",
@@ -3834,7 +3805,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 16.84,
     "totalWeightG": 45.7,
     "type": "SU",
@@ -3990,7 +3960,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 19.26,
     "totalWeightG": 31.9,
     "type": "reload",
@@ -4090,7 +4059,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.96,
     "totalWeightG": 46.9,
     "type": "reload",
@@ -4217,7 +4185,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 19.59,
     "totalWeightG": 25,
     "type": "SU",
@@ -4305,7 +4272,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.02,
     "totalWeightG": 32,
     "type": "reload",
@@ -4407,7 +4373,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 40,
     "type": "SU",
     "updatedOn": "2020-11-26"
@@ -4529,7 +4494,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 37.5,
     "totalWeightG": 50,
     "type": "reload",
@@ -4660,7 +4624,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 29.35,
     "totalWeightG": 48.4,
     "type": "reload",
@@ -4751,7 +4714,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 27.87,
     "totalWeightG": 58,
     "type": "SU",
@@ -4812,7 +4774,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 35.8,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -4970,7 +4931,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 34.22,
     "totalWeightG": 59.4,
     "type": "reload",
@@ -5129,7 +5089,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 35,
     "totalWeightG": 49,
     "type": "SU",
@@ -5288,7 +5247,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 39.76,
     "totalWeightG": 50.1,
     "type": "SU",
@@ -5412,7 +5370,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 37.67,
     "totalWeightG": 109,
     "type": "reload",
@@ -5556,7 +5513,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 36.54,
     "totalWeightG": 59,
     "type": "reload",
@@ -5672,7 +5628,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 35.32,
     "totalWeightG": 104,
     "type": "reload",
@@ -5812,7 +5767,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 39.69,
     "totalWeightG": 55.3,
     "type": "reload",
@@ -5963,7 +5917,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 33.56,
     "totalWeightG": 47,
     "type": "SU",
@@ -6102,7 +6055,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 76.33,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -6257,7 +6209,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 43.2,
     "totalWeightG": 68.6,
     "type": "reload",
@@ -6404,7 +6355,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 62.07,
     "totalWeightG": 110.5,
     "type": "reload",
@@ -6563,7 +6513,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 75.48,
     "totalWeightG": 140.4,
     "type": "reload",
@@ -6718,7 +6667,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 51.75,
     "totalWeightG": 80.2,
     "type": "SU",
@@ -6941,7 +6889,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 55,
     "totalWeightG": 64,
     "type": "SU",
@@ -7089,7 +7036,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 65,
     "totalWeightG": 135.6,
     "type": "reload",
@@ -7239,7 +7185,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 41.2,
     "totalWeightG": 82.3,
     "type": "SU",
@@ -7397,7 +7342,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 70,
     "totalWeightG": 128.7,
     "type": "reload",
@@ -7471,7 +7415,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 67.9,
     "totalWeightG": 76.5,
     "type": "SU",
@@ -7603,7 +7546,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 47.31,
     "totalWeightG": 62.9,
     "type": "reload",
@@ -7670,7 +7612,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 77.92,
     "totalWeightG": 90,
     "type": "SU",
@@ -7756,7 +7697,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 62.2,
     "totalWeightG": 101,
     "type": "SU",
@@ -7912,7 +7852,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 79.2,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -7970,7 +7909,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 79.2,
     "totalWeightG": 69.5,
     "type": "SU",
@@ -8117,7 +8055,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 78,
     "totalWeightG": 111,
     "type": "SU",
@@ -8237,7 +8174,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 50.67,
     "totalWeightG": 109.3,
     "type": "reload",
@@ -8393,7 +8329,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 49.66,
     "totalWeightG": 60.6,
     "type": "reload",
@@ -8513,7 +8448,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 78.09,
     "totalWeightG": 126.2,
     "type": "reload",
@@ -8591,7 +8525,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 52.9,
     "totalWeightG": 75.9,
     "type": "SU",
@@ -8670,7 +8603,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 76.83,
     "totalWeightG": 84.9,
     "type": "SU",
@@ -8768,7 +8700,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 76.83,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -8919,7 +8850,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 72.95,
     "totalWeightG": 121.6,
     "type": "reload",
@@ -9054,7 +8984,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 77,
     "totalWeightG": 109,
     "type": "SU",
@@ -9145,7 +9074,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 51,
     "totalWeightG": 109,
     "type": "reload",
@@ -9304,7 +9232,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 74.92,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -9446,7 +9373,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 74.92,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -9572,7 +9498,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 87.22,
     "totalWeightG": 131,
     "type": "reload",
@@ -9633,7 +9558,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 113.5,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -9736,7 +9660,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 117.5,
     "totalWeightG": 121,
     "type": "reload",
@@ -9891,7 +9814,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 98.39,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -10041,7 +9963,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 100.8,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -10098,7 +10019,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 124,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -10171,7 +10091,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 110.5,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -10245,7 +10164,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 87.68,
     "totalWeightG": 126,
     "type": "SU",
@@ -10356,7 +10274,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 113.7,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -10434,7 +10351,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 97.14,
     "totalWeightG": 123,
     "type": "SU",
@@ -10586,7 +10502,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 81.05,
     "totalWeightG": 136.5,
     "type": "reload",
@@ -10745,7 +10660,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 119.6,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -10887,7 +10801,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 119.6,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -11021,7 +10934,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 134.2,
     "totalWeightG": 206,
     "type": "reload",
@@ -11112,7 +11024,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 110.5,
     "totalWeightG": 194,
     "type": "reload",
@@ -11213,7 +11124,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 85,
     "totalWeightG": 210,
     "type": "hybrid",
@@ -11349,7 +11259,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 118.8,
     "totalWeightG": 151,
     "type": "reload",
@@ -11507,7 +11416,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 110,
     "totalWeightG": 201,
     "type": "reload",
@@ -11636,7 +11544,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 128,
     "totalWeightG": 236,
     "type": "hybrid",
@@ -11878,7 +11785,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 135.6,
     "totalWeightG": 233,
     "type": "reload",
@@ -12000,7 +11906,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 105,
     "totalWeightG": 165,
     "type": "reload",
@@ -12127,7 +12032,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 129,
     "totalWeightG": 226,
     "type": "reload",
@@ -12234,7 +12138,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 108.6,
     "totalWeightG": 157,
     "type": "reload",
@@ -12401,7 +12304,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 136.6,
     "totalWeightG": 127.9,
     "type": "SU",
@@ -12500,7 +12402,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 116.3,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -12638,7 +12539,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 108,
     "totalWeightG": 135,
     "type": "SU",
@@ -12687,7 +12587,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 146,
     "totalWeightG": 511,
     "type": "hybrid",
@@ -12838,7 +12737,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 85,
     "type": "reload",
     "updatedOn": "2021-06-13"
@@ -12980,7 +12878,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 81.5,
     "totalWeightG": 136,
     "type": "reload",
@@ -13033,7 +12930,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 142,
     "totalWeightG": 511,
     "type": "hybrid",
@@ -13111,7 +13007,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 145,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -13159,7 +13054,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 100,
     "totalWeightG": 516,
     "type": "hybrid",
@@ -13216,7 +13110,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 118,
     "totalWeightG": 544,
     "type": "hybrid",
@@ -13269,7 +13162,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 100,
     "totalWeightG": 535,
     "type": "hybrid",
@@ -13404,7 +13296,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 289,
     "totalWeightG": 294.8,
     "type": "SU",
@@ -13498,7 +13389,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 249,
     "totalWeightG": 292,
     "type": "SU",
@@ -13584,7 +13474,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 264,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -13718,7 +13607,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 162.3,
     "totalWeightG": 188.2,
     "type": "SU",
@@ -13851,7 +13739,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 207.5,
     "totalWeightG": 352,
     "type": "hybrid",
@@ -13931,7 +13818,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 237,
     "totalWeightG": 626.6,
     "type": "hybrid",
@@ -14066,7 +13952,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 215,
     "totalWeightG": 224,
     "type": "SU",
@@ -14201,7 +14086,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 185.6,
     "totalWeightG": 309.1,
     "type": "reload",
@@ -14326,7 +14210,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 172.9,
     "totalWeightG": 284,
     "type": "hybrid",
@@ -14461,7 +14344,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 177.3,
     "totalWeightG": 277.8,
     "type": "reload",
@@ -14597,7 +14479,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 266,
     "totalWeightG": 450,
     "type": "hybrid",
@@ -14732,7 +14613,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 261.1,
     "totalWeightG": 379.5,
     "type": "reload",
@@ -14797,7 +14677,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 225,
     "totalWeightG": 612,
     "type": "hybrid",
@@ -14932,7 +14811,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 223.6,
     "totalWeightG": 275,
     "type": "reload",
@@ -15049,7 +14927,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 224.5,
     "totalWeightG": 664,
     "type": "hybrid",
@@ -15184,7 +15061,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 299.4,
     "totalWeightG": 322.6,
     "type": "SU",
@@ -15319,7 +15195,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 172.9,
     "totalWeightG": 206,
     "type": "reload",
@@ -15372,7 +15247,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 247,
     "totalWeightG": 612,
     "type": "hybrid",
@@ -15455,7 +15329,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 247,
     "totalWeightG": 347,
     "type": "reload",
@@ -15575,7 +15448,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 239.3,
     "totalWeightG": 336,
     "type": "reload",
@@ -15709,7 +15581,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 206,
     "totalWeightG": 309.1,
     "type": "reload",
@@ -15790,7 +15661,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 258,
     "totalWeightG": 303.9,
     "type": "reload",
@@ -15855,7 +15725,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 228.7,
     "totalWeightG": 664,
     "type": "hybrid",
@@ -15989,7 +15858,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 165,
     "totalWeightG": 201.6,
     "type": "reload",
@@ -16124,7 +15992,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 217.7,
     "totalWeightG": 252,
     "type": "reload",
@@ -16260,7 +16127,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 215.4,
     "totalWeightG": 246.4,
     "type": "reload",
@@ -16321,7 +16187,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 206,
     "totalWeightG": 600,
     "type": "hybrid",
@@ -16388,7 +16253,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 220,
     "totalWeightG": 250,
     "type": "reload",
@@ -16445,7 +16309,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 161,
     "totalWeightG": 520,
     "type": "hybrid",
@@ -16580,7 +16443,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 165.5,
     "totalWeightG": 196,
     "type": "reload",
@@ -16715,7 +16577,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 231.7,
     "totalWeightG": 264,
     "type": "reload",
@@ -16764,7 +16625,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 222,
     "totalWeightG": 598,
     "type": "hybrid",
@@ -16898,7 +16758,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 320,
     "totalWeightG": 358.4,
     "type": "reload",
@@ -16959,7 +16818,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 293.5,
     "totalWeightG": 255,
     "type": "SU",
@@ -17020,7 +16878,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 292,
     "totalWeightG": 710,
     "type": "hybrid",
@@ -17077,7 +16934,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 161,
     "totalWeightG": 612,
     "type": "hybrid",
@@ -17134,7 +16990,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 172,
     "totalWeightG": 589,
     "type": "hybrid",
@@ -17189,7 +17044,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 304.5,
     "totalWeightG": 816,
     "type": "hybrid",
@@ -17257,7 +17111,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 317,
     "totalWeightG": 460,
     "type": "reload",
@@ -17359,7 +17212,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 319.8,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -17537,7 +17389,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 221,
     "totalWeightG": 252,
     "type": "reload",
@@ -17716,7 +17567,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 319.9,
     "totalWeightG": 331,
     "type": "reload",
@@ -17851,7 +17701,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 630.5,
     "totalWeightG": 761.6,
     "type": "SU",
@@ -17940,7 +17789,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 369,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -18072,7 +17920,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 359.5,
     "totalWeightG": 553,
     "type": "hybrid",
@@ -18156,7 +18003,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 460,
     "totalWeightG": 842.4,
     "type": "hybrid",
@@ -18287,7 +18133,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 485.2,
     "totalWeightG": 684.5,
     "type": "hybrid",
@@ -18363,7 +18208,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 499.7,
     "totalWeightG": 824,
     "type": "hybrid",
@@ -18472,7 +18316,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 591.6,
     "totalWeightG": 1133,
     "type": "hybrid",
@@ -18577,7 +18420,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 407,
     "totalWeightG": 967,
     "type": "hybrid",
@@ -18652,7 +18494,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 470.6,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -18716,7 +18557,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 597.6,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -18850,7 +18690,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 610.7,
     "totalWeightG": 512.1,
     "type": "SU",
@@ -18919,7 +18758,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 444.9,
     "totalWeightG": 581,
     "type": "SU",
@@ -18994,7 +18832,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 507,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -19072,7 +18909,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 541,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -19164,7 +19000,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 519.5,
     "totalWeightG": 967,
     "type": "hybrid",
@@ -19298,7 +19133,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 346.2,
     "totalWeightG": 422,
     "type": "reload",
@@ -19433,7 +19267,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 378,
     "totalWeightG": 491.9,
     "type": "reload",
@@ -19481,7 +19314,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 541,
     "totalWeightG": 725,
     "type": "hybrid",
@@ -19558,7 +19390,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 484,
     "totalWeightG": 856.4,
     "type": "hybrid",
@@ -19691,7 +19522,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 462.7,
     "totalWeightG": 516,
     "type": "reload",
@@ -19826,7 +19656,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 328.7,
     "totalWeightG": 366,
     "type": "reload",
@@ -19961,7 +19790,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 382,
     "totalWeightG": 392,
     "type": "reload",
@@ -20078,7 +19906,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 374,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -20212,7 +20039,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 426.1,
     "totalWeightG": 572,
     "type": "reload",
@@ -20347,7 +20173,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 324.5,
     "totalWeightG": 357.5,
     "type": "reload",
@@ -20414,7 +20239,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 469,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -20494,7 +20318,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 380.9,
     "totalWeightG": 402.2,
     "type": "reload",
@@ -20551,7 +20374,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 497,
     "totalWeightG": 870,
     "type": "hybrid",
@@ -20686,7 +20508,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 441.6,
     "totalWeightG": 455,
     "type": "reload",
@@ -20773,7 +20594,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 364,
     "totalWeightG": 475,
     "type": "reload",
@@ -20907,7 +20727,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 330,
     "totalWeightG": 371.8,
     "type": "reload",
@@ -20960,7 +20779,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 355,
     "totalWeightG": 710,
     "type": "hybrid",
@@ -21043,7 +20861,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 519,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -21125,7 +20942,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 527.5,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -21258,7 +21074,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 540,
     "totalWeightG": 610,
     "type": "reload",
@@ -21391,7 +21206,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 556,
     "totalWeightG": 503.6,
     "type": "reload",
@@ -21478,7 +21292,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 570.4,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -21598,7 +21411,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 390,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -21682,7 +21494,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 382,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -21816,7 +21627,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 607.3,
     "totalWeightG": 555.5,
     "type": "reload",
@@ -21899,7 +21709,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 510.1,
     "totalWeightG": 505.9,
     "type": "reload",
@@ -22033,7 +21842,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 420,
     "totalWeightG": 492.8,
     "type": "reload",
@@ -22170,7 +21978,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 353,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -22260,7 +22067,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 486,
     "totalWeightG": 605,
     "type": "reload",
@@ -22335,7 +22141,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 430,
     "totalWeightG": 884.5,
     "type": "hybrid",
@@ -22435,7 +22240,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 426.5,
     "totalWeightG": 441,
     "type": "reload",
@@ -22500,7 +22304,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 573,
     "totalWeightG": 810,
     "type": "hybrid",
@@ -22631,7 +22434,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 574.5,
     "totalWeightG": 1305,
     "type": "hybrid",
@@ -22764,7 +22566,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 633.8,
     "type": "reload",
     "updatedOn": "2022-02-19"
@@ -22943,7 +22744,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 556,
     "totalWeightG": 929,
     "type": "hybrid",
@@ -23030,7 +22830,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 601,
     "totalWeightG": 782,
     "type": "reload",
@@ -23165,7 +22964,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 342,
     "totalWeightG": 343,
     "type": "reload",
@@ -23262,7 +23060,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 625.5,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -23396,7 +23193,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 539,
     "totalWeightG": 555.5,
     "type": "reload",
@@ -23529,7 +23325,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 634.3,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -23649,7 +23444,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 596,
     "totalWeightG": 733.8,
     "type": "reload",
@@ -23710,7 +23504,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 432,
     "totalWeightG": 925,
     "type": "hybrid",
@@ -23822,7 +23615,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 493.2,
     "totalWeightG": 543,
     "type": "reload",
@@ -23957,7 +23749,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 568.9,
     "totalWeightG": 518,
     "type": "reload",
@@ -24046,7 +23837,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 633,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -24098,7 +23888,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 336,
     "totalWeightG": 800,
     "type": "hybrid",
@@ -24158,7 +23947,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 611,
     "totalWeightG": 929,
     "type": "hybrid",
@@ -24194,7 +23982,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 431,
     "totalWeightG": 839,
     "type": "hybrid",
@@ -24329,7 +24116,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 707,
     "totalWeightG": 852.5,
     "type": "reload",
@@ -24390,7 +24176,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 751.2,
     "totalWeightG": 875,
     "type": "SU",
@@ -24521,7 +24306,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 673.7,
     "totalWeightG": 1282,
     "type": "hybrid",
@@ -24652,7 +24436,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 757.5,
     "totalWeightG": 1293,
     "type": "hybrid",
@@ -24786,7 +24569,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1202,
     "totalWeightG": 1288,
     "type": "SU",
@@ -24921,7 +24703,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1069,
     "totalWeightG": 1141,
     "type": "reload",
@@ -25001,7 +24782,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 664,
     "totalWeightG": 1166,
     "type": "hybrid",
@@ -25096,7 +24876,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 699,
     "totalWeightG": 1133,
     "type": "hybrid",
@@ -25229,7 +25008,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 825.7,
     "totalWeightG": 1797,
     "type": "hybrid",
@@ -25293,7 +25071,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 903.4,
     "totalWeightG": 1179,
     "type": "reload",
@@ -25342,7 +25119,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 654,
     "totalWeightG": 889,
     "type": "hybrid",
@@ -25473,7 +25249,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 751.4,
     "totalWeightG": 1306,
     "type": "hybrid",
@@ -25586,7 +25361,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 667.7,
     "totalWeightG": 544,
     "type": "hybrid",
@@ -25717,7 +25491,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 728,
     "totalWeightG": 1282,
     "type": "hybrid",
@@ -25905,7 +25678,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 739,
     "type": "hybrid",
     "updatedOn": "2022-06-15"
@@ -26039,7 +25811,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 764,
     "totalWeightG": 809.1,
     "type": "reload",
@@ -26170,7 +25941,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 827,
     "totalWeightG": 1293,
     "type": "hybrid",
@@ -26257,7 +26027,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 836,
     "totalWeightG": 842,
     "type": "reload",
@@ -26338,7 +26107,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 853.8,
     "totalWeightG": 1497,
     "type": "hybrid",
@@ -26469,7 +26237,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 720.9,
     "totalWeightG": 1305,
     "type": "hybrid",
@@ -26526,7 +26293,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 928,
     "totalWeightG": 1043,
     "type": "hybrid",
@@ -26595,7 +26361,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1115,
     "totalWeightG": 839,
     "type": "SU",
@@ -26648,7 +26413,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1033,
     "totalWeightG": 1764,
     "type": "hybrid",
@@ -26696,7 +26460,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 752,
     "totalWeightG": 1065,
     "type": "hybrid",
@@ -26752,7 +26515,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 643.5,
     "totalWeightG": 1550,
     "type": "hybrid",
@@ -26813,7 +26575,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 673,
     "totalWeightG": 861,
     "type": "hybrid",
@@ -26869,7 +26630,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 430,
     "totalWeightG": 724,
     "type": "hybrid",
@@ -27000,7 +26760,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 744.5,
     "totalWeightG": 1292,
     "type": "hybrid",
@@ -27073,7 +26832,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1170,
     "totalWeightG": 1574,
     "type": "hybrid",
@@ -27207,7 +26965,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 648.5,
     "totalWeightG": 712,
     "type": "reload",
@@ -27338,7 +27095,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 802.2,
     "totalWeightG": 1296,
     "type": "hybrid",
@@ -27540,7 +27296,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 774,
     "totalWeightG": 864.2,
     "type": "reload",
@@ -27622,7 +27377,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 716.5,
     "totalWeightG": 954,
     "type": "reload",
@@ -27705,7 +27459,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 648,
     "totalWeightG": 595,
     "type": "reload",
@@ -27839,7 +27592,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1196,
     "totalWeightG": 1119,
     "type": "reload",
@@ -27906,7 +27658,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 998.8,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -28038,7 +27789,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 694,
     "totalWeightG": 606.6,
     "type": "reload",
@@ -28172,7 +27922,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 763.3,
     "totalWeightG": 851.2,
     "type": "reload",
@@ -28303,7 +28052,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 998.8,
     "totalWeightG": 1758,
     "type": "hybrid",
@@ -28390,7 +28138,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 765,
     "totalWeightG": 702,
     "type": "reload",
@@ -28524,7 +28271,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 737.8,
     "totalWeightG": 788,
     "type": "reload",
@@ -28655,7 +28401,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1051,
     "totalWeightG": 1777,
     "type": "hybrid",
@@ -28712,7 +28457,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 733,
     "totalWeightG": 1064,
     "type": "hybrid",
@@ -28761,7 +28505,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 891,
     "totalWeightG": 1118,
     "type": "hybrid",
@@ -28872,7 +28615,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 700,
     "totalWeightG": 665,
     "type": "reload",
@@ -29007,7 +28749,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 697.4,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -29094,7 +28835,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 678.9,
     "totalWeightG": 1564,
     "type": "hybrid",
@@ -29249,7 +28989,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 998.4,
     "totalWeightG": 1210,
     "type": "reload",
@@ -29313,7 +29052,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 913.9,
     "totalWeightG": 1743,
     "type": "hybrid",
@@ -29446,7 +29184,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 826,
     "totalWeightG": 709.2,
     "type": "reload",
@@ -29722,7 +29459,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1031,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -29804,7 +29540,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1043,
     "totalWeightG": 1293,
     "type": "reload",
@@ -29884,7 +29619,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1280,
     "type": "hybrid",
     "updatedOn": "2022-06-15"
@@ -30013,7 +29747,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1100,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -30103,7 +29836,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 700,
     "totalWeightG": 702,
     "type": "reload",
@@ -30172,7 +29904,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 722,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -30306,7 +30037,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1232,
     "totalWeightG": 1168,
     "type": "reload",
@@ -30515,7 +30245,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 658,
     "totalWeightG": 649.6,
     "type": "reload",
@@ -30644,7 +30373,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 653,
     "totalWeightG": 698.5,
     "type": "reload",
@@ -30795,7 +30523,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1070,
     "totalWeightG": 1196,
     "type": "reload",
@@ -30930,7 +30657,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 805.5,
     "totalWeightG": 789,
     "type": "reload",
@@ -31052,7 +30778,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1165,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -31180,7 +30905,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 660,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -31309,7 +31033,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1113,
     "totalWeightG": 1240,
     "type": "reload",
@@ -31441,7 +31164,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 741,
     "totalWeightG": 745,
     "type": "reload",
@@ -31575,7 +31297,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1161,
     "totalWeightG": 1084,
     "type": "reload",
@@ -31632,7 +31353,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 795,
     "totalWeightG": 1132,
     "type": "hybrid",
@@ -31767,7 +31487,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 973.1,
     "totalWeightG": 902,
     "type": "reload",
@@ -31844,7 +31563,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 737,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -31915,7 +31633,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1093,
     "totalWeightG": 1791,
     "type": "hybrid",
@@ -32050,7 +31767,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1229,
     "totalWeightG": 1086,
     "type": "reload",
@@ -32111,7 +31827,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 928,
     "totalWeightG": 1148,
     "type": "hybrid",
@@ -32246,7 +31961,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1417,
     "totalWeightG": 1434,
     "type": "reload",
@@ -32307,7 +32021,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1657,
     "totalWeightG": 2063,
     "type": "hybrid",
@@ -32438,7 +32151,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1292,
     "totalWeightG": 1807,
     "type": "hybrid",
@@ -32569,7 +32281,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1845,
     "totalWeightG": 2814,
     "type": "hybrid",
@@ -32683,7 +32394,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1608,
     "totalWeightG": 1791,
     "type": "reload",
@@ -32817,7 +32527,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2353,
     "totalWeightG": 2211,
     "type": "SU",
@@ -32941,7 +32650,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1909,
     "totalWeightG": 4059,
     "type": "hybrid",
@@ -33014,7 +32722,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1570,
     "totalWeightG": 2043,
     "type": "hybrid",
@@ -33128,7 +32835,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2527,
     "totalWeightG": 2540,
     "type": "reload",
@@ -33262,7 +32968,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1680,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -33395,7 +33100,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1386,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -33451,7 +33155,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2441,
     "totalWeightG": 4150,
     "type": "hybrid",
@@ -33530,7 +33233,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1636,
     "totalWeightG": 1398,
     "type": "reload",
@@ -33655,7 +33357,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1845,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -33715,7 +33416,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1628,
     "totalWeightG": 3704,
     "type": "hybrid",
@@ -33850,7 +33550,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2465,
     "totalWeightG": 3164,
     "type": "reload",
@@ -33980,7 +33679,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1679,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -34047,7 +33745,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2435,
     "totalWeightG": 2168,
     "type": "reload",
@@ -34194,7 +33891,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1394,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -34326,7 +34022,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1687,
     "totalWeightG": 2220,
     "type": "hybrid",
@@ -34444,7 +34139,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2486,
     "totalWeightG": 2590,
     "type": "reload",
@@ -34599,7 +34293,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1402,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -34689,7 +34382,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1412,
     "totalWeightG": 1640,
     "type": "reload",
@@ -34824,7 +34516,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1539,
     "totalWeightG": 1487,
     "type": "reload",
@@ -35114,7 +34805,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1480,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -35248,7 +34938,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2417,
     "totalWeightG": 2744,
     "type": "reload",
@@ -35319,7 +35008,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2063,
     "totalWeightG": 1685,
     "type": "reload",
@@ -35450,7 +35138,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1697,
     "totalWeightG": 1815,
     "type": "reload",
@@ -35530,7 +35217,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2493,
     "totalWeightG": 3143,
     "type": "reload",
@@ -35664,7 +35350,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1429,
     "totalWeightG": 1416,
     "type": "reload",
@@ -35819,7 +35504,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2499,
     "totalWeightG": 2913,
     "type": "reload",
@@ -35937,7 +35621,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2410,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -35997,7 +35680,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1341,
     "totalWeightG": 3550,
     "type": "hybrid",
@@ -36135,7 +35817,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1840,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -36221,7 +35902,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1750,
     "totalWeightG": 1990,
     "type": "reload",
@@ -36356,7 +36036,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2406,
     "totalWeightG": 2935,
     "type": "reload",
@@ -36451,7 +36130,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2437,
     "totalWeightG": 1949,
     "type": "reload",
@@ -36499,7 +36177,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1847,
     "totalWeightG": 4050,
     "type": "hybrid",
@@ -36630,7 +36307,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1751,
     "totalWeightG": 1915,
     "type": "reload",
@@ -36721,7 +36397,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2358,
     "totalWeightG": 3035,
     "type": "reload",
@@ -36855,7 +36530,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1514,
     "totalWeightG": 1487,
     "type": "reload",
@@ -36993,7 +36667,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1650,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -37127,7 +36800,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2261,
     "totalWeightG": 2035,
     "type": "reload",
@@ -37204,7 +36876,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1386,
     "totalWeightG": 3674,
     "type": "hybrid",
@@ -37273,7 +36944,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1833,
     "totalWeightG": 4050,
     "type": "hybrid",
@@ -37408,7 +37078,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2371,
     "totalWeightG": 2934,
     "type": "reload",
@@ -37546,7 +37215,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1950,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -37696,7 +37364,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1859,
     "totalWeightG": 1795,
     "type": "reload",
@@ -37818,7 +37485,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1946,
     "totalWeightG": 1746,
     "type": "reload",
@@ -37977,7 +37643,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2454,
     "totalWeightG": 2599,
     "type": "reload",
@@ -38140,7 +37805,6 @@
     "maxThrustN": 1738,
     "motorId": "5f4294d20002310000000163",
     "propWeightG": 1301,
-    "sparky": false,
     "totImpulseNs": 2593,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -38273,7 +37937,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2530,
     "totalWeightG": 2128,
     "type": "SU",
@@ -38424,7 +38087,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2392,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -38554,7 +38216,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1472,
     "totalWeightG": 1336,
     "type": "reload",
@@ -38689,7 +38350,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2225,
     "totalWeightG": 1986,
     "type": "reload",
@@ -38712,7 +38372,6 @@
     "maxThrustN": 1989,
     "motorId": "5f4294d20002310000000168",
     "propWeightG": 1248,
-    "sparky": false,
     "totImpulseNs": 2640,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -38842,7 +38501,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2639,
     "totalWeightG": 3895,
     "type": "hybrid",
@@ -38973,7 +38631,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2789,
     "totalWeightG": 3948,
     "type": "hybrid",
@@ -39014,7 +38671,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4677,
     "totalWeightG": 5579,
     "type": "hybrid",
@@ -39146,7 +38802,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2973,
     "totalWeightG": 2670,
     "type": "reload",
@@ -39277,7 +38932,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3043,
     "totalWeightG": 3903,
     "type": "hybrid",
@@ -39408,7 +39062,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2851,
     "totalWeightG": 3954,
     "type": "hybrid",
@@ -39461,7 +39114,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3829,
     "totalWeightG": 4800,
     "type": "hybrid",
@@ -39592,7 +39244,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2774,
     "totalWeightG": 3898,
     "type": "hybrid",
@@ -39723,7 +39374,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2994,
     "totalWeightG": 3948,
     "type": "hybrid",
@@ -39854,7 +39504,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4615,
     "totalWeightG": 5656,
     "type": "hybrid",
@@ -39985,7 +39634,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3095,
     "totalWeightG": 3898,
     "type": "hybrid",
@@ -40116,7 +39764,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4716,
     "totalWeightG": 5706,
     "type": "hybrid",
@@ -40247,7 +39894,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4831,
     "totalWeightG": 5653,
     "type": "hybrid",
@@ -40368,7 +40014,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3152,
     "totalWeightG": 2200,
     "type": "hybrid",
@@ -40500,7 +40145,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4995,
     "totalWeightG": 4120,
     "type": "reload",
@@ -40631,7 +40275,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3131,
     "totalWeightG": 3951,
     "type": "hybrid",
@@ -40762,7 +40405,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4951,
     "totalWeightG": 5706,
     "type": "hybrid",
@@ -41043,7 +40685,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2590,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -41173,7 +40814,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2765,
     "totalWeightG": 2247,
     "type": "reload",
@@ -41316,7 +40956,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5033,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -41470,7 +41109,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3137,
     "totalWeightG": 3699,
     "type": "reload",
@@ -41592,7 +41230,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3757,
     "totalWeightG": 3511,
     "type": "reload",
@@ -41661,7 +41298,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3759,
     "totalWeightG": 4726,
     "type": "hybrid",
@@ -41796,7 +41432,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3646,
     "totalWeightG": 3742,
     "type": "reload",
@@ -41872,7 +41507,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3762,
     "totalWeightG": 4346,
     "type": "reload",
@@ -42014,7 +41648,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3450,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -42127,7 +41760,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3587,
     "totalWeightG": 3538,
     "type": "reload",
@@ -42262,7 +41894,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4656,
     "totalWeightG": 5012,
     "type": "reload",
@@ -42409,7 +42040,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5098,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -42541,7 +42171,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2592,
     "totalWeightG": 2325,
     "type": "reload",
@@ -42692,7 +42321,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3623,
     "totalWeightG": 3939,
     "type": "reload",
@@ -42826,7 +42454,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3700,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -42914,7 +42541,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4815,
     "totalWeightG": 5461,
     "type": "reload",
@@ -43040,7 +42666,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2600,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -43145,7 +42770,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3480,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -43234,7 +42858,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5015,
     "totalWeightG": 4404,
     "type": "reload",
@@ -43368,7 +42991,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4947,
     "totalWeightG": 4658,
     "type": "reload",
@@ -43503,7 +43125,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3517,
     "totalWeightG": 3674,
     "type": "reload",
@@ -43690,7 +43311,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2675,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -43864,7 +43484,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4567,
     "totalWeightG": 4884,
     "type": "reload",
@@ -43942,7 +43561,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2851,
     "totalWeightG": 2540,
     "type": "reload",
@@ -44031,7 +43649,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2640,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -44105,7 +43722,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4603,
     "totalWeightG": 4562,
     "type": "reload",
@@ -44240,7 +43856,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5089,
     "totalWeightG": 4659,
     "type": "reload",
@@ -44358,7 +43973,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7441,
     "totalWeightG": 6693,
     "type": "reload",
@@ -44411,7 +44025,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5507,
     "totalWeightG": 4900,
     "type": "hybrid",
@@ -44558,7 +44171,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5143,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -44637,7 +44249,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6159,
     "type": "hybrid",
     "updatedOn": "2022-06-15"
@@ -44709,7 +44320,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6463,
     "totalWeightG": 3288,
     "type": "hybrid",
@@ -44852,7 +44462,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6421,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -44994,7 +44603,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5126,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -45124,7 +44732,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9155,
     "totalWeightG": 8907,
     "type": "hybrid",
@@ -45256,7 +44863,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7320,
     "totalWeightG": 5578,
     "type": "reload",
@@ -45399,7 +45005,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9835,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -45529,7 +45134,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9114,
     "totalWeightG": 9000,
     "type": "hybrid",
@@ -45676,7 +45280,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6334,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -45818,7 +45421,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10100,
     "type": "hybrid",
     "updatedOn": "2019-04-17"
@@ -45968,7 +45570,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5417,
     "totalWeightG": 4637,
     "type": "reload",
@@ -46103,7 +45704,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6714,
     "totalWeightG": 5645,
     "type": "reload",
@@ -46206,7 +45806,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5711,
     "totalWeightG": 5403,
     "type": "reload",
@@ -46336,7 +45935,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6251,
     "totalWeightG": 5302,
     "type": "reload",
@@ -46471,7 +46069,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7756,
     "totalWeightG": 6916,
     "type": "reload",
@@ -46613,7 +46210,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5800,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -46747,7 +46343,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5600,
     "totalWeightG": 5645,
     "type": "reload",
@@ -46804,7 +46399,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6547,
     "totalWeightG": 10680,
     "type": "hybrid",
@@ -46939,7 +46533,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7084,
     "totalWeightG": 6917,
     "type": "reload",
@@ -47181,7 +46774,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6303,
     "totalWeightG": 5534,
     "type": "reload",
@@ -47263,7 +46855,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5920,
     "totalWeightG": 4500,
     "type": "reload",
@@ -47409,7 +47000,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6100,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -47543,7 +47133,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10480,
     "totalWeightG": 8988,
     "type": "reload",
@@ -47678,7 +47267,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9218,
     "totalWeightG": 8987,
     "type": "reload",
@@ -47827,7 +47415,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10280,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -48044,7 +47631,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5482,
     "totalWeightG": 5579,
     "type": "hybrid",
@@ -48179,7 +47765,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7717,
     "totalWeightG": 6451,
     "type": "reload",
@@ -48330,7 +47915,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7784,
     "totalWeightG": 7552,
     "type": "reload",
@@ -48465,7 +48049,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9671,
     "totalWeightG": 8064,
     "type": "reload",
@@ -48543,7 +48126,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7450,
     "totalWeightG": 6250,
     "type": "reload",
@@ -48664,7 +48246,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10610,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -48784,7 +48365,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 11450,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -48871,7 +48451,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6034,
     "totalWeightG": 10430,
     "type": "hybrid",
@@ -48936,7 +48515,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6060,
     "totalWeightG": 10700,
     "type": "hybrid",
@@ -49074,7 +48652,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7367,
     "totalWeightG": 6720,
     "type": "reload",
@@ -49209,7 +48786,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 13350,
     "totalWeightG": 12280,
     "type": "reload",
@@ -49327,7 +48903,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 13770,
     "totalWeightG": 11670,
     "type": "reload",
@@ -49456,7 +49031,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 16460,
     "totalWeightG": 13670,
     "type": "reload",
@@ -49590,7 +49164,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 19360,
     "totalWeightG": 14780,
     "type": "reload",
@@ -49774,7 +49347,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 29990,
     "totalWeightG": 23580,
     "type": "reload",
@@ -49842,7 +49414,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 27240,
     "totalWeightG": 28580,
     "type": "hybrid",
@@ -49953,7 +49524,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 422.9,
     "totalWeightG": 422,
     "type": "reload",
@@ -50020,7 +49590,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1322,
     "totalWeightG": 1741,
     "type": "reload",
@@ -50123,7 +49692,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 570.1,
     "totalWeightG": 678,
     "type": "reload",
@@ -50238,7 +49806,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 367.9,
     "totalWeightG": 486,
     "type": "reload",
@@ -50345,7 +49912,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 452.1,
     "totalWeightG": 581,
     "type": "reload",
@@ -50472,7 +50038,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2540,
     "totalWeightG": 2989,
     "type": "reload",
@@ -50543,7 +50108,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 108.9,
     "totalWeightG": 181,
     "type": "reload",
@@ -50654,7 +50218,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 798.1,
     "totalWeightG": 914,
     "type": "reload",
@@ -50777,7 +50340,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7659,
     "totalWeightG": 6693,
     "type": "reload",
@@ -50944,7 +50506,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 843.4,
     "totalWeightG": 834,
     "type": "reload",
@@ -51123,7 +50684,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1215,
     "totalWeightG": 1111,
     "type": "reload",
@@ -51430,7 +50990,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 107,
     "totalWeightG": 147,
     "type": "reload",
@@ -51584,7 +51143,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 358,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -51866,7 +51424,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 594,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -52019,7 +51576,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 49.6,
     "totalWeightG": 80,
     "type": "SU",
@@ -52158,7 +51714,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 136.7,
     "totalWeightG": 201,
     "type": "reload",
@@ -52313,7 +51868,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 974.9,
     "totalWeightG": 875,
     "type": "reload",
@@ -52424,7 +51978,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5964,
     "totalWeightG": 5125,
     "type": "reload",
@@ -52531,7 +52084,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9325,
     "totalWeightG": 8776,
     "type": "reload",
@@ -52839,7 +52391,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 14800,
     "totalWeightG": 13810,
     "type": "reload",
@@ -52962,7 +52513,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 554,
     "totalWeightG": 725.5,
     "type": "reload",
@@ -53097,7 +52647,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 575,
     "totalWeightG": 711.6,
     "type": "reload",
@@ -53236,7 +52785,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2468,
     "totalWeightG": 2636,
     "type": "reload",
@@ -53359,7 +52907,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2423,
     "totalWeightG": 2564,
     "type": "reload",
@@ -53470,7 +53017,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7813,
     "totalWeightG": 7615,
     "type": "reload",
@@ -53624,7 +53170,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5290,
     "totalWeightG": 7195,
     "type": "reload",
@@ -53779,7 +53324,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 61,
     "totalWeightG": 93,
     "type": "SU",
@@ -53934,7 +53478,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 90.9,
     "totalWeightG": 146,
     "type": "reload",
@@ -54028,7 +53571,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 231,
     "totalWeightG": 256,
     "type": "reload",
@@ -54158,7 +53700,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 351,
     "totalWeightG": 365,
     "type": "reload",
@@ -54252,7 +53793,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 723,
     "totalWeightG": 654,
     "type": "reload",
@@ -54419,7 +53959,6 @@
         5.208
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1968,
     "totalWeightG": 2100,
     "type": "reload",
@@ -54545,7 +54084,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 412,
     "totalWeightG": 545,
     "type": "reload",
@@ -54663,7 +54201,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 407,
     "totalWeightG": 514,
     "type": "reload",
@@ -54773,7 +54310,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 399,
     "totalWeightG": 527,
     "type": "reload",
@@ -54945,7 +54481,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 404.9,
     "totalWeightG": 512,
     "type": "reload",
@@ -55099,7 +54634,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 361,
     "totalWeightG": 566,
     "type": "reload",
@@ -55217,7 +54751,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 731,
     "totalWeightG": 907,
     "type": "reload",
@@ -55400,7 +54933,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1496,
     "totalWeightG": 1647,
     "type": "reload",
@@ -55542,7 +55074,6 @@
         49.85
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2120,
     "totalWeightG": 2223,
     "type": "reload",
@@ -55628,7 +55159,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1740,
     "totalWeightG": 1792,
     "type": "reload",
@@ -55738,7 +55268,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1397,
     "totalWeightG": 1577,
     "type": "reload",
@@ -55804,7 +55333,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1023,
     "totalWeightG": 1182,
     "type": "reload",
@@ -55878,7 +55406,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1314,
     "totalWeightG": 1597,
     "type": "reload",
@@ -55940,7 +55467,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 950,
     "totalWeightG": 1216,
     "type": "reload",
@@ -56158,7 +55684,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1616,
     "totalWeightG": 1817,
     "type": "reload",
@@ -56283,7 +55808,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 32.74,
     "totalWeightG": 62.4,
     "type": "reload",
@@ -56382,7 +55906,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 597.3,
     "totalWeightG": 602,
     "type": "reload",
@@ -56485,7 +56008,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 634.6,
     "totalWeightG": 598.2,
     "type": "reload",
@@ -56607,7 +56129,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4842,
     "totalWeightG": 4975,
     "type": "reload",
@@ -56725,7 +56246,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10130,
     "totalWeightG": 8492,
     "type": "reload",
@@ -56839,7 +56359,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7441,
     "totalWeightG": 6673,
     "type": "reload",
@@ -56953,7 +56472,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9955,
     "totalWeightG": 8578,
     "type": "reload",
@@ -57031,7 +56549,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 14010,
     "totalWeightG": 11590,
     "type": "reload",
@@ -57146,7 +56663,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 150.6,
     "totalWeightG": 465.8,
     "type": "hybrid",
@@ -57357,7 +56873,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1988,
     "totalWeightG": 3650,
     "type": "hybrid",
@@ -57512,7 +57027,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3161,
     "totalWeightG": 5134,
     "type": "hybrid",
@@ -57655,7 +57169,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5592,
     "totalWeightG": 7268,
     "type": "hybrid",
@@ -57724,7 +57237,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 487.8,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -57825,7 +57337,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1146,
     "totalWeightG": 1250,
     "type": "reload",
@@ -57931,7 +57442,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1108,
     "totalWeightG": 1210,
     "type": "reload",
@@ -58003,7 +57513,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1686,
     "totalWeightG": 2038,
     "type": "hybrid",
@@ -58047,7 +57556,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2096,
     "totalWeightG": 3606,
     "type": "hybrid",
@@ -58099,7 +57607,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2400,
     "totalWeightG": 4173,
     "type": "hybrid",
@@ -58211,7 +57718,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5676,
     "totalWeightG": 4876,
     "type": "hybrid",
@@ -58271,7 +57777,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 261.5,
     "totalWeightG": 793.8,
     "type": "hybrid",
@@ -58409,7 +57914,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 74.26,
     "totalWeightG": 82.5,
     "type": "SU",
@@ -58515,7 +58019,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 37.8,
     "totalWeightG": 46,
     "type": "SU",
@@ -58633,7 +58136,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 19.61,
     "totalWeightG": 38,
     "type": "SU",
@@ -58779,7 +58281,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1762,
     "totalWeightG": 1543,
     "type": "reload",
@@ -58860,7 +58361,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5485,
     "totalWeightG": 4906,
     "type": "reload",
@@ -59078,7 +58578,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7802,
     "totalWeightG": 6918,
     "type": "reload",
@@ -59233,7 +58732,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 118,
     "totalWeightG": 147,
     "type": "reload",
@@ -59391,7 +58889,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 40960,
     "totalWeightG": 32670,
     "type": "reload",
@@ -59545,7 +59042,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 30610,
     "totalWeightG": 26370,
     "type": "reload",
@@ -59728,7 +59224,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 140.6,
     "totalWeightG": 195,
     "type": "reload",
@@ -59887,7 +59382,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 260.7,
     "totalWeightG": 295,
     "type": "reload",
@@ -60030,7 +59524,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 273.2,
     "totalWeightG": 193,
     "type": "reload",
@@ -60165,7 +59658,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 407.6,
     "totalWeightG": 395,
     "type": "reload",
@@ -60300,7 +59792,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 517.3,
     "totalWeightG": 516,
     "type": "reload",
@@ -60479,7 +59970,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 540.1,
     "totalWeightG": 495,
     "type": "reload",
@@ -60602,7 +60092,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 649.2,
     "totalWeightG": 627,
     "type": "reload",
@@ -60717,7 +60206,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 773.8,
     "totalWeightG": 735,
     "type": "reload",
@@ -60811,7 +60299,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 716,
     "totalWeightG": 1224,
     "type": "hybrid",
@@ -60933,7 +60420,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1248,
     "totalWeightG": 1338,
     "type": "hybrid",
@@ -61039,7 +60525,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1073,
     "totalWeightG": 1338,
     "type": "hybrid",
@@ -61189,7 +60674,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1248,
     "totalWeightG": 1338,
     "type": "hybrid",
@@ -61319,7 +60803,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1529,
     "totalWeightG": 1542,
     "type": "hybrid",
@@ -61473,7 +60956,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1733,
     "totalWeightG": 1541,
     "type": "hybrid",
@@ -61672,7 +61154,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 806,
     "totalWeightG": 875,
     "type": "reload",
@@ -61875,7 +61356,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1190,
     "totalWeightG": 1175,
     "type": "reload",
@@ -62070,7 +61550,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1596,
     "totalWeightG": 1476,
     "type": "reload",
@@ -62265,7 +61744,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1994,
     "totalWeightG": 1768,
     "type": "reload",
@@ -62364,7 +61842,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2353,
     "totalWeightG": 2057,
     "type": "reload",
@@ -62543,7 +62020,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2788,
     "totalWeightG": 2338,
     "type": "reload",
@@ -62697,7 +62173,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2440,
     "totalWeightG": 3077,
     "type": "reload",
@@ -62843,7 +62318,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4808,
     "totalWeightG": 4731,
     "type": "reload",
@@ -62985,7 +62459,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7312,
     "totalWeightG": 6503,
     "type": "reload",
@@ -63219,7 +62692,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9876,
     "totalWeightG": 8823,
     "type": "reload",
@@ -63378,7 +62850,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 57.1,
     "totalWeightG": 85,
     "type": "reload",
@@ -63532,7 +63003,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 109.9,
     "totalWeightG": 125,
     "type": "SU",
@@ -63655,7 +63125,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1093,
     "totalWeightG": 1026,
     "type": "reload",
@@ -63790,7 +63259,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1408,
     "totalWeightG": 1290,
     "type": "reload",
@@ -63913,7 +63381,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 746.6,
     "totalWeightG": 772,
     "type": "reload",
@@ -63961,7 +63428,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 122.5,
     "totalWeightG": 255,
     "type": "reload",
@@ -64140,7 +63606,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 127.3,
     "totalWeightG": 197,
     "type": "reload",
@@ -64295,7 +63760,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 285.6,
     "totalWeightG": 293,
     "type": "reload",
@@ -64474,7 +63938,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2398,
     "totalWeightG": 1994,
     "type": "reload",
@@ -64672,7 +64135,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 14200,
     "totalWeightG": 12200,
     "type": "reload",
@@ -64883,7 +64345,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 751.9,
     "totalWeightG": 752,
     "type": "reload",
@@ -64949,7 +64410,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3882,
     "totalWeightG": 3538,
     "type": "reload",
@@ -64997,7 +64457,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 234.4,
     "totalWeightG": 335,
     "type": "reload",
@@ -65049,7 +64508,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 489.8,
     "totalWeightG": 540,
     "type": "reload",
@@ -65105,7 +64563,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 720.9,
     "totalWeightG": 752,
     "type": "reload",
@@ -65153,7 +64610,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 260.1,
     "totalWeightG": 335,
     "type": "reload",
@@ -65213,7 +64669,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 532.5,
     "totalWeightG": 540,
     "type": "reload",
@@ -65376,7 +64831,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 39,
     "totalWeightG": 78,
     "type": "SU",
@@ -65530,7 +64984,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7310,
     "totalWeightG": 7173,
     "type": "reload",
@@ -65713,7 +65166,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 682,
     "totalWeightG": 724,
     "type": "reload",
@@ -65924,7 +65376,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2756,
     "totalWeightG": 2630,
     "type": "reload",
@@ -66082,7 +65533,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 108.3,
     "totalWeightG": 124,
     "type": "SU",
@@ -66232,7 +65682,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 102.9,
     "totalWeightG": 122.5,
     "type": "SU",
@@ -66390,7 +65839,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 84.3,
     "totalWeightG": 98,
     "type": "SU",
@@ -66581,7 +66029,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8208,
     "totalWeightG": 9162,
     "type": "reload",
@@ -66906,7 +66353,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1115,
     "totalWeightG": 912,
     "type": "reload",
@@ -67084,7 +66530,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5104,
     "totalWeightG": 4783,
     "type": "reload",
@@ -67286,7 +66731,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5220,
     "totalWeightG": 4896,
     "type": "reload",
@@ -67581,7 +67025,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3043,
     "totalWeightG": 3210,
     "type": "reload",
@@ -67668,7 +67111,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2426,
     "totalWeightG": 2203,
     "type": "reload",
@@ -67730,7 +67172,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6502,
     "totalWeightG": 5530,
     "type": "reload",
@@ -67951,7 +67392,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 56.9,
     "totalWeightG": 64,
     "type": "SU",
@@ -68174,7 +67614,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 142.7,
     "totalWeightG": 231,
     "type": "reload",
@@ -68317,7 +67756,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 143,
     "totalWeightG": 226,
     "type": "reload",
@@ -68476,7 +67914,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 246.3,
     "totalWeightG": 709,
     "type": "reload",
@@ -68639,7 +68076,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 241.2,
     "totalWeightG": 316,
     "type": "reload",
@@ -68818,7 +68254,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 645.9,
     "totalWeightG": 722,
     "type": "reload",
@@ -68981,7 +68416,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1434,
     "totalWeightG": 1503,
     "type": "reload",
@@ -69163,7 +68597,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3949,
     "totalWeightG": 3879,
     "type": "reload",
@@ -69341,7 +68774,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 128,
     "totalWeightG": 188.4,
     "type": "reload",
@@ -69432,7 +68864,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 255,
     "totalWeightG": 283.6,
     "type": "reload",
@@ -69587,7 +69018,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 369.2,
     "totalWeightG": 417,
     "type": "reload",
@@ -69686,7 +69116,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 370,
     "totalWeightG": 384.2,
     "type": "reload",
@@ -69757,7 +69186,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 419.2,
     "totalWeightG": 457,
     "type": "reload",
@@ -69943,7 +69371,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2412,
     "totalWeightG": 2430,
     "type": "reload",
@@ -70078,7 +69505,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2014,
     "totalWeightG": 1632,
     "type": "reload",
@@ -70205,7 +69631,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2372,
     "totalWeightG": 1893,
     "type": "reload",
@@ -70379,7 +69804,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3660,
     "totalWeightG": 3341,
     "type": "reload",
@@ -70561,7 +69985,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4864,
     "totalWeightG": 4161,
     "type": "reload",
@@ -70833,7 +70256,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1099,
     "totalWeightG": 1230,
     "type": "reload",
@@ -71064,7 +70486,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1079,
     "totalWeightG": 1268,
     "type": "reload",
@@ -71270,7 +70691,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 976.9,
     "totalWeightG": 1382,
     "type": "reload",
@@ -71517,7 +70937,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1025,
     "totalWeightG": 1410,
     "type": "reload",
@@ -71780,7 +71199,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1196,
     "totalWeightG": 1220,
     "type": "reload",
@@ -71935,7 +71353,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 932.4,
     "totalWeightG": 1119,
     "type": "reload",
@@ -72134,7 +71551,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1483,
     "totalWeightG": 1504,
     "type": "reload",
@@ -72437,7 +71853,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1442,
     "totalWeightG": 1559,
     "type": "reload",
@@ -72632,7 +72047,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1379,
     "totalWeightG": 1737,
     "type": "reload",
@@ -72943,7 +72357,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1806,
     "totalWeightG": 1885,
     "type": "reload",
@@ -73153,7 +72566,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1660,
     "totalWeightG": 2088,
     "type": "reload",
@@ -73360,7 +72772,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1725,
     "totalWeightG": 2121,
     "type": "reload",
@@ -73574,7 +72985,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1176,
     "totalWeightG": 1351,
     "type": "reload",
@@ -73761,7 +73171,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2665,
     "totalWeightG": 2572,
     "type": "reload",
@@ -73917,7 +73326,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 327.9,
     "totalWeightG": 466,
     "type": "reload",
@@ -74003,7 +73411,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 312.1,
     "totalWeightG": 472,
     "type": "reload",
@@ -74081,7 +73488,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 553.1,
     "totalWeightG": 693,
     "type": "reload",
@@ -74147,7 +73553,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 526.5,
     "totalWeightG": 688,
     "type": "reload",
@@ -74225,7 +73630,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1026,
     "totalWeightG": 1160,
     "type": "reload",
@@ -74307,7 +73711,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1356,
     "totalWeightG": 1442,
     "type": "reload",
@@ -74393,7 +73796,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1691,
     "totalWeightG": 1716,
     "type": "reload",
@@ -74479,7 +73881,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2460,
     "totalWeightG": 2541,
     "type": "reload",
@@ -74537,7 +73938,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3580,
     "totalWeightG": 3632,
     "type": "reload",
@@ -74607,7 +74007,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3252,
     "totalWeightG": 3378,
     "type": "reload",
@@ -74759,7 +74158,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 14130,
     "totalWeightG": 12770,
     "type": "reload",
@@ -74930,7 +74328,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5705,
     "totalWeightG": 5620,
     "type": "reload",
@@ -74988,7 +74385,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5165,
     "totalWeightG": 5501,
     "type": "reload",
@@ -75481,7 +74877,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1109,
     "totalWeightG": 1229,
     "type": "reload",
@@ -75600,7 +74995,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1233,
     "totalWeightG": 1493,
     "type": "reload",
@@ -75695,7 +75089,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1791,
     "totalWeightG": 1812,
     "type": "reload",
@@ -75790,7 +75183,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2551,
     "totalWeightG": 2574,
     "type": "reload",
@@ -75889,7 +75281,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 37150,
     "totalWeightG": 32650,
     "type": "reload",
@@ -76016,7 +75407,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 51.5,
     "totalWeightG": 101,
     "type": "reload",
@@ -76111,7 +75501,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 107.4,
     "totalWeightG": 145,
     "type": "reload",
@@ -76190,7 +75579,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 163.3,
     "totalWeightG": 190,
     "type": "reload",
@@ -76273,7 +75661,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 217.1,
     "totalWeightG": 232,
     "type": "reload",
@@ -76356,7 +75743,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 260.8,
     "totalWeightG": 274,
     "type": "reload",
@@ -76443,7 +75829,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 315.4,
     "totalWeightG": 318,
     "type": "reload",
@@ -76558,7 +75943,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2383,
     "totalWeightG": 1982,
     "type": "reload",
@@ -76637,7 +76021,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2771,
     "totalWeightG": 2236,
     "type": "reload",
@@ -76720,7 +76103,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4895,
     "totalWeightG": 4323,
     "type": "reload",
@@ -76811,7 +76193,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6042,
     "totalWeightG": 5231,
     "type": "reload",
@@ -76906,7 +76287,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 159.1,
     "totalWeightG": 188,
     "type": "reload",
@@ -77001,7 +76381,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 107.8,
     "totalWeightG": 146,
     "type": "reload",
@@ -77080,7 +76459,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 164.2,
     "totalWeightG": 163,
     "type": "reload",
@@ -77195,7 +76573,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 216.2,
     "totalWeightG": 232,
     "type": "reload",
@@ -77278,7 +76655,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 268,
     "totalWeightG": 277,
     "type": "reload",
@@ -77448,7 +76824,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1008,
     "totalWeightG": 874,
     "type": "reload",
@@ -77535,7 +76910,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 347.7,
     "totalWeightG": 349,
     "type": "reload",
@@ -77626,7 +77000,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1116,
     "totalWeightG": 977,
     "type": "reload",
@@ -77733,7 +77106,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2653,
     "totalWeightG": 2784,
     "type": "reload",
@@ -77824,7 +77196,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6819,
     "totalWeightG": 5906,
     "type": "reload",
@@ -77907,7 +77278,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3618,
     "totalWeightG": 3591,
     "type": "reload",
@@ -78010,7 +77380,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6132,
     "totalWeightG": 5416,
     "type": "reload",
@@ -78823,7 +78192,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 540,
     "totalWeightG": 1854,
     "type": "hybrid",
@@ -79352,7 +78720,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1060,
     "totalWeightG": 1190,
     "type": "reload",
@@ -79430,7 +78797,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1415,
     "totalWeightG": 1560,
     "type": "reload",
@@ -79496,7 +78862,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1765,
     "totalWeightG": 1775,
     "type": "reload",
@@ -79809,7 +79174,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 41.2,
     "totalWeightG": 104,
     "type": "reload",
@@ -79912,7 +79276,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 84.3,
     "totalWeightG": 152,
     "type": "reload",
@@ -80039,7 +79402,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 125.2,
     "totalWeightG": 200,
     "type": "reload",
@@ -80118,7 +79480,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 166,
     "totalWeightG": 247,
     "type": "reload",
@@ -80193,7 +79554,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 206.2,
     "totalWeightG": 294,
     "type": "reload",
@@ -80276,7 +79636,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 252.7,
     "totalWeightG": 342,
     "type": "reload",
@@ -80366,7 +79725,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4026,
     "totalWeightG": 4962,
     "type": "reload",
@@ -80456,7 +79814,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5069,
     "totalWeightG": 6051,
     "type": "reload",
@@ -80547,7 +79904,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 474.9,
     "totalWeightG": 575,
     "type": "reload",
@@ -80638,7 +79994,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 57,
     "totalWeightG": 99,
     "type": "reload",
@@ -80729,7 +80084,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 116,
     "totalWeightG": 145,
     "type": "reload",
@@ -80800,7 +80154,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 166.3,
     "totalWeightG": 187,
     "type": "reload",
@@ -80871,7 +80224,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 229.3,
     "totalWeightG": 232,
     "type": "reload",
@@ -80954,7 +80306,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 282.2,
     "totalWeightG": 294,
     "type": "reload",
@@ -81053,7 +80404,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1951,
     "totalWeightG": 1815,
     "type": "reload",
@@ -81144,7 +80494,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 167.9,
     "totalWeightG": 205,
     "type": "reload",
@@ -81342,7 +80691,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 287.3,
     "totalWeightG": 391,
     "type": "reload",
@@ -81433,7 +80781,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 150,
     "totalWeightG": 218,
     "type": "reload",
@@ -81508,7 +80855,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 286.4,
     "totalWeightG": 327,
     "type": "reload",
@@ -81603,7 +80949,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 636.1,
     "totalWeightG": 601,
     "type": "reload",
@@ -81694,7 +81039,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2772,
     "totalWeightG": 2244,
     "type": "reload",
@@ -81920,7 +81264,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 383,
     "totalWeightG": 398,
     "type": "reload",
@@ -82091,7 +81434,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 486,
     "totalWeightG": 487,
     "type": "reload",
@@ -82178,7 +81520,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 159.6,
     "totalWeightG": 194.5,
     "type": "reload",
@@ -82261,7 +81602,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 311.5,
     "totalWeightG": 327.6,
     "type": "reload",
@@ -82495,7 +81835,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2729,
     "totalWeightG": 2960,
     "type": "reload",
@@ -82626,7 +81965,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2108,
     "totalWeightG": 1700,
     "type": "reload",
@@ -82749,7 +82087,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1679,
     "totalWeightG": 1410,
     "type": "reload",
@@ -82868,7 +82205,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1261,
     "totalWeightG": 1122,
     "type": "reload",
@@ -82979,7 +82315,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 837.9,
     "totalWeightG": 840,
     "type": "reload",
@@ -83098,7 +82433,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 465.1,
     "totalWeightG": 570,
     "type": "reload",
@@ -83205,7 +82539,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 491.2,
     "totalWeightG": 580,
     "type": "reload",
@@ -83451,7 +82784,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 896.4,
     "totalWeightG": 1044,
     "type": "reload",
@@ -83566,7 +82898,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 998.6,
     "totalWeightG": 906,
     "type": "reload",
@@ -83653,7 +82984,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 207.2,
     "totalWeightG": 238,
     "type": "reload",
@@ -83736,7 +83066,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 260.3,
     "totalWeightG": 284,
     "type": "reload",
@@ -83835,7 +83164,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6738,
     "totalWeightG": 5657,
     "type": "reload",
@@ -83930,7 +83258,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17790,
     "totalWeightG": 14750,
     "type": "reload",
@@ -84029,7 +83356,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8212,
     "totalWeightG": 7237,
     "type": "reload",
@@ -84151,7 +83477,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.75,
     "totalWeightG": 25.9,
     "type": "SU",
@@ -84246,7 +83571,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4232,
     "totalWeightG": 4990,
     "type": "reload",
@@ -84464,7 +83788,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 985,
     "totalWeightG": 866,
     "type": "reload",
@@ -84819,7 +84142,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 783.9,
     "totalWeightG": 700,
     "type": "reload",
@@ -84926,7 +84248,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 657.6,
     "totalWeightG": 601,
     "type": "reload",
@@ -85049,7 +84370,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 537.6,
     "totalWeightG": 500,
     "type": "reload",
@@ -85192,7 +84512,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 413,
     "totalWeightG": 400,
     "type": "reload",
@@ -85367,7 +84686,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 275.9,
     "totalWeightG": 298,
     "type": "reload",
@@ -85470,7 +84788,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 140.9,
     "totalWeightG": 197,
     "type": "reload",
@@ -85648,7 +84965,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1220,
     "totalWeightG": 1143,
     "type": "reload",
@@ -85711,7 +85027,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3200,
     "totalWeightG": 3538,
     "type": "reload",
@@ -85774,7 +85089,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5477,
     "totalWeightG": 5530,
     "type": "reload",
@@ -85829,7 +85143,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8838,
     "totalWeightG": 7160,
     "type": "reload",
@@ -85892,7 +85205,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 12500,
     "totalWeightG": 11600,
     "type": "reload",
@@ -86031,7 +85343,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 54.8,
     "totalWeightG": 105.8,
     "type": "reload",
@@ -86118,7 +85429,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 381.5,
     "totalWeightG": 370,
     "type": "reload",
@@ -86185,7 +85495,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3147,
     "totalWeightG": 2542,
     "type": "reload",
@@ -86517,7 +85826,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7579,
     "totalWeightG": 6718,
     "type": "reload",
@@ -86599,7 +85907,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9870,
     "totalWeightG": 8342,
     "type": "reload",
@@ -86681,7 +85988,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 13770,
     "totalWeightG": 11690,
     "type": "reload",
@@ -86771,7 +86077,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17610,
     "totalWeightG": 14170,
     "type": "reload",
@@ -86861,7 +86166,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5507,
     "totalWeightG": 4844,
     "type": "reload",
@@ -86947,7 +86251,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7455,
     "totalWeightG": 6324,
     "type": "reload",
@@ -87041,7 +86344,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7388,
     "totalWeightG": 6071,
     "type": "reload",
@@ -87273,7 +86575,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2450,
     "totalWeightG": 2327,
     "type": "reload",
@@ -87344,7 +86645,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2413,
     "totalWeightG": 2541,
     "type": "reload",
@@ -87530,7 +86830,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3372,
     "totalWeightG": 3502,
     "type": "reload",
@@ -87609,7 +86908,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3575,
     "totalWeightG": 3502,
     "type": "reload",
@@ -87779,7 +87077,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 945.2,
     "totalWeightG": 899,
     "type": "reload",
@@ -87870,7 +87167,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1162,
     "totalWeightG": 1080,
     "type": "reload",
@@ -87989,7 +87285,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5783,
     "totalWeightG": 4715,
     "type": "reload",
@@ -88084,7 +87379,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8307,
     "totalWeightG": 6682,
     "type": "reload",
@@ -88219,7 +87513,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 14040,
     "totalWeightG": 12050,
     "type": "reload",
@@ -88377,7 +87670,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 35,
     "totalWeightG": 49,
     "type": "SU",
@@ -88511,7 +87803,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1.86,
     "totalWeightG": 13.1,
     "type": "SU",
@@ -88641,7 +87932,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3.84,
     "totalWeightG": 16.6,
     "type": "SU",
@@ -88835,7 +88125,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 501.8,
     "totalWeightG": 623.2,
     "type": "reload",
@@ -88925,7 +88214,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6118,
     "totalWeightG": 5018,
     "type": "reload",
@@ -89027,7 +88315,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6162,
     "totalWeightG": 5223,
     "type": "reload",
@@ -89133,7 +88420,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7545,
     "totalWeightG": 6076,
     "type": "reload",
@@ -89231,7 +88517,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5472,
     "totalWeightG": 4415,
     "type": "reload",
@@ -89329,7 +88614,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5342,
     "totalWeightG": 4977,
     "type": "reload",
@@ -89423,7 +88707,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9995,
     "totalWeightG": 8108,
     "type": "reload",
@@ -89545,7 +88828,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17630,
     "totalWeightG": 14260,
     "type": "reload",
@@ -89635,7 +88917,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 20150,
     "totalWeightG": 14830,
     "type": "reload",
@@ -89764,7 +89045,6 @@
     "motorId": "5f4294d20002310000000346",
     "propInfo": "Slow",
     "propWeightG": 117.8,
-    "sparky": false,
     "totImpulseNs": 247.4,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -89786,7 +89066,6 @@
     "motorId": "5f4294d20002310000000347",
     "propInfo": "Fast",
     "propWeightG": 122.3,
-    "sparky": false,
     "totImpulseNs": 259.1,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -89807,7 +89086,6 @@
     "motorId": "5f4294d20002310000000348",
     "propInfo": "Fast",
     "propWeightG": 151,
-    "sparky": false,
     "totImpulseNs": 293.7,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -89971,7 +89249,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 160.8,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90063,7 +89340,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 136.6,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90084,7 +89360,6 @@
     "motorId": "5f4294d2000231000000034b",
     "propInfo": "Dirty Harry",
     "propWeightG": 143.5,
-    "sparky": false,
     "totImpulseNs": 216.3,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90106,7 +89381,6 @@
     "motorId": "5f4294d2000231000000034c",
     "propInfo": "Fast",
     "propWeightG": 125.3,
-    "sparky": false,
     "totImpulseNs": 266,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90128,7 +89402,6 @@
     "motorId": "5f4294d2000231000000034d",
     "propInfo": "Fast",
     "propWeightG": 154,
-    "sparky": false,
     "totImpulseNs": 326.3,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90260,7 +89533,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 404.2,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90281,7 +89553,6 @@
     "motorId": "5f4294d2000231000000034f",
     "propInfo": "Fast",
     "propWeightG": 181.2,
-    "sparky": false,
     "totImpulseNs": 390.7,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90303,7 +89574,6 @@
     "motorId": "5f4294d20002310000000350",
     "propInfo": "Dirty Harry",
     "propWeightG": 287,
-    "sparky": false,
     "totImpulseNs": 433.2,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90325,7 +89595,6 @@
     "motorId": "5f4294d20002310000000351",
     "propInfo": "Slow",
     "propWeightG": 253.7,
-    "sparky": false,
     "totImpulseNs": 534.4,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90347,7 +89616,6 @@
     "motorId": "5f4294d20002310000000352",
     "propInfo": "Fast",
     "propWeightG": 244.6,
-    "sparky": false,
     "totImpulseNs": 532.9,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90369,7 +89637,6 @@
     "motorId": "5f4294d20002310000000353",
     "propInfo": "Slow",
     "propWeightG": 314.1,
-    "sparky": false,
     "totImpulseNs": 671.1,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90391,7 +89658,6 @@
     "motorId": "5f4294d20002310000000354",
     "propInfo": "Dirty Harry",
     "propWeightG": 353.3,
-    "sparky": false,
     "totImpulseNs": 602.8,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90413,7 +89679,6 @@
     "motorId": "5f4294d20002310000000355",
     "propInfo": "Fast",
     "propWeightG": 308,
-    "sparky": false,
     "totImpulseNs": 673.3,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90435,7 +89700,6 @@
     "motorId": "5f4294d20002310000000356",
     "propInfo": "Slow",
     "propWeightG": 380.5,
-    "sparky": false,
     "totImpulseNs": 761.2,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90457,7 +89721,6 @@
     "motorId": "5f4294d20002310000000357",
     "propInfo": "Fast",
     "propWeightG": 374.5,
-    "sparky": false,
     "totImpulseNs": 787.4,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90479,7 +89742,6 @@
     "motorId": "5f4294d20002310000000358",
     "propInfo": "Fast",
     "propWeightG": 386.6,
-    "sparky": false,
     "totImpulseNs": 814.5,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90501,7 +89763,6 @@
     "motorId": "5f4294d20002310000000359",
     "propInfo": "Fast",
     "propWeightG": 450,
-    "sparky": false,
     "totImpulseNs": 899.9,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90523,7 +89784,6 @@
     "motorId": "5f4294d2000231000000035a",
     "propInfo": "Slow",
     "propWeightG": 561.7,
-    "sparky": false,
     "totImpulseNs": 991.7,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90545,7 +89805,6 @@
     "motorId": "5f4294d2000231000000035b",
     "propInfo": "Fast",
     "propWeightG": 552.7,
-    "sparky": false,
     "totImpulseNs": 1033,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90567,7 +89826,6 @@
     "motorId": "5f4294d2000231000000035c",
     "propInfo": "Fast",
     "propWeightG": 361.3,
-    "sparky": false,
     "totImpulseNs": 787.3,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90589,7 +89847,6 @@
     "motorId": "5f4294d2000231000000035d",
     "propInfo": "Dirty Harry",
     "propWeightG": 605.5,
-    "sparky": false,
     "totImpulseNs": 884.2,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90611,7 +89868,6 @@
     "motorId": "5f4294d2000231000000035e",
     "propInfo": "Fast",
     "propWeightG": 522.5,
-    "sparky": false,
     "totImpulseNs": 1144,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90633,7 +89889,6 @@
     "motorId": "5f4294d2000231000000035f",
     "propInfo": "Dirty Harry",
     "propWeightG": 792.8,
-    "sparky": false,
     "totImpulseNs": 1243,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90655,7 +89910,6 @@
     "motorId": "5f4294d20002310000000360",
     "propInfo": "Slow",
     "propWeightG": 1265,
-    "sparky": false,
     "totImpulseNs": 2643,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90677,7 +89931,6 @@
     "motorId": "5f4294d20002310000000361",
     "propInfo": "Fast",
     "propWeightG": 1255,
-    "sparky": false,
     "totImpulseNs": 2643,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90699,7 +89952,6 @@
     "motorId": "5f4294d20002310000000362",
     "propInfo": "Slow",
     "propWeightG": 610,
-    "sparky": false,
     "totImpulseNs": 1118,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90721,7 +89973,6 @@
     "motorId": "5f4294d20002310000000363",
     "propInfo": "Fast",
     "propWeightG": 596.5,
-    "sparky": false,
     "totImpulseNs": 1167,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90743,7 +89994,6 @@
     "motorId": "5f4294d20002310000000364",
     "propInfo": "Slow",
     "propWeightG": 1196,
-    "sparky": false,
     "totImpulseNs": 2420,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90765,7 +90015,6 @@
     "motorId": "5f4294d20002310000000365",
     "propInfo": "Fast",
     "propWeightG": 1169,
-    "sparky": false,
     "totImpulseNs": 2525,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90787,7 +90036,6 @@
     "motorId": "5f4294d20002310000000366",
     "propInfo": "Dirty Harry",
     "propWeightG": 1930,
-    "sparky": false,
     "totImpulseNs": 3094,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90809,7 +90057,6 @@
     "motorId": "5f4294d20002310000000367",
     "propInfo": "Slow",
     "propWeightG": 1661,
-    "sparky": false,
     "totImpulseNs": 3430,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90831,7 +90078,6 @@
     "motorId": "5f4294d20002310000000368",
     "propInfo": "Fast",
     "propWeightG": 1667,
-    "sparky": false,
     "totImpulseNs": 3567,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90853,7 +90099,6 @@
     "motorId": "5f4294d20002310000000369",
     "propInfo": "Fast",
     "propWeightG": 2223,
-    "sparky": false,
     "totImpulseNs": 4731,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90875,7 +90120,6 @@
     "motorId": "5f4294d2000231000000036a",
     "propInfo": "Slow",
     "propWeightG": 2223,
-    "sparky": false,
     "totImpulseNs": 4470,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90896,7 +90140,6 @@
     "motorId": "5f4294d2000231000000036b",
     "propInfo": "Slow",
     "propWeightG": 3069,
-    "sparky": false,
     "totImpulseNs": 5764,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90917,7 +90160,6 @@
     "motorId": "5f4294d2000231000000036c",
     "propInfo": "Fast",
     "propWeightG": 3058,
-    "sparky": false,
     "totImpulseNs": 5947,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90938,7 +90180,6 @@
     "motorId": "5f4294d2000231000000036d",
     "propInfo": "Dirty Harry",
     "propWeightG": 3547,
-    "sparky": false,
     "totImpulseNs": 5283,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90959,7 +90200,6 @@
     "motorId": "5f4294d2000231000000036e",
     "propInfo": "Slow",
     "propWeightG": 3882,
-    "sparky": false,
     "totImpulseNs": 7513,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -90980,7 +90220,6 @@
     "motorId": "5f4294d2000231000000036f",
     "propInfo": "Fast",
     "propWeightG": 3896,
-    "sparky": false,
     "totImpulseNs": 7566,
     "type": "reload",
     "updatedOn": "2019-04-17"
@@ -91062,7 +90301,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 159.1,
     "totalWeightG": 192.8,
     "type": "reload",
@@ -91161,7 +90399,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 298.2,
     "totalWeightG": 342.8,
     "type": "reload",
@@ -91260,7 +90497,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1978,
     "totalWeightG": 1854,
     "type": "reload",
@@ -91347,7 +90583,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6800,
     "totalWeightG": 5779,
     "type": "reload",
@@ -91434,7 +90669,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6287,
     "totalWeightG": 7191,
     "type": "reload",
@@ -91584,7 +90818,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 18.59,
     "totalWeightG": 45.6,
     "type": "SU",
@@ -91722,7 +90955,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17.61,
     "totalWeightG": 44.1,
     "type": "SU",
@@ -91889,7 +91121,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2512,
     "totalWeightG": 2602,
     "type": "reload",
@@ -91984,7 +91215,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 56,
     "totalWeightG": 106.2,
     "type": "reload",
@@ -92083,7 +91313,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 110,
     "totalWeightG": 141.3,
     "type": "reload",
@@ -92182,7 +91411,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 167.7,
     "totalWeightG": 182.5,
     "type": "reload",
@@ -92364,7 +91592,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1597,
     "totalWeightG": 1551,
     "type": "reload",
@@ -92455,7 +91682,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1526,
     "totalWeightG": 1472,
     "type": "reload",
@@ -92546,7 +91772,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2285,
     "totalWeightG": 2047,
     "type": "reload",
@@ -92641,7 +91866,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2546,
     "totalWeightG": 2270,
     "type": "reload",
@@ -92755,7 +91979,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 14270,
     "totalWeightG": 13250,
     "type": "reload",
@@ -92869,7 +92092,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10350,
     "totalWeightG": 9919,
     "type": "reload",
@@ -93025,7 +92247,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2228,
     "totalWeightG": 2106,
     "type": "reload",
@@ -93225,7 +92446,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2273,
     "totalWeightG": 2078,
     "type": "reload",
@@ -93273,7 +92493,6 @@
     "motorId": "5f4294d20002310000000385",
     "propInfo": "White Cloud",
     "propWeightG": 1184,
-    "sparky": false,
     "totImpulseNs": 2365,
     "totalWeightG": 2706,
     "type": "reload",
@@ -93966,7 +93185,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1.71,
     "totalWeightG": 8.8,
     "type": "SU",
@@ -94151,7 +93369,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1861,
     "totalWeightG": 11660,
     "type": "hybrid",
@@ -94174,7 +93391,6 @@
     "motorId": "5f4294d2000231000000038c",
     "propInfo": "Tribrid: ABS/Alcohol/Nitrous",
     "propWeightG": 2266,
-    "sparky": false,
     "totImpulseNs": 2170,
     "totalWeightG": 14410,
     "type": "hybrid",
@@ -94337,7 +93553,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4642,
     "totalWeightG": 5170,
     "type": "reload",
@@ -94500,7 +93715,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3716,
     "totalWeightG": 3651,
     "type": "reload",
@@ -94579,7 +93793,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 418.5,
     "totalWeightG": 528,
     "type": "reload",
@@ -94726,7 +93939,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 142.5,
     "totalWeightG": 159.9,
     "type": "reload",
@@ -94865,7 +94077,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 139.1,
     "totalWeightG": 169.8,
     "type": "reload",
@@ -94996,7 +94207,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 68.3,
     "totalWeightG": 91.8,
     "type": "reload",
@@ -95135,7 +94345,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 142.3,
     "totalWeightG": 172.5,
     "type": "reload",
@@ -95242,7 +94451,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 73.1,
     "totalWeightG": 102.2,
     "type": "reload",
@@ -95361,7 +94569,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 144.3,
     "totalWeightG": 174,
     "type": "reload",
@@ -95508,7 +94715,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 131,
     "totalWeightG": 172,
     "type": "reload",
@@ -95631,7 +94837,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 67.8,
     "totalWeightG": 107.5,
     "type": "reload",
@@ -95742,7 +94947,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 167.7,
     "totalWeightG": 209,
     "type": "reload",
@@ -95893,7 +95097,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 107.8,
     "totalWeightG": 155.9,
     "type": "reload",
@@ -96016,7 +95219,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 216.7,
     "totalWeightG": 251.2,
     "type": "reload",
@@ -96147,7 +95349,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 381.7,
     "totalWeightG": 398.6,
     "type": "reload",
@@ -96302,7 +95503,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 650.3,
     "totalWeightG": 654.8,
     "type": "reload",
@@ -96477,7 +95677,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 970.4,
     "totalWeightG": 938.9,
     "type": "reload",
@@ -96604,7 +95803,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 136.8,
     "totalWeightG": 212.5,
     "type": "reload",
@@ -96735,7 +95933,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 269.1,
     "totalWeightG": 325.3,
     "type": "reload",
@@ -96882,7 +96079,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 411.4,
     "totalWeightG": 437.5,
     "type": "reload",
@@ -97009,7 +96205,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 548.2,
     "totalWeightG": 549.9,
     "type": "reload",
@@ -97144,7 +96339,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 683.6,
     "totalWeightG": 659.8,
     "type": "reload",
@@ -97287,7 +96481,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 818.7,
     "totalWeightG": 778.2,
     "type": "reload",
@@ -97402,7 +96595,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 613.6,
     "totalWeightG": 807,
     "type": "reload",
@@ -97517,7 +96709,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1211,
     "totalWeightG": 1280,
     "type": "reload",
@@ -97648,7 +96839,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2021,
     "totalWeightG": 1932,
     "type": "reload",
@@ -97779,7 +96969,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 821.1,
     "totalWeightG": 799.8,
     "type": "reload",
@@ -97938,7 +97127,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1266,
     "totalWeightG": 1077,
     "type": "reload",
@@ -98093,7 +97281,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1633,
     "totalWeightG": 1367,
     "type": "reload",
@@ -98244,7 +97431,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8429,
     "totalWeightG": 7032,
     "type": "reload",
@@ -98717,7 +97903,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8187,
     "totalWeightG": 7878,
     "type": "reload",
@@ -99185,7 +98370,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 47,
     "totalWeightG": 70.6,
     "type": "SU",
@@ -99372,7 +98556,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 157.1,
     "totalWeightG": 148,
     "type": "reload",
@@ -99475,7 +98658,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7649,
     "totalWeightG": 7411,
     "type": "reload",
@@ -99582,7 +98764,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10370,
     "totalWeightG": 9180,
     "type": "reload",
@@ -99673,7 +98854,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 15230,
     "totalWeightG": 13310,
     "type": "reload",
@@ -99884,7 +99064,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1581,
     "totalWeightG": 1508,
     "type": "reload",
@@ -100095,7 +99274,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1852,
     "totalWeightG": 1823,
     "type": "reload",
@@ -100233,7 +99411,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 634.6,
     "totalWeightG": 616,
     "type": "SU",
@@ -100336,7 +99513,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 24.8,
     "totalWeightG": 52,
     "type": "reload",
@@ -100486,7 +99662,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 137.3,
     "totalWeightG": 166,
     "type": "reload",
@@ -100557,7 +99732,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 73.6,
     "totalWeightG": 96,
     "type": "reload",
@@ -100624,7 +99798,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1874,
     "totalWeightG": 1469,
     "type": "reload",
@@ -100707,7 +99880,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 867.2,
     "totalWeightG": 911,
     "type": "reload",
@@ -100782,7 +99954,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1281,
     "totalWeightG": 1232,
     "type": "reload",
@@ -100857,7 +100028,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7521,
     "totalWeightG": 6954,
     "type": "reload",
@@ -100936,7 +100106,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2406,
     "totalWeightG": 2759,
     "type": "reload",
@@ -101011,7 +100180,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3683,
     "totalWeightG": 3789,
     "type": "reload",
@@ -101094,7 +100262,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 19320,
     "totalWeightG": 16530,
     "type": "reload",
@@ -101173,7 +100340,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 512.2,
     "totalWeightG": 594,
     "type": "reload",
@@ -101249,7 +100415,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 30790,
     "totalWeightG": 23560,
     "type": "SU",
@@ -101955,7 +101120,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1789,
     "totalWeightG": 1459,
     "type": "reload",
@@ -102069,7 +101233,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9580,
     "totalWeightG": 10140,
     "type": "reload",
@@ -102553,7 +101716,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 26.1,
     "totalWeightG": 52,
     "type": "reload",
@@ -102640,7 +101802,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 24.2,
     "totalWeightG": 56.5,
     "type": "reload",
@@ -102786,7 +101947,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 75,
     "totalWeightG": 95,
     "type": "reload",
@@ -102861,7 +102021,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1013,
     "totalWeightG": 964.3,
     "type": "reload",
@@ -102944,7 +102103,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 654.3,
     "totalWeightG": 607.1,
     "type": "reload",
@@ -103015,7 +102173,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2833,
     "totalWeightG": 2503,
     "type": "reload",
@@ -103078,7 +102235,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1997,
     "totalWeightG": 1710,
     "type": "reload",
@@ -103160,7 +102316,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2330,
     "totalWeightG": 2465,
     "type": "reload",
@@ -103242,7 +102397,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3300,
     "totalWeightG": 3264,
     "type": "reload",
@@ -103320,7 +102474,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3420,
     "totalWeightG": 3752,
     "type": "reload",
@@ -103488,7 +102641,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2856,
     "totalWeightG": 2616,
     "type": "reload",
@@ -103578,7 +102730,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4263,
     "totalWeightG": 3571,
     "type": "reload",
@@ -103672,7 +102823,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2430,
     "totalWeightG": 2528,
     "type": "reload",
@@ -103762,7 +102912,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3727,
     "totalWeightG": 3448,
     "type": "reload",
@@ -103844,7 +102993,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17910,
     "totalWeightG": 16280,
     "type": "reload",
@@ -103915,7 +103063,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5604,
     "totalWeightG": 4524,
     "type": "reload",
@@ -104038,7 +103185,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6268,
     "totalWeightG": 5774,
     "type": "reload",
@@ -104129,7 +103275,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5880,
     "totalWeightG": 5698,
     "type": "reload",
@@ -104284,7 +103429,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 27.24,
     "totalWeightG": 58.7,
     "type": "SU",
@@ -104411,7 +103555,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 33.56,
     "totalWeightG": 47,
     "type": "SU",
@@ -104497,7 +103640,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 62.19,
     "totalWeightG": 100.8,
     "type": "SU",
@@ -104651,7 +103793,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 76.83,
     "totalWeightG": 84.4,
     "type": "SU",
@@ -104729,7 +103870,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 97.14,
     "totalWeightG": 122.9,
     "type": "SU",
@@ -104753,7 +103893,6 @@
     "maxThrustN": 108.5,
     "motorId": "5f4294d200023100000003e8",
     "propWeightG": 62.5,
-    "sparky": false,
     "totImpulseNs": 136.6,
     "totalWeightG": 128.3,
     "type": "SU",
@@ -104823,7 +103962,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9977,
     "totalWeightG": 8182,
     "type": "reload",
@@ -104898,7 +104036,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 139.7,
     "totalWeightG": 161.9,
     "type": "reload",
@@ -104977,7 +104114,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 12070,
     "totalWeightG": 11360,
     "type": "reload",
@@ -105064,7 +104200,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 566.6,
     "totalWeightG": 647,
     "type": "reload",
@@ -105143,7 +104278,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8634,
     "totalWeightG": 7919,
     "type": "reload",
@@ -105234,7 +104368,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 21060,
     "totalWeightG": 16840,
     "type": "reload",
@@ -105353,7 +104486,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7561,
     "totalWeightG": 7008,
     "type": "reload",
@@ -105455,7 +104587,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 225.8,
     "totalWeightG": 212,
     "type": "SU",
@@ -105590,7 +104721,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 49.61,
     "totalWeightG": 102,
     "type": "SU",
@@ -105712,7 +104842,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 236.1,
     "totalWeightG": 197,
     "type": "SU",
@@ -105783,7 +104912,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 13630,
     "totalWeightG": 11280,
     "type": "reload",
@@ -105905,7 +105033,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 336,
     "totalWeightG": 356,
     "type": "SU",
@@ -106245,7 +105372,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 703,
     "totalWeightG": 642,
     "type": "SU",
@@ -106392,7 +105518,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 33.38,
     "totalWeightG": 84,
     "type": "SU",
@@ -106482,7 +105607,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 128,
     "totalWeightG": 125,
     "type": "SU",
@@ -106786,7 +105910,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 620,
     "totalWeightG": 576,
     "type": "SU",
@@ -107501,7 +106624,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 41.5,
     "totalWeightG": 48,
     "type": "SU",
@@ -107647,7 +106769,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 82.75,
     "totalWeightG": 87,
     "type": "SU",
@@ -107859,7 +106980,6 @@
         0.06723
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4.844,
     "totalWeightG": 19,
     "type": "SU",
@@ -107929,7 +107049,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8.831,
     "totalWeightG": 25,
     "type": "SU",
@@ -107991,7 +107110,6 @@
         0.01681
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.379,
     "totalWeightG": 15,
     "type": "SU",
@@ -108073,7 +107191,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 218,
     "totalWeightG": 207,
     "type": "SU",
@@ -108163,7 +107280,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 345,
     "totalWeightG": 315,
     "type": "SU",
@@ -108237,7 +107353,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 320,
     "totalWeightG": 365,
     "type": "SU",
@@ -108320,7 +107435,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 680.3,
     "totalWeightG": 631,
     "type": "SU",
@@ -108402,7 +107516,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 640,
     "totalWeightG": 752,
     "type": "SU",
@@ -108508,7 +107621,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1434,
     "totalWeightG": 1264,
     "type": "SU",
@@ -108634,7 +107746,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2714,
     "totalWeightG": 2194,
     "type": "SU",
@@ -108758,7 +107869,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8.96,
     "totalWeightG": 23.9,
     "type": "reload",
@@ -108894,7 +108004,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17.21,
     "totalWeightG": 29.3,
     "type": "reload",
@@ -108973,7 +108082,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 52.9,
     "totalWeightG": 73,
     "type": "reload",
@@ -109072,7 +108180,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 49.9,
     "totalWeightG": 73,
     "type": "reload",
@@ -109159,7 +108266,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 52.8,
     "totalWeightG": 107,
     "type": "reload",
@@ -109238,7 +108344,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 55.5,
     "totalWeightG": 102,
     "type": "reload",
@@ -109317,7 +108422,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 143.1,
     "totalWeightG": 197,
     "type": "reload",
@@ -109396,7 +108500,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 186,
     "totalWeightG": 242,
     "type": "reload",
@@ -109479,7 +108582,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 234.2,
     "totalWeightG": 286,
     "type": "reload",
@@ -109566,7 +108668,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 394.6,
     "totalWeightG": 437,
     "type": "reload",
@@ -109653,7 +108754,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 644,
     "totalWeightG": 660,
     "type": "reload",
@@ -109732,7 +108832,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 949.2,
     "totalWeightG": 951,
     "type": "reload",
@@ -109811,7 +108910,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2645,
     "totalWeightG": 2481,
     "type": "reload",
@@ -109882,7 +108980,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1711,
     "totalWeightG": 1576,
     "type": "reload",
@@ -109961,7 +109058,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2130,
     "totalWeightG": 1892,
     "type": "reload",
@@ -110036,7 +109132,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2377,
     "totalWeightG": 2198,
     "type": "reload",
@@ -110182,7 +109277,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5198,
     "totalWeightG": 4938,
     "type": "reload",
@@ -110258,7 +109352,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4937,
     "totalWeightG": 5706,
     "type": "reload",
@@ -110333,7 +109426,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 16800,
     "totalWeightG": 15860,
     "type": "reload",
@@ -110357,7 +109449,6 @@
     "motorId": "5f4294d20002310000000420",
     "propInfo": "Black Bear",
     "propWeightG": 964,
-    "sparky": false,
     "totImpulseNs": 1337,
     "totalWeightG": 1717,
     "type": "reload",
@@ -110381,7 +109472,6 @@
     "motorId": "5f4294d20002310000000421",
     "propInfo": "White Cloud",
     "propWeightG": 173,
-    "sparky": false,
     "totImpulseNs": 324,
     "totalWeightG": 466,
     "type": "reload",
@@ -110429,7 +109519,6 @@
     "motorId": "5f4294d20002310000000423",
     "propInfo": "White Cloud",
     "propWeightG": 288,
-    "sparky": false,
     "totImpulseNs": 556.7,
     "totalWeightG": 678,
     "type": "reload",
@@ -110453,7 +109542,6 @@
     "motorId": "5f4294d20002310000000424",
     "propInfo": "White Cloud",
     "propWeightG": 370,
-    "sparky": false,
     "totImpulseNs": 677.9,
     "totalWeightG": 824,
     "type": "reload",
@@ -110477,7 +109565,6 @@
     "motorId": "5f4294d20002310000000425",
     "propInfo": "Blue Typhoon",
     "propWeightG": 816,
-    "sparky": false,
     "totImpulseNs": 1463,
     "totalWeightG": 1497,
     "type": "reload",
@@ -110501,7 +109588,6 @@
     "motorId": "5f4294d20002310000000426",
     "propInfo": "Blue Typhoon",
     "propWeightG": 870,
-    "sparky": false,
     "totImpulseNs": 1786,
     "totalWeightG": 1836,
     "type": "reload",
@@ -110525,7 +109611,6 @@
     "motorId": "5f4294d20002310000000427",
     "propInfo": "White Cloud",
     "propWeightG": 1180,
-    "sparky": false,
     "totImpulseNs": 2074,
     "totalWeightG": 2770,
     "type": "reload",
@@ -110583,7 +109668,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5368,
     "totalWeightG": 5620,
     "type": "reload",
@@ -110673,7 +109757,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6958,
     "totalWeightG": 7058,
     "type": "reload",
@@ -110747,7 +109830,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7898,
     "totalWeightG": 7058,
     "type": "reload",
@@ -110921,7 +110003,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10810,
     "totalWeightG": 10140,
     "type": "reload",
@@ -111079,7 +110160,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 14240,
     "totalWeightG": 15420,
     "type": "reload",
@@ -111253,7 +110333,6 @@
     "motorId": "5f4294d2000231000000042f",
     "propInfo": "White Cloud",
     "propWeightG": 17420,
-    "sparky": false,
     "totImpulseNs": 33010,
     "totalWeightG": 33880,
     "type": "reload",
@@ -111395,7 +110474,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1114,
     "totalWeightG": 1225,
     "type": "reload",
@@ -111522,7 +110600,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5178,
     "totalWeightG": 4808,
     "type": "SU",
@@ -111709,7 +110786,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 312,
     "totalWeightG": 316,
     "type": "SU",
@@ -111836,7 +110912,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1208,
     "totalWeightG": 1315,
     "type": "reload",
@@ -111971,7 +111046,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1983,
     "totalWeightG": 1973,
     "type": "reload",
@@ -112086,7 +111160,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6535,
     "totalWeightG": 5630,
     "type": "reload",
@@ -112213,7 +111286,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9395,
     "totalWeightG": 7597,
     "type": "reload",
@@ -112360,7 +111432,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3709,
     "totalWeightG": 3628,
     "type": "reload",
@@ -112519,7 +111590,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 6032,
     "totalWeightG": 5443,
     "type": "reload",
@@ -112654,7 +111724,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1267,
     "totalWeightG": 1172,
     "type": "reload",
@@ -112830,7 +111899,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1285,
     "totalWeightG": 1172,
     "type": "reload",
@@ -112957,7 +112025,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3889,
     "totalWeightG": 3748,
     "type": "reload",
@@ -113243,7 +112310,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3707,
     "totalWeightG": 2962,
     "type": "reload",
@@ -113390,7 +112456,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4802,
     "totalWeightG": 4056,
     "type": "reload",
@@ -113501,7 +112566,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 704,
     "totalWeightG": 708,
     "type": "SU",
@@ -113640,7 +112704,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 226.8,
     "totalWeightG": 261,
     "type": "SU",
@@ -113815,7 +112878,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2671,
     "totalWeightG": 2432,
     "type": "reload",
@@ -113934,7 +112996,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 210,
     "totalWeightG": 237,
     "type": "reload",
@@ -114057,7 +113118,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 326,
     "totalWeightG": 385,
     "type": "reload",
@@ -114196,7 +113256,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4668,
     "totalWeightG": 4989,
     "type": "reload",
@@ -114339,7 +113398,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7301,
     "totalWeightG": 6622,
     "type": "reload",
@@ -114462,7 +113520,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1519,
     "totalWeightG": 1236,
     "type": "reload",
@@ -114574,7 +113631,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 240,
     "totalWeightG": 342,
     "type": "reload",
@@ -114682,7 +113738,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 522,
     "totalWeightG": 560,
     "type": "reload",
@@ -114829,7 +113884,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 134,
     "totalWeightG": 250,
     "type": "reload",
@@ -114977,7 +114031,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 119,
     "totalWeightG": 242,
     "type": "reload",
@@ -115125,7 +114178,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 121,
     "totalWeightG": 240,
     "type": "reload",
@@ -115340,7 +114392,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5363,
     "totalWeightG": 4331,
     "type": "reload",
@@ -115511,7 +114562,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 8247,
     "totalWeightG": 8030,
     "type": "reload",
@@ -115649,7 +114699,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 233,
     "totalWeightG": 261,
     "type": "SU",
@@ -115945,7 +114994,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1304,
     "totalWeightG": 1194,
     "type": "SU",
@@ -116405,7 +115453,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1384,
     "totalWeightG": 1292,
     "type": "reload",
@@ -116539,7 +115586,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 7369,
     "totalWeightG": 6998,
     "type": "SU",
@@ -116713,7 +115759,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 201,
     "type": "SU",
     "updatedOn": "2019-04-17"
@@ -116899,7 +115944,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 320,
     "totalWeightG": 323,
     "type": "reload",
@@ -117297,7 +116341,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 774,
     "totalWeightG": 624,
     "type": "SU",
@@ -117420,7 +116463,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 671,
     "totalWeightG": 757.4,
     "type": "reload",
@@ -117582,7 +116624,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 61.1,
     "totalWeightG": 80.8,
     "type": "SU",
@@ -117704,7 +116745,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.5,
     "totalWeightG": 17.9,
     "type": "SU",
@@ -117862,7 +116902,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4.86,
     "totalWeightG": 19.8,
     "type": "SU",
@@ -117986,7 +117025,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 55.11,
     "totalWeightG": 81,
     "type": "reload",
@@ -118136,7 +117174,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9.8,
     "totalWeightG": 23.7,
     "type": "SU",
@@ -118274,7 +117311,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 12.4,
     "totalWeightG": 25.7,
     "type": "SU",
@@ -118378,7 +117414,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 47.57,
     "totalWeightG": 88.1,
     "type": "reload",
@@ -118474,7 +117509,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 49.5,
     "totalWeightG": 82.2,
     "type": "reload",
@@ -118588,7 +117622,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 130,
     "totalWeightG": 157.1,
     "type": "SU",
@@ -118706,7 +117739,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 139,
     "totalWeightG": 153.7,
     "type": "SU",
@@ -118836,7 +117868,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 144,
     "totalWeightG": 150.3,
     "type": "SU",
@@ -118931,7 +117962,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 732.9,
     "totalWeightG": 766,
     "type": "reload",
@@ -119030,7 +118060,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 709.1,
     "totalWeightG": 755.6,
     "type": "reload",
@@ -119218,7 +118247,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 232.9,
     "totalWeightG": 202.2,
     "type": "SU",
@@ -119344,7 +118372,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2328,
     "totalWeightG": 2286,
     "type": "SU",
@@ -119438,7 +118465,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3785,
     "totalWeightG": 3756,
     "type": "reload",
@@ -119544,7 +118570,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5493,
     "totalWeightG": 4559,
     "type": "reload",
@@ -119649,7 +118674,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 22220,
     "totalWeightG": 15680,
     "type": "SU",
@@ -119795,7 +118819,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1394,
     "totalWeightG": 1493,
     "type": "reload",
@@ -119990,7 +119013,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 333,
     "totalWeightG": 348,
     "type": "SU",
@@ -120076,7 +119098,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 66.2,
     "totalWeightG": 81.4,
     "type": "SU",
@@ -120198,7 +119219,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 211.2,
     "totalWeightG": 203.4,
     "type": "SU",
@@ -120261,7 +119281,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 2.5,
     "totalWeightG": 14.5,
     "type": "SU",
@@ -120378,7 +119397,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5,
     "type": "SU",
     "updatedOn": "2020-10-02"
@@ -120484,7 +119502,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9.8,
     "totalWeightG": 22.4,
     "type": "SU",
@@ -120575,7 +119592,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 10,
     "totalWeightG": 20.5,
     "type": "SU",
@@ -120666,7 +119682,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 20,
     "totalWeightG": 27.1,
     "type": "SU",
@@ -120784,7 +119799,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 1350,
     "totalWeightG": 1278,
     "type": "SU",
@@ -121030,7 +120044,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 9.83,
     "totalWeightG": 20.9,
     "type": "SU",
@@ -121132,7 +120145,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 13.83,
     "totalWeightG": 24.1,
     "type": "SU",
@@ -121362,7 +120374,6 @@
         0.231
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 89.16,
     "totalWeightG": 95,
     "type": "SU",
@@ -121481,7 +120492,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 5,
     "totalWeightG": 16.3,
     "type": "SU",
@@ -121604,7 +120614,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 17.4,
     "totalWeightG": 27.9,
     "type": "SU",
@@ -121682,7 +120691,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 19.33,
     "totalWeightG": 37.5,
     "type": "SU",
@@ -121756,7 +120764,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 27.85,
     "totalWeightG": 44,
     "type": "SU",
@@ -121867,7 +120874,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4329,
     "totalWeightG": 3856,
     "type": "reload",
@@ -121961,7 +120967,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 4.87,
     "totalWeightG": 19.3,
     "type": "SU",
@@ -122063,7 +121068,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 374.9,
     "totalWeightG": 359.9,
     "type": "SU",
@@ -122162,7 +121166,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 745.5,
     "totalWeightG": 801.7,
     "type": "reload",
@@ -122268,7 +121271,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 13890,
     "totalWeightG": 12210,
     "type": "SU",
@@ -122421,7 +121423,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 3886,
     "totalWeightG": 5550,
     "type": "SU",
@@ -122446,7 +121447,6 @@
     "motorId": "627bbef01b11ab0004a4bb20",
     "propInfo": "Super Thunder",
     "propWeightG": 595,
-    "sparky": false,
     "totImpulseNs": 1299,
     "totalWeightG": 1948,
     "type": "reload",
@@ -122548,7 +121548,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 39.38,
     "totalWeightG": 55,
     "type": "SU",
@@ -122654,7 +121653,6 @@
         0
       ]
     ],
-    "sparky": false,
     "totImpulseNs": 45.4,
     "totalWeightG": 60.7,
     "type": "SU",
