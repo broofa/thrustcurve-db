@@ -1,9 +1,9 @@
-type ThrustPoint = [
+type TCSample = [
   number, // time (seconds)
   number // thrust (Newtons)
 ];
 
-export declare type Motor = {
+export declare type TCMotor = {
   availability: 'regular' | 'OOP';
   avgThrustN: number;
   burnTimeS: number;
@@ -37,7 +37,7 @@ export declare type Motor = {
   motorId: string;
   propInfo: string;
   propWeightG: number;
-  samples?: ThrustPoint[];
+  samples?: TCSample[];
   sparky?: boolean;
   totImpulseNs: number;
   totalWeightG: number;
@@ -45,5 +45,5 @@ export declare type Motor = {
   updatedOn: string;
 };
 
-declare const MOTORS: Array<Motor>;
+declare const MOTORS: TCMotor[];
 export default MOTORS;
