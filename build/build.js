@@ -43,7 +43,7 @@ function log(...args) {
 
   // Normalize motor data
   const motors = allMotors.reduce(
-    (map, motor) => map.set(motor.motorId, { ...motor}),
+    (map, motor) => map.set(motor.motorId, { ...motor }),
     new Map()
   );
 
@@ -124,6 +124,12 @@ function log(...args) {
     if (motor.samples?.source !== "cert") {
       motor.samples = samples;
     }
+  }
+
+  const oddDesignationMotors = [...motors.values()].filter(m => !m.designation?.toLowerCase().includes(m.commonName.toLowerCase()));
+  if (oddDesignationMotors.length) {
+    log(`Inconsistent name<->designationk:`);
+    const names = oddDesignationMotors.forEach(motor => log(motor.manufacturerAbbrev, motor.commonName, " .vs. ", motor.designation));
   }
 
   const thrustless = [...motors.values()].filter(m => !m.samples);
