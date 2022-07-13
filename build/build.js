@@ -126,10 +126,15 @@ function log(...args) {
     }
   }
 
-  const oddDesignationMotors = [...motors.values()].filter(m => !m.designation?.toLowerCase().includes(m.commonName.toLowerCase()));
-  if (oddDesignationMotors.length) {
-    log(`Inconsistent name<->designationk:`);
-    const names = oddDesignationMotors.forEach(motor => log(motor.manufacturerAbbrev, motor.commonName, " .vs. ", motor.designation));
+  // Check for motors with names & designations that don't match
+  const mismatchedNames = [...motors.values()].filter(m => {
+    return !m.designation?.toLowerCase()
+      .replace(/\W/g, '')
+      .includes(m.commonName.replace(/\W/g, '').toLowerCase())
+  });
+  if (mismatchedNames.length) {
+    log(`Mismatched commonName <-> designation:`);
+    const names = mismatchedNames.forEach(motor => log(`${motor.manufacturerAbbrev} "${motor.commonName}".vs. "${motor.designation}"`));
   }
 
   const thrustless = [...motors.values()].filter(m => !m.samples);
