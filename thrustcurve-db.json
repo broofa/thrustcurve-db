@@ -1094,7 +1094,7 @@
     "designation": "A3",
     "diameter": 13,
     "impulseClass": "A",
-    "infoUrl": "http://nar.org/SandT/pdf/Estes/A3T.pdf",
+    "infoUrl": "https://nar.org/SandT/pdf/Estes/Estes_A3T_2022.pdf",
     "length": 45,
     "manufacturer": "Estes Industries",
     "manufacturerAbbrev": "Estes",
@@ -1207,7 +1207,7 @@
     "totImpulseNs": 2.5,
     "totalWeightG": 8.5,
     "type": "SU",
-    "updatedOn": "2022-02-19"
+    "updatedOn": "2022-07-27"
   },
   {
     "availability": "regular",
@@ -2288,7 +2288,7 @@
     "designation": "C5",
     "diameter": 18,
     "impulseClass": "C",
-    "infoUrl": "http://nar.org/SandT/pdf/Estes/C5.pdf",
+    "infoUrl": "https://nar.org/SandT/pdf/Estes/Estes_C5_2019.pdf",
     "length": 70,
     "manufacturer": "Estes Industries",
     "manufacturerAbbrev": "Estes",
@@ -2429,7 +2429,7 @@
     "totImpulseNs": 7.79,
     "totalWeightG": 24.8,
     "type": "SU",
-    "updatedOn": "2020-10-16"
+    "updatedOn": "2022-07-27"
   },
   {
     "availability": "regular",
@@ -3806,9 +3806,9 @@
       ]
     ],
     "totImpulseNs": 16.84,
-    "totalWeightG": 45.7,
+    "totalWeightG": 44,
     "type": "SU",
-    "updatedOn": "2020-12-12"
+    "updatedOn": "2022-07-27"
   },
   {
     "availability": "regular",
@@ -4289,6 +4289,7 @@
     "designation": "E6",
     "diameter": 24,
     "impulseClass": "E",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/E6.pdf",
     "length": 70,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -4375,7 +4376,7 @@
     ],
     "totImpulseNs": 40,
     "type": "SU",
-    "updatedOn": "2020-11-26"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -7052,6 +7053,7 @@
     "designation": "F23FJ/L",
     "diameter": 29,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F23FJ.pdf",
     "length": 83,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -7188,7 +7190,7 @@
     "totImpulseNs": 41.2,
     "totalWeightG": 82.3,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-08-09"
   },
   {
     "availability": "regular",
@@ -7201,6 +7203,7 @@
     "designation": "F23-RCW-SK",
     "diameter": 32,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F23RCWSK.pdf",
     "length": 107,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -7345,7 +7348,7 @@
     "totImpulseNs": 70,
     "totalWeightG": 128.7,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -7620,7 +7623,7 @@
   {
     "availability": "regular",
     "avgThrustN": 26,
-    "burnTimeS": 2.392,
+    "burnTimeS": 2.39,
     "certOrg": "National Association of Rocketry",
     "commonName": "F26",
     "dataFiles": 2,
@@ -7628,6 +7631,7 @@
     "designation": "F26FJ",
     "diameter": 29,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F26FJ.pdf",
     "length": 98,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -7700,7 +7704,7 @@
     "totImpulseNs": 62.2,
     "totalWeightG": 101,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -8464,6 +8468,7 @@
     "designation": "F42T/L",
     "diameter": 29,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F42.pdf",
     "length": 83,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -8528,7 +8533,7 @@
     "totImpulseNs": 52.9,
     "totalWeightG": 75.9,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-08-09"
   },
   {
     "availability": "regular",
@@ -16009,7 +16014,7 @@
     "designation": "H210R",
     "diameter": 29,
     "impulseClass": "H",
-    "infoUrl": "http://nar.org/SandT/pdf/Aerotech/H220.pdf",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/H210.pdf",
     "length": 238,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -16130,7 +16135,7 @@
     "totImpulseNs": 215.4,
     "totalWeightG": 246.4,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -16204,6 +16209,7 @@
     "designation": "H220T",
     "diameter": 29,
     "impulseClass": "H",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/H220.pdf",
     "length": 238,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -16256,7 +16262,7 @@
     "totImpulseNs": 220,
     "totalWeightG": 250,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -16633,7 +16639,7 @@
   {
     "availability": "regular",
     "avgThrustN": 268,
-    "burnTimeS": 1.194,
+    "burnTimeS": 1.19,
     "caseInfo": "RMS-29/360",
     "certOrg": "National Association of Rocketry",
     "commonName": "H268",
@@ -16642,6 +16648,7 @@
     "designation": "H268R",
     "diameter": 29,
     "impulseClass": "H",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/H268.pdf",
     "length": 333,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -16761,7 +16768,7 @@
     "totImpulseNs": 320,
     "totalWeightG": 358.4,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -20602,7 +20609,7 @@
   {
     "availability": "regular",
     "avgThrustN": 218,
-    "burnTimeS": 1.514,
+    "burnTimeS": 1.51,
     "caseInfo": "RMS-38/360",
     "certOrg": "National Association of Rocketry",
     "commonName": "I218",
@@ -20611,6 +20618,7 @@
     "designation": "I218R",
     "diameter": 38,
     "impulseClass": "I",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/I218.pdf",
     "length": 203,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -20730,7 +20738,7 @@
     "totImpulseNs": 330,
     "totalWeightG": 371.8,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-23"
   },
   {
     "availability": "regular",
@@ -21717,7 +21725,7 @@
   {
     "availability": "regular",
     "avgThrustN": 285,
-    "burnTimeS": 1.474,
+    "burnTimeS": 1.47,
     "caseInfo": "RMS-38/480",
     "certOrg": "National Association of Rocketry",
     "commonName": "I285",
@@ -21726,6 +21734,7 @@
     "designation": "I285R",
     "diameter": 38,
     "impulseClass": "I",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/I285R.pdf",
     "length": 250,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -21845,7 +21854,7 @@
     "totImpulseNs": 420,
     "totalWeightG": 492.8,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-23"
   },
   {
     "availability": "OOP",
@@ -50701,6 +50710,7 @@
     "designation": "G71R",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G71R.pdf",
     "length": 124,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -50993,7 +51003,7 @@
     "totImpulseNs": 107,
     "totalWeightG": 147,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -51006,6 +51016,7 @@
     "designation": "WW-38-390",
     "diameter": 38,
     "impulseClass": "I",
+    "infoUrl": "https://nar.org/SandT/pdf/Animal/I195WW.pdf",
     "length": 249,
     "manufacturer": "Animal Motor Works",
     "manufacturerAbbrev": "AMW",
@@ -51145,7 +51156,7 @@
     ],
     "totImpulseNs": 358,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-24"
   },
   {
     "availability": "OOP",
@@ -51439,6 +51450,7 @@
     "designation": "F27R/L",
     "diameter": 29,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F27.pdf",
     "length": 83,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -51579,7 +51591,7 @@
     "totImpulseNs": 49.6,
     "totalWeightG": 80,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-08-09"
   },
   {
     "availability": "regular",
@@ -51593,6 +51605,7 @@
     "designation": "G69N",
     "diameter": 38,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G69.pdf",
     "length": 106,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -51717,7 +51730,7 @@
     "totImpulseNs": 136.7,
     "totalWeightG": 201,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -51885,6 +51898,7 @@
     "designation": "M650W",
     "diameter": 75,
     "impulseClass": "M",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/M650W.pdf",
     "length": 801,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -51981,7 +51995,7 @@
     "totImpulseNs": 5964,
     "totalWeightG": 5125,
     "type": "reload",
-    "updatedOn": "2020-01-27"
+    "updatedOn": "2022-07-23"
   },
   {
     "availability": "regular",
@@ -51995,6 +52009,7 @@
     "designation": "M750W",
     "diameter": 98,
     "impulseClass": "M",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/M750W.pdf",
     "length": 732,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -52087,7 +52102,7 @@
     "totImpulseNs": 9325,
     "totalWeightG": 8776,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-23"
   },
   {
     "availability": "OOP",
@@ -53341,6 +53356,7 @@
     "designation": "G53FJ",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G53FJ.pdf",
     "length": 124,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -53481,7 +53497,7 @@
     "totImpulseNs": 90.9,
     "totalWeightG": 146,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -54327,7 +54343,6 @@
     "designation": "I599N",
     "diameter": 54,
     "impulseClass": "I",
-    "infoUrl": "http://www.aerotech-rocketry.com/customersite/resource_library/Certification_Documents/Tripoli/reloadable/rms-54_426/i599n_tra_cert.pdf",
     "length": 156,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -55759,6 +55774,7 @@
     "designation": "E11J",
     "diameter": 24,
     "impulseClass": "E",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/E11.pdf",
     "length": 70,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -55811,7 +55827,7 @@
     "totImpulseNs": 32.74,
     "totalWeightG": 62.4,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -58595,6 +58611,7 @@
     "designation": "G76G",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G76G.pdf",
     "length": 124,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -58735,7 +58752,7 @@
     "totImpulseNs": 118,
     "totalWeightG": 147,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -62709,6 +62726,7 @@
     "designation": "F35W",
     "diameter": 24,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F35W.pdf",
     "length": 95,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -62853,12 +62871,12 @@
     "totImpulseNs": 57.1,
     "totalWeightG": 85,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
     "avgThrustN": 79.9,
-    "burnTimeS": 1.378,
+    "burnTimeS": 1.38,
     "certOrg": "National Association of Rocketry",
     "commonName": "G78",
     "dataFiles": 3,
@@ -62866,6 +62884,7 @@
     "designation": "G78G/L",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G78G.pdf",
     "length": 124,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -63006,7 +63025,7 @@
     "totImpulseNs": 109.9,
     "totalWeightG": 125,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -65392,6 +65411,7 @@
     "designation": "G79W/L",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G79.pdf",
     "length": 124,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -65536,7 +65556,7 @@
     "totImpulseNs": 108.3,
     "totalWeightG": 124,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -65549,6 +65569,7 @@
     "designation": "G77R/L",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G77.pdf",
     "length": 124,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -65685,7 +65706,7 @@
     "totImpulseNs": 102.9,
     "totalWeightG": 122.5,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -65698,6 +65719,7 @@
     "designation": "G142T",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G142.pdf",
     "length": 113,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -65842,7 +65864,7 @@
     "totImpulseNs": 84.3,
     "totalWeightG": 98,
     "type": "SU",
-    "updatedOn": "2020-11-26"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -67247,7 +67269,7 @@
   {
     "availability": "regular",
     "avgThrustN": 34.1,
-    "burnTimeS": 1.659,
+    "burnTimeS": 1.66,
     "certOrg": "National Association of Rocketry",
     "commonName": "F32",
     "dataFiles": 2,
@@ -67255,6 +67277,7 @@
     "designation": "F32T",
     "diameter": 24,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F32T.pdf",
     "length": 95,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -67395,7 +67418,7 @@
     "totImpulseNs": 56.9,
     "totalWeightG": 64,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -76737,11 +76760,10 @@
         0
       ]
     ],
-    "sparky": true,
     "totImpulseNs": 311.7,
     "totalWeightG": 319,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-21"
   },
   {
     "availability": "regular",
@@ -78056,6 +78078,7 @@
     "designation": "I250",
     "diameter": 54,
     "impulseClass": "I",
+    "infoUrl": "https://nar.org/SandT/pdf/Alpha/I250.pdf",
     "length": 711,
     "manufacturer": "Alpha Hybrids",
     "manufacturerAbbrev": "Alpha",
@@ -78195,7 +78218,7 @@
     "totImpulseNs": 540,
     "totalWeightG": 1854,
     "type": "hybrid",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-24"
   },
   {
     "availability": "regular",
@@ -81143,6 +81166,7 @@
     "designation": "I49N",
     "diameter": 38,
     "impulseClass": "I",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/I49N.pdf",
     "length": 184,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -81267,7 +81291,7 @@
     "totImpulseNs": 383,
     "totalWeightG": 398,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-23"
   },
   {
     "availability": "regular",
@@ -81281,6 +81305,7 @@
     "designation": "I59WN",
     "diameter": 38,
     "impulseClass": "I",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/I59WN.pdf",
     "length": 232,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -81437,7 +81462,7 @@
     "totImpulseNs": 486,
     "totalWeightG": 487,
     "type": "reload",
-    "updatedOn": "2020-11-12"
+    "updatedOn": "2022-07-23"
   },
   {
     "availability": "regular",
@@ -83372,6 +83397,7 @@
     "designation": "D10W",
     "diameter": 18,
     "impulseClass": "D",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/D10.pdf",
     "length": 70,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -83480,7 +83506,7 @@
     "totImpulseNs": 18.75,
     "totalWeightG": 25.9,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -87529,6 +87555,7 @@
     "designation": "E20W",
     "diameter": 24,
     "impulseClass": "E",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/E20.pdf",
     "length": 70,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -87673,7 +87700,7 @@
     "totImpulseNs": 35,
     "totalWeightG": 49,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -92109,7 +92136,6 @@
     "designation": "K375NW",
     "diameter": 54,
     "impulseClass": "K",
-    "infoUrl": "http://www.aerotech-rocketry.com/uploads/622f5f6f-1f96-4bf0-91dc-d448f50294c1_k375nw_tra_cert.pdf",
     "length": 579,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -92264,7 +92290,6 @@
     "designation": "K480W",
     "diameter": 54,
     "impulseClass": "K",
-    "infoUrl": "http://www.aerotech-rocketry.com/uploads/1af6a123-3137-4584-b6dd-0b544de4d73c_k480w_tra_cert.pdf",
     "length": 579,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -94229,7 +94254,7 @@
     "manufacturerAbbrev": "Cesaroni",
     "maxThrustN": 181.2,
     "motorId": "5f4294d20002310000000393",
-    "propInfo": "White Thunder",
+    "propInfo": "White",
     "propWeightG": 79.1,
     "samples": [
       [
@@ -94348,7 +94373,7 @@
     "totImpulseNs": 142.3,
     "totalWeightG": 172.5,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-08-24"
   },
   {
     "availability": "regular",
@@ -98265,7 +98290,7 @@
   {
     "availability": "regular",
     "avgThrustN": 30.4,
-    "burnTimeS": 1.546,
+    "burnTimeS": 1.55,
     "certOrg": "National Association of Rocketry",
     "commonName": "F30",
     "dataFiles": 2,
@@ -98273,6 +98298,7 @@
     "designation": "F30FJ",
     "diameter": 24,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F30FJ.pdf",
     "length": 95,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -98373,12 +98399,12 @@
     "totImpulseNs": 47,
     "totalWeightG": 70.6,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
     "avgThrustN": 138,
-    "burnTimeS": 1.138,
+    "burnTimeS": 1.14,
     "caseInfo": "RMS-29/40-120",
     "certOrg": "National Association of Rocketry",
     "commonName": "G138",
@@ -98387,6 +98413,7 @@
     "designation": "HP-G138T",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G138T.pdf",
     "length": 124,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -98559,7 +98586,7 @@
     "totImpulseNs": 157.1,
     "totalWeightG": 148,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -103809,7 +103836,7 @@
     "designation": "G40",
     "diameter": 29,
     "impulseClass": "G",
-    "infoUrl": "http://www.nar.org/SandT/pdf/Aerotech/G40.pdf",
+    "infoUrl": "https://nar.org/SandT/pdf/Estes/G40.pdf",
     "length": 124,
     "manufacturer": "Estes Industries",
     "manufacturerAbbrev": "Estes",
@@ -103873,7 +103900,7 @@
     "totImpulseNs": 97.14,
     "totalWeightG": 122.9,
     "type": "SU",
-    "updatedOn": "2019-10-05"
+    "updatedOn": "2022-07-17"
   },
   {
     "availability": "OOP",
@@ -103896,7 +103923,7 @@
     "totImpulseNs": 136.6,
     "totalWeightG": 128.3,
     "type": "SU",
-    "updatedOn": "2020-12-01"
+    "updatedOn": "2022-07-27"
   },
   {
     "availability": "regular",
@@ -106519,6 +106546,7 @@
     "designation": "F44W",
     "diameter": 24,
     "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F44W.pdf",
     "length": 70,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -106627,7 +106655,7 @@
     "totImpulseNs": 41.5,
     "totalWeightG": 48,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -106640,6 +106668,7 @@
     "designation": "G74W",
     "diameter": 29,
     "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G74W.pdf",
     "length": 93,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -106772,7 +106801,7 @@
     "totImpulseNs": 82.75,
     "totalWeightG": 87,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "OOP",
@@ -107369,7 +107398,6 @@
     "designation": "HP-J425R",
     "diameter": 38,
     "impulseClass": "J",
-    "infoUrl": "http://www.aerotech-rocketry.com/uploads/bcecbdad-bb22-4917-91e5-c5722068cd5c_AT%20J425R%20SU%20jun%2019.pdf",
     "length": 356,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -107763,7 +107791,7 @@
     "designation": "C3.4T",
     "diameter": 18,
     "impulseClass": "C",
-    "infoUrl": "http://www.nar.org/SandT/pdf/Aerotech/C3.4.pdf",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/AT_C3.4_2015.pdf",
     "length": 72,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -107872,7 +107900,7 @@
     "totImpulseNs": 8.96,
     "totalWeightG": 23.9,
     "type": "reload",
-    "updatedOn": "2022-03-20"
+    "updatedOn": "2022-07-20"
   },
   {
     "availability": "regular",
@@ -110490,7 +110518,6 @@
     "designation": "M1350W",
     "diameter": 75,
     "impulseClass": "M",
-    "infoUrl": "http://www.aerotech-rocketry.com/uploads/65f78a00-dd5e-4366-a872-95927bbedc31_AT%20M1350W%20SU%20jun%2019.pdf",
     "length": 622,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -116920,7 +116947,7 @@
     "diameter": 24,
     "impulseClass": "F",
     "infoUrl": "http://www.nar.org/SandT/pdf/Aerotech/AT_F51NT_2017.pdf",
-    "length": 117,
+    "length": 95,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
     "maxThrustN": 76.53,
@@ -117028,7 +117055,7 @@
     "totImpulseNs": 55.11,
     "totalWeightG": 81,
     "type": "reload",
-    "updatedOn": "2020-11-26"
+    "updatedOn": "2022-07-16"
   },
   {
     "availability": "regular",
@@ -120161,7 +120188,6 @@
     "designation": "G42",
     "diameter": 24,
     "impulseClass": "G",
-    "infoUrl": "http://www.aerotech-rocketry.com/customersite/resource_library/Certification_Documents/NAR/single-use/24mm_mr_su/g42w_nar_cert.pdf",
     "length": 144,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
@@ -121779,5 +121805,255 @@
     "totalWeightG": 60.7,
     "type": "SU",
     "updatedOn": "2022-06-07"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 1777,
+    "burnTimeS": 1.37,
+    "caseInfo": "RMS-75/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1800",
+    "dataFiles": 1,
+    "delays": "P",
+    "designation": "K1800ST-P",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 492,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2082,
+    "motorId": "62f9c49d6ae9e200040442ab",
+    "propInfo": "Super Thunder",
+    "propWeightG": 1113,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.012,
+        9.756
+      ],
+      [
+        0.018,
+        19.51
+      ],
+      [
+        0.022,
+        39.02
+      ],
+      [
+        0.025,
+        180.5
+      ],
+      [
+        0.029,
+        578
+      ],
+      [
+        0.035,
+        1298
+      ],
+      [
+        0.038,
+        1720
+      ],
+      [
+        0.042,
+        1924
+      ],
+      [
+        0.046,
+        1868
+      ],
+      [
+        0.05,
+        1780
+      ],
+      [
+        0.052,
+        1698
+      ],
+      [
+        0.056,
+        1639
+      ],
+      [
+        0.06,
+        1683
+      ],
+      [
+        0.065,
+        1734
+      ],
+      [
+        0.071,
+        1695
+      ],
+      [
+        0.077,
+        1668
+      ],
+      [
+        0.084,
+        1717
+      ],
+      [
+        0.093,
+        1693
+      ],
+      [
+        0.102,
+        1732
+      ],
+      [
+        0.114,
+        1744
+      ],
+      [
+        0.134,
+        1759
+      ],
+      [
+        0.163,
+        1793
+      ],
+      [
+        0.212,
+        1851
+      ],
+      [
+        0.262,
+        1900
+      ],
+      [
+        0.363,
+        1983
+      ],
+      [
+        0.447,
+        2029
+      ],
+      [
+        0.524,
+        2056
+      ],
+      [
+        0.621,
+        2076
+      ],
+      [
+        0.695,
+        2071
+      ],
+      [
+        0.769,
+        2037
+      ],
+      [
+        0.81,
+        1993
+      ],
+      [
+        0.852,
+        1946
+      ],
+      [
+        0.891,
+        1910
+      ],
+      [
+        0.947,
+        1861
+      ],
+      [
+        0.997,
+        1798
+      ],
+      [
+        1.045,
+        1732
+      ],
+      [
+        1.086,
+        1671
+      ],
+      [
+        1.143,
+        1593
+      ],
+      [
+        1.205,
+        1507
+      ],
+      [
+        1.249,
+        1456
+      ],
+      [
+        1.287,
+        1424
+      ],
+      [
+        1.307,
+        1434
+      ],
+      [
+        1.322,
+        1432
+      ],
+      [
+        1.332,
+        1361
+      ],
+      [
+        1.34,
+        1244
+      ],
+      [
+        1.346,
+        1105
+      ],
+      [
+        1.349,
+        1010
+      ],
+      [
+        1.353,
+        912.2
+      ],
+      [
+        1.357,
+        785.4
+      ],
+      [
+        1.364,
+        612.2
+      ],
+      [
+        1.374,
+        434.1
+      ],
+      [
+        1.386,
+        253.7
+      ],
+      [
+        1.401,
+        104.9
+      ],
+      [
+        1.414,
+        31.71
+      ],
+      [
+        1.424,
+        0
+      ]
+    ],
+    "totImpulseNs": 2444,
+    "totalWeightG": 2772,
+    "type": "reload",
+    "updatedOn": "2022-08-15"
   }
 ]
