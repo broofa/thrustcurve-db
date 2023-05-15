@@ -1992,10 +1992,10 @@
         0
       ]
     ],
-    "totImpulseNs": 5.6,
+    "totImpulseNs": 4.33,
     "totalWeightG": 19.1,
     "type": "SU",
-    "updatedOn": "2019-10-05"
+    "updatedOn": "2022-11-30"
   },
   {
     "availability": "OOP",
@@ -7431,7 +7431,7 @@
     "certOrg": "National Association of Rocketry",
     "commonName": "F24",
     "dataFiles": 2,
-    "delays": "4,5,7",
+    "delays": "4,7",
     "designation": "F24W",
     "diameter": 24,
     "impulseClass": "F",
@@ -7552,7 +7552,7 @@
     "totImpulseNs": 47.31,
     "totalWeightG": 62.9,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-10-12"
   },
   {
     "availability": "regular",
@@ -38652,7 +38652,7 @@
     "caseInfo": "75x1524 (3200CC)",
     "certOrg": "Tripoli Rocketry Association, Inc.",
     "commonName": "L2525",
-    "dataFiles": 2,
+    "dataFiles": 3,
     "designation": "L2525-GF",
     "diameter": 75,
     "impulseClass": "L",
@@ -45586,7 +45586,7 @@
   },
   {
     "availability": "regular",
-    "avgThrustN": 1315,
+    "avgThrustN": 1248,
     "burnTimeS": 5.4,
     "caseInfo": "RMS-75/6400",
     "certOrg": "Tripoli Rocketry Association, Inc.",
@@ -45599,7 +45599,7 @@
     "length": 801,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
-    "maxThrustN": 2363,
+    "maxThrustN": 2362,
     "motorId": "5f4294d200023100000001a5",
     "propInfo": "White Lightning",
     "propWeightG": 3499,
@@ -45716,7 +45716,7 @@
     "totImpulseNs": 6714,
     "totalWeightG": 5645,
     "type": "reload",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2023-03-11"
   },
   {
     "availability": "OOP",
@@ -107470,19 +107470,19 @@
   },
   {
     "availability": "regular",
-    "avgThrustN": 65,
-    "burnTimeS": 9,
+    "avgThrustN": 80.16,
+    "burnTimeS": 7.92,
     "certOrg": "Tripoli Rocketry Association, Inc.",
     "commonName": "I65",
     "dataFiles": 2,
-    "delays": "6,8,10",
+    "delays": "P",
     "designation": "HP-I65W",
     "diameter": 54,
     "impulseClass": "I",
     "length": 218,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
-    "maxThrustN": 178,
+    "maxThrustN": 145,
     "motorId": "5f4294d20002310000000409",
     "propInfo": "White Lightning",
     "propWeightG": 377,
@@ -107544,10 +107544,10 @@
         0
       ]
     ],
-    "totImpulseNs": 640,
+    "totImpulseNs": 635,
     "totalWeightG": 752,
     "type": "SU",
-    "updatedOn": "2019-04-17"
+    "updatedOn": "2022-08-31"
   },
   {
     "availability": "regular",
@@ -118604,18 +118604,19 @@
   },
   {
     "availability": "regular",
-    "avgThrustN": 5047,
-    "burnTimeS": 4.401,
+    "avgThrustN": 5515,
+    "burnTimeS": 4.03,
     "certOrg": "Tripoli Rocketry Association, Inc.",
-    "commonName": "O5280",
-    "dataFiles": 2,
-    "designation": "O5280X-P",
+    "commonName": "O5500",
+    "dataFiles": 3,
+    "delays": "P",
+    "designation": "O5500X-PS",
     "diameter": 98,
     "impulseClass": "O",
-    "length": 1408,
+    "length": 1507,
     "manufacturer": "AeroTech",
     "manufacturerAbbrev": "AeroTech",
-    "maxThrustN": 6499,
+    "maxThrustN": 7552,
     "motorId": "5f4294d2000231000000046c",
     "propInfo": "Propellant X",
     "propWeightG": 9779,
@@ -118625,86 +118626,170 @@
         0
       ],
       [
-        0.02,
-        97.52
+        0.009,
+        20.41
+      ],
+      [
+        0.044,
+        7112
       ],
       [
         0.063,
-        5879
+        6735
       ],
       [
-        0.116,
-        6147
+        0.078,
+        6898
       ],
       [
-        0.206,
-        6321
+        0.094,
+        6612
       ],
       [
-        0.349,
-        6314
+        0.109,
+        6765
       ],
       [
-        0.578,
-        6287
+        0.125,
+        6541
       ],
       [
-        0.921,
-        6282
+        0.147,
+        6582
       ],
       [
-        1.378,
-        6266
+        0.194,
+        6520
       ],
       [
-        1.834,
-        6214
+        0.35,
+        6796
       ],
       [
-        2.29,
-        6138
+        0.428,
+        7092
       ],
       [
-        2.746,
-        6165
+        0.563,
+        7286
       ],
       [
-        2.87,
-        6079
+        0.694,
+        7408
       ],
       [
-        3.202,
-        4268
+        0.988,
+        7582
       ],
       [
-        3.659,
-        2844
+        1.266,
+        7622
       ],
       [
-        3.999,
-        1794
+        1.491,
+        7724
       ],
       [
-        4.19,
-        1242
+        1.581,
+        7653
       ],
       [
-        4.38,
-        513.8
+        1.641,
+        7541
       ],
       [
-        4.487,
-        77.83
+        1.684,
+        7500
       ],
       [
-        4.517,
+        1.716,
+        7337
+      ],
+      [
+        1.784,
+        7224
+      ],
+      [
+        1.938,
+        6786
+      ],
+      [
+        2.138,
+        6327
+      ],
+      [
+        2.491,
+        5898
+      ],
+      [
+        2.6,
+        5704
+      ],
+      [
+        2.919,
+        3541
+      ],
+      [
+        3.022,
+        3408
+      ],
+      [
+        3.138,
+        2888
+      ],
+      [
+        3.3,
+        2235
+      ],
+      [
+        3.388,
+        1673
+      ],
+      [
+        3.441,
+        1490
+      ],
+      [
+        3.544,
+        1418
+      ],
+      [
+        3.609,
+        1296
+      ],
+      [
+        3.688,
+        816.3
+      ],
+      [
+        3.778,
+        653.1
+      ],
+      [
+        3.819,
+        581.6
+      ],
+      [
+        3.853,
+        489.8
+      ],
+      [
+        3.897,
+        285.7
+      ],
+      [
+        3.981,
+        20.41
+      ],
+      [
+        3.997,
         0
       ]
     ],
-    "totImpulseNs": 22220,
-    "totalWeightG": 15680,
+    "totImpulseNs": 21380,
+    "totalWeightG": 16780,
     "type": "SU",
-    "updatedOn": "2020-02-12"
+    "updatedOn": "2023-01-11"
   },
   {
     "availability": "regular",
@@ -121106,7 +121191,7 @@
     "caseInfo": "RMS-54/852",
     "certOrg": "Tripoli Rocketry Association, Inc.",
     "commonName": "J615",
-    "dataFiles": 1,
+    "dataFiles": 2,
     "delays": "4,8,12,16,20",
     "designation": "J615ST-20A",
     "diameter": 54,
@@ -121606,7 +121691,7 @@
     "burnTimeS": 1.08,
     "certOrg": "Tripoli Rocketry Association, Inc.",
     "commonName": "E35",
-    "dataFiles": 1,
+    "dataFiles": 2,
     "delays": "5,8,11",
     "designation": "E35W",
     "diameter": 24,
@@ -121707,7 +121792,7 @@
     "burnTimeS": 1.12,
     "certOrg": "Tripoli Rocketry Association, Inc.",
     "commonName": "F41",
-    "dataFiles": 1,
+    "dataFiles": 2,
     "delays": "5,8,11",
     "designation": "F41W",
     "diameter": 24,
@@ -122055,5 +122140,902 @@
     "totalWeightG": 2772,
     "type": "reload",
     "updatedOn": "2022-08-15"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 22.35,
+    "burnTimeS": 1.64,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "E24",
+    "dataFiles": 1,
+    "delays": "4,7,10",
+    "designation": "E24C",
+    "diameter": 29,
+    "impulseClass": "E",
+    "length": 110,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 33,
+    "motorId": "63628c12a244550004a0cf01",
+    "propInfo": "Classic",
+    "propWeightG": 18.4,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.025,
+        2.452
+      ],
+      [
+        0.055,
+        13.64
+      ],
+      [
+        0.09,
+        24.06
+      ],
+      [
+        0.122,
+        27.43
+      ],
+      [
+        0.23,
+        31.57
+      ],
+      [
+        0.297,
+        33.41
+      ],
+      [
+        0.322,
+        32.8
+      ],
+      [
+        0.345,
+        34.18
+      ],
+      [
+        0.414,
+        34.64
+      ],
+      [
+        0.492,
+        33.1
+      ],
+      [
+        0.612,
+        30.65
+      ],
+      [
+        0.767,
+        27.89
+      ],
+      [
+        0.959,
+        23.6
+      ],
+      [
+        1.288,
+        15.33
+      ],
+      [
+        1.451,
+        13.03
+      ],
+      [
+        1.483,
+        13.33
+      ],
+      [
+        1.605,
+        5.211
+      ],
+      [
+        1.635,
+        2.605
+      ],
+      [
+        1.693,
+        0
+      ]
+    ],
+    "totImpulseNs": 36.32,
+    "totalWeightG": 70.7,
+    "type": "SU",
+    "updatedOn": "2022-11-02"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 55.22,
+    "burnTimeS": 1.41,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "F67",
+    "dataFiles": 1,
+    "delays": "6,9,14",
+    "designation": "F67C",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 112,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 72.79,
+    "motorId": "63628d72a244550004a0cf0a",
+    "propInfo": "Classic",
+    "propWeightG": 36.8,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.009,
+        0.892
+      ],
+      [
+        0.024,
+        3.569
+      ],
+      [
+        0.033,
+        20.22
+      ],
+      [
+        0.042,
+        43.72
+      ],
+      [
+        0.055,
+        57.1
+      ],
+      [
+        0.075,
+        61.56
+      ],
+      [
+        0.104,
+        58.88
+      ],
+      [
+        0.126,
+        60.07
+      ],
+      [
+        0.157,
+        58.88
+      ],
+      [
+        0.261,
+        60.67
+      ],
+      [
+        0.402,
+        61.56
+      ],
+      [
+        0.544,
+        61.26
+      ],
+      [
+        0.659,
+        60.67
+      ],
+      [
+        0.683,
+        63.64
+      ],
+      [
+        0.692,
+        68.7
+      ],
+      [
+        0.703,
+        60.07
+      ],
+      [
+        0.776,
+        59.78
+      ],
+      [
+        0.91,
+        58.88
+      ],
+      [
+        1.006,
+        58.29
+      ],
+      [
+        1.096,
+        57.1
+      ],
+      [
+        1.167,
+        57.1
+      ],
+      [
+        1.211,
+        56.8
+      ],
+      [
+        1.269,
+        51.15
+      ],
+      [
+        1.308,
+        44.02
+      ],
+      [
+        1.333,
+        33.9
+      ],
+      [
+        1.344,
+        22.3
+      ],
+      [
+        1.364,
+        13.09
+      ],
+      [
+        1.406,
+        5.353
+      ],
+      [
+        1.456,
+        0
+      ]
+    ],
+    "totImpulseNs": 77.46,
+    "totalWeightG": 85.7,
+    "type": "SU",
+    "updatedOn": "2022-11-03"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 62.54,
+    "burnTimeS": 23.1,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K62",
+    "dataFiles": 1,
+    "delays": "P",
+    "designation": "K62N",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 274,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 258.7,
+    "motorId": "63bb643e1d26f30004b4b077",
+    "propInfo": "Warp 9",
+    "propWeightG": 831,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.05,
+        11.39
+      ],
+      [
+        0.126,
+        215.9
+      ],
+      [
+        0.353,
+        252
+      ],
+      [
+        0.505,
+        235.2
+      ],
+      [
+        0.681,
+        104.5
+      ],
+      [
+        1.236,
+        83.68
+      ],
+      [
+        4.087,
+        67.84
+      ],
+      [
+        6.534,
+        65.36
+      ],
+      [
+        8.401,
+        64.87
+      ],
+      [
+        11.63,
+        60.91
+      ],
+      [
+        15.29,
+        54.96
+      ],
+      [
+        19.4,
+        48.03
+      ],
+      [
+        21.24,
+        45.55
+      ],
+      [
+        21.47,
+        20.3
+      ],
+      [
+        21.87,
+        0
+      ]
+    ],
+    "totImpulseNs": 1439,
+    "totalWeightG": 1277,
+    "type": "SU",
+    "updatedOn": "2023-01-09"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 1261,
+    "burnTimeS": 0.85,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J1265",
+    "dataFiles": 1,
+    "delays": "6,8,10,12,14",
+    "designation": "J1265T",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 397,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1745,
+    "motorId": "63bb65281d26f30004b4b07b",
+    "propInfo": "Super Thunder",
+    "propWeightG": 507,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.021,
+        33.53
+      ],
+      [
+        0.026,
+        223.5
+      ],
+      [
+        0.031,
+        652
+      ],
+      [
+        0.04,
+        1568
+      ],
+      [
+        0.053,
+        1412
+      ],
+      [
+        0.07,
+        1330
+      ],
+      [
+        0.092,
+        1308
+      ],
+      [
+        0.201,
+        1349
+      ],
+      [
+        0.332,
+        1382
+      ],
+      [
+        0.444,
+        1397
+      ],
+      [
+        0.556,
+        1367
+      ],
+      [
+        0.644,
+        1267
+      ],
+      [
+        0.715,
+        1177
+      ],
+      [
+        0.739,
+        1174
+      ],
+      [
+        0.76,
+        1196
+      ],
+      [
+        0.779,
+        1270
+      ],
+      [
+        0.799,
+        1282
+      ],
+      [
+        0.812,
+        1159
+      ],
+      [
+        0.827,
+        853.1
+      ],
+      [
+        0.844,
+        499.2
+      ],
+      [
+        0.853,
+        316.7
+      ],
+      [
+        0.868,
+        130.4
+      ],
+      [
+        0.885,
+        40.98
+      ],
+      [
+        0.902,
+        0
+      ]
+    ],
+    "totImpulseNs": 1073,
+    "totalWeightG": 1095,
+    "type": "SU",
+    "updatedOn": "2023-01-09"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 2239,
+    "burnTimeS": 2.32,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2225",
+    "dataFiles": 1,
+    "delays": "P",
+    "designation": "M2225WS",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 692,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2418,
+    "motorId": "63bb66061d26f30004b4b07e",
+    "propInfo": "Super White Lightning",
+    "propWeightG": 2331,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.018,
+        39.69
+      ],
+      [
+        0.037,
+        1359
+      ],
+      [
+        0.05,
+        2143
+      ],
+      [
+        0.089,
+        2257
+      ],
+      [
+        0.129,
+        2351
+      ],
+      [
+        0.176,
+        2014
+      ],
+      [
+        0.205,
+        2004
+      ],
+      [
+        0.265,
+        2262
+      ],
+      [
+        0.756,
+        2371
+      ],
+      [
+        1.333,
+        2391
+      ],
+      [
+        1.797,
+        2327
+      ],
+      [
+        2.03,
+        2292
+      ],
+      [
+        2.164,
+        2282
+      ],
+      [
+        2.272,
+        1161
+      ],
+      [
+        2.303,
+        580.4
+      ],
+      [
+        2.335,
+        208.4
+      ],
+      [
+        2.356,
+        94.26
+      ],
+      [
+        2.385,
+        9.922
+      ],
+      [
+        2.408,
+        0
+      ]
+    ],
+    "totImpulseNs": 5205,
+    "totalWeightG": 4695,
+    "type": "reload",
+    "updatedOn": "2023-01-09"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 3906,
+    "burnTimeS": 4.65,
+    "caseInfo": "RMS-98/20480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N4000",
+    "dataFiles": 1,
+    "delays": "P",
+    "designation": "N4000W-PS",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1433,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 5398,
+    "motorId": "645072a02cdedd00028df82d",
+    "propInfo": "White Lightning",
+    "propWeightG": 9800,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.01,
+        39.37
+      ],
+      [
+        0.029,
+        393.7
+      ],
+      [
+        0.03,
+        1742
+      ],
+      [
+        0.031,
+        2210
+      ],
+      [
+        0.039,
+        2874
+      ],
+      [
+        0.049,
+        2534
+      ],
+      [
+        0.05,
+        3469
+      ],
+      [
+        0.06,
+        3809
+      ],
+      [
+        0.07,
+        4080
+      ],
+      [
+        0.078,
+        4242
+      ],
+      [
+        0.088,
+        4385
+      ],
+      [
+        0.12,
+        4331
+      ],
+      [
+        0.148,
+        4227
+      ],
+      [
+        0.247,
+        4242
+      ],
+      [
+        0.398,
+        4296
+      ],
+      [
+        0.577,
+        4350
+      ],
+      [
+        0.774,
+        4439
+      ],
+      [
+        0.964,
+        4513
+      ],
+      [
+        1.172,
+        4567
+      ],
+      [
+        1.341,
+        4621
+      ],
+      [
+        1.51,
+        4621
+      ],
+      [
+        1.661,
+        4656
+      ],
+      [
+        1.837,
+        4675
+      ],
+      [
+        2.027,
+        4710
+      ],
+      [
+        2.157,
+        4729
+      ],
+      [
+        2.295,
+        4749
+      ],
+      [
+        2.336,
+        4749
+      ],
+      [
+        2.505,
+        4695
+      ],
+      [
+        2.633,
+        4656
+      ],
+      [
+        2.794,
+        4547
+      ],
+      [
+        2.97,
+        4478
+      ],
+      [
+        3.131,
+        4385
+      ],
+      [
+        3.3,
+        4316
+      ],
+      [
+        3.449,
+        4262
+      ],
+      [
+        3.547,
+        4262
+      ],
+      [
+        3.607,
+        4208
+      ],
+      [
+        3.708,
+        3720
+      ],
+      [
+        3.825,
+        2894
+      ],
+      [
+        3.927,
+        2446
+      ],
+      [
+        4.054,
+        2156
+      ],
+      [
+        4.205,
+        1850
+      ],
+      [
+        4.314,
+        1471
+      ],
+      [
+        4.394,
+        1097
+      ],
+      [
+        4.462,
+        841.5
+      ],
+      [
+        4.511,
+        698.8
+      ],
+      [
+        4.631,
+        521.7
+      ],
+      [
+        4.761,
+        265.7
+      ],
+      [
+        4.854,
+        123
+      ],
+      [
+        4.906,
+        0
+      ]
+    ],
+    "totImpulseNs": 18180,
+    "totalWeightG": 16380,
+    "type": "reload",
+    "updatedOn": "2023-05-02"
+  },
+  {
+    "availability": "regular",
+    "avgThrustN": 13.21,
+    "burnTimeS": 18.26,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H14",
+    "dataFiles": 1,
+    "delays": "P",
+    "designation": "H14ST",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 240,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 42.13,
+    "motorId": "6457b5ce8cd35f00024615fc",
+    "propInfo": "Super Thunder",
+    "propWeightG": 134,
+    "samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0.045,
+        32.28
+      ],
+      [
+        0.253,
+        37.1
+      ],
+      [
+        0.343,
+        40.25
+      ],
+      [
+        0.417,
+        19.5
+      ],
+      [
+        0.625,
+        16.95
+      ],
+      [
+        1.787,
+        14.54
+      ],
+      [
+        3.946,
+        13.66
+      ],
+      [
+        7.029,
+        13
+      ],
+      [
+        11.84,
+        12.78
+      ],
+      [
+        15.44,
+        12.34
+      ],
+      [
+        16.37,
+        12.05
+      ],
+      [
+        16.52,
+        11.76
+      ],
+      [
+        16.57,
+        10.66
+      ],
+      [
+        16.83,
+        10.96
+      ],
+      [
+        17.23,
+        11.32
+      ],
+      [
+        17.59,
+        12.2
+      ],
+      [
+        17.74,
+        10.59
+      ],
+      [
+        17.96,
+        0
+      ]
+    ],
+    "totImpulseNs": 240.1,
+    "totalWeightG": 230,
+    "type": "SU",
+    "updatedOn": "2023-05-07"
   }
 ]
