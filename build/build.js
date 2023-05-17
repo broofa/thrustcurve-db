@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-import axios from "axios";
+import axios from 'axios';
+import stringify from './compactStringify.js';
 
-const BASE = "https://www.thrustcurve.org/api/v1";
+const BASE = 'https://www.thrustcurve.org/api/v1';
 const MAX_RESULTS = 9999;
 
 /**
@@ -16,7 +17,7 @@ function motorReducer(k, v) {
     return Object.fromEntries(
       Object.entries(v).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
     );
-  } else if (typeof (v) === 'number') {
+  } else if (typeof v === 'number') {
     // Numbers get rounded to 4 significant digits
     return parseFloat(v.toPrecision(4));
   }
@@ -34,12 +35,14 @@ function motorName(motor) {
  * log to stderr (so stdout can redirect to file)
  */
 function log(...args) {
-  process.stderr.write(args.join(" "));
-  process.stderr.write("\n");
+  process.stderr.write(args.join(' '));
+  process.stderr.write('\n');
 }
 
 (async function main(lite = false) {
-  let allMotors = (await axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`)).data.results;
+  let allMotors = (
+    await axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`)
+  ).data.results;
 
   // Normalize motor data
   const motors = allMotors.reduce(
@@ -53,7 +56,7 @@ function log(...args) {
     data: { results: sampleResults },
   } = await axios.post(`${BASE}/download.json`, {
     motorIds,
-    data: "samples",
+    data: 'samples',
   });
 
   log(`Received ${sampleResults.length} thrust sample sets`);
@@ -62,7 +65,10 @@ function log(...args) {
   for (const sampleResult of sampleResults) {
     const motor = motors.get(sampleResult.motorId);
 
-    const samples = sampleResult.samples.map(({ time, thrust }) => [time, thrust]);
+    const samples = sampleResult.samples.map(({ time, thrust }) => [
+      time,
+      thrust,
+    ]);
 
     let ignitionTime = 0;
 
@@ -101,7 +107,10 @@ function log(...args) {
         log(sampleUrl, ': Non-zero thrust at T = 0');
       }
     } else if (ignitionTime !== 0) {
-      log(sampleUrl, `: Ignition at T=${parseFloat(ignitionTime.toPrecision(4))}`);
+      log(
+        sampleUrl,
+        `: Ignition at T=${parseFloat(ignitionTime.toPrecision(4))}`
+      );
     }
 
     // Adjust time of first sample to match ignition
@@ -121,35 +130,40 @@ function log(...args) {
     // Decide which sample is "better".  This logic is pretty crude at the
     // moment.  Basically the first "cert"(ification) sample wins, otherwise we
     // use whichever one is last encountered.
-    if (motor.samples?.source !== "cert") {
+    if (motor.samples?.source !== 'cert') {
       motor.samples = samples;
     }
   }
 
   // Check for motors with names & designations that don't match
   const mismatchedNames = [...motors.values()].filter(m => {
-    return !m.designation?.toLowerCase()
+    return !m.designation
+      ?.toLowerCase()
       .replace(/\W/g, '')
-      .includes(m.commonName.replace(/\W/g, '').toLowerCase())
+      .includes(m.commonName.replace(/\W/g, '').toLowerCase());
   });
   if (mismatchedNames.length) {
     log(`Mismatched commonName <-> designation:`);
-    const names = mismatchedNames.forEach(motor => log(`${motor.manufacturerAbbrev} "${motor.commonName}".vs. "${motor.designation}"`));
+    const names = mismatchedNames.forEach(motor =>
+      log(
+        `${motor.manufacturerAbbrev} "${motor.commonName}".vs. "${motor.designation}"`
+      )
+    );
   }
 
   const thrustless = [...motors.values()].filter(m => !m.samples);
   if (thrustless.length) {
     const names = thrustless.map(motorName).sort();
     log(`Motors missing thrust data:`);
-    names.forEach(name => log("  - ", name));
+    names.forEach(name => log('  - ', name));
   }
 
   const sortedMotors = [...motors.values()].sort((a, b) =>
     a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0
   );
 
-  process.stdout.write(JSON.stringify(sortedMotors, motorReducer, 2));
-  process.stdout.write("\n");
+  process.stdout.write(stringify(sortedMotors, { replacer: motorReducer }));
+  process.stdout.write('\n');
 })().catch(err => {
   log(err.message);
   log(err.stack);
