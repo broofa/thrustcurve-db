@@ -5,12 +5,11 @@
   "description": "ThrustCurve.org model rocket motor and thrust curve data as a single JSON file",
   "exports": {
     "import": "./index.js",
-    "require": "./index.cjs"
+    "types": "./thrustcurve-db.d.ts"
   },
-  "types": "thrustcurve-db.d.ts",
+  "types": "./thrustcurve-db.d.ts",
   "files": [
     "index.js",
-    "util.js",
     "thrustcurve-db.json",
     "thrustcurve-db.d.ts"
   ],
