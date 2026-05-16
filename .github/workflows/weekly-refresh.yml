@@ -1,0 +1,41 @@
+name: Weekly Data Refresh
+
+on:
+  schedule:
+    # GitHub Actions cron is UTC. 09:30 UTC Saturday = 01:30 PST Saturday.
+    - cron: '30 9 * * 6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate data
+        run: npm run prepare
+
+      - name: Create pull request if files changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'chore: weekly data refresh'
+          title: 'chore: weekly data refresh'
+          body: |
+            Automated weekly refresh of generated data via `npm run prepare`.
+          branch: chore/weekly-data-refresh
+          delete-branch: true

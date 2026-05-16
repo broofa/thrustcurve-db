@@ -1,0 +1,44 @@
+name: Conventional Commits
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate commit messages
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+
+          # Conventional Commits: <type>(optional-scope)!: <description>
+          pattern='^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([A-Za-z0-9._/-]+\))?!?: .+'
+
+          invalid=0
+          while IFS= read -r message; do
+            if [[ -z "$message" ]]; then
+              continue
+            fi
+
+            if ! [[ "$message" =~ $pattern ]]; then
+              echo "Invalid commit message: $message"
+              invalid=1
+            fi
+          done < <(git log --no-merges --format=%s "$BASE_SHA..$HEAD_SHA")
+
+          if [[ $invalid -ne 0 ]]; then
+            echo "One or more commit messages do not follow Conventional Commits."
+            exit 1
+          fi
+
+          echo "All commit messages follow Conventional Commits."
