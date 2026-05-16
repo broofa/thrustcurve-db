@@ -15,7 +15,8 @@
     "thrustcurve-db.d.ts"
   ],
   "scripts": {
-    "prepare": "build/build.ts > thrustcurve-db.json",
+    "build": "build/build.ts > thrustcurve-db.json",
+    "prepublishOnly": "npm run build",
     "test": "echo \"no tests\" && exit 1"
   },
   "repository": {
