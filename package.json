@@ -15,7 +15,7 @@
     "thrustcurve-db.d.ts"
   ],
   "scripts": {
-    "prepare": "build/build.js > thrustcurve-db.json",
+    "prepare": "build/build.ts > thrustcurve-db.json",
     "test": "echo \"no tests\" && exit 1"
   },
   "repository": {
@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/broofa/thrustcurve-db#readme",
   "devDependencies": {
+    "@types/node": "24.10.1",
     "ansi": "0.3.1",
     "axios": "1.16.1",
     "cheerio": "1.2.0",

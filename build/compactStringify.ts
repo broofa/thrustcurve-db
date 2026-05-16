@@ -1,8 +1,20 @@
-const NONE = 0;
-const ARRAY = 1;
-const OBJECT = 2;
+type JSONPrimitive = string | number | boolean | null;
+type JSONValue = JSONPrimitive | JSONObject | JSONArray;
+type JSONArray = JSONValue[];
+type JSONObject = { [key: string]: JSONValue };
+type Replacer = (key: string, value: unknown) => unknown;
 
-function compactLength(data, visited = new Map(), path = '$') {
+type StringifyOptions = {
+  indentChars?: string;
+  maxLineLength?: number;
+  replacer?: Replacer;
+};
+
+function compactLength(
+  data: unknown,
+  visited: Map<object, string> = new Map(),
+  path = '$'
+): number {
   const type = typeof data;
 
   if (data === undefined || data === null) {
@@ -26,7 +38,7 @@ function compactLength(data, visited = new Map(), path = '$') {
     length -= 2; // trailing ", "
 
     return length;
-  } else {
+  } else if (typeof data === 'object') {
     if (visited.has(data)) {
       throw new Error(`Circular reference: ${path} -> ${visited.get(data)}`);
     }
@@ -47,9 +59,17 @@ function compactLength(data, visited = new Map(), path = '$') {
 
     return length;
   }
+
+  return JSON.stringify(data).length;
 }
 
-function _stringify(data, indent, indentChars, maxLineLength, replacer) {
+function _stringify(
+  data: unknown,
+  indent: string,
+  indentChars: string,
+  maxLineLength: number,
+  replacer?: Replacer
+): string | undefined {
   if (data === undefined) return;
 
   const type = typeof data;
@@ -73,13 +93,14 @@ function _stringify(data, indent, indentChars, maxLineLength, replacer) {
 
       if (isCompact) {
         if (i > 0) s += ', ';
-        s += _stringify(
-          value,
-          nextIndent,
-          indentChars,
-          maxLineLength,
-          replacer
-        );
+        s +=
+          _stringify(
+            value,
+            nextIndent,
+            indentChars,
+            maxLineLength,
+            replacer
+          ) ?? 'null';
       } else {
         if (i > 0) {
           s += lineLen < maxLineLength ? ', ' : ',';
@@ -89,48 +110,43 @@ function _stringify(data, indent, indentChars, maxLineLength, replacer) {
           lineLen = nextIndent.length;
         }
 
-        const sval = _stringify(
-          value,
-          nextIndent,
-          indentChars,
-          maxLineLength,
-          replacer
-        );
+        const sval =
+          _stringify(
+            value,
+            nextIndent,
+            indentChars,
+            maxLineLength,
+            replacer
+          ) ?? 'null';
         s += sval;
         lineLen += sval.length;
       }
     }
 
-    s += isCompact ? ' ]' : `\n${' '.repeat(indent)}]`;
+    s += isCompact ? ' ]' : `\n${indent}]`;
 
     return s;
-  } else {
+  } else if (typeof data === 'object' && data !== null) {
     const entries = Object.entries(data);
-    if (entries.length === 0) return '{}}';
+    if (entries.length === 0) return '{}';
 
     const isCompact = indent.length + compactLength(data) < maxLineLength;
 
     let s = isCompact ? '{ ' : `{`;
-    let isFirst = true;
     for (let i = 0; i < entries.length; i++) {
-      let [key, value] = entries[i];
+      const entry = entries[i];
+      if (!entry) continue;
+      let [key, value] = entry;
+
       if (replacer) value = replacer(key, value);
       if (value === undefined) continue;
 
-      const skey = _stringify(
-        key,
-        nextIndent,
-        indentChars,
-        maxLineLength,
-        replacer
-      );
-      const sval = _stringify(
-        value,
-        nextIndent,
-        indentChars,
-        maxLineLength,
-        replacer
-      );
+      const skey =
+        _stringify(key, nextIndent, indentChars, maxLineLength, replacer) ??
+        'null';
+      const sval =
+        _stringify(value, nextIndent, indentChars, maxLineLength, replacer) ??
+        'null';
 
       if (isCompact) {
         if (i > 0) s += ', ';
@@ -143,20 +159,23 @@ function _stringify(data, indent, indentChars, maxLineLength, replacer) {
 
         s += `${skey}: ${sval}`;
       }
-
-      isFirst = false;
     }
 
     s += isCompact ? ' }' : `\n${indent}}`;
 
     return s;
   }
+
+  return JSON.stringify(data);
 }
 
-export default function (data, options = {}) {
+export default function stringify(
+  data: unknown,
+  options: StringifyOptions = {}
+): string {
   const { indentChars = '  ', maxLineLength = 80, replacer } = options;
 
   if (replacer) data = replacer('', data);
 
-  return _stringify(data, '', indentChars, maxLineLength, replacer);
+  return _stringify(data, '', indentChars, maxLineLength, replacer) ?? 'null';
 }

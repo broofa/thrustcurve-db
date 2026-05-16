@@ -1,6 +1,33 @@
 #!/usr/bin/env node
+/// <reference types="node" />
+
 import axios from 'axios';
-import stringify from './compactStringify.js';
+import stringify from './compactStringify.ts';
+
+type TCSample = [number, number];
+
+type TCSamples = TCSample[] & {
+  source?: string;
+};
+
+type TCMotor = {
+  motorId: string;
+  avgThrustN: number;
+  manufacturerAbbrev: string;
+  designation: string;
+  commonName: string;
+  samples?: TCSamples;
+} & Record<string, unknown>;
+
+type DownloadSampleResult = {
+  motorId: string;
+  infoUrl: string;
+  source: string;
+  samples: Array<{
+    time: number;
+    thrust: number;
+  }>;
+};
 
 const BASE = 'https://www.thrustcurve.org/api/v1';
 const MAX_RESULTS = 9999;
@@ -8,11 +35,11 @@ const MAX_RESULTS = 9999;
 /**
  * Replacer for sorting keys alphabetically
  */
-function motorReducer(k, v) {
+function motorReducer(_k: string, v: unknown): unknown {
   if (v === false) {
     // Remove `false` values
     return undefined;
-  } else if (v.constructor === Object) {
+  } else if (v && typeof v === 'object' && v.constructor === Object) {
     // Object keys get sorted alphabetically
     return Object.fromEntries(
       Object.entries(v).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
@@ -27,54 +54,60 @@ function motorReducer(k, v) {
 /**
  * Easy-to-read name for a motor
  */
-function motorName(motor) {
+function motorName(motor: TCMotor): string {
   return `${motor.manufacturerAbbrev} ${motor.designation}`;
 }
 
 /**
  * log to stderr (so stdout can redirect to file)
  */
-function log(...args) {
+function log(...args: unknown[]): void {
   process.stderr.write(args.join(' '));
   process.stderr.write('\n');
 }
 
-(async function main(lite = false) {
-  let allMotors = (
-    await axios.get(`${BASE}/search.json?maxResults=${MAX_RESULTS}`)
+(async function main(_lite = false) {
+  const allMotors = (
+    await axios.get<{ results: TCMotor[] }>(
+      `${BASE}/search.json?maxResults=${MAX_RESULTS}`
+    )
   ).data.results;
 
   // Normalize motor data
   const motors = allMotors.reduce(
     (map, motor) => map.set(motor.motorId, { ...motor }),
-    new Map()
+    new Map<string, TCMotor>()
   );
 
   // Fetch thrust samples
   const motorIds = allMotors.map(m => m.motorId);
   const {
     data: { results: sampleResults },
-  } = await axios.post(`${BASE}/download.json`, {
-    motorIds,
-    data: 'samples',
-  });
+  } = await axios.post<{ results: DownloadSampleResult[] }>(
+    `${BASE}/download.json`,
+    {
+      motorIds,
+      data: 'samples',
+    }
+  );
 
   log(`Received ${sampleResults.length} thrust sample sets`);
 
   // Normalize thrust data
   for (const sampleResult of sampleResults) {
     const motor = motors.get(sampleResult.motorId);
+    if (!motor) continue;
 
     const samples = sampleResult.samples.map(({ time, thrust }) => [
       time,
       thrust,
-    ]);
+    ]) as TCSamples;
 
     let ignitionTime = 0;
 
     // Clean up pre-ignition sample data
     const MIN_THRUST = motor.avgThrustN * 0.001;
-    while (samples.length) {
+    while (samples[0] !== undefined) {
       // Zero out insignificant thrust samples at start (thrust < 0.1% average thrust)
       if (samples[0][1] < MIN_THRUST) {
         samples[0][1] = 0;
@@ -93,17 +126,18 @@ function log(...args) {
     const sampleUrl = `https://thrustcurve.org${sampleResult.infoUrl} (${sampleResult.source})`;
 
     // 'Need at least two samples for a meaningful curve... right???
-    if (samples.length < 2) {
+    const firstSample = samples[0];
+    if (samples.length < 2 || !firstSample) {
       log(sampleUrl, ': Not enough valid samples(?)');
       continue;
     }
 
-    if (samples[0][0] === 0 && samples[0][1] !== 0) {
+    if (firstSample[0] === 0 && firstSample[1] !== 0) {
       // Non-zero thrust at T=0, so we need to shift the samples to start at T=0
       ignitionTime = -0.001; // shift samples ever-so-slightly to the right
 
       // ... But we don't complain unless the thrust is significant
-      if (samples[0][1] > 4 * MIN_THRUST) {
+      if (firstSample[1] > 4 * MIN_THRUST) {
         log(sampleUrl, ': Non-zero thrust at T = 0');
       }
     } else if (ignitionTime !== 0) {
@@ -136,7 +170,7 @@ function log(...args) {
   }
 
   // Check for motors with names & designations that don't match
-  const mismatchedNames = [...motors.values()].filter(m => {
+  const mismatchedNames = [...motors.values()].filter((m: TCMotor) => {
     return !m.designation
       ?.toLowerCase()
       .replace(/\W/g, '')
@@ -144,14 +178,14 @@ function log(...args) {
   });
   if (mismatchedNames.length) {
     log(`Mismatched commonName <-> designation:`);
-    const names = mismatchedNames.forEach(motor =>
+    mismatchedNames.forEach(motor =>
       log(
         `${motor.manufacturerAbbrev} "${motor.commonName}".vs. "${motor.designation}"`
       )
     );
   }
 
-  const thrustless = [...motors.values()].filter(m => !m.samples);
+  const thrustless = [...motors.values()].filter((m: TCMotor) => !m.samples);
   if (thrustless.length) {
     const names = thrustless.map(motorName).sort();
     log(`Motors missing thrust data:`);
@@ -164,8 +198,12 @@ function log(...args) {
 
   process.stdout.write(stringify(sortedMotors, { replacer: motorReducer }));
   process.stdout.write('\n');
-})().catch(err => {
-  log(err.message);
-  log(err.stack);
+})().catch((err: unknown) => {
+  if (err instanceof Error) {
+    log(err.message);
+    log(err.stack);
+  } else {
+    log(String(err));
+  }
   process.exit(1);
 });

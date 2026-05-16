@@ -7,9 +7,11 @@ export declare type TCMotor = {
   availability: 'regular' | 'OOP';
   avgThrustN: number;
   burnTimeS: number;
+  caseInfo?: string;
   certOrg: string;
   commonName: string;
   dataFiles: number;
+  delayAdjustable?: boolean;
   delays: string;
   designation: string;
   diameter: number;
@@ -29,18 +31,19 @@ export declare type TCMotor = {
     | 'M'
     | 'N'
     | 'O';
-  infoUrl: string;
+  infoUrl?: string;
   length: number;
   manufacturer: string;
   manufacturerAbbrev: string;
-  maxThrustN: number;
+  maxThrustN?: number;
   motorId: string;
-  propInfo: string;
-  propWeightG: number;
+  propInfo?: string;
+  propWeightG?: number;
   samples?: TCSample[];
+  source_url: string;
   sparky?: boolean;
   totImpulseNs: number;
-  totalWeightG: number;
+  totalWeightG?: number;
   type: 'SU' | 'hybrid' | 'reload';
   updatedOn: string;
 };
