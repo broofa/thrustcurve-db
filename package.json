@@ -40,8 +40,8 @@
   "homepage": "https://github.com/broofa/thrustcurve-db#readme",
   "devDependencies": {
     "ansi": "0.3.1",
-    "axios": "0.21.1",
-    "cheerio": "1.0.0-rc.10",
-    "cli-spinners": "2.6.0"
+    "axios": "1.16.1",
+    "cheerio": "1.2.0",
+    "cli-spinners": "3.4.0"
   }
 }
