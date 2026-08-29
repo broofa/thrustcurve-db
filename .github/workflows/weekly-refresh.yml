@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: Regenerate data
-        run: npm run prepare
+        run: npm run build
 
       - name: Create pull request if files changed
         uses: peter-evans/create-pull-request@v7
@@ -36,6 +36,6 @@ jobs:
           commit-message: 'chore: weekly data refresh'
           title: 'chore: weekly data refresh'
           body: |
-            Automated weekly refresh of generated data via `npm run prepare`.
+            Automated weekly refresh of generated data via `npm run build`.
           branch: chore/weekly-data-refresh
           delete-branch: true
