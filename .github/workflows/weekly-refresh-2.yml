@@ -1,4 +1,4 @@
-name: Weekly Data Refresh
+name: Weekly Data Refresh 2
 
 on:
   schedule:
