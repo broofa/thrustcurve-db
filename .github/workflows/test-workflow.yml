@@ -1,10 +1,28 @@
-name: Runner Test
+name: Weekly Data Refresh Test
 
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
-  test:
+  refresh:
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo "Runner works"
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate data
+        run: npm run build
