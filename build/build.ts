@@ -2,7 +2,6 @@
 /// <reference types="node" />
 
 import axios from 'axios';
-import stringify from './compactStringify.ts';
 
 type TCSample = [number, number];
 
@@ -39,6 +38,8 @@ function motorReducer(_k: string, v: unknown): unknown {
   if (v === false) {
     // Remove `false` values
     return undefined;
+  } else if (_k === 'samples' && Array.isArray(v)) {
+    return JSON.stringify(v, motorReducer);
   } else if (v && typeof v === 'object' && v.constructor === Object) {
     // Object keys get sorted alphabetically
     return Object.fromEntries(
@@ -196,7 +197,7 @@ function log(...args: unknown[]): void {
     a.motorId < b.motorId ? -1 : a.motorId > b.motorId ? 1 : 0
   );
 
-  process.stdout.write(stringify(sortedMotors, { replacer: motorReducer }));
+  process.stdout.write(JSON.stringify(sortedMotors, motorReducer, 2));
   process.stdout.write('\n');
 })().catch((err: unknown) => {
   if (err instanceof Error) {
