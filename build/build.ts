@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 /// <reference types="node" />
 
+import https from 'node:https';
+
 type TCSample = [number, number];
 
 type TCSamples = TCSample[] & {
@@ -42,25 +44,47 @@ class HttpError extends Error {
   }
 }
 
-async function fetchJson<T>(
+// Uses node:https (not fetch) because fetch adds browser-style headers such as
+// `sec-fetch-mode` that Cloudflare's bot protection flags. Only the headers
+// below are sent.
+function fetchJson<T>(
   url: string,
-  init?: Pick<RequestInit, 'method' | 'body'>
+  init?: { method?: string; body?: string }
 ): Promise<T> {
-  const response = await fetch(url, {
-    ...init,
-    headers: {
-      'User-Agent': USER_AGENT,
-      ...(init?.body !== undefined
-        ? { 'Content-Type': 'application/json' }
-        : {}),
-    },
-  });
-
-  if (!response.ok) {
-    throw new HttpError(response.status);
+  const body = init?.body;
+  const headers: Record<string, string | number> = {
+    'User-Agent': USER_AGENT,
+  };
+  if (body !== undefined) {
+    headers['Content-Type'] = 'application/json';
+    headers['Content-Length'] = Buffer.byteLength(body);
   }
 
-  return (await response.json()) as T;
+  return new Promise<T>((resolve, reject) => {
+    const req = https.request(
+      url,
+      { method: init?.method ?? 'GET', headers },
+      res => {
+        const chunks: Buffer[] = [];
+        res.on('data', (chunk: Buffer) => chunks.push(chunk));
+        res.on('error', reject);
+        res.on('end', () => {
+          const status = res.statusCode ?? 0;
+          if (status < 200 || status >= 300) {
+            reject(new HttpError(status));
+            return;
+          }
+          try {
+            resolve(JSON.parse(Buffer.concat(chunks).toString('utf8')) as T);
+          } catch (err) {
+            reject(err);
+          }
+        });
+      }
+    );
+    req.on('error', reject);
+    req.end(body);
+  });
 }
 
 /**
