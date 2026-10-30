@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 /// <reference types="node" />
 
-import axios from 'axios';
-
 type TCSample = [number, number];
 
 type TCSamples = TCSample[] & {
@@ -30,6 +28,40 @@ type DownloadSampleResult = {
 
 const BASE = 'https://www.thrustcurve.org/api/v1';
 const MAX_RESULTS = 9999;
+const USER_AGENT =
+  'thrustcurve-db-build (+https://github.com/broofa/thrustcurve-db)';
+
+// Identify ourselves honestly so the site owner can allowlist (or contact) us
+// rather than treating this as an anonymous bot behind Cloudflare.
+class HttpError extends Error {
+  readonly status: number;
+
+  constructor(status: number) {
+    super(`Request failed with status code ${status}`);
+    this.status = status;
+  }
+}
+
+async function fetchJson<T>(
+  url: string,
+  init?: Pick<RequestInit, 'method' | 'body'>
+): Promise<T> {
+  const response = await fetch(url, {
+    ...init,
+    headers: {
+      'User-Agent': USER_AGENT,
+      ...(init?.body !== undefined
+        ? { 'Content-Type': 'application/json' }
+        : {}),
+    },
+  });
+
+  if (!response.ok) {
+    throw new HttpError(response.status);
+  }
+
+  return (await response.json()) as T;
+}
 
 /**
  * Replacer for sorting keys alphabetically
@@ -68,11 +100,9 @@ function log(...args: unknown[]): void {
 }
 
 (async function main(_lite = false) {
-  const allMotors = (
-    await axios.get<{ results: TCMotor[] }>(
-      `${BASE}/search.json?maxResults=${MAX_RESULTS}`
-    )
-  ).data.results;
+  const { results: allMotors } = await fetchJson<{ results: TCMotor[] }>(
+    `${BASE}/search.json?maxResults=${MAX_RESULTS}`
+  );
 
   // Normalize motor data
   const motors = allMotors.reduce(
@@ -82,13 +112,16 @@ function log(...args: unknown[]): void {
 
   // Fetch thrust samples
   const motorIds = allMotors.map(m => m.motorId);
-  const {
-    data: { results: sampleResults },
-  } = await axios.post<{ results: DownloadSampleResult[] }>(
+  const { results: sampleResults } = await fetchJson<{
+    results: DownloadSampleResult[];
+  }>(
     `${BASE}/download.json`,
     {
-      motorIds,
-      data: 'samples',
+      method: 'POST',
+      body: JSON.stringify({
+        motorIds,
+        data: 'samples',
+      }),
     }
   );
 
@@ -200,6 +233,11 @@ function log(...args: unknown[]): void {
   process.stdout.write(JSON.stringify(sortedMotors, motorReducer, 2));
   process.stdout.write('\n');
 })().catch((err: unknown) => {
+  if (err instanceof HttpError && err.status === 403) {
+    log(
+      'thrustcurve.org returned 403 (likely Cloudflare bot protection blocking this IP / user agent).'
+    );
+  }
   if (err instanceof Error) {
     log(err.message);
     log(err.stack);
