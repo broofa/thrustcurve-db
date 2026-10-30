@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-tags: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -40,21 +42,14 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Bump patch version
-        if: steps.diff.outputs.changed == 'true'
-        run: npm version patch --no-git-tag-version
-
-      - name: Commit and tag
+      - name: Bump version, commit, and tag
         if: steps.diff.outputs.changed == 'true'
         run: |
-          version="$(node -p "require('./package.json').version")"
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add thrustcurve-db.json package.json package-lock.json
-          git commit -m "chore(release): weekly data refresh v${version}"
-          git tag "v${version}"
-          git push origin HEAD:main
-          git push origin "v${version}"
+          git add thrustcurve-db.json
+          npm version patch -m 'chore(release): weekly data refresh v%s'
+          git push origin HEAD:main --follow-tags
 
       - name: Publish to npm
         if: steps.diff.outputs.changed == 'true'
