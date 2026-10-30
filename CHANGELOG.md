@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.2](https://github.com/broofa/thrustcurve-db/compare/v4.0.1...v4.0.2) (2026-10-30)
+
+
+### Bug Fixes
+
+* update node version ([ec7a4be](https://github.com/broofa/thrustcurve-db/commit/ec7a4be309629e0ddfb6e6833c88b119cd3c7c05))
+* update node version ([#14](https://github.com/broofa/thrustcurve-db/issues/14)) ([0e07e54](https://github.com/broofa/thrustcurve-db/commit/0e07e544ecbc7aea17f5f06c8dc3e78f13fd1cd9))
+
 ## [4.0.1](https://github.com/broofa/thrustcurve-db/compare/v4.0.0...v4.0.1) (2026-05-20)
 
 
