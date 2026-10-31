@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /// <reference types="node" />
-
-import https from 'node:https';
+import { request } from 'undici';
 
 type TCSample = [number, number];
 
@@ -44,47 +43,29 @@ class HttpError extends Error {
   }
 }
 
-// Uses node:https (not fetch) because fetch adds browser-style headers such as
-// `sec-fetch-mode` that Cloudflare's bot protection flags. Only the headers
-// below are sent.
-function fetchJson<T>(
+// undici's request() (unlike fetch) doesn't add browser-style headers such as
+// `sec-fetch-mode`, which Cloudflare's bot protection flags.
+async function fetchJson<T>(
   url: string,
-  init?: { method?: string; body?: string }
+  init?: { method?: 'GET' | 'POST'; body?: string }
 ): Promise<T> {
-  const body = init?.body;
-  const headers: Record<string, string | number> = {
-    'User-Agent': USER_AGENT,
-  };
-  if (body !== undefined) {
-    headers['Content-Type'] = 'application/json';
-    headers['Content-Length'] = Buffer.byteLength(body);
+  const { statusCode, body } = await request(url, {
+    method: init?.method ?? 'GET',
+    body: init?.body,
+    headers: {
+      'user-agent': USER_AGENT,
+      ...(init?.body !== undefined
+        ? { 'content-type': 'application/json' }
+        : {}),
+    },
+  });
+
+  if (statusCode < 200 || statusCode >= 300) {
+    await body.dump();
+    throw new HttpError(statusCode);
   }
 
-  return new Promise<T>((resolve, reject) => {
-    const req = https.request(
-      url,
-      { method: init?.method ?? 'GET', headers },
-      res => {
-        const chunks: Buffer[] = [];
-        res.on('data', (chunk: Buffer) => chunks.push(chunk));
-        res.on('error', reject);
-        res.on('end', () => {
-          const status = res.statusCode ?? 0;
-          if (status < 200 || status >= 300) {
-            reject(new HttpError(status));
-            return;
-          }
-          try {
-            resolve(JSON.parse(Buffer.concat(chunks).toString('utf8')) as T);
-          } catch (err) {
-            reject(err);
-          }
-        });
-      }
-    );
-    req.on('error', reject);
-    req.end(body);
-  });
+  return (await body.json()) as T;
 }
 
 /**
